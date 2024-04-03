@@ -98,6 +98,7 @@ public abstract class AutoConfigurationPackages {
 					addBasePackages(constructorArguments, packageNames));
 		}
 		else {
+			// 这里就是创建一个BasePackages对象，存启动类所在包的包名com.yzm
 			GenericBeanDefinition beanDefinition = new GenericBeanDefinition();
 			beanDefinition.setBeanClass(BasePackages.class);
 			beanDefinition.getConstructorArgumentValues().addIndexedArgumentValue(0,

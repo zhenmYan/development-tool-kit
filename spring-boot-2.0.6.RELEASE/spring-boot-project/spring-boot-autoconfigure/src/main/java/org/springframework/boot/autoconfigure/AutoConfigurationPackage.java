@@ -39,5 +39,5 @@ import org.springframework.context.annotation.Import;
 @Inherited
 @Import(AutoConfigurationPackages.Registrar.class)
 public @interface AutoConfigurationPackage {
-
+	// 这个注解的作用就是创建一个BasePackages对象，存启动类所在包的包名com.yzm，放在BeanDefinition中供后续使用
 }
