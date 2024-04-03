@@ -7,4 +7,5 @@
     3、输入 mvn clean install -DskipTests -Pfast 命令
     4、导入项目，【file】【new】【Module from Existing Sources】
     5、在spring boot源码的pom文件中添加disable.checks标签，设置为true
+    6、修改自定义项目中的spring boot版本
 

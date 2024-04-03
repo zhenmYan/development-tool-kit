@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/development-tool-kit.iml" filepath="$PROJECT_DIR$/development-tool-kit.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketmq/rocketmq.iml" filepath="$PROJECT_DIR$/rocketmq/rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot/spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot/spring-boot (1) (org.springframework.boot).iml" filepath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot/spring-boot (1) (org.springframework.boot).iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot-actuator/spring-boot-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot-actuator/spring-boot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot-actuator-autoconfigure/spring-boot-actuator-autoconfigure.iml" filepath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot-actuator-autoconfigure/spring-boot-actuator-autoconfigure.iml" />
