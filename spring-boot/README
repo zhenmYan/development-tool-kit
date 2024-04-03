@@ -1,0 +1,10 @@
+
+源码下载链接：https://github.com/spring-projects/spring-boot
+
+操作步骤：
+    1、下载spring-boot压缩包并解压，在Tags中选择版本
+    2、在解压后的根目录打开cmd窗口
+    3、输入 mvn clean install -DskipTests -Pfast 命令
+    4、导入项目，【file】【new】【Module from Existing Sources】
+    5、在spring boot源码的pom文件中添加disable.checks标签，设置为true
+
