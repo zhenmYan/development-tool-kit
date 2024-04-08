@@ -1,8 +1,6 @@
 
 \
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
-E
-rocketmq/rocketmq.iml,b\1\b1a48f9b37967250a80a61bad7861a20b6298501
 b
 2.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml,8\9\89138249277c0cc4d3b2591dbd84d7c73184b9e6
 i
@@ -1363,7 +1361,7 @@ j
 :.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_21_0_1.xml,5\e\5ec98fcbdcaf690d23b7cd553e65fe4cfed4551f
 n
 >.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml,3\7\37e8c6a1cc493ad2b800c84c0f057a9f350051c0
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 H
 development-tool-kit.iml,5\f\5f99e99cf33f71ead33f163c5038c1068f20ffb6
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
