@@ -9,57 +9,73 @@
         <module name="spring-boot (1) (org.springframework.boot)" />
         <module name="spring-boot-test" />
         <module name="spring-boot-starter-thymeleaf" />
-        <module name="spring-boot-starter-data-cassandra" />
+        <module name="spring-boot-starter-jersey" />
         <module name="spring-boot-starter-data-mongodb-reactive" />
-        <module name="spring-boot-starter-mustache" />
+        <module name="rocketmq-openmessaging" />
         <module name="spring-boot-test-support" />
         <module name="spring-boot-starter-data-jpa" />
         <module name="spring-boot-configuration-processor-tests" />
+        <module name="rocketmq-acl" />
         <module name="spring-boot-starter-security" />
-        <module name="spring-boot-starter-jersey" />
-        <module name="spring-boot-starter-data-ldap" />
+        <module name="rocketmq-namesrv" />
+        <module name="rocketmq-tiered-store" />
+        <module name="spring-boot-starter-mustache" />
         <module name="spring-boot-starter-jta-atomikos" />
         <module name="spring-boot-starter-undertow" />
         <module name="spring-boot-starter-batch" />
         <module name="spring-boot-starter-data-rest" />
+        <module name="rocketmq-store" />
+        <module name="rocketmq-remoting" />
+        <module name="rocketmq-proxy" />
         <module name="spring-boot-starter-reactor-netty" />
         <module name="spring-boot-starter-websocket" />
         <module name="spring-boot-starter-web" />
         <module name="spring-boot-starter-mail" />
+        <module name="spring-boot-starter-data-redis-reactive" />
         <module name="spring-boot-starter-artemis" />
         <module name="rocketmq-yzm" />
         <module name="spring-boot-starter-data-elasticsearch" />
         <module name="spring-boot-starter-data-neo4j" />
         <module name="spring-boot-starter-groovy-templates" />
         <module name="spring-boot-starter-validation" />
-        <module name="spring-boot-starter-activemq" />
+        <module name="spring-boot-starter-jooq" />
         <module name="spring-boot-properties-migrator" />
         <module name="spring-boot-actuator" />
-        <module name="spring-boot-actuator-autoconfigure" />
-        <module name="spring-boot-starter-integration" />
+        <module name="spring-boot-starter-data-redis" />
+        <module name="rocketmq-controller" />
+        <module name="demo" />
         <module name="spring-boot-starter-data-couchbase" />
-        <module name="spring-boot-loader" />
+        <module name="rocketmq-client" />
         <module name="spring-boot-cli" />
         <module name="spring-boot-starter-jta-narayana" />
-        <module name="spring-boot-starter-jooq" />
         <module name="spring-boot-server-tests" />
         <module name="spring-boot-starter-data-cassandra-reactive" />
+        <module name="rocketmq-broker" />
         <module name="spring-boot-starter-cloud-connectors" />
+        <module name="spring-boot-starter-data-cassandra" />
         <module name="spring-boot-maven-plugin" />
         <module name="spring-boot-starter-web-services" />
+        <module name="rocketmq-test" />
         <module name="spring-boot" />
         <module name="spring-boot-starter-jetty" />
+        <module name="spring-boot-devtools-tests" />
         <module name="spring-boot-starter-tomcat" />
-        <module name="spring-boot-starter" />
         <module name="spring-boot-test-autoconfigure" />
+        <module name="spring-boot-starter-integration" />
         <module name="spring-boot-starter-data-couchbase-reactive" />
+        <module name="rocketmq" />
         <module name="spring-boot-starter-amqp" />
+        <module name="spring-boot-starter-data-ldap" />
         <module name="spring-boot-starter-freemarker" />
-        <module name="spring-boot-starter-cache" />
-        <module name="demo" />
-        <module name="spring-boot-starter-log4j2" />
-        <module name="spring-boot-starter-jdbc" />
+        <module name="rocketmq-srvutil" />
+        <module name="spring-boot-actuator-autoconfigure" />
         <module name="spring-boot-launch-script-tests" />
+        <module name="spring-boot-starter-log4j2" />
+        <module name="rocketmq-common" />
+        <module name="rocketmq-tools" />
+        <module name="spring-boot-starter-jdbc" />
+        <module name="spring-boot-starter-cache" />
+        <module name="rocketmq-example" />
         <module name="spring-boot-starter-json" />
         <module name="spring-boot-starter-logging" />
         <module name="spring-boot-loader-tools" />
@@ -68,22 +84,44 @@
         <module name="spring-boot-starter-data-mongodb" />
         <module name="spring-boot-configuration-metadata" />
         <module name="spring-boot-starter-test" />
+        <module name="rocketmq-filter" />
         <module name="spring-boot-docs" />
         <module name="spring-boot-starter-jta-bitronix" />
-        <module name="spring-boot-starter-data-redis-reactive" />
+        <module name="spring-boot-starter" />
         <module name="spring-boot-autoconfigure" />
         <module name="spring-boot-devtools" />
-        <module name="spring-boot-devtools-tests" />
+        <module name="spring-boot-starter-activemq" />
         <module name="spring-boot-antlib" />
         <module name="spring-boot-starter-actuator" />
+        <module name="rocketmq-container" />
         <module name="spring-boot-starter-webflux" />
-        <module name="spring-boot-starter-data-redis" />
+        <module name="spring-boot-loader" />
         <module name="spring-boot-starter-aop" />
         <module name="spring-boot-starter-quartz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="development-tool-kit" target="1.5" />
+      <module name="rocketmq" target="8" />
+      <module name="rocketmq-acl" target="1.8" />
+      <module name="rocketmq-all" target="1.8" />
+      <module name="rocketmq-broker" target="1.8" />
+      <module name="rocketmq-client" target="1.8" />
+      <module name="rocketmq-common" target="1.8" />
+      <module name="rocketmq-container" target="1.8" />
+      <module name="rocketmq-controller" target="1.8" />
+      <module name="rocketmq-distribution" target="1.8" />
+      <module name="rocketmq-example" target="1.8" />
+      <module name="rocketmq-filter" target="1.8" />
+      <module name="rocketmq-namesrv" target="1.8" />
+      <module name="rocketmq-openmessaging" target="1.8" />
+      <module name="rocketmq-proxy" target="8" />
+      <module name="rocketmq-remoting" target="1.8" />
+      <module name="rocketmq-srvutil" target="1.8" />
+      <module name="rocketmq-store" target="1.8" />
+      <module name="rocketmq-test" target="1.8" />
+      <module name="rocketmq-tiered-store" target="1.8" />
+      <module name="rocketmq-tools" target="1.8" />
       <module name="rocketmq-yzm" target="8" />
       <module name="spring-boot" target="1.8" />
       <module name="spring-boot (1) (org.springframework.boot)" target="1.8" />
@@ -176,6 +214,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="development-tool-kit" options="-parameters" />
+      <module name="rocketmq" options="-parameters" />
       <module name="rocketmq-yzm" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
       <module name="spring-boot (1) (org.springframework.boot)" options="-parameters" />

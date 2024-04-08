@@ -1,0 +1,44 @@
+
+一、源码环境搭建
+
+    源码下载链接：https://github.com/apache/rocketmq
+
+      1、下载压缩包并解压，在Tags中选择版本
+      2、在解压后的根目录打开cmd窗口
+      3、输入 mvn clean install -DskipTests -Pfast 命令
+      4、将编译的文件夹移动到项目文件夹下
+      5、配置namesrv
+        - 创建ROCKETMQ_HOME文件，并创建三个子目录conf、logs、store
+        - 配置ROCKETMQ_HOME环境变量，路径为ROCKETMQ_HOME文件的路径
+        - 拷贝broker.conf、rmq.broker.logback.xml、rmq.namesrv.logback.xml到conf目录下
+        - 修改配置文件broker.conf，配置namesrv的ip
+        - 将rmq.broker.logback.xml、rmq.namesrv.logback.xml中的use.home替换成ROCKETMQ_HOME文件的路径
+      6、配置broker
+        - 配置ROCKETMQ_HOME环境变量，路径为ROCKETMQ_HOME文件的路径
+        - 配置Program arguments为broker.conf的路径，注意-c开头
+      7、启动example下的发送和生产类
+
+      参考：https://zhuanlan.zhihu.com/p/483091452
+
+二、模块
+
+重点模块：
+    broker：RocketMQ 的 Broker 相关的代码，用来启动 Broker 进程
+    namesvr：NameServer 的源码
+    store：消息如何在Broker上进行存储的
+    remoting：RocketMQ 的远程网络通信模块的代码，基于netty实现
+
+
+    client：RocketMQ 的 Producer、Consumer 这些客户端的代码，用来生产消息、消费消息。
+    common：公共模块
+    dev：开发相关的一些信息
+    distribution：用来部署 RocketMQ 的，比如 bin 目录 ，conf 目录
+    example：使用 RocketMQ 的例子
+    filter：RocketMQ 的一些过滤器
+    logappender：RocketMQ 日志相关的
+    logging：RocketMQ 日志相关的
+    openmessaging：开放消息标准，可以先忽略
+    srvutil：里面有很多工具类
+    style：代码检查相关的
+    test：测试相关的
+    tools：命令行监控工具相关
