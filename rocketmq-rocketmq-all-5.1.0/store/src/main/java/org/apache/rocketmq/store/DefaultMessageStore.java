@@ -2139,6 +2139,12 @@ public class DefaultMessageStore implements MessageStore {
             }
         }
 
+
+        /**
+         * ##### 删除CommitLog文件
+         *
+         *          每天凌晨四点删除
+         */
         private void deleteExpiredFiles() {
             int deleteCount = 0;
             long fileReservedTime = DefaultMessageStore.this.getMessageStoreConfig().getFileReservedTime();
