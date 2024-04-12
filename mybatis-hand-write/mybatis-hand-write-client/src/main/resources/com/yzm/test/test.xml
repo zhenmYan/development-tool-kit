@@ -1,0 +1,5 @@
+<mapper namespace="com.yzm.test.Test">
+    <select id="selectAll" resultType = "int">
+        select * from test;
+    </select>
+</mapper>

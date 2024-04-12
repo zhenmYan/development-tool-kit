@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/development-tool-kit.iml" filepath="$PROJECT_DIR$/development-tool-kit.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write.iml" filepath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" filepath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/rocketmq-yzm/rocketmq.iml" filepath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/rocketmq-yzm/rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/acl/rocketmq-acl.iml" filepath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/acl/rocketmq-acl.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/rocketmq-all.iml" filepath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/rocketmq-all.iml" />

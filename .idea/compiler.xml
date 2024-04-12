@@ -16,6 +16,7 @@
         <module name="spring-boot-starter-data-jpa" />
         <module name="spring-boot-configuration-processor-tests" />
         <module name="rocketmq-namesrv" />
+        <module name="mybatis-hand-write-client" />
         <module name="spring-boot-starter-mustache" />
         <module name="spring-boot-starter-jta-atomikos" />
         <module name="spring-boot-starter-undertow" />
@@ -104,6 +105,7 @@
     <bytecodeTargetLevel>
       <module name="development-tool-kit" target="1.5" />
       <module name="mybatis-hand-write" target="1.5" />
+      <module name="mybatis-hand-write-client" target="1.5" />
       <module name="rocketmq" target="8" />
       <module name="rocketmq-acl" target="1.8" />
       <module name="rocketmq-all" target="1.8" />
