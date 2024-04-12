@@ -1,138 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="feat(rocketmq):引入源代码">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_83.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_conversantmedia_disruptor_1_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_5_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_annotations_4_1_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_common_protos_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_0_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_20_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_util_3_20_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_truth_truth_0_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_jvm_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_aliyunmq_rocketmq_logback_classic_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_aliyunmq_rocketmq_shaded_slf4j_api_bridge_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_aliyunmq_rocketmq_slf4j_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_api_1_50_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_50_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_core_1_50_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_shaded_1_50_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_50_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_50_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_services_1_50_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_stub_1_50_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_testing_1_50_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jaegertracing_jaeger_client_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jaegertracing_jaeger_core_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jaegertracing_jaeger_thrift_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jaegertracing_jaeger_tracerresolver_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_65_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_1_1_33_Fork26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_2_0_53_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_linux_aarch_64_2_0_53_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_linux_x86_64_2_0_53_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_osx_aarch_64_2_0_53_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_osx_x86_64_2_0_53_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_windows_x86_64_2_0_53_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_classes_2_0_53_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_openmessaging_openmessaging_api_0_3_1_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_openmessaging_storage_dledger_0_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_logs_1_19_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_common_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_otlp_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_otlp_common_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_prometheus_1_19_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_19_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_semconv_1_19_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_contrib_opentracing_tracerresolver_0_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_opentracing_api_0_33_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_opentracing_mock_0_33_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_opentracing_noop_0_33_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_opentracing_util_0_33_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_perfmark_perfmark_api_0_25_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_acl_4_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_logging_4_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_proto_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_spring_boot_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_spring_boot_starter_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_srvutil_4_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_annotations_api_6_0_53.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_awaitility_awaitility_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcutil_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_6_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f99e99cf33f71ead33f163c5038c1068f20ffb6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/rocketmq-yzm/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/rocketmq-yzm/src/main/java/com/yzm/dev/ProduceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1a48f9b37967250a80a61bad7861a20b6298501" beforeDir="false" />
+    <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/example/src/main/java/org/apache/rocketmq/example/quickstart/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/example/src/main/java/org/apache/rocketmq/example/quickstart/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/example/src/main/java/org/apache/rocketmq/example/quickstart/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/example/src/main/java/org/apache/rocketmq/example/quickstart/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/rocketmq-yzm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/rocketmq-yzm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +63,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46182153" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -275,28 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-yzm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yzm.SpringBootTestApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.NamesrvStartup" />
       <item itemvalue="Application.BrokerStartup" />
       <item itemvalue="Application.Producer" />
       <item itemvalue="Application.Consumer" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
-      <item itemvalue="Spring Boot.SpringBootTestApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -304,7 +161,6 @@
         <item itemvalue="Application.Producer" />
         <item itemvalue="Application.BrokerStartup" />
         <item itemvalue="Application.NamesrvStartup" />
-        <item itemvalue="Spring Boot.SpringBootTestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +191,12 @@
       <workItem from="1712152211977" duration="5141000" />
       <workItem from="1712453873692" duration="603000" />
       <workItem from="1712458016161" duration="2816000" />
-      <workItem from="1712561530936" duration="7478000" />
+      <workItem from="1712561530936" duration="19081000" />
+      <workItem from="1712742771923" duration="703000" />
+      <workItem from="1712750246309" duration="1447000" />
+      <workItem from="1712886343176" duration="9000" />
+      <workItem from="1712911854771" duration="614000" />
+      <workItem from="1712912846802" duration="377000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -400,7 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712562052346</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat(rocketmq):启动">
+      <created>1712571219280</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712571219280</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat(rocketmq):启动">
+      <created>1712675564619</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712675564619</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +289,8 @@
     <MESSAGE value="feat(环境搭建):调试" />
     <MESSAGE value="feat(环境搭建):注释" />
     <MESSAGE value="feat(rocketmq):引入源代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(rocketmq):引入源代码" />
+    <MESSAGE value="feat(rocketmq):启动" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(rocketmq):启动" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="0" key="#Project_Structure" timestamp="1712561206956">
@@ -422,11 +298,11 @@
     </state>
     <state x="-1468" y="101" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712074553617" />
     <state x="362" y="0" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561206956" />
-    <state x="331" y="137" width="1089" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1712570390778">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="-1506" y="173" width="1089" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1712657083720">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1506" y="173" width="1111" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712152467195" />
-    <state x="331" y="137" width="1089" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712570390778" />
+    <state x="-1506" y="173" width="1111" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657083720" />
+    <state x="331" y="137" width="1089" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712625763162" />
     <state x="477" y="203" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1712077668946">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -435,27 +311,27 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1421" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712074111479" />
-    <state x="-1655" y="177" width="985" height="743" key="#xdebugger.evaluate" timestamp="1712155706125">
+    <state x="-1655" y="177" width="985" height="743" key="#xdebugger.evaluate" timestamp="1712657000678">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1655" y="177" width="985" height="743" key="#xdebugger.evaluate/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712155706125" />
+    <state x="-1655" y="177" width="985" height="743" key="#xdebugger.evaluate/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657000678" />
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1712561061653">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1712562732844">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712155139849" />
-    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712562732844" />
-    <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712149211922">
+    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1712675563444">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1843" y="121" key="DiffContextDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712149211922" />
-    <state x="513" y="173" key="EnvironmentVariablesDialog" timestamp="1712569097508">
+    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712675563444" />
+    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712571217233" />
+    <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1843" y="121" key="DiffContextDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712675548596" />
+    <state x="513" y="173" key="EnvironmentVariablesDialog" timestamp="1712625761896">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="513" y="173" key="EnvironmentVariablesDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712569097508" />
+    <state x="513" y="173" key="EnvironmentVariablesDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712625761896" />
     <state x="-1337" y="107" key="FileChooserDialogImpl" timestamp="1712143080795">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -469,42 +345,46 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1483" height="349" key="GridCell.Tab.0.bottom" timestamp="1712570715554">
+    <state width="1867" height="406" key="GridCell.Tab.0.bottom" timestamp="1712742619253">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712156786726" />
-    <state width="1483" height="349" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712570715554" />
-    <state width="1483" height="349" key="GridCell.Tab.0.center" timestamp="1712570715554">
+    <state width="1867" height="406" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
+    <state width="1867" height="406" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
+    <state width="1867" height="406" key="GridCell.Tab.0.center" timestamp="1712742619252">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712156786726" />
-    <state width="1483" height="349" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712570715554" />
-    <state width="1483" height="349" key="GridCell.Tab.0.left" timestamp="1712570715554">
+    <state width="1867" height="406" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
+    <state width="1867" height="406" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619252" />
+    <state width="1867" height="406" key="GridCell.Tab.0.left" timestamp="1712742619252">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712156786726" />
-    <state width="1483" height="349" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712570715554" />
-    <state width="1483" height="349" key="GridCell.Tab.0.right" timestamp="1712570715554">
+    <state width="1867" height="406" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
+    <state width="1867" height="406" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619252" />
+    <state width="1867" height="406" key="GridCell.Tab.0.right" timestamp="1712742619253">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712156786726" />
-    <state width="1483" height="349" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712570715554" />
-    <state width="1867" height="245" key="GridCell.Tab.1.bottom" timestamp="1712156786726">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state width="1867" height="406" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
+    <state width="1867" height="406" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
+    <state width="1867" height="406" key="GridCell.Tab.1.bottom" timestamp="1712742619253">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712156786726" />
-    <state width="1867" height="245" key="GridCell.Tab.1.center" timestamp="1712156786726">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state width="1867" height="406" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016262" />
+    <state width="1867" height="406" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
+    <state width="1867" height="406" key="GridCell.Tab.1.center" timestamp="1712742619253">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712156786726" />
-    <state width="1867" height="245" key="GridCell.Tab.1.left" timestamp="1712156786726">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state width="1867" height="406" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016262" />
+    <state width="1867" height="406" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
+    <state width="1867" height="406" key="GridCell.Tab.1.left" timestamp="1712742619253">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712156786726" />
-    <state width="1867" height="245" key="GridCell.Tab.1.right" timestamp="1712156786726">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state width="1867" height="406" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
+    <state width="1867" height="406" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
+    <state width="1867" height="406" key="GridCell.Tab.1.right" timestamp="1712742619253">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712156786726" />
+    <state width="1867" height="406" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016262" />
+    <state width="1867" height="406" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
     <state width="1867" height="245" key="GridCell.Tab.2.bottom" timestamp="1712156786727">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -530,16 +410,16 @@
     </state>
     <state x="-1486" y="60" key="NewModule_or_Project.wizard/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712143073246" />
     <state x="347" y="48" key="NewModule_or_Project.wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712079370475" />
-    <state x="-1575" y="0" key="SettingsEditor" timestamp="1712145964029">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1712742613487">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712145964029" />
-    <state x="121" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712114353193" />
-    <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1712559785772">
+    <state x="121" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742613487" />
+    <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1712571227340">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712155145519" />
-    <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712559785772" />
+    <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712571227340" />
     <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712561550950">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -549,16 +429,16 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1589" y="133" width="1169" height="883" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712155098589" />
-    <state x="386" y="90" width="926" height="738" key="find.popup" timestamp="1712567716901">
+    <state x="365" y="90" width="1171" height="738" key="find.popup" timestamp="1712832797402">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="-1437" y="113" width="1167" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712154364126" />
-    <state x="386" y="90" width="926" height="738" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712567716901" />
-    <state x="-1726" y="190" width="1598" height="695" key="new project wizard" timestamp="1712141187268">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="-1529" y="115" width="1167" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712658860085" />
+    <state x="365" y="90" width="1171" height="738" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712832797402" />
+    <state x="0" y="92" width="1598" height="695" key="new project wizard" timestamp="1712913213055">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1726" y="190" width="1598" height="695" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712141187268" />
-    <state x="0" y="92" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712082954160" />
+    <state x="0" y="92" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712913213055" />
     <state x="347" y="0" width="840" height="832" key="search.everywhere.popup" timestamp="1712567753075">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -577,6 +457,21 @@
           <url>file://$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
           <line>242</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/client/src/main/java/org/apache/rocketmq/client/impl/factory/MQClientInstance.java</url>
+          <line>608</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/client/src/main/java/org/apache/rocketmq/client/impl/MQClientAPIImpl.java</url>
+          <line>1786</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/client/src/main/java/org/apache/rocketmq/client/impl/factory/MQClientInstance.java</url>
+          <line>597</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
