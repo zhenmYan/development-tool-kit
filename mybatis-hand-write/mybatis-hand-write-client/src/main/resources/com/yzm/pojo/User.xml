@@ -1,5 +1,5 @@
 <mapper namespace="com.yzm.pojo.User">
     <select id="selectAll" resultType = "int">
-        select * from test;
+        select * from user where id = #{id} and username = #{username};
     </select>
 </mapper>
