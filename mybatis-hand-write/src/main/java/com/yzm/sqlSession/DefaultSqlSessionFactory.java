@@ -1,5 +1,7 @@
 package com.yzm.sqlSession;
 
+import com.yzm.executor.Executor;
+import com.yzm.executor.SimpleExecutor;
 import com.yzm.pojo.Configuration;
 
 /**
@@ -18,7 +20,8 @@ public class DefaultSqlSessionFactory implements SqlSessionFactory{
 
     @Override
     public SqlSession openSqlSession() {
-
-        return null;
+        Executor executor = new SimpleExecutor();
+        SqlSession sqlSession = new DefaultSqlSession(configuration, executor);
+        return sqlSession;
     }
 }

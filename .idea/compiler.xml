@@ -105,7 +105,7 @@
     <bytecodeTargetLevel>
       <module name="development-tool-kit" target="1.5" />
       <module name="mybatis-hand-write" target="8" />
-      <module name="mybatis-hand-write-client" target="8" />
+      <module name="mybatis-hand-write-client" target="1.5" />
       <module name="rocketmq" target="8" />
       <module name="rocketmq-acl" target="1.8" />
       <module name="rocketmq-all" target="1.8" />

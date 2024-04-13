@@ -10,7 +10,7 @@
         <property name="password" value="123" />
     </dataSource>
     <mappers>
-        <mapper resource="com/yzm/test/test.xml"></mapper>
+        <mapper resource="com/yzm/pojo/User.xml"></mapper>
     </mappers>
 <!--    <settings>-->
 <!--        &lt;!&ndash; 设置驼峰标识 &ndash;&gt;-->

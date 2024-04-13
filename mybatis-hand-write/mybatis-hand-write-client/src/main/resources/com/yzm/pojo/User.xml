@@ -1,4 +1,4 @@
-<mapper namespace="com.yzm.test.Test">
+<mapper namespace="com.yzm.pojo.User">
     <select id="selectAll" resultType = "int">
         select * from test;
     </select>

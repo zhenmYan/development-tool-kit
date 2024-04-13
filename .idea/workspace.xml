@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/Executor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/SimpleExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/src/test/java/PersistentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/src/main/java/com/yzm/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/src/main/java/com/yzm/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/src/main/resources/com/yzm/test/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/src/main/resources/com/yzm/pojo/User.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/SimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/SimpleExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSession.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,7 @@
       <recent name="W:\idea_project\development-tool-kit\spring-boot-2.1.x" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
+  <component name="RunManager" selected="JUnit.PersistentTest.test">
     <configuration name="BrokerStartup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
         <env name="ROCKETMQ_HOME" value="S:\ROCKETMQ_HOME" />
@@ -148,6 +153,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersistentTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-hand-write-client" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersistentTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Hibernate52Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-hibernate52-tests" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.boot.tests.hibernate52.Hibernate52Application" />
@@ -161,9 +176,11 @@
       <item itemvalue="Application.Producer" />
       <item itemvalue="Application.Consumer" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
+      <item itemvalue="JUnit.PersistentTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersistentTest.test" />
         <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.Producer" />
         <item itemvalue="Application.BrokerStartup" />
@@ -203,7 +220,7 @@
       <workItem from="1712750246309" duration="1447000" />
       <workItem from="1712886343176" duration="9000" />
       <workItem from="1712911854771" duration="614000" />
-      <workItem from="1712912846802" duration="12776000" />
+      <workItem from="1712912846802" duration="16416000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -324,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712991143354</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat(mybatis):SqlSession">
+      <created>1712992344402</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712992344402</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +369,8 @@
     <MESSAGE value="feat(mybatis):加载配置类" />
     <MESSAGE value="feat(mybatis):builder对象" />
     <MESSAGE value="feat(mybatis):配置文件解析" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(mybatis):配置文件解析" />
+    <MESSAGE value="feat(mybatis):SqlSession" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(mybatis):SqlSession" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="0" key="#Project_Structure" timestamp="1712918827866">
@@ -362,10 +387,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="477" y="203" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712077668946" />
-    <state x="530" y="26" key="#com.intellij.ide.util.MemberChooser" timestamp="1712992244533">
+    <state x="530" y="26" key="#com.intellij.ide.util.MemberChooser" timestamp="1712997320966">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="530" y="26" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712992244533" />
+    <state x="530" y="26" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997320966" />
     <state x="-1421" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1712074111479">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -378,11 +403,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1712991142385">
+    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1712992343401">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712675563444" />
-    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712991142385" />
+    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712992343401" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -404,46 +429,46 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="406" key="GridCell.Tab.0.bottom" timestamp="1712742619253">
+    <state width="1483" height="424" key="GridCell.Tab.0.bottom" timestamp="1712997815407">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
-    <state width="1867" height="406" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
-    <state width="1867" height="406" key="GridCell.Tab.0.center" timestamp="1712742619252">
+    <state width="1483" height="424" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997815407" />
+    <state width="1483" height="424" key="GridCell.Tab.0.center" timestamp="1712997815407">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
-    <state width="1867" height="406" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619252" />
-    <state width="1867" height="406" key="GridCell.Tab.0.left" timestamp="1712742619252">
+    <state width="1483" height="424" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997815407" />
+    <state width="1483" height="424" key="GridCell.Tab.0.left" timestamp="1712997815407">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
-    <state width="1867" height="406" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619252" />
-    <state width="1867" height="406" key="GridCell.Tab.0.right" timestamp="1712742619253">
+    <state width="1483" height="424" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997815407" />
+    <state width="1483" height="424" key="GridCell.Tab.0.right" timestamp="1712997815407">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
-    <state width="1867" height="406" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
-    <state width="1867" height="406" key="GridCell.Tab.1.bottom" timestamp="1712742619253">
+    <state width="1483" height="424" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997815407" />
+    <state width="1483" height="424" key="GridCell.Tab.1.bottom" timestamp="1712997815407">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016262" />
-    <state width="1867" height="406" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
-    <state width="1867" height="406" key="GridCell.Tab.1.center" timestamp="1712742619253">
+    <state width="1483" height="424" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997815407" />
+    <state width="1483" height="424" key="GridCell.Tab.1.center" timestamp="1712997815407">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016262" />
-    <state width="1867" height="406" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
-    <state width="1867" height="406" key="GridCell.Tab.1.left" timestamp="1712742619253">
+    <state width="1483" height="424" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997815407" />
+    <state width="1483" height="424" key="GridCell.Tab.1.left" timestamp="1712997815407">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
-    <state width="1867" height="406" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
-    <state width="1867" height="406" key="GridCell.Tab.1.right" timestamp="1712742619253">
+    <state width="1483" height="424" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997815407" />
+    <state width="1483" height="424" key="GridCell.Tab.1.right" timestamp="1712997815407">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016262" />
-    <state width="1867" height="406" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742619253" />
+    <state width="1483" height="424" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997815407" />
     <state width="1867" height="245" key="GridCell.Tab.2.bottom" timestamp="1712156786727">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -474,11 +499,11 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712145964029" />
     <state x="121" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742613487" />
-    <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1712991147618">
+    <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1712992347290">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712155145519" />
-    <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712991147618" />
+    <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712992347290" />
     <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712913494905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -531,6 +556,21 @@
           <url>file://$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/client/src/main/java/org/apache/rocketmq/client/impl/factory/MQClientInstance.java</url>
           <line>597</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/src/test/java/PersistentTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactoryBuilder.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/config/XmlConfigBuilder.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
