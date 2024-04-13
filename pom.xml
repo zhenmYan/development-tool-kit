@@ -12,6 +12,7 @@
         <module>mybatis-hand-write</module>
         <module>mybatis-hand-write-client</module>
         <module>project-test-client</module>
+        <module>mybatis-3-mybatis-3.5.7-client</module>
     </modules>
 
 </project>
