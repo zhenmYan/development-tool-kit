@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-yzm/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/rocketmq-yzm/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/pom.xml" />
+        <option value="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

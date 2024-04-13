@@ -11,6 +11,7 @@
     <modules>
         <module>mybatis-hand-write</module>
         <module>mybatis-hand-write-client</module>
+        <module>project-test-client</module>
     </modules>
 
 </project>

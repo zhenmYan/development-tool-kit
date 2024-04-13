@@ -23,6 +23,7 @@
         <module name="spring-boot-starter-batch" />
         <module name="spring-boot-starter-data-rest" />
         <module name="rocketmq-remoting" />
+        <module name="mybatis" />
         <module name="rocketmq-proxy" />
         <module name="spring-boot-starter-reactor-netty" />
         <module name="spring-boot-starter-websocket" />
@@ -44,6 +45,7 @@
         <module name="rocketmq-tiered-store" />
         <module name="spring-boot-loader" />
         <module name="spring-boot-cli" />
+        <module name="project-test-client" />
         <module name="spring-boot-starter-activemq" />
         <module name="spring-boot-starter-jta-narayana" />
         <module name="spring-boot-loader-tools" />
@@ -104,8 +106,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="development-tool-kit" target="1.5" />
+      <module name="mybatis" target="1.8" />
       <module name="mybatis-hand-write" target="8" />
       <module name="mybatis-hand-write-client" target="1.5" />
+      <module name="project-test-client" target="1.5" />
       <module name="rocketmq" target="8" />
       <module name="rocketmq-acl" target="1.8" />
       <module name="rocketmq-all" target="1.8" />
