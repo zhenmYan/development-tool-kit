@@ -16,10 +16,6 @@ public class BoundSql {
 
     private List<ParameterMapping> list;
 
-    public String getBoundSql(String sql){
-        return null;
-    }
-
     public String getFinalSql() {
         return finalSql;
     }

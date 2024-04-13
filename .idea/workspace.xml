@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/config/BoundSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/utils/GenericTokenParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/utils/ParameterMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/utils/ParameterMappingTokenHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/utils/TokenHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/src/main/resources/com/yzm/pojo/User.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write-client/src/main/resources/com/yzm/pojo/User.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/config/BoundSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/config/BoundSql.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/Executor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/SimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/SimpleExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/utils/ParameterMappingTokenHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/utils/ParameterMappingTokenHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +212,7 @@
       <workItem from="1712750246309" duration="1447000" />
       <workItem from="1712886343176" duration="9000" />
       <workItem from="1712911854771" duration="614000" />
-      <workItem from="1712912846802" duration="18723000" />
+      <workItem from="1712912846802" duration="20554000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -351,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712997862626</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat(mybatis):解析sql语句，调用jdbc">
+      <created>1713001786973</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713001786973</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +376,8 @@
     <MESSAGE value="feat(mybatis):builder对象" />
     <MESSAGE value="feat(mybatis):配置文件解析" />
     <MESSAGE value="feat(mybatis):SqlSession" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(mybatis):SqlSession" />
+    <MESSAGE value="feat(mybatis):解析sql语句，调用jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(mybatis):解析sql语句，调用jdbc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="0" key="#Project_Structure" timestamp="1712918827866">
@@ -406,11 +410,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1712997861307">
+    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1713001785826">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712675563444" />
-    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997861307" />
+    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713001785826" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -502,11 +506,11 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712145964029" />
     <state x="121" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742613487" />
-    <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1712997866341">
+    <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1713001790275">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712155145519" />
-    <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712997866341" />
+    <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713001790275" />
     <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712913494905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

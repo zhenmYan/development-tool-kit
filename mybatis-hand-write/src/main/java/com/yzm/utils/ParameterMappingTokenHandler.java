@@ -1,5 +1,7 @@
 package com.yzm.utils;
 
+import java.util.List;
+
 /**
  * description:
  *
@@ -12,7 +14,7 @@ public class ParameterMappingTokenHandler implements TokenHandler {
         return null;
     }
 
-    public ParameterMapping getParameterMapping(){
+    public List<ParameterMapping> getParameterMappings(){
         return null;
     }
 
