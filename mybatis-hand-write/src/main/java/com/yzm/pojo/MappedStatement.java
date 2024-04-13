@@ -17,6 +17,8 @@ public class MappedStatement {
     private String parameterType;
     // sql语句
     private String sql;
+    // 用于判断是增删改查的那种操作
+    private String sqlCommandType;
 
     public String getStatementId() {
         return statementId;
@@ -50,4 +52,11 @@ public class MappedStatement {
         this.sql = sql;
     }
 
+    public String getSqlCommandType() {
+        return sqlCommandType;
+    }
+
+    public void setSqlCommandType(String sqlCommandType) {
+        this.sqlCommandType = sqlCommandType;
+    }
 }

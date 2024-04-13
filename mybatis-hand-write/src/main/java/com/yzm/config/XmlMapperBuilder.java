@@ -43,6 +43,7 @@ public class XmlMapperBuilder {
             mappedStatement.setResultType(resultType);
             mappedStatement.setParameterType(parameterType);
             mappedStatement.setSql(sql);
+            mappedStatement.setSqlCommandType("select");
             configuration.getMappedStatementMap().put(namespace+"."+id, mappedStatement);
         }
     }

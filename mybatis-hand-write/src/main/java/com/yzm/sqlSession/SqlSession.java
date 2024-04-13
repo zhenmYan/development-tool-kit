@@ -19,4 +19,13 @@ public interface SqlSession {
 
     void close();
 
+    /**
+     * 生成代理对象
+     *
+     * @param mapperClass
+     * @param <T>
+     * @return
+     */
+    <T> T getMapper(Class<?> mapperClass);
+
 }
