@@ -6,5 +6,14 @@ package com.yzm.sqlSession;
  * @author yzm
  * @date 2024/4/12  19:54
  */
-public class SqlSessionFactory {
+public interface SqlSessionFactory {
+
+    /**
+     * 1、创建SqlSession
+     * 2、创建sql执行器Executor
+     *
+     * @return
+     */
+    SqlSession openSqlSession();
+
 }
