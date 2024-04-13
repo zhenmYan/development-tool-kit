@@ -58,7 +58,8 @@ public class XmlConfigBuilder {
         for(Element element:mapperList) {
             String mapperPath = element.attributeValue("resource");
             InputStream resourceAsStream = Resources.getResourceAsStream(mapperPath);
-
+            XmlMapperBuilder xmlMapperBuilder = new XmlMapperBuilder(configuration);
+            xmlMapperBuilder.parse(resourceAsStream);
         }
         return null;
     }

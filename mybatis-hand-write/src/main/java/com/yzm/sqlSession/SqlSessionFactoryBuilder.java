@@ -1,6 +1,8 @@
 package com.yzm.sqlSession;
 
 import com.yzm.config.XmlConfigBuilder;
+import com.yzm.pojo.Configuration;
+import org.dom4j.DocumentException;
 
 import java.io.InputStream;
 
@@ -18,9 +20,13 @@ public class SqlSessionFactoryBuilder {
      * @param inputStream
      * @return
      */
-    public SqlSessionFactory build(InputStream inputStream) {
+    public SqlSessionFactory build(InputStream inputStream) throws DocumentException {
 
+        // 1、解析配置文件，封装到Configuration类
         XmlConfigBuilder xmlConfigBuilder = new XmlConfigBuilder();
+        Configuration configuration = xmlConfigBuilder.parse(inputStream);
+
+        // 2、创建
         return null;
     }
 }
