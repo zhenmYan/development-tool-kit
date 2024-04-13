@@ -4,6 +4,9 @@ import com.yzm.executor.Executor;
 import com.yzm.pojo.Configuration;
 import com.yzm.pojo.MappedStatement;
 
+import java.beans.IntrospectionException;
+import java.lang.reflect.InvocationTargetException;
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -23,7 +26,7 @@ public class DefaultSqlSession implements SqlSession {
     }
 
     @Override
-    public <T> T select(String statementId, Object param) {
+    public <T> T select(String statementId, Object param) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException {
         List<Object> list = this.selectList(statementId, param);
         if (list.size() == 1){
             return (T)list.get(0);
@@ -35,7 +38,7 @@ public class DefaultSqlSession implements SqlSession {
     }
 
     @Override
-    public <E> List<E> selectList(String statementId, Object param) {
+    public <E> List<E> selectList(String statementId, Object param) throws IllegalAccessException, IntrospectionException, InstantiationException, NoSuchFieldException, SQLException, InvocationTargetException, ClassNotFoundException {
         MappedStatement mappedStatement = configuration.getMappedStatementMap().get(statementId);
         // 委派给执行器Executor
         List<E> list = executor.query(configuration, mappedStatement, param);
