@@ -96,10 +96,17 @@ public class XMLConfigBuilder extends BaseBuilder {
       throw new BuilderException("Each XMLConfigBuilder can only be used once.");
     }
     parsed = true;
+    // parser.evalNode("/configuration")：通过Xpath解析configuration根节点
+    //
     parseConfiguration(parser.evalNode("/configuration"));
     return configuration;
   }
 
+  /**
+   * 解析各种标签
+   *
+   * @param root
+   */
   private void parseConfiguration(XNode root) {
     try {
       // issue #117 read properties first
@@ -280,12 +287,21 @@ public class XMLConfigBuilder extends BaseBuilder {
       for (XNode child : context.getChildren()) {
         String id = child.getStringAttribute("id");
         if (isSpecifiedEnvironment(id)) {
+          /**
+           * 创建事务工厂对象
+           */
           TransactionFactory txFactory = transactionManagerElement(child.evalNode("transactionManager"));
+          /**
+           * 创建数据源对象
+           */
           DataSourceFactory dsFactory = dataSourceElement(child.evalNode("dataSource"));
           DataSource dataSource = dsFactory.getDataSource();
           Environment.Builder environmentBuilder = new Environment.Builder(id)
               .transactionFactory(txFactory)
               .dataSource(dataSource);
+          /**
+           * 存储到configuration
+           */
           configuration.setEnvironment(environmentBuilder.build());
           break;
         }

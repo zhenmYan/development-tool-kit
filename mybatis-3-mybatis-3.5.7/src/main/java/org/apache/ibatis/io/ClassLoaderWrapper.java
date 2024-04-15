@@ -104,6 +104,8 @@ public class ClassLoaderWrapper {
   /**
    * Try to get a resource from a group of classloaders
    *
+   *    找到第一个可以加载的类加载器并进行加载
+   *
    * @param resource    - the resource to get
    * @param classLoader - the classloaders to examine
    * @return the resource or null
@@ -199,10 +201,15 @@ public class ClassLoaderWrapper {
 
   ClassLoader[] getClassLoaders(ClassLoader classLoader) {
     return new ClassLoader[]{
+        // 参数指定的类加载器
         classLoader,
+        // 系统默认类加载器
         defaultClassLoader,
+        // 当前线程绑定的类加载器
         Thread.currentThread().getContextClassLoader(),
+        // 当前类使用的类加载器
         getClass().getClassLoader(),
+        // 系统类加载器
         systemClassLoader};
   }
 
