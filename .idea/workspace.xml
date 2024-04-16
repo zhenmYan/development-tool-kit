@@ -2,14 +2,269 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java6_2_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_10_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_10_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/.github/issue_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/.github/workflows/pull-request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/.github/workflows/release.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/README_en.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/ali_pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/AutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/BoundSqlInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/BoundSqlInterceptorChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/CountMsIdGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/Dialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/IPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/ISelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/PageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/PageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/PageInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/PageParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/PageProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/PageRowBounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/PageSerializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/QueryInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/cache/CacheFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/cache/GuavaCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/cache/SimpleCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/AbstractDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/AbstractHelperDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/AbstractRowBoundsDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/ReplaceSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/auto/C3P0AutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/auto/DataSourceAutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/auto/DataSourceNegotiationAutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/auto/DbcpAutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/auto/DefaultAutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/auto/DruidAutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/auto/HikariAutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/auto/TomcatAutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/AS400Dialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/CirroDataDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/Db2Dialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/FirebirdDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/HerdDBDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/HsqldbDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/InformixDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/MySqlDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/Oracle9iDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/OracleDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/OscarDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/PostgreSqlDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/SqlServer2012Dialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/helper/SqlServerDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/replace/RegexWithNolockReplaceSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/replace/SimpleWithNolockReplaceSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/rowbounds/Db2RowBoundsDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/rowbounds/HerdDBRowBoundsDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/rowbounds/HsqldbRowBoundsDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/rowbounds/InformixRowBoundsDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/rowbounds/MySqlRowBoundsDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/rowbounds/OracleRowBoundsDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/rowbounds/PostgreSqlRowBoundsDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/rowbounds/SqlServer2012RowBoundsDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/rowbounds/SqlServerRowBoundsDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/dialect/rowbounds/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/page/PageAutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/page/PageBoundSqlInterceptors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/page/PageMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/page/PageParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/parser/CountSqlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/parser/OrderBySqlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/parser/SqlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/parser/SqlParserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/parser/SqlServerSqlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/parser/defaults/DefaultCountSqlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/parser/defaults/DefaultOrderBySqlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/parser/defaults/DefaultSqlServerSqlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/ClassUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/ExecutorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/MSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/MetaObjectUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/MetaObjectWithReflectCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/PageObjectUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/SqlSafeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/StackTraceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/mapper/ProviderMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/model/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/model/UserCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/model/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/model/UserQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/rowbounds/RowBoundsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/rowbounds/test/PageRowBoundsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/rowbounds/test/RowBoundsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/sql/DefaultOrderBySqlParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/sql/SqlServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/sql/SqlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/ArgumentsMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/ArgumentsObjTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/AsyncCountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/CloseableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/CollectionMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/CountColumnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/EnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/IPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/OffsetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/PageHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/PageInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/RemoveOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/TestDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/TestExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/TestISelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/TestIntMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/TestLike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/TestNamespaceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/annotations/TestAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/cache/CacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/cache/SecondCacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/count/TestGroupBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/count/TestSelectItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/dynamic/CacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/dynamic/TestDynamicChoose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/dynamic/TestDynamicForeach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/dynamic/TestDynamicIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/dynamic/TestDynamicIf2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/dynamic/TestDynamicIfOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/dynamic/TestDynamicIfTwoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/dynamic/TestDynamicWhere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/dynamic/Where.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/example/TestExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/parameter/TestParameterArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/parameter/TestParameterList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/parameter/TestParameterMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/parameter/TestParameterNone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/parameter/TestParameterOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/provider/SqlCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/provider/SqlCacheInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/provider/TestBoundSqlInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/provider/TestProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/provider/TestProviderInteceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/sql/TestExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/sql/TestLeftjoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/sql/TestUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/basic/sql/TestWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/features/autodialect/AutoDialectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/features/autodialect/DataSourceNegotiationAutoDialectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/features/autodialect/SimpleAutoDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/features/dialectclass/UsingDialectClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/namespace/BasicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/pagesize/PageSizeLessThenOrEqualZeroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/pagesize/PageSizeZeroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/reasonable/PageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/test/rowbounds/RowBoundsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/util/MybatisAutoDialectHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/util/MybatisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/util/MybatisInterceptorHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/util/MybatisPageSizeZeroHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/util/MybatisReasonableHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/util/MybatisRowBoundsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/util/Ognl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/util/SqlSafeUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/java/com/github/pagehelper/util/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/cirrodata/cirrodata.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/cirrodata/mybatis-config-pagesizezero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/cirrodata/mybatis-config-reasonable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/cirrodata/mybatis-config-rowbounds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/cirrodata/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/com/github/pagehelper/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/db2/db2jcc4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/db2/mybatis-config-pagesizezero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/db2/mybatis-config-reasonable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/db2/mybatis-config-rowbounds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/db2/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/derby/derby.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/derby/mybatis-config-pagesizezero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/derby/mybatis-config-reasonable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/derby/mybatis-config-rowbounds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/derby/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/h2/h2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/h2/mybatis-config-pagesizezero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/h2/mybatis-config-reasonable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/h2/mybatis-config-rowbounds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/h2/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/hsqldb/hsqldb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/hsqldb/mybatis-config-autodialect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/hsqldb/mybatis-config-interceptor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/hsqldb/mybatis-config-pagesizezero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/hsqldb/mybatis-config-reasonable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/hsqldb/mybatis-config-rowbounds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/hsqldb/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mariadb/mariadb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mariadb/mybatis-config-pagesizezero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mariadb/mybatis-config-reasonable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mariadb/mybatis-config-rowbounds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mariadb/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mybatis-config-async-count.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mysql/mybatis-config-autodialect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mysql/mybatis-config-interceptor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mysql/mybatis-config-pagesizezero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mysql/mybatis-config-reasonable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mysql/mybatis-config-rowbounds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mysql/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/mysql/mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/oracle/mybatis-config-pagesizezero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/oracle/mybatis-config-reasonable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/oracle/mybatis-config-rowbounds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/oracle/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/oracle/oracle.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/postgresql/mybatis-config-pagesizezero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/postgresql/mybatis-config-reasonable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/postgresql/mybatis-config-rowbounds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/postgresql/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/postgresql/postgresql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/rowbounds/hsqldb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/rowbounds/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/sqlserver/mybatis-config-pagesizezero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/sqlserver/mybatis-config-reasonable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/sqlserver/mybatis-config-rowbounds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/sqlserver/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/src/test/resources/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wikis/en/Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wikis/en/HowToUse.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wikis/en/Important.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wikis/en/Test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wikis/zh/Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wikis/zh/HowToUse.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wikis/zh/Important.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wikis/zh/Interceptor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wikis/zh/Test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wx_mybatis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-PageHelper-6.1.0/wx_pay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/io/ClassLoaderWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/io/ClassLoaderWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/io/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/io/Resources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/src/main/java/com/yzm/pojo/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/src/main/java/com/yzm/pojo/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/src/main/resources/mapper/UserMapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/src/main/resources/mapper/UserMapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +319,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project-test-client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46182153" />
@@ -167,9 +422,9 @@
       <item itemvalue="Application.BrokerStartup" />
       <item itemvalue="Application.Producer" />
       <item itemvalue="Application.Consumer" />
-      <item itemvalue="Spring Boot.Hibernate52Application" />
-      <item itemvalue="JUnit.PersistentTest.test" />
       <item itemvalue="Application.MainTest" />
+      <item itemvalue="JUnit.PersistentTest.test" />
+      <item itemvalue="Spring Boot.Hibernate52Application" />
     </list>
     <recent_temporary>
       <list>
@@ -213,7 +468,9 @@
       <workItem from="1712750246309" duration="1447000" />
       <workItem from="1712886343176" duration="9000" />
       <workItem from="1712911854771" duration="614000" />
-      <workItem from="1712912846802" duration="39353000" />
+      <workItem from="1712912846802" duration="40182000" />
+      <workItem from="1713191627586" duration="51000" />
+      <workItem from="1713256279421" duration="258000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -390,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713021531962</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat(mybatis):单步调试">
+      <created>1713177162447</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713177162447</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,11 +714,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="81" y="0" key="CommitChangelistDialog2" timestamp="1713021530439">
+    <state x="81" y="0" key="CommitChangelistDialog2" timestamp="1713177160521">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712675563444" />
-    <state x="81" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713021530439" />
+    <state x="81" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713177160521" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -463,11 +727,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="513" y="173" key="EnvironmentVariablesDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712625761896" />
-    <state x="466" y="85" key="FileChooserDialogImpl" timestamp="1713019651579">
+    <state x="466" y="85" key="FileChooserDialogImpl" timestamp="1713191677542">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1337" y="107" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712143080795" />
-    <state x="466" y="85" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713019651579" />
+    <state x="466" y="85" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713191677542" />
     <state x="-1184" y="420" key="Github.CreateGistDialog" timestamp="1712145066669">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -476,26 +740,26 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1483" height="178" key="GridCell.Tab.0.bottom" timestamp="1713174994715">
+    <state width="1483" height="107" key="GridCell.Tab.0.bottom" timestamp="1713256531022">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
-    <state width="1483" height="178" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713174994715" />
-    <state width="1483" height="178" key="GridCell.Tab.0.center" timestamp="1713174994715">
+    <state width="1483" height="107" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256531022" />
+    <state width="1483" height="107" key="GridCell.Tab.0.center" timestamp="1713256531022">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
-    <state width="1483" height="178" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713174994715" />
-    <state width="1483" height="178" key="GridCell.Tab.0.left" timestamp="1713174994715">
+    <state width="1483" height="107" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256531022" />
+    <state width="1483" height="107" key="GridCell.Tab.0.left" timestamp="1713256531022">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
-    <state width="1483" height="178" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713174994715" />
-    <state width="1483" height="178" key="GridCell.Tab.0.right" timestamp="1713174994715">
+    <state width="1483" height="107" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256531022" />
+    <state width="1483" height="107" key="GridCell.Tab.0.right" timestamp="1713256531022">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1867" height="406" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712657016261" />
-    <state width="1483" height="178" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713174994715" />
+    <state width="1483" height="107" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256531022" />
     <state width="1483" height="178" key="GridCell.Tab.1.bottom" timestamp="1713174994715">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -546,26 +810,26 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712145964029" />
     <state x="121" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742613487" />
-    <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1713021535132">
+    <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1713177166358">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712155145519" />
-    <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713021535132" />
-    <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712913494905">
+    <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713177166358" />
+    <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1713256538663">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1250" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712146329392" />
-    <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712913494905" />
+    <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256538663" />
     <state x="265" y="106" width="1169" height="883" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1713023118720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1589" y="133" width="1169" height="883" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712155098589" />
     <state x="265" y="106" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713023118720" />
-    <state x="365" y="90" width="1171" height="738" key="find.popup" timestamp="1712832797402">
+    <state x="365" y="90" width="1171" height="738" key="find.popup" timestamp="1713179044882">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1529" y="115" width="1167" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712658860085" />
-    <state x="365" y="90" width="1171" height="738" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712832797402" />
+    <state x="365" y="90" width="1171" height="738" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713179044882" />
     <state x="0" y="92" width="1598" height="695" key="new project wizard" timestamp="1713019676496">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
