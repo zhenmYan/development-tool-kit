@@ -43,8 +43,10 @@
         <module name="spring-boot-starter-jooq" />
         <module name="spring-boot-properties-migrator" />
         <module name="spring-boot-starter-data-mongodb-reactive" />
+        <module name="pagehelper-spring-boot-sample-annotation" />
         <module name="spring-boot-actuator" />
         <module name="spring-boot-starter-data-redis" />
+        <module name="pagehelper-spring-boot-autoconfigure" />
         <module name="rocketmq-controller" />
         <module name="demo" />
         <module name="spring-boot-starter-data-couchbase" />
@@ -59,6 +61,7 @@
         <module name="spring-boot-launch-script-tests" />
         <module name="mybatis-hand-write-client" />
         <module name="rocketmq-test" />
+        <module name="pagehelper-spring-boot-sample-xml" />
         <module name="spring-boot" />
         <module name="spring-boot-starter-jetty" />
         <module name="rocketmq-client" />
@@ -71,6 +74,7 @@
         <module name="spring-boot-starter-data-ldap" />
         <module name="spring-boot-starter-freemarker" />
         <module name="spring-boot-actuator-autoconfigure" />
+        <module name="pagehelper-spring-boot-starter" />
         <module name="Mybatis-PageHelper-6.1.0-client" />
         <module name="spring-boot-starter-log4j2" />
         <module name="mybatis-3-mybatis-3.5.7-client" />
@@ -114,6 +118,12 @@
       <module name="mybatis-hand-write-client" target="1.5" />
       <module name="Mybatis-PageHelper-6.1.0-client" target="8" />
       <module name="pagehelper" target="8" />
+      <module name="pagehelper-spring-boot" target="8" />
+      <module name="pagehelper-spring-boot-autoconfigure" target="8" />
+      <module name="pagehelper-spring-boot-sample-annotation" target="8" />
+      <module name="pagehelper-spring-boot-sample-xml" target="8" />
+      <module name="pagehelper-spring-boot-samples" target="8" />
+      <module name="pagehelper-spring-boot-starter" target="8" />
       <module name="project-test-client" target="8" />
       <module name="rocketmq" target="8" />
       <module name="rocketmq-acl" target="1.8" />

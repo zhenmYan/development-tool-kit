@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +183,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SampleMapperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pagehelper-spring-boot-sample-annotation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tk.mybatis.pagehelper.SampleMapperApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleXmlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pagehelper-spring-boot-sample-xml" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tk.mybatis.pagehelper.SampleXmlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Producer" />
       <item itemvalue="Application.Consumer" />
@@ -192,6 +204,8 @@
       <item itemvalue="JUnit.PersistentTest.test" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
       <item itemvalue="Spring Boot.PageHelperApplication" />
+      <item itemvalue="Spring Boot.SampleXmlApplication" />
+      <item itemvalue="Spring Boot.SampleMapperApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -237,7 +251,7 @@
       <workItem from="1712911854771" duration="614000" />
       <workItem from="1712912846802" duration="40182000" />
       <workItem from="1713191627586" duration="51000" />
-      <workItem from="1713256279421" duration="9740000" />
+      <workItem from="1713256279421" duration="10389000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -442,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713269452028</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat(pagehelper):分页的两种方式">
+      <created>1713279157253</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1713279157253</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +492,8 @@
     <MESSAGE value="feat(pagehelper):导入" />
     <MESSAGE value="feat(pagehelper):源码环境配置" />
     <MESSAGE value="feat(pagehelper):分页生效" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(pagehelper):分页生效" />
+    <MESSAGE value="feat(pagehelper):分页的两种方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(pagehelper):分页的两种方式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="0" key="#Project_Structure" timestamp="1713023882537">
@@ -510,10 +532,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1713269450763">
+    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1713279769960">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269450763" />
+    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713279769960" />
     <state x="81" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256625032" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -606,10 +628,10 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269619946" />
     <state x="121" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742613487" />
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1713269457160">
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1713279161548">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269457160" />
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713279161548" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256632992" />
     <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1713256538663">
       <screen x="0" y="0" width="1536" height="834" />
@@ -621,10 +643,10 @@
     </state>
     <state x="-1589" y="133" width="1169" height="883" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712155098589" />
     <state x="265" y="106" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713023118720" />
-    <state x="-1529" y="115" width="1167" height="824" key="find.popup" timestamp="1713266672170">
+    <state x="-1529" y="115" width="1167" height="824" key="find.popup" timestamp="1713279763191">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1529" y="115" width="1167" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713266672170" />
+    <state x="-1529" y="115" width="1167" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713279763191" />
     <state x="365" y="90" width="1171" height="738" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713179044882" />
     <state x="-1536" y="112" width="1598" height="695" key="new project wizard" timestamp="1713261219487">
       <screen x="-1920" y="0" width="1920" height="1050" />
