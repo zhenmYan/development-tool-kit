@@ -4,6 +4,8 @@ import com.yzm.dao.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
+
 /**
  * description:
  *
@@ -14,4 +16,7 @@ import org.apache.ibatis.annotations.Param;
 public interface UserMapper {
 
     User selectById(@Param("id")int id);
+
+    List<User> selectAll();
+
 }

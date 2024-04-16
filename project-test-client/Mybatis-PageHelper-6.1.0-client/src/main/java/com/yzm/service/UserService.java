@@ -1,6 +1,9 @@
 package com.yzm.service;
 
+import com.github.pagehelper.PageInfo;
 import com.yzm.dao.User;
+
+import java.util.List;
 
 /**
  * description:
@@ -10,4 +13,5 @@ import com.yzm.dao.User;
  */
 public interface UserService {
     User selectById(int id);
+    PageInfo<User> selectUserList(int pageNum, int pageSize);
 }
