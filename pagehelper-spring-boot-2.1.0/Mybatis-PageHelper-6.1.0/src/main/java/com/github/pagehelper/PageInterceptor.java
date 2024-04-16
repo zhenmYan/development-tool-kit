@@ -63,6 +63,14 @@ import java.util.concurrent.Future;
  *
  * @author liuzh/abel533/isea533
  * @version 5.0.0
+ *
+ *
+ * ##### pageHelper的拦截器
+ *
+ *       拦截Executor的query方法
+ *
+ *
+ *
  */
 @SuppressWarnings({"rawtypes", "unchecked"})
 @Intercepts(

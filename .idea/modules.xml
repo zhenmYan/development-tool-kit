@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/Mybatis-PageHelper-6.1.0-client.iml" filepath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/Mybatis-PageHelper-6.1.0-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/development-tool-kit.iml" filepath="$PROJECT_DIR$/development-tool-kit.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/mybatis.iml" filepath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/mybatis-3-mybatis-3.5.7-client.iml" filepath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/mybatis-3-mybatis-3.5.7-client.iml" />
@@ -10,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/mybatis-hand-write-client.iml" filepath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/mybatis-hand-write-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/Mybatis-PageHelper-6.1.0/pagehelper.iml" filepath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/Mybatis-PageHelper-6.1.0/pagehelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot.iml" filepath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/pagehelper-spring-boot-2.1.0-client.iml" filepath="$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/pagehelper-spring-boot-2.1.0-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot-autoconfigure/pagehelper-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot-autoconfigure/pagehelper-spring-boot-autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot-samples/pagehelper-spring-boot-sample-annotation/pagehelper-spring-boot-sample-annotation.iml" filepath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot-samples/pagehelper-spring-boot-sample-annotation/pagehelper-spring-boot-sample-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot-samples/pagehelper-spring-boot-sample-xml/pagehelper-spring-boot-sample-xml.iml" filepath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot-samples/pagehelper-spring-boot-sample-xml/pagehelper-spring-boot-sample-xml.iml" />

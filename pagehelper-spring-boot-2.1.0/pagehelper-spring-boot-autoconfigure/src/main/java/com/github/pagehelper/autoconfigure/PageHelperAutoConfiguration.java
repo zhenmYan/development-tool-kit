@@ -40,7 +40,7 @@ import java.util.List;
 /**
  * 自定注入分页插件
  *
- * @author liuzh
+ * 必须要有SqlSessionFactory对象、并且Mybatis已经完成自动注入
  */
 @Configuration
 @ConditionalOnBean(SqlSessionFactory.class)
@@ -59,6 +59,11 @@ public class PageHelperAutoConfiguration implements InitializingBean {
         this.properties = standardProperties.getProperties();
     }
 
+    /**
+     * 通过InitializingBean的afterPropertiesSet()注入PageInterceptor对象
+     *
+     * @throws Exception
+     */
     @Override
     public void afterPropertiesSet() throws Exception {
         PageInterceptor interceptor = new PageInterceptor();
