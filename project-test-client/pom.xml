@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>mybatis-3-mybatis-3.5.7-client</module>
+        <module>Mybatis-PageHelper-6.1.0-client</module>
     </modules>
 
 

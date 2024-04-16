@@ -1,0 +1,17 @@
+package com.yzm.mapper;
+
+import com.yzm.dao.User;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+
+/**
+ * description:
+ *
+ * @author yzm
+ * @date 2024/4/16  18:49
+ */
+@Mapper
+public interface UserMapper {
+
+    User selectById(@Param("id")int id);
+}

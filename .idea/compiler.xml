@@ -71,6 +71,7 @@
         <module name="spring-boot-starter-data-ldap" />
         <module name="spring-boot-starter-freemarker" />
         <module name="spring-boot-actuator-autoconfigure" />
+        <module name="Mybatis-PageHelper-6.1.0-client" />
         <module name="spring-boot-starter-log4j2" />
         <module name="mybatis-3-mybatis-3.5.7-client" />
         <module name="rocketmq" />
@@ -106,13 +107,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="development-tool-kit" target="1.5" />
+      <module name="development-tool-kit" target="8" />
       <module name="mybatis" target="1.8" />
-      <module name="mybatis-3-mybatis-3.5.7-client" target="1.5" />
+      <module name="mybatis-3-mybatis-3.5.7-client" target="8" />
       <module name="mybatis-hand-write" target="8" />
       <module name="mybatis-hand-write-client" target="1.5" />
+      <module name="Mybatis-PageHelper-6.1.0-client" target="8" />
       <module name="pagehelper" target="8" />
-      <module name="project-test-client" target="1.5" />
+      <module name="project-test-client" target="8" />
       <module name="rocketmq" target="8" />
       <module name="rocketmq-acl" target="1.8" />
       <module name="rocketmq-all" target="1.8" />
@@ -224,7 +226,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Mybatis-PageHelper-6.1.0-client" options="-parameters" />
       <module name="development-tool-kit" options="-parameters" />
+      <module name="mybatis-3-mybatis-3.5.7-client" options="-parameters" />
+      <module name="mybatis-hand-write" options="-parameters" />
       <module name="rocketmq" options="-parameters" />
       <module name="rocketmq-yzm" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
