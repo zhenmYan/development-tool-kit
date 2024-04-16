@@ -85,6 +85,7 @@ public class PageParams {
      * @return
      */
     public Page getPage(Object parameterObject, RowBounds rowBounds) {
+        // 之前page信息存ThreadLocal，是为了这里取值
         Page page = PageHelper.getLocalPage();
         if (page == null) {
             if (rowBounds != RowBounds.DEFAULT) {

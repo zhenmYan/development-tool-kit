@@ -8,15 +8,15 @@
       <configuration>
         <webroots />
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$/../pagehelper-spring-boot-2.1.0-client/src/main/java" />
+          <root url="file://$MODULE_DIR$/../pagehelper-spring-boot-2.1.0-client/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/target/classes" />
-    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <output url="file://$MODULE_DIR$/../pagehelper-spring-boot-2.1.0-client/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../pagehelper-spring-boot-2.1.0-client/target/test-classes" />
     <content url="file://$MODULE_DIR$/../pagehelper-spring-boot-2.1.0-client">
       <sourceFolder url="file://$MODULE_DIR$/../pagehelper-spring-boot-2.1.0-client/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../pagehelper-spring-boot-2.1.0-client/src/main/resources" type="java-resource" />

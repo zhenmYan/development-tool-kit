@@ -146,6 +146,12 @@ public abstract class ExecutorUtil {
      * @param resultHandler
      * @return
      * @throws SQLException
+     *
+     * ##### pageHelper 分页功能 总数count查询 executeAutoCount方法
+     *
+     *      - 核心思想是修改sql，先查询总数
+     *      - 修改前的sql为：SELECT * FROM user
+     *      - 修改后的sql为：SELECT count(0) FROM user
      */
     public static Long executeAutoCount(Dialect dialect, Executor executor, MappedStatement countMs,
                                         Object parameter, BoundSql boundSql,
@@ -188,6 +194,12 @@ public abstract class ExecutorUtil {
      * @param <E>
      * @return
      * @throws SQLException
+     *
+     *  ##### pageHelper 分页功能 具体查询 pageQuery方法
+     *
+     *      - 核心思想是修改sql
+     *      - 修改前的sql为：SELECT * FROM user
+     *      - 修改后的sql为：select * from user LIMIT ?, ?
      */
     public static <E> List<E> pageQuery(Dialect dialect, Executor executor, MappedStatement ms, Object parameter,
                                         RowBounds rowBounds, ResultHandler resultHandler,

@@ -135,6 +135,15 @@ public abstract class PageMethod {
      * @param count        是否进行count查询
      * @param reasonable   分页合理化,null时用默认配置
      * @param pageSizeZero true且pageSize=0时返回全部结果，false时分页,null时用默认配置
+     *
+     *
+     * ##### pageHelper 分页功能 开始分页 startPage方法
+     *
+     *          - 本质是创建一个Page对象，存储分页的信息
+     *          - 然后将Page对象存储到ThreadLocal对象中
+     *
+     *          这样做的目的是
+     *                     方便线程后续使用，有点类似用户访问接口时将用户信息存储到ThreadLocal对象中
      */
     public static <E> Page<E> startPage(int pageNum, int pageSize, boolean count, Boolean reasonable, Boolean pageSizeZero) {
         Page<E> page = new Page<E>(pageNum, pageSize, count);

@@ -32,6 +32,13 @@ import java.util.List;
  *              - 单独引入pagehelper源码包会无法生效
  *              - 而过单独引入pagehelper，可以通过注入配置类com.yzm.config.PageHelperConfig使分页生效
  *
+ *       三、核心思想
+ *          1、通过对Excutor的query方法进行拦截
+ *          2、总共执行两条sql
+ *              - 查询总数：executeAutoCount方法
+ *              - 查询具体值：pageQuery方法
+ *          3、两条sql都是通过对boundSql进行修改实现的
+ *
  * @author yzm
  * @date 2024/4/16  18:01
  */
