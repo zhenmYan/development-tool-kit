@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/config/PageHelperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/resources/ddl/user.ddl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/controller/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/resources/com/yzm/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/resources/com/yzm/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +95,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46182153" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -244,7 +237,7 @@
       <workItem from="1712911854771" duration="614000" />
       <workItem from="1712912846802" duration="40182000" />
       <workItem from="1713191627586" duration="51000" />
-      <workItem from="1713256279421" duration="8093000" />
+      <workItem from="1713256279421" duration="9740000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -442,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713267128660</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat(pagehelper):分页生效">
+      <created>1713269452028</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713269452028</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +470,8 @@
     <MESSAGE value="feat(mybatis):单步调试" />
     <MESSAGE value="feat(pagehelper):导入" />
     <MESSAGE value="feat(pagehelper):源码环境配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(pagehelper):源码环境配置" />
+    <MESSAGE value="feat(pagehelper):分页生效" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(pagehelper):分页生效" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="0" key="#Project_Structure" timestamp="1713023882537">
@@ -509,10 +510,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1713267127145">
+    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1713269450763">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713267127145" />
+    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269450763" />
     <state x="81" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256625032" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -535,62 +536,62 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="310" key="GridCell.Tab.0.bottom" timestamp="1713269433539">
+    <state width="1867" height="348" key="GridCell.Tab.0.bottom" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="310" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269433539" />
+    <state width="1867" height="348" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
     <state width="1483" height="405" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="310" key="GridCell.Tab.0.center" timestamp="1713269433539">
+    <state width="1867" height="348" key="GridCell.Tab.0.center" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="310" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269433539" />
+    <state width="1867" height="348" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
     <state width="1483" height="405" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="310" key="GridCell.Tab.0.left" timestamp="1713269433539">
+    <state width="1867" height="348" key="GridCell.Tab.0.left" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="310" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269433539" />
+    <state width="1867" height="348" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
     <state width="1483" height="405" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="310" key="GridCell.Tab.0.right" timestamp="1713269433539">
+    <state width="1867" height="348" key="GridCell.Tab.0.right" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="310" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269433539" />
+    <state width="1867" height="348" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
     <state width="1483" height="405" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="310" key="GridCell.Tab.1.bottom" timestamp="1713269433539">
+    <state width="1867" height="348" key="GridCell.Tab.1.bottom" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="310" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269433539" />
+    <state width="1867" height="348" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
     <state width="1483" height="405" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="310" key="GridCell.Tab.1.center" timestamp="1713269433539">
+    <state width="1867" height="348" key="GridCell.Tab.1.center" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="310" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269433539" />
+    <state width="1867" height="348" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
     <state width="1483" height="405" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="310" key="GridCell.Tab.1.left" timestamp="1713269433539">
+    <state width="1867" height="348" key="GridCell.Tab.1.left" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="310" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269433539" />
+    <state width="1867" height="348" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
     <state width="1483" height="405" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="310" key="GridCell.Tab.1.right" timestamp="1713269433539">
+    <state width="1867" height="348" key="GridCell.Tab.1.right" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="310" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269433539" />
+    <state width="1867" height="348" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
     <state width="1483" height="405" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="348" key="GridCell.Tab.2.bottom" timestamp="1713268424395">
+    <state width="1867" height="348" key="GridCell.Tab.2.bottom" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="348" key="GridCell.Tab.2.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713268424395" />
-    <state width="1867" height="348" key="GridCell.Tab.2.center" timestamp="1713268424395">
+    <state width="1867" height="348" key="GridCell.Tab.2.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
+    <state width="1867" height="348" key="GridCell.Tab.2.center" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="348" key="GridCell.Tab.2.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713268424395" />
-    <state width="1867" height="348" key="GridCell.Tab.2.left" timestamp="1713268424395">
+    <state width="1867" height="348" key="GridCell.Tab.2.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
+    <state width="1867" height="348" key="GridCell.Tab.2.left" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="348" key="GridCell.Tab.2.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713268424395" />
-    <state width="1867" height="348" key="GridCell.Tab.2.right" timestamp="1713268424395">
+    <state width="1867" height="348" key="GridCell.Tab.2.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
+    <state width="1867" height="348" key="GridCell.Tab.2.right" timestamp="1713270107434">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="348" key="GridCell.Tab.2.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713268424395" />
+    <state width="1867" height="348" key="GridCell.Tab.2.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713270107434" />
     <state x="186" y="0" key="Maven.ArtifactSearchDialog" timestamp="1712076735740">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -600,15 +601,15 @@
     </state>
     <state x="-1486" y="60" key="NewModule_or_Project.wizard/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712143073246" />
     <state x="347" y="48" key="NewModule_or_Project.wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712079370475" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1712742613487">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712145964029" />
-    <state x="121" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742613487" />
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1713267132096">
+    <state x="-1575" y="0" key="SettingsEditor" timestamp="1713269619946">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713267132096" />
+    <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269619946" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742613487" />
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1713269457160">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269457160" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256632992" />
     <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1713256538663">
       <screen x="0" y="0" width="1536" height="834" />
@@ -715,8 +716,8 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/controller/user/UserController.java</url>
-          <line>43</line>
+          <url>file://$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/controller/UserController.java</url>
+          <line>42</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -726,8 +727,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/service/impl/UserServiceImpl.java</url>
-          <line>32</line>
+          <line>34</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project-test-client/Mybatis-PageHelper-6.1.0-client/src/main/java/com/yzm/service/impl/UserServiceImpl.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

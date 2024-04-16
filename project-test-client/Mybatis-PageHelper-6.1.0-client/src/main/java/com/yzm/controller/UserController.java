@@ -1,4 +1,4 @@
-package com.yzm.controller.user;
+package com.yzm.controller;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
@@ -13,7 +13,16 @@ import java.util.List;
 /**
  * ##### pageHelper的使用
  *
- *      失效场景
+ *      一、使用方式
+ *          1、传统方式
+ *              - 设置分页信息
+ *              - 查询
+ *              - 返回结果
+ *          2、使用lambda语句
+ *              - PageInfo<User> pageInfo = PageHelper.startPage(1,5)
+ *                 .doSelectPageInfo(()->userMapper.selectAll());
+ *
+ *      二、失效场景
  *          1、分页设置与需要分页的查询之间存在其他查询
  *              - PageHelper.startPage(pageNum,pageSize);需要与查询语句紧紧挨着
  *          2、在需要分页的查询后才设置分页
@@ -22,8 +31,6 @@ import java.util.List;
  *          3、需要引入pagehelper-spring-boot-starter包
  *              - 单独引入pagehelper源码包会无法生效
  *              - 而过单独引入pagehelper，可以通过注入配置类com.yzm.config.PageHelperConfig使分页生效
- *
- *
  *
  * @author yzm
  * @date 2024/4/16  18:01

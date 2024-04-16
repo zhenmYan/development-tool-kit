@@ -30,10 +30,17 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public PageInfo<User> selectUserList(int pageNum, int pageSize) {
+
+        // 方式1
         PageHelper.startPage(pageNum,pageSize);
         List<User> users = userMapper.selectAll();
         PageInfo<User> pageInfo = new PageInfo<>(users);
         List<User> userList = pageInfo.getList();
+
+        // 方式2
+        PageInfo<User> pageInfo1 = PageHelper.startPage(1,5)
+                .doSelectPageInfo(()->userMapper.selectAll());
+
         return pageInfo;
     }
 }
