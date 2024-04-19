@@ -8,7 +8,7 @@ import java.util.List;
  * description:
  *
  * @author yzm
- * @date 2024/4/13  17:30
+ * @date 2024/4/13
  */
 public class BoundSql {
 

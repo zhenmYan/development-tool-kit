@@ -35,13 +35,17 @@ public class PersistentTest {
          */
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
+        // 3、创建SqlSession、创建sql执行器Executor
         SqlSession sqlSession = sqlSessionFactory.openSqlSession();
 
         User user = new User();
         user.setId(1);
         user.setUserName("张三");
 
-        User userR = sqlSession.select("user.select", user);
+        // 调用 sqlSession 的方法
+        User userR = sqlSession.selectOne("user.selectOne", user);
+
+        System.out.println(userR.toString());
 
     }
 }
