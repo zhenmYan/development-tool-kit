@@ -26,6 +26,7 @@
     <modules>
         <module>mybatis-hand-write</module>
         <module>project-test-client</module>
+        <module>hand-write-series</module>
     </modules>
 
     <dependencies>

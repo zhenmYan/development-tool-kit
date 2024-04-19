@@ -1601,8 +1601,6 @@ o
 ?.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_7.xml,2\1\2121fb4800e2990dc2b468b48c2b9108c0dda957
 e
 5.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml,9\e\9ed64ac0aad6f44e29c0c79facf1d8c6678ad366
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 k
 ;.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml,4\3\4312351ba16507a4211140d181015cf439ab9b9c
 d
@@ -1685,3 +1683,5 @@ w
 G.idea/libraries/Maven__org_springframework_spring_expression_5_3_31.xml,b\d\bd2f9ca86ef6e916b9724d2f5572e008b385b8b4
 q
 A.idea/libraries/Maven__org_springframework_spring_core_5_3_31.xml,4\f\4f97473fa95aa9fe0e1b4c6e1edb58cd00edfb00
+^
+..idea/markdown-navigator/profiles_settings.xml,c\5\c553a33182a8928cd5760d212e343bd13f573c9b

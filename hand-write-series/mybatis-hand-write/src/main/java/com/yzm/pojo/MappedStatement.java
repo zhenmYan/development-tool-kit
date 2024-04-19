@@ -5,12 +5,12 @@ package com.yzm.pojo;
  *      mapper文件的映射对象，每条sql对应一个MappedStatement对象
  *
  * @author yzm
- * @date 2024/4/12  18:50
+ * @date 2024/4/12
  */
 public class MappedStatement {
 
     // 唯一标识 statementId  ：  namespace.id
-    private String  statementId;
+    private String statementId;
     // 返回值类型
     private String resultType;
     // 参数类型
@@ -59,4 +59,5 @@ public class MappedStatement {
     public void setSqlCommandType(String sqlCommandType) {
         this.sqlCommandType = sqlCommandType;
     }
+
 }

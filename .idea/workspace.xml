@@ -2,56 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c7e4c8bf538514748c3f9b43ac28e563e717dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20ee829666e051f476343a6d7c12e24004f1b888" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/2121fb4800e2990dc2b468b48c2b9108c0dda957" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c334c276b3b9739ad90b30501f0e44a7464cdf7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2dd3af1ee5d1c19c85ecd9faf77aa851d8cec7ae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ec49678135b807e248bdf3474d1e39037444d27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38767a32356f90c3f0d6ef4cdf689e7386942f1f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38f7291209449956d9cf8ba2803a7da02b7f455b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c9053362206afff74805f76190a4db80d948973" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41489c8493f2c009cafb1107eb61430791d956f2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4312351ba16507a4211140d181015cf439ab9b9c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/448c004e9fdda2afc7a59a6f0e73f42fb2e8da8b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bafe9aa3597f8501b26f0906a943bdbdea742dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e9f95c7cfef17e2c9e40816cf1d5f975f4217ff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f11c014618678f350443af489e6b8ef22448948" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f97473fa95aa9fe0e1b4c6e1edb58cd00edfb00" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/579ad7754f07aa1281635e80f3b005d6d5e190dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5ce664cc58c5194ea8db9213ac42d70a883eab7c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d15a6c3d98ae2fd38d780b050415880772ec9c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f99e99cf33f71ead33f163c5038c1068f20ffb6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60a3a3e04a117c6082666a41ffdde283ccd1cda6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/784e0052c9fc4378b09fe71980681e95975e6447" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/796e618c37c2cb980dd1b45478a5fc10a47bab35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86ecfa620594dc7b1922a7bc46c2a3b30c4e1134" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/9088bfc1df78b9213a883c7e0d735453467e7b7b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bc185df4d41a0983a97cf4614229d58be4a3a15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ed64ac0aad6f44e29c0c79facf1d8c6678ad366" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f579365b1fd1c1e96cb157422c82beccc6a1c45" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1b2688f91548f9c54e8c696d9fe55a07566dace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aae1b1c406601c90cdb5012671fee554bbefd35e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad78ef7216c4f1126bf07a6f4445d15101b3dc20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4c2c67b8e6502b50a86f85e3837754b3403fda0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6d3576a3e7a5ce9a31acd06e26c402d6b788aa3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7d21b82a452ac893dd722ce22487b6ef46c99a6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd2f9ca86ef6e916b9724d2f5572e008b385b8b4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c176c42b2395a1d9f040f07021ecba45df6932c5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1a64fd3c534074686d911adad1a022cc68d4d70" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb923fad4639c2f1dc236509f9610981dd93da0a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc346a0d19c59aef8abd6ecbde226390feb15aca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0b1823d50e137f0566c083b5dcb22873aa94aa2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef15e6636468ff49f290abf928e9e14037294486" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7c7b99ffb15a06c33fe00d2cc2342988d03f775" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fab165725e9d4c1af2f03ff7646811384b6cb3cf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hand-write-series/hand-write-series.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hand-write-series/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/mybatis-hand-write.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/config/BoundSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/config/BoundSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/config/XmlConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/config/XmlConfigBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/config/XmlMapperBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/config/XmlMapperBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/executor/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/executor/SimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/executor/SimpleExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/io/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/io/Resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/pojo/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/pojo/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/pojo/MappedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/pojo/MappedStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/utils/GenericTokenParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/utils/GenericTokenParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/utils/ParameterMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/utils/ParameterMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/utils/ParameterMappingTokenHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/utils/ParameterMappingTokenHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/src/main/java/com/yzm/utils/TokenHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/utils/TokenHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/src/main/resources/mapper/UserMapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/src/test/java/PersistentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/src/test/java/yzm/test/PersistentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,11 +139,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mapper" />
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mappers" />
+      <recent name="W:\idea_project\development-tool-kit\hand-write-series" />
       <recent name="W:\idea_project\development-tool-kit\pagehelper-spring-boot-2.1.0" />
       <recent name="W:\idea_project\development-tool-kit\project-test-client\Mybatis-PageHelper-6.1.0-client\src\main\resources\ddl" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\Mybatis-PageHelper-6.1.0-client\src\main\resources\com\yzm\mapper" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\Mybatis-PageHelper-6.1.0-client\src\main\resources\com.yzm" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mapper\UserMapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yzm.dev" />
@@ -214,8 +197,8 @@
     </configuration>
     <configuration name="PersistentTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-hand-write-client" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersistentTest" />
+      <option name="PACKAGE_NAME" value="yzm.test" />
+      <option name="MAIN_CLASS_NAME" value="yzm.test.PersistentTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -315,7 +298,8 @@
       <workItem from="1713432018153" duration="2951000" />
       <workItem from="1713435895320" duration="80000" />
       <workItem from="1713436382098" duration="145000" />
-      <workItem from="1713436573825" duration="5226000" />
+      <workItem from="1713436573825" duration="6600000" />
+      <workItem from="1713513541800" duration="2619000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -548,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713290323032</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="feat(mybatis):实现思路">
+      <created>1713510545493</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1713510545493</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,18 +571,19 @@
     <MESSAGE value="feat(pagehelper):分页的两种方式" />
     <MESSAGE value="feat(pagehelper):接入spring的源码" />
     <MESSAGE value="feat(pagehelper):单步" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(pagehelper):单步" />
+    <MESSAGE value="feat(mybatis):实现思路" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(mybatis):实现思路" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="261" y="0" key="#Plugins/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713435972362" />
-    <state x="362" y="0" key="#Project_Structure" timestamp="1713436827949">
+    <state x="362" y="0" key="#Project_Structure" timestamp="1713515525173">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1468" y="101" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712074553617" />
-    <state x="362" y="0" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436827949" />
+    <state x="362" y="0" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713515525173" />
     <state x="-1451" y="85" width="1111" height="894" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1713266577544">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -623,11 +615,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1713290321289">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="81" y="0" key="CommitChangelistDialog2" timestamp="1713510543073">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290321289" />
-    <state x="81" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256625032" />
+    <state x="81" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713510543073" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -728,11 +720,11 @@
     </state>
     <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290327559" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256632992" />
-    <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1713256538663">
+    <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1713516391892">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1250" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712146329392" />
-    <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256538663" />
+    <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713516391892" />
     <state x="-1589" y="133" width="1169" height="883" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1713289544827">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -743,11 +735,11 @@
     </state>
     <state x="-1529" y="115" width="1167" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713289800964" />
     <state x="365" y="90" width="1171" height="738" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713179044882" />
-    <state x="-1536" y="112" width="1598" height="695" key="new project wizard" timestamp="1713261219487">
+    <state x="-1536" y="118" width="1598" height="695" key="new project wizard" timestamp="1713511031447">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1726" y="190" width="1598" height="695" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712141187268" />
-    <state x="-1536" y="112" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261219487" />
+    <state x="-1536" y="118" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713511031447" />
     <state x="347" y="0" width="840" height="832" key="search.everywhere.popup" timestamp="1712923206101">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
