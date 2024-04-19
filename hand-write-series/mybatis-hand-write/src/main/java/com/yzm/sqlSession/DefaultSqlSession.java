@@ -13,7 +13,7 @@ import java.util.List;
  * description:
  *
  * @author yzm
- * @date 2024/4/13  15:08
+ * @date 2024/4/13
  */
 public class DefaultSqlSession implements SqlSession {
 
@@ -26,12 +26,12 @@ public class DefaultSqlSession implements SqlSession {
     }
 
     @Override
-    public <T> T select(String statementId, Object param) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException {
+    public <T> T selectOne(String statementId, Object param) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException {
         List<Object> list = this.selectList(statementId, param);
         if (list.size() == 1){
             return (T)list.get(0);
         } else if (list.size() > 1){
-            throw new RuntimeException("");
+            throw new RuntimeException("DefaultSqlSession::selectOne more than one result");
         } else {
             return null;
         }
@@ -42,7 +42,7 @@ public class DefaultSqlSession implements SqlSession {
         MappedStatement mappedStatement = configuration.getMappedStatementMap().get(statementId);
         // 委派给执行器Executor
         List<E> list = executor.query(configuration, mappedStatement, param);
-        return null;
+        return list;
     }
 
     @Override
@@ -97,7 +97,7 @@ public class DefaultSqlSession implements SqlSession {
                                         return selectList(statementId, null);
                                     }
                                 } else {
-                                    return select(statementId, args[0]);
+                                    return selectOne(statementId, args[0]);
                                 }
                             case "update":
                             case "insert":

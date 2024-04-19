@@ -8,7 +8,7 @@ import com.yzm.pojo.Configuration;
  * description:
  *
  * @author yzm
- * @date 2024/4/13  15:03
+ * @date 2024/4/13
  */
 public class DefaultSqlSessionFactory implements SqlSessionFactory{
 

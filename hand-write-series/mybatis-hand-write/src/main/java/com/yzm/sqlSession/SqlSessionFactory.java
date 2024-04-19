@@ -4,7 +4,7 @@ package com.yzm.sqlSession;
  * description:
  *
  * @author yzm
- * @date 2024/4/12  19:54
+ * @date 2024/4/12
  */
 public interface SqlSessionFactory {
 
