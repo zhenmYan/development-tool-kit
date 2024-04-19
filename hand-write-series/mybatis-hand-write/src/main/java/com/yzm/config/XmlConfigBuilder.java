@@ -60,10 +60,10 @@ public class XmlConfigBuilder {
          *      - 根据路径解析映射配置文件
          *      - 封装到MappedStatement对象
          */
-        // 例如 <mapper resource="com/yzm/dao/UserMapper.xml"></mapper>
+        // 例如 <mapper resource="mapper/UserMapper.xml"></mapper>
         List<Element> mapperList = rootElement.selectNodes("//mapper");
         for(Element element:mapperList) {
-            // 这里mapperPath为com/yzm/dao/UserMapper.xml
+            // 这里mapperPath为mapper/UserMapper.xml
             String mapperPath = element.attributeValue("resource");
             InputStream resourceAsStream = Resources.getResourceAsStream(mapperPath);
             XmlMapperBuilder xmlMapperBuilder = new XmlMapperBuilder(configuration);

@@ -17,7 +17,7 @@
     </environments>
 
     <mappers>
-        <mapper resource="com/yzm/dao/UserMapper.xml"></mapper>
+        <mapper resource="mapper/UserMapper.xml"></mapper>
     </mappers>
 
 </configuration>

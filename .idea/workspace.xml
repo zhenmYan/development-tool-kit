@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c553a33182a8928cd5760d212e343bd13f573c9b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/src/test/java/yzm/test/JdbcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/config/XmlConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/config/XmlConfigBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactoryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/mybatis-hand-write-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/mybatis-hand-write-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/src/main/java/com/yzm/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/src/main/java/com/yzm/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/config/XmlMapperBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/config/XmlMapperBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/src/main/resources/com/yzm/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,11 +111,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
       <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mapper" />
       <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mappers" />
       <recent name="W:\idea_project\development-tool-kit\hand-write-series" />
       <recent name="W:\idea_project\development-tool-kit\pagehelper-spring-boot-2.1.0" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\Mybatis-PageHelper-6.1.0-client\src\main\resources\ddl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yzm.dev" />
@@ -280,7 +274,7 @@
       <workItem from="1713435895320" duration="80000" />
       <workItem from="1713436382098" duration="145000" />
       <workItem from="1713436573825" duration="6600000" />
-      <workItem from="1713513541800" duration="6833000" />
+      <workItem from="1713513541800" duration="7411000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -527,7 +521,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713516422466</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="feat(jdbc):通过JDBC查询数据库">
+      <created>1713520414427</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1713520414427</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat(jdbc):user的ddl">
+      <created>1713520571428</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1713520571428</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,8 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(环境搭建):运行项目" />
-    <MESSAGE value="feat(环境搭建):提交" />
     <MESSAGE value="feat(环境搭建):调试" />
     <MESSAGE value="feat(环境搭建):注释" />
     <MESSAGE value="feat(rocketmq):引入源代码" />
@@ -560,18 +566,20 @@
     <MESSAGE value="feat(pagehelper):单步" />
     <MESSAGE value="feat(mybatis):实现思路" />
     <MESSAGE value="feat(mybatis):创建容器对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(mybatis):创建容器对象" />
+    <MESSAGE value="feat(jdbc):通过JDBC查询数据库" />
+    <MESSAGE value="feat(jdbc):user的ddl" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(jdbc):user的ddl" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="261" y="0" key="#Plugins/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713435972362" />
-    <state x="362" y="0" key="#Project_Structure" timestamp="1713515525173">
+    <state x="362" y="0" key="#Project_Structure" timestamp="1713520694496">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1468" y="101" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712074553617" />
-    <state x="362" y="0" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713515525173" />
+    <state x="362" y="0" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713520694496" />
     <state x="-1451" y="85" width="1111" height="894" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1713266577544">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -603,11 +611,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="11" y="0" key="CommitChangelistDialog2" timestamp="1713520412953">
+    <state x="11" y="0" key="CommitChangelistDialog2" timestamp="1713520570477">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290321289" />
-    <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713520412953" />
+    <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713520570477" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -703,11 +711,11 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269619946" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1713520418462">
+    <state x="261" y="86" key="Vcs.Push.Dialog.v2" timestamp="1713520575966">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290327559" />
-    <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713520418462" />
+    <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713520575966" />
     <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1713516391892">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
