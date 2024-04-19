@@ -10,25 +10,28 @@ import java.io.InputStream;
  * description:
  *
  * @author yzm
- * @date 2024/4/12  19:53
+ * @date 2024/4/12
  */
 public class SqlSessionFactoryBuilder {
 
     /**
-     * 解析配置文件、创建SqlSessionFactory对象
+     *
+     * 1、采用dom4j+xpath解析，封装Configuration类
+     * 2、创建SqlSessionFactory对象并作为返回值
      *
      * @param inputStream
      * @return
      */
     public SqlSessionFactory build(InputStream inputStream) throws DocumentException {
 
-        // 1、解析配置文件，封装到Configuration类
+        // 1、采用dom4j+xpath解析，封装Configuration类
         XmlConfigBuilder xmlConfigBuilder = new XmlConfigBuilder();
         Configuration configuration = xmlConfigBuilder.parse(inputStream);
 
         // 2、创建SqlSessionFactory对象
         DefaultSqlSessionFactory defaultSqlSessionFactory = new DefaultSqlSessionFactory(configuration);
 
-        return null;
+        return defaultSqlSessionFactory;
     }
+
 }
