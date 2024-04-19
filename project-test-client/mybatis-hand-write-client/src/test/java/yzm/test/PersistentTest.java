@@ -40,7 +40,7 @@ public class PersistentTest {
 
         User user = new User();
         user.setId(1);
-        user.setUserName("张三");
+        user.setUsername("张三");
 
         // 调用 sqlSession 的方法
         User userR = sqlSession.selectOne("user.selectOne", user);

@@ -58,7 +58,7 @@ public class JdbcTest {
             String username = resultSet.getString("username");
             String password = resultSet.getString("password");
             user.setId(id);
-            user.setUserName(username);
+            user.setUsername(username);
             user.setPassword(password);
             result.add(user);
         }

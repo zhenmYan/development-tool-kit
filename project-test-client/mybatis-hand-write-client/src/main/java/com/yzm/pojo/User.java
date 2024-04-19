@@ -8,8 +8,8 @@ package com.yzm.pojo;
  */
 public class User {
 
-    private int id;
-    private String userName;
+    private long id;
+    private String username;
     private String password;
     private String email;
     private int age;
@@ -17,8 +17,24 @@ public class User {
     private String tel;
     private String addr;
     private String card;
-    private String married;
-    private String salary;
+    private boolean married;
+    private float salary;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
     public String getPassword() {
         return password;
@@ -76,43 +92,27 @@ public class User {
         this.card = card;
     }
 
-    public String getMarried() {
+    public boolean getMarried() {
         return married;
     }
 
-    public void setMarried(String married) {
+    public void setMarried(boolean married) {
         this.married = married;
     }
 
-    public String getSalary() {
+    public float getSalary() {
         return salary;
     }
 
-    public void setSalary(String salary) {
+    public void setSalary(float salary) {
         this.salary = salary;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
     }
 
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", userName='" + userName + '\'' +
+                ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", email='" + email + '\'' +
                 ", age=" + age +
@@ -120,8 +120,8 @@ public class User {
                 ", tel='" + tel + '\'' +
                 ", addr='" + addr + '\'' +
                 ", card='" + card + '\'' +
-                ", married='" + married + '\'' +
-                ", salary='" + salary + '\'' +
+                ", married=" + married +
+                ", salary=" + salary +
                 '}';
     }
 }

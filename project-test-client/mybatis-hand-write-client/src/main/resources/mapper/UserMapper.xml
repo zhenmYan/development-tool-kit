@@ -5,7 +5,7 @@
 <mapper namespace="user">
 
     <select id="selectOne" resultType = "com.yzm.pojo.User" parameterType = "com.yzm.pojo.User">
-        select * from user where id = #{id} and username = #{userName};
+        select * from user where id = #{id} and username = #{username};
     </select>
 
     <select id="selectList" resultType = "com.yzm.pojo.User">
