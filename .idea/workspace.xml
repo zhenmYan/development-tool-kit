@@ -2,16 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c7e4c8bf538514748c3f9b43ac28e563e717dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20ee829666e051f476343a6d7c12e24004f1b888" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/2121fb4800e2990dc2b468b48c2b9108c0dda957" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c334c276b3b9739ad90b30501f0e44a7464cdf7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2dd3af1ee5d1c19c85ecd9faf77aa851d8cec7ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ec49678135b807e248bdf3474d1e39037444d27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38767a32356f90c3f0d6ef4cdf689e7386942f1f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38f7291209449956d9cf8ba2803a7da02b7f455b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c9053362206afff74805f76190a4db80d948973" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41489c8493f2c009cafb1107eb61430791d956f2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4312351ba16507a4211140d181015cf439ab9b9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/448c004e9fdda2afc7a59a6f0e73f42fb2e8da8b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bafe9aa3597f8501b26f0906a943bdbdea742dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e9f95c7cfef17e2c9e40816cf1d5f975f4217ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f11c014618678f350443af489e6b8ef22448948" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f97473fa95aa9fe0e1b4c6e1edb58cd00edfb00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/579ad7754f07aa1281635e80f3b005d6d5e190dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5ce664cc58c5194ea8db9213ac42d70a883eab7c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d15a6c3d98ae2fd38d780b050415880772ec9c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f99e99cf33f71ead33f163c5038c1068f20ffb6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60a3a3e04a117c6082666a41ffdde283ccd1cda6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/784e0052c9fc4378b09fe71980681e95975e6447" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/796e618c37c2cb980dd1b45478a5fc10a47bab35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86ecfa620594dc7b1922a7bc46c2a3b30c4e1134" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/9088bfc1df78b9213a883c7e0d735453467e7b7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bc185df4d41a0983a97cf4614229d58be4a3a15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ed64ac0aad6f44e29c0c79facf1d8c6678ad366" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f579365b1fd1c1e96cb157422c82beccc6a1c45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1b2688f91548f9c54e8c696d9fe55a07566dace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aae1b1c406601c90cdb5012671fee554bbefd35e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad78ef7216c4f1126bf07a6f4445d15101b3dc20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4c2c67b8e6502b50a86f85e3837754b3403fda0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6d3576a3e7a5ce9a31acd06e26c402d6b788aa3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7d21b82a452ac893dd722ce22487b6ef46c99a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd2f9ca86ef6e916b9724d2f5572e008b385b8b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c176c42b2395a1d9f040f07021ecba45df6932c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1a64fd3c534074686d911adad1a022cc68d4d70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb923fad4639c2f1dc236509f9610981dd93da0a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc346a0d19c59aef8abd6ecbde226390feb15aca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0b1823d50e137f0566c083b5dcb22873aa94aa2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef15e6636468ff49f290abf928e9e14037294486" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7c7b99ffb15a06c33fe00d2cc2342988d03f775" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fab165725e9d4c1af2f03ff7646811384b6cb3cf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/page/PageMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/page/PageMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/page/PageParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/page/PageParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/ExecutorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/Mybatis-PageHelper-6.1.0/src/main/java/com/github/pagehelper/util/ExecutorUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/pagehelper-spring-boot-2.1.0-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/pagehelper-spring-boot-2.1.0-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/src/main/java/com/yzm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/src/main/java/com/yzm/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/development-tool-kit.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-hand-write/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-hand-write/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +101,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="W:\idea_project\development-tool-kit\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -105,7 +152,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46182153" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -215,9 +262,9 @@
       <item itemvalue="Application.MainTest" />
       <item itemvalue="JUnit.PersistentTest.test" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
-      <item itemvalue="Spring Boot.PageHelperApplication" />
       <item itemvalue="Spring Boot.SampleXmlApplication" />
       <item itemvalue="Spring Boot.SampleMapperApplication" />
+      <item itemvalue="Spring Boot.PageHelperApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -263,7 +310,12 @@
       <workItem from="1712911854771" duration="614000" />
       <workItem from="1712912846802" duration="40182000" />
       <workItem from="1713191627586" duration="51000" />
-      <workItem from="1713256279421" duration="18282000" />
+      <workItem from="1713256279421" duration="23430000" />
+      <workItem from="1713431753279" duration="242000" />
+      <workItem from="1713432018153" duration="2951000" />
+      <workItem from="1713435895320" duration="80000" />
+      <workItem from="1713436382098" duration="145000" />
+      <workItem from="1713436573825" duration="5226000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -489,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713285560169</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="feat(pagehelper):单步">
+      <created>1713290323032</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1713290323032</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,11 +583,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat(pagehelper):单步" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="0" key="#Project_Structure" timestamp="1713023882537">
+    <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="261" y="0" key="#Plugins/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713435972362" />
+    <state x="362" y="0" key="#Project_Structure" timestamp="1713436827949">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1468" y="101" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712074553617" />
-    <state x="362" y="0" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713023882537" />
+    <state x="362" y="0" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436827949" />
     <state x="-1451" y="85" width="1111" height="894" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1713266577544">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -560,10 +623,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1713285558622">
+    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1713290321289">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713285558622" />
+    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290321289" />
     <state x="81" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256625032" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -586,80 +649,84 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="263" key="GridCell.Tab.0.bottom" timestamp="1713290137883">
+    <state width="1867" height="531" key="GridCell.Tab.0.bottom" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290137883" />
+    <state width="1867" height="531" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
     <state width="1483" height="405" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="263" key="GridCell.Tab.0.center" timestamp="1713290137883">
+    <state width="1867" height="531" key="GridCell.Tab.0.center" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290137883" />
+    <state width="1867" height="531" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
     <state width="1483" height="405" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="263" key="GridCell.Tab.0.left" timestamp="1713290137883">
+    <state width="1867" height="531" key="GridCell.Tab.0.left" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290137883" />
+    <state width="1867" height="531" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
     <state width="1483" height="405" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="263" key="GridCell.Tab.0.right" timestamp="1713290137883">
+    <state width="1867" height="531" key="GridCell.Tab.0.right" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290137883" />
+    <state width="1867" height="531" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
     <state width="1483" height="405" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="263" key="GridCell.Tab.1.bottom" timestamp="1713290144404">
+    <state width="1867" height="531" key="GridCell.Tab.1.bottom" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290144404" />
+    <state width="1867" height="531" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
     <state width="1483" height="405" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="263" key="GridCell.Tab.1.center" timestamp="1713290144404">
+    <state width="1867" height="531" key="GridCell.Tab.1.center" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290144404" />
+    <state width="1867" height="531" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
     <state width="1483" height="405" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="263" key="GridCell.Tab.1.left" timestamp="1713290144404">
+    <state width="1867" height="531" key="GridCell.Tab.1.left" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290144404" />
+    <state width="1867" height="531" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
     <state width="1483" height="405" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="263" key="GridCell.Tab.1.right" timestamp="1713290144404">
+    <state width="1867" height="531" key="GridCell.Tab.1.right" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290144404" />
+    <state width="1867" height="531" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
     <state width="1483" height="405" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713261782199" />
-    <state width="1867" height="263" key="GridCell.Tab.2.bottom" timestamp="1713290137438">
+    <state width="1867" height="531" key="GridCell.Tab.2.bottom" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.2.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290137438" />
-    <state width="1867" height="263" key="GridCell.Tab.2.center" timestamp="1713290137437">
+    <state width="1867" height="531" key="GridCell.Tab.2.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
+    <state width="1867" height="531" key="GridCell.Tab.2.center" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.2.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290137437" />
-    <state width="1867" height="263" key="GridCell.Tab.2.left" timestamp="1713290137437">
+    <state width="1867" height="531" key="GridCell.Tab.2.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
+    <state width="1867" height="531" key="GridCell.Tab.2.left" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.2.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290137437" />
-    <state width="1867" height="263" key="GridCell.Tab.2.right" timestamp="1713290137437">
+    <state width="1867" height="531" key="GridCell.Tab.2.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
+    <state width="1867" height="531" key="GridCell.Tab.2.right" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.2.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290137437" />
+    <state width="1867" height="531" key="GridCell.Tab.2.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290329159" />
     <state x="186" y="0" key="Maven.ArtifactSearchDialog" timestamp="1712076735740">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="186" y="0" key="Maven.ArtifactSearchDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712076735740" />
+    <state x="539" y="258" width="392" height="421" key="MultiMarkdownGetTrialLicenseDialog" timestamp="1713434373740">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="539" y="258" width="392" height="421" key="MultiMarkdownGetTrialLicenseDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713434373740" />
     <state x="-1486" y="60" key="NewModule_or_Project.wizard" timestamp="1712143073246">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1486" y="60" key="NewModule_or_Project.wizard/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712143073246" />
     <state x="347" y="48" key="NewModule_or_Project.wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712079370475" />
-    <state x="-1575" y="0" key="SettingsEditor" timestamp="1713269619946">
+    <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor" timestamp="1713436814564">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713269619946" />
-    <state x="121" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712742613487" />
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1713285563262">
+    <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1713290327559">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713285563262" />
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713290327559" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713256632992" />
     <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1713256538663">
       <screen x="0" y="0" width="1536" height="834" />
