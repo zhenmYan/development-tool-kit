@@ -54,6 +54,14 @@ public class DefaultSqlSession implements SqlSession {
     public <T> T getMapper(Class<?> mapperClass) {
         Object proxy = Proxy.newProxyInstance(DefaultSqlSession.class.getClassLoader(),
                 new Class[]{mapperClass}, new InvocationHandler() {
+                    /**
+                     * 参数说明
+                     * @param proxy 代理对象的引用
+                     * @param method 被调用的方法
+                     * @param args 被调用方法的参数
+                     * @return
+                     * @throws Throwable
+                     */
                     @Override
                     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 
@@ -75,17 +83,19 @@ public class DefaultSqlSession implements SqlSession {
                          *      MappedStatement的sqlCommandType记录是什么操作
                          *
                          * 问题3：
-                         *      要调用select还是selectList
+                         *      要调用selectOne还是selectList
                          * 解决办法
                          *      利用method的getGenericReturnType
+                         *      是否实现泛型，通过泛型判断查询结果是多个还是单个
                          *
                          */
-                        // selectAll
+                        // selectOne
                         String methodName = method.getName();
-                        // com.yzm.dao.UserDao
+                        // com.yzm.dao.UserMapper
                         String className = method.getDeclaringClass().getName();
                         String statementId = className + "." + methodName;
                         MappedStatement mappedStatement = configuration.getMappedStatementMap().get(statementId);
+                        // 通过泛型判断是查询单值还是多值
                         String sqlCommandType = mappedStatement.getSqlCommandType();
                         switch (sqlCommandType){
                             case "select":
