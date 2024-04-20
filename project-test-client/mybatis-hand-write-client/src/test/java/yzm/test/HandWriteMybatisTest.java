@@ -54,6 +54,8 @@ public class HandWriteMybatisTest {
     /**
      * 动态代理的测试
      *
+     * 之后这些对象的创建交给spring boot去完成
+     *
      * @throws Exception
      */
     @Test
