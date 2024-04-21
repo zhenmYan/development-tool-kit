@@ -79,10 +79,13 @@ public class XMLConfigBuilder extends BaseBuilder {
   }
 
   public XMLConfigBuilder(InputStream inputStream, String environment, Properties props) {
+    // XPathParser 是基于Java XPath的解析器，用于解析配置文件，这里创建了一个XPathParser解析器
+    // XPathParser中有 document 对象
     this(new XPathParser(inputStream, true, props, new XMLMapperEntityResolver()), environment, props);
   }
 
   private XMLConfigBuilder(XPathParser parser, String environment, Properties props) {
+    // Configuration 的无参构造会完成配置文件中的别名注册
     super(new Configuration());
     ErrorContext.instance().resource("SQL Mapper Configuration");
     this.configuration.setVariables(props);

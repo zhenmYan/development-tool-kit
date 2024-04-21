@@ -33,7 +33,12 @@ import org.apache.ibatis.io.ResolverUtil;
 import org.apache.ibatis.io.Resources;
 
 /**
+ * ##### 别名处理器
+ *
+ *    作用就是把Java类型，给它起一个简单一点的别名，这样我们在XML文件中引入全类名的地方就可以使用别名替代
+ *
  * @author Clinton Begin
+ *
  */
 public class TypeAliasRegistry {
 
@@ -152,6 +157,7 @@ public class TypeAliasRegistry {
       throw new TypeException("The parameter alias cannot be null");
     }
     // issue #748
+    // 将字符串中的所有字符转化为小写
     String key = alias.toLowerCase(Locale.ENGLISH);
     if (typeAliases.containsKey(key) && typeAliases.get(key) != null && !typeAliases.get(key).equals(value)) {
       throw new TypeException("The alias '" + alias + "' is already mapped to the value '" + typeAliases.get(key).getName() + "'.");

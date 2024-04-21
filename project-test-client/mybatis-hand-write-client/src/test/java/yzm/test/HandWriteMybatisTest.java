@@ -44,7 +44,7 @@ public class HandWriteMybatisTest {
         user.setUsername("张三");
 
         // 调用 sqlSession 的方法
-        User userR = sqlSession.selectOne("user.selectOne", user);
+        User userR = sqlSession.selectOne("com.yzm.dao.UserMapper.selectOne", user);
 
         System.out.println(userR.toString());
         sqlSession.close();

@@ -90,11 +90,15 @@ public class SqlSessionFactoryBuilder {
   public SqlSessionFactory build(InputStream inputStream, String environment, Properties properties) {
     try {
       /**
-       * 这一步完成的工作：
-       *      1、创建XPathParser解析器对象，根据inputStream解析成document对象
-       *      2、创建全局配置对象Configuration
+       * 1、创建XPathParser解析器对象，根据inputStream解析成document对象，存在XPathParser解析器对象中
+       * 2、创建全局配置对象Configuration
        */
       XMLConfigBuilder parser = new XMLConfigBuilder(inputStream, environment, properties);
+
+      /**
+       * 1、parser.parse()：使用XPATH解析XML配置文件，将配置文件封装到 Configuration 对象，方法的返回值是 Configuration
+       * 2、build：返回 SqlSessionFactory 对象，该对象有 Configuration 对象作为属性，且可以创建 SqlSession
+       */
       return build(parser.parse());
     } catch (Exception e) {
       throw ExceptionFactory.wrapException("Error building SqlSession.", e);

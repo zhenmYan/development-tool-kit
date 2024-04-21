@@ -6,11 +6,11 @@
 <mapper namespace="com.yzm.dao.UserMapper">
 
     <select id="selectOne" resultType = "com.yzm.pojo.User" parameterType = "com.yzm.pojo.User">
-        select * from user where id = #{id} and username = #{username};
+        select * from user where id = #{id} and username = #{username}
     </select>
 
     <select id="selectList" resultType = "com.yzm.pojo.User">
-        select * from user;
+        select * from user
     </select>
 
 
