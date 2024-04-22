@@ -50,7 +50,7 @@ public class XMLScriptBuilder extends BaseBuilder {
     initNodeHandlerMap();
   }
 
-
+  // 节点处理器
   private void initNodeHandlerMap() {
     nodeHandlerMap.put("trim", new TrimHandler());
     nodeHandlerMap.put("where", new WhereHandler());
@@ -63,12 +63,22 @@ public class XMLScriptBuilder extends BaseBuilder {
     nodeHandlerMap.put("bind", new BindHandler());
   }
 
+  /**
+   * ### Mybatis 占位符替换 动态SQL解析
+   *
+   *    - 将带有 ${} 的SQL封装到 TextSqlNode
+   *    - 将带有 #{} 的sQL信息封装到 StaticTextSqlNode
+   *
+   * @return
+   */
   public SqlSource parseScriptNode() {
     MixedSqlNode rootSqlNode = parseDynamicTags(context);
     SqlSource sqlSource;
     if (isDynamic) {
+      // 如果包含${}或动态sql语句，则利用DynamicSqlSource方法封装
       sqlSource = new DynamicSqlSource(configuration, rootSqlNode);
     } else {
+      // #{}且不包含动态sql，利用RawSqlSource方法封装
       sqlSource = new RawSqlSource(configuration, rootSqlNode, parameterType);
     }
     return sqlSource;
@@ -82,6 +92,7 @@ public class XMLScriptBuilder extends BaseBuilder {
       if (child.getNode().getNodeType() == Node.CDATA_SECTION_NODE || child.getNode().getNodeType() == Node.TEXT_NODE) {
         String data = child.getStringBody("");
         TextSqlNode textSqlNode = new TextSqlNode(data);
+        // 是否包含 ${}
         if (textSqlNode.isDynamic()) {
           contents.add(textSqlNode);
           isDynamic = true;
@@ -90,6 +101,7 @@ public class XMLScriptBuilder extends BaseBuilder {
         }
       } else if (child.getNode().getNodeType() == Node.ELEMENT_NODE) { // issue #628
         String nodeName = child.getNode().getNodeName();
+        // 获取动态sql标签对应的处理器
         NodeHandler handler = nodeHandlerMap.get(nodeName);
         if (handler == null) {
           throw new BuilderException("Unknown element <" + nodeName + "> in SQL statement.");

@@ -53,6 +53,11 @@ public class XMLStatementBuilder extends BaseBuilder {
     this.requiredDatabaseId = databaseId;
   }
 
+  /**
+   * ##### 增删改查语句的解析
+   *
+   *
+   */
   public void parseStatementNode() {
     String id = context.getStringAttribute("id");
     String databaseId = context.getStringAttribute("databaseId");
@@ -62,6 +67,7 @@ public class XMLStatementBuilder extends BaseBuilder {
     }
 
     String nodeName = context.getNode().getNodeName();
+    // sqlCommandType 用于记录是哪种类型的数据库操作
     SqlCommandType sqlCommandType = SqlCommandType.valueOf(nodeName.toUpperCase(Locale.ENGLISH));
     boolean isSelect = sqlCommandType == SqlCommandType.SELECT;
     boolean flushCache = context.getBooleanAttribute("flushCache", !isSelect);
@@ -75,6 +81,7 @@ public class XMLStatementBuilder extends BaseBuilder {
     String parameterType = context.getStringAttribute("parameterType");
     Class<?> parameterTypeClass = resolveClass(parameterType);
 
+    // lang标签可以配置，没配置默认返回 XMLLanguageDriver
     String lang = context.getStringAttribute("lang");
     LanguageDriver langDriver = getLanguageDriver(lang);
 
@@ -93,6 +100,12 @@ public class XMLStatementBuilder extends BaseBuilder {
           ? Jdbc3KeyGenerator.INSTANCE : NoKeyGenerator.INSTANCE;
     }
 
+    /**
+     *     创建 sqlSource，解析SQL， 封装SQL语句和入参信息
+     *     SqlSource对象中有getBoundSql方法，用于获取 BoundSql
+     *
+     *     langDriver默认是 XMLLanguageDriver
+     */
     SqlSource sqlSource = langDriver.createSqlSource(configuration, context, parameterTypeClass);
     StatementType statementType = StatementType.valueOf(context.getStringAttribute("statementType", StatementType.PREPARED.toString()));
     Integer fetchSize = context.getIntAttribute("fetchSize");
@@ -110,6 +123,7 @@ public class XMLStatementBuilder extends BaseBuilder {
     String keyColumn = context.getStringAttribute("keyColumn");
     String resultSets = context.getStringAttribute("resultSets");
 
+    // 创建MappedStatement对象，一个标签对应一个MappedStatement对象，如一个select标签对应一个MappedStatement对象
     builderAssistant.addMappedStatement(id, sqlSource, statementType, sqlCommandType,
         fetchSize, timeout, parameterMap, parameterTypeClass, resultMap, resultTypeClass,
         resultSetTypeEnum, flushCache, useCache, resultOrdered,

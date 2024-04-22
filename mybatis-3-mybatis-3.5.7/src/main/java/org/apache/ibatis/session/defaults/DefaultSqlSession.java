@@ -137,17 +137,21 @@ public class DefaultSqlSession implements SqlSession {
 
   @Override
   public <E> List<E> selectList(String statement, Object parameter) {
+    // RowBounds.DEFAULT 是分页参数
     return this.selectList(statement, parameter, RowBounds.DEFAULT);
   }
 
   @Override
   public <E> List<E> selectList(String statement, Object parameter, RowBounds rowBounds) {
+    // Executor.NO_RESULT_HANDLER 是ResultHandler结果集处理器
     return selectList(statement, parameter, rowBounds, Executor.NO_RESULT_HANDLER);
   }
 
   private <E> List<E> selectList(String statement, Object parameter, RowBounds rowBounds, ResultHandler handler) {
     try {
+      // 根据statementId获取对应的MappedStatement对象
       MappedStatement ms = configuration.getMappedStatement(statement);
+      // 委派给执行器查询
       return executor.query(ms, wrapCollection(parameter), rowBounds, handler);
     } catch (Exception e) {
       throw ExceptionFactory.wrapException("Error querying database.  Cause: " + e, e);

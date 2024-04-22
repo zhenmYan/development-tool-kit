@@ -91,6 +91,7 @@ public class XMLMapperBuilder extends BaseBuilder {
   }
 
   public void parse() {
+    // 判断是否已经解析过
     if (!configuration.isResourceLoaded(resource)) {
       configurationElement(parser.evalNode("/mapper"));
       configuration.addLoadedResource(resource);
@@ -112,12 +113,16 @@ public class XMLMapperBuilder extends BaseBuilder {
       if (namespace == null || namespace.isEmpty()) {
         throw new BuilderException("Mapper's namespace cannot be empty");
       }
+      // builderAssistant 是 MappedStatement 的构建助手
       builderAssistant.setCurrentNamespace(namespace);
+
+      // 标签解析 ： <cache-ref>、<cache>、<parameterMap>、<resultMap>、<sql>
       cacheRefElement(context.evalNode("cache-ref"));
       cacheElement(context.evalNode("cache"));
       parameterMapElement(context.evalNodes("/mapper/parameterMap"));
       resultMapElements(context.evalNodes("/mapper/resultMap"));
       sqlElement(context.evalNodes("/mapper/sql"));
+      // buildStatementFromContext 方法对增删改查进行解析
       buildStatementFromContext(context.evalNodes("select|insert|update|delete"));
     } catch (Exception e) {
       throw new BuilderException("Error parsing Mapper XML. The XML location is '" + resource + "'. Cause: " + e, e);
@@ -128,6 +133,7 @@ public class XMLMapperBuilder extends BaseBuilder {
     if (configuration.getDatabaseId() != null) {
       buildStatementFromContext(list, configuration.getDatabaseId());
     }
+    // 构建 MappedStatement
     buildStatementFromContext(list, null);
   }
 

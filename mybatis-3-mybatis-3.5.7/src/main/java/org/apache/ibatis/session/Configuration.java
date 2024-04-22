@@ -667,6 +667,7 @@ public class Configuration {
 
   public StatementHandler newStatementHandler(Executor executor, MappedStatement mappedStatement, Object parameterObject, RowBounds rowBounds, ResultHandler resultHandler, BoundSql boundSql) {
     StatementHandler statementHandler = new RoutingStatementHandler(executor, mappedStatement, parameterObject, rowBounds, resultHandler, boundSql);
+    // 插件机制
     statementHandler = (StatementHandler) interceptorChain.pluginAll(statementHandler);
     return statementHandler;
   }
@@ -686,9 +687,11 @@ public class Configuration {
     } else {
       executor = new SimpleExecutor(this, transaction);
     }
+    // 是否允许缓存，装饰器模式
     if (cacheEnabled) {
       executor = new CachingExecutor(executor);
     }
+    // 拦截器插件
     executor = (Executor) interceptorChain.pluginAll(executor);
     return executor;
   }

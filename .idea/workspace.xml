@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/parsing/XPathParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/parsing/XPathParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/MapperBuilderAssistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/MapperBuilderAssistant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/SqlSourceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/SqlSourceBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/StaticSqlSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/StaticSqlSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLStatementBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLStatementBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/BaseExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/BaseExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/scripting/defaults/RawSqlSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/scripting/defaults/RawSqlSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/scripting/xmltags/XMLScriptBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/scripting/xmltags/XMLScriptBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/ExecutorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/ExecutorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/SqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/SqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +297,7 @@
       <workItem from="1713513541800" duration="21274000" />
       <workItem from="1713597344704" duration="622000" />
       <workItem from="1713695220968" duration="2864000" />
-      <workItem from="1713698988040" duration="9153000" />
+      <workItem from="1713698988040" duration="27863000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -577,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713711673691</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="feat(mybatis):源码加注释">
+      <created>1713752500371</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1713752500371</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,10 +680,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1713711671613">
+    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1713752498698">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713711671613" />
+    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713752498698" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -670,10 +693,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="513" y="173" key="EnvironmentVariablesDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712625761896" />
-    <state x="466" y="85" key="FileChooserDialogImpl" timestamp="1713191677542">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="-1337" y="107" key="FileChooserDialogImpl" timestamp="1713776633030">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1337" y="107" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712143080795" />
+    <state x="-1337" y="107" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713776633030" />
     <state x="466" y="85" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713191677542" />
     <state x="-1184" y="420" key="Github.CreateGistDialog" timestamp="1712145066669">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -683,25 +706,25 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="339" key="GridCell.Tab.0.bottom" timestamp="1713712240431">
+    <state width="1867" height="339" key="GridCell.Tab.0.bottom" timestamp="1713770773173">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="339" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713712240431" />
+    <state width="1867" height="339" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713770773173" />
     <state width="1483" height="367" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="339" key="GridCell.Tab.0.center" timestamp="1713712240431">
+    <state width="1867" height="339" key="GridCell.Tab.0.center" timestamp="1713770773173">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="339" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713712240431" />
+    <state width="1867" height="339" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713770773173" />
     <state width="1483" height="367" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="339" key="GridCell.Tab.0.left" timestamp="1713712240431">
+    <state width="1867" height="339" key="GridCell.Tab.0.left" timestamp="1713770773173">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="339" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713712240431" />
+    <state width="1867" height="339" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713770773173" />
     <state width="1483" height="367" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="339" key="GridCell.Tab.0.right" timestamp="1713712240431">
+    <state width="1867" height="339" key="GridCell.Tab.0.right" timestamp="1713770773173">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="339" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713712240431" />
+    <state width="1867" height="339" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713770773173" />
     <state width="1483" height="367" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
     <state width="1867" height="489" key="GridCell.Tab.1.bottom" timestamp="1713705066278">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -757,10 +780,10 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713712205797" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1713711677159">
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1713752505311">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713711677159" />
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713752505311" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1713516391892">
       <screen x="0" y="0" width="1536" height="834" />
@@ -780,10 +803,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="131" y="182" width="1160" height="498" maximized="true" key="dock-window-2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713540123941" />
-    <state x="365" y="90" width="1171" height="738" key="find.popup" timestamp="1713528139765">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="-1529" y="115" width="1167" height="824" key="find.popup" timestamp="1713784792499">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1529" y="115" width="1167" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713289800964" />
+    <state x="-1529" y="115" width="1167" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713784792499" />
     <state x="365" y="90" width="1171" height="738" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713528139765" />
     <state x="-1536" y="118" width="1598" height="695" key="new project wizard" timestamp="1713511031447">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -818,6 +841,11 @@
           <url>file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSession.java</url>
           <line>43</line>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/scripting/defaults/RawSqlSource.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

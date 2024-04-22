@@ -27,7 +27,9 @@ import org.apache.ibatis.session.Configuration;
  */
 public class StaticSqlSource implements SqlSource {
 
+  // 完成占位符替换的sql，如select * from user where id = ？ and username = ？
   private final String sql;
+  // 参数列表
   private final List<ParameterMapping> parameterMappings;
   private final Configuration configuration;
 

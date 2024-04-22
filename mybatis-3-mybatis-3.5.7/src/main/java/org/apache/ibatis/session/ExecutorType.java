@@ -17,6 +17,14 @@ package org.apache.ibatis.session;
 
 /**
  * @author Clinton Begin
+ *
+ * ### Mybatis 执行器
+ *      SIMPLE：简单执行器，每执行一次sql，就会创建一个statement
+ *      REUSE： 批量执行器
+ *      BATCH： 重用执行器
+ *
+ *      如果允许缓存，就会使用装饰器模式，使用CachingExecutor，然后CachingExecutor再将任务交给以上三种执行器执行
+ *
  */
 public enum ExecutorType {
   SIMPLE, REUSE, BATCH

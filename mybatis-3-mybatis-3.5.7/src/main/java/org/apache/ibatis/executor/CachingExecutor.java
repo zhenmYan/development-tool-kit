@@ -84,23 +84,50 @@ public class CachingExecutor implements Executor {
 
   @Override
   public <E> List<E> query(MappedStatement ms, Object parameterObject, RowBounds rowBounds, ResultHandler resultHandler) throws SQLException {
+    // 获取BoundSql
     BoundSql boundSql = ms.getBoundSql(parameterObject);
+    // 生成缓存key
     CacheKey key = createCacheKey(ms, parameterObject, rowBounds, boundSql);
     return query(ms, parameterObject, rowBounds, resultHandler, key, boundSql);
   }
 
+  /**
+   * ##### mybatis 二级缓存
+   *
+   *      - 包含两级缓存
+   *          - 一级缓存
+   *              - 默认开启
+   *          - 二级缓存
+   *              - 默认关闭
+   *              - 先查二级缓存
+   *
+   * @param ms
+   * @param parameterObject
+   * @param rowBounds
+   * @param resultHandler
+   * @param key
+   * @param boundSql
+   * @param <E>
+   * @return
+   * @throws SQLException
+   */
   @Override
   public <E> List<E> query(MappedStatement ms, Object parameterObject, RowBounds rowBounds, ResultHandler resultHandler, CacheKey key, BoundSql boundSql)
       throws SQLException {
+    // 获取缓存，二级缓存
     Cache cache = ms.getCache();
     if (cache != null) {
+      // 刷新二级缓存，在<select>标签下配置flushCache为true时会在查询时刷新缓存
       flushCacheIfRequired(ms);
+      // <select>标签下useCache属性，默认为true
       if (ms.isUseCache() && resultHandler == null) {
         ensureNoOutParams(ms, boundSql);
         @SuppressWarnings("unchecked")
+        // 从二级缓存中查询对象
         List<E> list = (List<E>) tcm.getObject(cache, key);
         if (list == null) {
           list = delegate.query(ms, parameterObject, rowBounds, resultHandler, key, boundSql);
+          // 将查询结果存到二级缓存
           tcm.putObject(cache, key, list); // issue #578 and #116
         }
         return list;
@@ -143,6 +170,7 @@ public class CachingExecutor implements Executor {
 
   @Override
   public CacheKey createCacheKey(MappedStatement ms, Object parameterObject, RowBounds rowBounds, BoundSql boundSql) {
+    // 装饰器模式，实际是simpleExecutor执行
     return delegate.createCacheKey(ms, parameterObject, rowBounds, boundSql);
   }
 

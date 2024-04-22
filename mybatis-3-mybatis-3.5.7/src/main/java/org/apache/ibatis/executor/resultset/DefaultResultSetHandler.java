@@ -178,20 +178,34 @@ public class DefaultResultSetHandler implements ResultSetHandler {
   //
   // HANDLE RESULT SETS
   //
+
+  /**
+   * #### mybatis 结果集解析
+   *
+   *    1、获取结果集
+   *    2、获取映射关系
+   *    3、根据映射关系封装实体
+   *
+   * @param stmt
+   * @return
+   * @throws SQLException
+   */
   @Override
   public List<Object> handleResultSets(Statement stmt) throws SQLException {
     ErrorContext.instance().activity("handling results").object(mappedStatement.getId());
-
+    // 创建结果集
     final List<Object> multipleResults = new ArrayList<>();
 
     int resultSetCount = 0;
     ResultSetWrapper rsw = getFirstResultSet(stmt);
 
+    // 获取映射配置，即<resultMap>标签的对应关系
     List<ResultMap> resultMaps = mappedStatement.getResultMaps();
     int resultMapCount = resultMaps.size();
     validateResultMapsCount(rsw, resultMapCount);
     while (rsw != null && resultMapCount > resultSetCount) {
       ResultMap resultMap = resultMaps.get(resultSetCount);
+      // 根据映射关系封装实体
       handleResultSet(rsw, resultMap, multipleResults, null);
       rsw = getNextResultSet(stmt);
       cleanUpAfterHandlingResultSet();

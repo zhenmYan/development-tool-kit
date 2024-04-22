@@ -267,6 +267,7 @@ public class MapperBuilderAssistant extends BaseBuilder {
       throw new IncompleteElementException("Cache-ref not yet resolved");
     }
 
+    // 拼接 MappedStatementId
     id = applyCurrentNamespace(id, false);
     boolean isSelect = sqlCommandType == SqlCommandType.SELECT;
 
@@ -293,6 +294,7 @@ public class MapperBuilderAssistant extends BaseBuilder {
       statementBuilder.parameterMap(statementParameterMap);
     }
 
+    // 返回 MappedStatement对象，并存储到configuration， key为MappedStatementId
     MappedStatement statement = statementBuilder.build();
     configuration.addMappedStatement(statement);
     return statement;
