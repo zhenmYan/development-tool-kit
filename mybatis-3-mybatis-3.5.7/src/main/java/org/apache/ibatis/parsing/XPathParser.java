@@ -212,6 +212,13 @@ public class XPathParser {
     return evalNode(document, expression);
   }
 
+  /**
+   * XNode中封装了 configuration 标签下的所有内容
+   *
+   * @param root
+   * @param expression
+   * @return
+   */
   public XNode evalNode(Object root, String expression) {
     Node node = (Node) evaluate(expression, root, XPathConstants.NODE);
     if (node == null) {

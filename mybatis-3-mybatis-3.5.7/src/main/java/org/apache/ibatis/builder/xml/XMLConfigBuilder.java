@@ -100,7 +100,6 @@ public class XMLConfigBuilder extends BaseBuilder {
     }
     parsed = true;
     // parser.evalNode("/configuration")：通过Xpath解析configuration根节点
-    //
     parseConfiguration(parser.evalNode("/configuration"));
     return configuration;
   }
@@ -123,10 +122,12 @@ public class XMLConfigBuilder extends BaseBuilder {
       objectWrapperFactoryElement(root.evalNode("objectWrapperFactory"));
       reflectorFactoryElement(root.evalNode("reflectorFactory"));
       settingsElement(settings);
+      // environments标签
       // read it after objectFactory and objectWrapperFactory issue #631
       environmentsElement(root.evalNode("environments"));
       databaseIdProviderElement(root.evalNode("databaseIdProvider"));
       typeHandlerElement(root.evalNode("typeHandlers"));
+      // mappers标签
       mapperElement(root.evalNode("mappers"));
     } catch (Exception e) {
       throw new BuilderException("Error parsing SQL Mapper Configuration. Cause: " + e, e);
@@ -285,10 +286,13 @@ public class XMLConfigBuilder extends BaseBuilder {
   private void environmentsElement(XNode context) throws Exception {
     if (context != null) {
       if (environment == null) {
+        // 获取default的值
         environment = context.getStringAttribute("default");
       }
       for (XNode child : context.getChildren()) {
         String id = child.getStringAttribute("id");
+        // 判断default的值与id的值是否相等
+        // environments标签中可以配置多个environment子标签，其中default与id相等的会生效
         if (isSpecifiedEnvironment(id)) {
           /**
            * 创建事务工厂对象
@@ -382,17 +386,25 @@ public class XMLConfigBuilder extends BaseBuilder {
 
   private void mapperElement(XNode parent) throws Exception {
     if (parent != null) {
+      // 对<mappers>标签进行遍历
       for (XNode child : parent.getChildren()) {
+        // <package>子标签，采用mapper代理
         if ("package".equals(child.getName())) {
           String mapperPackage = child.getStringAttribute("name");
           configuration.addMappers(mapperPackage);
+          // <mapper>子标签
         } else {
+          // 获取resource、url、class属性值
           String resource = child.getStringAttribute("resource");
           String url = child.getStringAttribute("url");
           String mapperClass = child.getStringAttribute("class");
+          // 进行判断，三种属性互斥
           if (resource != null && url == null && mapperClass == null) {
             ErrorContext.instance().resource(resource);
             try(InputStream inputStream = Resources.getResourceAsStream(resource)) {
+              /**
+               * XMLMapperBuilder专门用于解析mapper映射文件
+               */
               XMLMapperBuilder mapperParser = new XMLMapperBuilder(inputStream, configuration, resource, configuration.getSqlFragments());
               mapperParser.parse();
             }
