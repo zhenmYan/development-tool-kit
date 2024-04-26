@@ -21,7 +21,7 @@ import org.apache.rocketmq.common.message.Message;
 import org.apache.rocketmq.common.message.MessageQueue;
 
 /**
- * ##### 负载均衡
+ * ##### Rocketmq 负载均衡
  *
  *      1、随机
  *      2、取余

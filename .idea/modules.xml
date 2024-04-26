@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/basic-java-knowledge/basic-java-knowledge.iml" filepath="$PROJECT_DIR$/basic-java-knowledge/basic-java-knowledge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/basic-knowledge.iml" filepath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/basic-knowledge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-java-knowledge/design-patterns/design-patterns.iml" filepath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/design-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/development-tool-kit.iml" filepath="$PROJECT_DIR$/development-tool-kit.iml" />
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/hand-write-series.iml" filepath="$PROJECT_DIR$/hand-write-series/hand-write-series.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-java-knowledge/high-concurrency/high-concurrency.iml" filepath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/high-concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-java-knowledge/jvm/jvm.iml" filepath="$PROJECT_DIR$/basic-java-knowledge/jvm/jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/mybatis.iml" filepath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/mybatis-3-mybatis-3.5.7-client.iml" filepath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/mybatis-3-mybatis-3.5.7-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" filepath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" />

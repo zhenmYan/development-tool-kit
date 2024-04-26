@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java" charset="UTF-8" />

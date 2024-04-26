@@ -27,6 +27,7 @@ public class InterceptorChain {
   private final List<Interceptor> interceptors = new ArrayList<>();
 
   public Object pluginAll(Object target) {
+    // 这里就是生成代理对象
     for (Interceptor interceptor : interceptors) {
       target = interceptor.plugin(target);
     }

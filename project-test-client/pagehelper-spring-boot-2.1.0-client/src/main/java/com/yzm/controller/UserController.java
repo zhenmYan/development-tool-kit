@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * ##### pageHelper的使用
+ * ##### PageHelper pageHelper的使用
  *
  *      一、使用方式
  *          1、传统方式

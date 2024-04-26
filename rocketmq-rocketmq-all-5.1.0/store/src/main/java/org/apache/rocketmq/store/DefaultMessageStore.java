@@ -2141,7 +2141,7 @@ public class DefaultMessageStore implements MessageStore {
 
 
         /**
-         * ##### 删除CommitLog文件
+         * ##### Rocketmq 删除CommitLog文件
          *
          *          每天凌晨四点删除
          */

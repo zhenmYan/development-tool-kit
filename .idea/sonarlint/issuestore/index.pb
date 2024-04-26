@@ -1685,3 +1685,5 @@ q
 A.idea/libraries/Maven__org_springframework_spring_core_5_3_31.xml,4\f\4f97473fa95aa9fe0e1b4c6e1edb58cd00edfb00
 ^
 ..idea/markdown-navigator/profiles_settings.xml,c\5\c553a33182a8928cd5760d212e343bd13f573c9b
+6
+README,6\9\69e27356ef629022720d868ab0c0e3394775b6c1

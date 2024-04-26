@@ -33,7 +33,7 @@ import org.apache.ibatis.io.ResolverUtil;
 import org.apache.ibatis.io.Resources;
 
 /**
- * ##### 别名处理器
+ * ##### Mybatis 别名处理器
  *
  *    作用就是把Java类型，给它起一个简单一点的别名，这样我们在XML文件中引入全类名的地方就可以使用别名替代
  *

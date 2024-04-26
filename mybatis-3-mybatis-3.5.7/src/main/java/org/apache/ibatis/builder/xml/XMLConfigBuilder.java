@@ -117,6 +117,7 @@ public class XMLConfigBuilder extends BaseBuilder {
       loadCustomVfs(settings);
       loadCustomLogImpl(settings);
       typeAliasesElement(root.evalNode("typeAliases"));
+      // plugins
       pluginElement(root.evalNode("plugins"));
       objectFactoryElement(root.evalNode("objectFactory"));
       objectWrapperFactoryElement(root.evalNode("objectWrapperFactory"));
@@ -197,8 +198,10 @@ public class XMLConfigBuilder extends BaseBuilder {
       for (XNode child : parent.getChildren()) {
         String interceptor = child.getStringAttribute("interceptor");
         Properties properties = child.getChildrenAsProperties();
+        // 构建自定义插件的实例
         Interceptor interceptorInstance = (Interceptor) resolveClass(interceptor).getDeclaredConstructor().newInstance();
         interceptorInstance.setProperties(properties);
+        // 添加到拦截器链中 InterceptorChain
         configuration.addInterceptor(interceptorInstance);
       }
     }
@@ -390,7 +393,9 @@ public class XMLConfigBuilder extends BaseBuilder {
       for (XNode child : parent.getChildren()) {
         // <package>子标签，采用mapper代理
         if ("package".equals(child.getName())) {
+          // 获取nema属性，即包名
           String mapperPackage = child.getStringAttribute("name");
+          // 将包下所有的mapper接口以及代理工厂对象存到一个map集合中，key为mapper接口类型，value为代理工厂对象
           configuration.addMappers(mapperPackage);
           // <mapper>子标签
         } else {

@@ -275,6 +275,8 @@ public interface SqlSession extends Closeable {
   Configuration getConfiguration();
 
   /**
+   * ##### Mybatis mapper代理
+   *
    * Retrieves a mapper.
    * @param <T> the mapper type
    * @param type Mapper interface class
