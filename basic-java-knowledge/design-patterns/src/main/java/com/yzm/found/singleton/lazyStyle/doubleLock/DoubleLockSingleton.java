@@ -15,12 +15,18 @@ package com.yzm.found.singleton.lazyStyle.doubleLock;
  *          - 创建方式
  *              - 双重锁检验
  *              - 静态内部类
- *
- *      比较重要的几种方式
+ *      3、比较重要的几种方式
  *          - 双重锁检验
  *          - 静态内部类
  *          - 枚举
- *
+ *      4、破坏单例模式
+ *          - 序列化
+ *          - 反射
+ *          tips：枚举除外
+ *      5、破坏单例模式的解决方法
+ *          - 序列化：通过添加readResolve()方法实现
+ *          - 反射：在无参构造中进行判断
+ *              - 反射是通过无参构造去实例化对象的
 
  *
  * description: 双重锁检验
@@ -50,7 +56,12 @@ package com.yzm.found.singleton.lazyStyle.doubleLock;
  */
 public class DoubleLockSingleton {
 
-    private DoubleLockSingleton(){}
+    private DoubleLockSingleton(){
+        // 1、防止反射破坏单例模式
+        if(instance != null) {
+            throw new RuntimeException();
+        }
+    }
 
     private volatile static DoubleLockSingleton instance;
 
@@ -63,5 +74,10 @@ public class DoubleLockSingleton {
             }
         }
         return instance;
+    }
+
+    // 2、当进行反序列化时，会调用该方法，将该方法的返回值直接返回，解决序列化破坏单例的问题
+    public Object readResolve(){
+        return DoubleLockSingleton.instance;
     }
 }
