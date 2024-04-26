@@ -9,11 +9,18 @@ package com.yzm.found.singleton.lazyStyle.doubleLock;
  *          - 创建方式
  *              - 静态变量
  *              - 静态代码块
+ *              - 枚举
  *      2、懒汉
  *          - 首次使用时创建
  *          - 创建方式
  *              - 双重锁检验
  *              - 静态内部类
+ *
+ *      比较重要的几种方式
+ *          - 双重锁检验
+ *          - 静态内部类
+ *          - 枚举
+ *
 
  *
  * description: 双重锁检验

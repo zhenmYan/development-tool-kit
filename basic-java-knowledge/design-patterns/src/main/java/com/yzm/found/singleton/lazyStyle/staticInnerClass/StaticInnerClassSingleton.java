@@ -5,8 +5,11 @@ import com.yzm.found.singleton.hungryStyle.staticVariable.StaticVariableSingleto
 /**
  * description: 静态内部类
  *
- *      JVM在加载外部类时，不会加载静态内部类
+ *      1、JVM在加载外部类时，不会加载静态内部类
  *      只有在调用静态内部类的方法时才会被加载，并初始化其静态属性
+ *
+ *      2、一种比较优雅的方式，很多开源框架使用该方式
+ *      即线程安全，又懒加载
  *
  * @author yzm
  * @date 2024/4/26
