@@ -19,13 +19,13 @@ public class ReplaceAndReplaceAll {
         java.lang.String str3 = "Aoc.Iop.Aoc.Iop.Aoc";
 
         java.lang.String str11 = str1.replace(".", "#");	    // str11 = "Aoc#Iop#Aoc#Iop#Aoc"
-        java.lang.String str22 = str2.replaceAll(".", "#");	    // str22 = "###################"    .是正则，这里是正则替换
+        java.lang.String str22 = str2.replaceAll(".", "#");	    // str22 = "##"    .是正则，这里是正则替换
         java.lang.String str33 = str3.replaceFirst(".", "#");	    // str33 = "#oc.Iop.Aoc.Iop.Aoc"
         System.out.println(str11);
         System.out.println(str22);
         System.out.println(str33);
 
         java.lang.String string = new java.lang.String();
-        System.out.println(string.printString());
+//        System.out.println(string.printString());
     }
 }

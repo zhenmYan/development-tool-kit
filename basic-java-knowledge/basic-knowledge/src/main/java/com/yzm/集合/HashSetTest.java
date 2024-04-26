@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 /**
- *      ***** HashSet
+ *      ##### HashSet
  *
  *            1、是使用HashMap进行存储
  *                  key为存储的值

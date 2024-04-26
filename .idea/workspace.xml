@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/CircleShapeMethodFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/FactoryMethodCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/FactoryMethodRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/FactoryMethodShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/FactoryMethodSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/RectangleShapeMethodFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/ShapeMethodFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/SquareShapeMethodFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/String/ReplaceAndReplaceAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/String/ReplaceAndReplaceAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/集合/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/集合/HashSetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simplefactory/SimpleShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simplefactory/SimpleShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java/com/yzm/等待不可中断/Uninterruptible.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java/com/yzm/等待不可中断/Uninterruptible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/常量池/StringTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/常量池/StringTableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,14 +285,7 @@
       <workItem from="1713795091302" duration="6000" />
       <workItem from="1713838794759" duration="5374000" />
       <workItem from="1714014161757" duration="6384000" />
-      <workItem from="1714125801485" duration="10420000" />
-    </task>
-    <task id="LOCAL-00004" summary="feat(环境搭建):提交">
-      <created>1712146587076</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1712146587076</updated>
+      <workItem from="1714125801485" duration="11395000" />
     </task>
     <task id="LOCAL-00005" summary="feat(环境搭建):提交">
       <created>1712150661215</created>
@@ -634,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714137788282</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="feat(设计模式):工厂方法">
+      <created>1714144691727</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1714144691728</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,7 +638,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(mybatis):动态代理" />
     <MESSAGE value="feat(mybatis):导入源码" />
     <MESSAGE value="feat(mybatis):单步调试" />
     <MESSAGE value="feat(pagehelper):导入" />
@@ -667,7 +662,8 @@
     <MESSAGE value="feat(设计模式):单例模式-破坏与解决方法" />
     <MESSAGE value="feat(设计模式):工厂模式-简单工厂" />
     <MESSAGE value="feat(设计模式):重新命名包名" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式):重新命名包名" />
+    <MESSAGE value="feat(设计模式):工厂方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式):工厂方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -715,10 +711,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714137786867">
+    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714144690212">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714137786867" />
+    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714144690212" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -815,19 +811,19 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713712205797" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714137793109">
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714144696953">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714137793109" />
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714144696953" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1185" y="290" key="chooseDestDirectoryDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128683530" />
-    <state x="-1250" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1714137759892">
+    <state x="-1250" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1714174967151">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1250" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714137759892" />
+    <state x="-1250" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714174967151" />
     <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713516391892" />
     <state x="-1589" y="133" width="1169" height="883" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1713704492899">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -842,10 +838,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="131" y="182" width="1160" height="498" maximized="true" key="dock-window-2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713540123941" />
-    <state x="-1529" y="115" width="1246" height="824" key="find.popup" timestamp="1714137757584">
+    <state x="-1529" y="115" width="1246" height="824" key="find.popup" timestamp="1714174803638">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1529" y="115" width="1246" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714137757584" />
+    <state x="-1529" y="115" width="1246" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714174803638" />
     <state x="365" y="90" width="1171" height="738" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713944580752" />
     <state x="-1726" y="190" width="1598" height="695" key="new project wizard" timestamp="1714127308808">
       <screen x="-1920" y="0" width="1920" height="1050" />
