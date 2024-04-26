@@ -1,7 +1,9 @@
-package com.yzm.found.singleton.staticCodeBlock;
+package com.yzm.found.singleton.hungryStyle.staticCodeBlock;
 
 /**
  * description: 静态代码块
+ *
+ *      饿汉式
  *
  * @author yzm
  * @date 2024/4/22

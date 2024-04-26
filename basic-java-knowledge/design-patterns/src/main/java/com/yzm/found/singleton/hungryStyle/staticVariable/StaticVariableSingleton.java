@@ -1,17 +1,19 @@
-package com.yzm.found.singleton.staticVariable;
+package com.yzm.found.singleton.hungryStyle.staticVariable;
 
 /**
- * ##### 设计模式 单例模式
+ * ##### 设计模式 design patterns 单例模式
  *
  * 一、分类
  *      1、饿汉
  *          - 类加载时创建
+ *          - 创建方式
+ *              - 静态变量
+ *              - 静态代码块
  *      2、懒汉
  *          - 首次使用时创建
+ *          - 创建方式
+ *              -
  *
- * 二、实现方式
- *      1、静态方法
- *      2、静态代码块
  *
  * @author yzm
  * @date 2024/4/22

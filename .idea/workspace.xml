@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/String/ReplaceAndReplaceAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/String/String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/泛型/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/类型转换/IntArrToList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/类型转换/ListToIntArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/集合/ArrayList安全问题/ArrayListThreadSafeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/集合/DeleteElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/集合/HashSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/staticCodeBlock/StaticCodeBlockSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/staticVariable/StaticVariableSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/jvm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/双亲委派/String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/双亲委派/TestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/常量池/StringTableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/操作数栈/OperandStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/类加载/ChildStaticClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/类加载/FatherStaticClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/lazyStyle/doubleLock/DoubleLockSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/binding/MapperMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/binding/MapperMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/binding/MapperRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/binding/MapperRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/annotation/MapperAnnotationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/annotation/MapperAnnotationBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLStatementBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/xml/XMLStatementBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/plugin/InterceptorChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/plugin/InterceptorChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/SqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/SqlSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/type/TypeAliasRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/type/TypeAliasRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/src/main/java/com/yzm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/src/main/java/com/yzm/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/client/src/main/java/org/apache/rocketmq/client/producer/MessageQueueSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/client/src/main/java/org/apache/rocketmq/client/producer/MessageQueueSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/store/src/main/java/org/apache/rocketmq/store/DefaultMessageStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/store/src/main/java/org/apache/rocketmq/store/DefaultMessageStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/design-patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/staticCodeBlock/StaticCodeBlockSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/hungryStyle/staticCodeBlock/StaticCodeBlockSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/staticVariable/StaticVariableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/hungryStyle/staticVariable/StaticVariableSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,11 +112,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\high-concurrency\src\main\java\com\yzm" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\jvm\src\main\java\com\yzm" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\basic-knowledge\src\main\java\com\yzm" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm" />
       <recent name="W:\idea_project\development-tool-kit" />
-      <recent name="W:\idea_project\development-tool-kit\spring-boot\spring-boot-2.1.x" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yzm.dev" />
@@ -157,7 +129,20 @@
       <recent name="W:\idea_project\development-tool-kit\pagehelper-spring-boot-2.1.0" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.test">
+  <component name="RunManager" selected="Application.StaticVariableSingleton">
+    <configuration name="StaticVariableSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.found.singleton.hungryStyle.staticVariable.StaticVariableSingleton" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzm.found.singleton.hungryStyle.staticVariable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HandWriteMybatisTest.proxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-hand-write-client" />
       <extension name="coverage">
@@ -223,19 +208,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageHelperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="pagehelper-spring-boot-2.1.0-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yzm.PageHelperApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SampleMapperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pagehelper-spring-boot-sample-annotation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tk.mybatis.pagehelper.SampleMapperApplication" />
@@ -258,15 +230,15 @@
       <item itemvalue="Spring Boot.Hibernate52Application" />
       <item itemvalue="Spring Boot.SampleXmlApplication" />
       <item itemvalue="Spring Boot.SampleMapperApplication" />
-      <item itemvalue="Spring Boot.PageHelperApplication" />
+      <item itemvalue="Application.StaticVariableSingleton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticVariableSingleton" />
         <item itemvalue="JUnit.MybatisTest.test" />
         <item itemvalue="JUnit.HandWriteMybatisTest.proxyTest" />
         <item itemvalue="JUnit.HandWriteMybatisTest.test" />
         <item itemvalue="JUnit.JdbcTest.test" />
-        <item itemvalue="Spring Boot.PageHelperApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +289,7 @@
       <workItem from="1713795091302" duration="6000" />
       <workItem from="1713838794759" duration="5374000" />
       <workItem from="1714014161757" duration="6384000" />
-      <workItem from="1714125801485" duration="1008000" />
+      <workItem from="1714125801485" duration="2464000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -627,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713784815427</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="feat(全局):添加基础知识模块">
+      <created>1714127423472</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1714127423472</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +614,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(mybatis):流程" />
     <MESSAGE value="feat(mybatis):客户端代码" />
     <MESSAGE value="feat(mybatis):加载配置类" />
     <MESSAGE value="feat(mybatis):builder对象" />
@@ -660,7 +638,8 @@
     <MESSAGE value="feat(mybatis):Executor" />
     <MESSAGE value="feat(mybatis):测试成功" />
     <MESSAGE value="feat(mybatis):源码加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(mybatis):源码加注释" />
+    <MESSAGE value="feat(全局):添加基础知识模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(全局):添加基础知识模块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -690,10 +669,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1421" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712074111479" />
-    <state x="-1542" y="437" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1713264444228">
+    <state x="-1542" y="437" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1714128034166">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1542" y="437" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713264444228" />
+    <state x="-1542" y="437" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128034166" />
     <state x="203" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1713578459006">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -707,10 +686,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1713784813221">
+    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1714127421050">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713784813221" />
+    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714127421050" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -733,25 +712,25 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="489" key="GridCell.Tab.0.bottom" timestamp="1713790938023">
+    <state width="1867" height="339" key="GridCell.Tab.0.bottom" timestamp="1714128731322">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="489" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713790938023" />
+    <state width="1867" height="339" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128731322" />
     <state width="1483" height="367" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="489" key="GridCell.Tab.0.center" timestamp="1713790938023">
+    <state width="1867" height="339" key="GridCell.Tab.0.center" timestamp="1714128731321">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="489" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713790938023" />
+    <state width="1867" height="339" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128731321" />
     <state width="1483" height="367" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="489" key="GridCell.Tab.0.left" timestamp="1713790938023">
+    <state width="1867" height="339" key="GridCell.Tab.0.left" timestamp="1714128731321">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="489" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713790938023" />
+    <state width="1867" height="339" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128731321" />
     <state width="1483" height="367" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="489" key="GridCell.Tab.0.right" timestamp="1713790938023">
+    <state width="1867" height="339" key="GridCell.Tab.0.right" timestamp="1714128731321">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="489" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713790938023" />
+    <state width="1867" height="339" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128731321" />
     <state width="1483" height="367" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
     <state width="1867" height="489" key="GridCell.Tab.1.bottom" timestamp="1713790938024">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -812,6 +791,10 @@
     </state>
     <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713784817836" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
+    <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1185" y="290" key="chooseDestDirectoryDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128683530" />
     <state x="536" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1713516391892">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
