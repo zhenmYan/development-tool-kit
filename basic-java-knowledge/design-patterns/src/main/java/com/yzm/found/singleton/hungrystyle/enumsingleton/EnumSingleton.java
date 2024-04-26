@@ -1,4 +1,4 @@
-package com.yzm.found.singleton.hungryStyle.enumSingleton;
+package com.yzm.found.singleton.hungrystyle.enumsingleton;
 
 /**
  * description: 枚举类型

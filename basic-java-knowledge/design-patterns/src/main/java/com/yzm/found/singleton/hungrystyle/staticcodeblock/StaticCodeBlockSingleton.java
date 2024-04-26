@@ -1,4 +1,4 @@
-package com.yzm.found.singleton.hungryStyle.staticCodeBlock;
+package com.yzm.found.singleton.hungrystyle.staticcodeblock;
 
 /**
  * description: 静态代码块

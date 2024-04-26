@@ -1,4 +1,4 @@
-package com.yzm.found.singleton.lazyStyle.doubleLock;
+package com.yzm.found.singleton.lazystyle.doublelock;
 
 /**
  * ##### 设计模式 design patterns 单例模式

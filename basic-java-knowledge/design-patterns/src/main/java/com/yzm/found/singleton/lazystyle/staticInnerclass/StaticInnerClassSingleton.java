@@ -1,6 +1,4 @@
-package com.yzm.found.singleton.lazyStyle.staticInnerClass;
-
-import com.yzm.found.singleton.hungryStyle.staticVariable.StaticVariableSingleton;
+package com.yzm.found.singleton.lazystyle.staticInnerclass;
 
 /**
  * description: 静态内部类

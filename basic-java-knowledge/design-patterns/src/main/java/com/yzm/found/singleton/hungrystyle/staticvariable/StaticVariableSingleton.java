@@ -1,4 +1,4 @@
-package com.yzm.found.singleton.hungryStyle.staticVariable;
+package com.yzm.found.singleton.hungrystyle.staticvariable;
 
 /**
  *  静态变量
