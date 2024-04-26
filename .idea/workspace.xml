@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/CircleShapeMethodFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/FactoryMethodCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/FactoryMethodRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/FactoryMethodShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/FactoryMethodSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/RectangleShapeMethodFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/ShapeMethodFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/SquareShapeMethodFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simpleFactory/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simpleFactory/SimpleFactoryCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simpleFactory/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simpleFactory/SimpleFactoryRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simpleFactory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simpleFactory/SimpleFactoryShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simpleFactory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simpleFactory/SimpleShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simpleFactory/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simpleFactory/SimpleFactorySquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simplefactory/SimpleShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/simplefactory/SimpleShapeFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +124,7 @@
       <recent name="W:\idea_project\development-tool-kit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzm.found.factory.factorymethod" />
       <recent name="com.yzm.dev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -130,7 +135,7 @@
       <recent name="W:\idea_project\development-tool-kit\pagehelper-spring-boot-2.1.0" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleShapeFactory">
+  <component name="RunManager" selected="Application.SquareShapeMethodFactory">
     <configuration name="EnumSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzm.found.singleton.hungrystyle.enumsingleton.EnumSingleton" />
       <module name="design-patterns" />
@@ -150,6 +155,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yzm.found.factory.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareShapeMethodFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.found.factory.factorymethod.SquareShapeMethodFactory" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzm.found.factory.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,22 +201,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-3-mybatis-3.5.7-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzm.mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yzm.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yzm.mybatis.test.MybatisTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Hibernate52Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-hibernate52-tests" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.boot.tests.hibernate52.Hibernate52Application" />
@@ -221,7 +223,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MybatisTest.test" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
       <item itemvalue="Spring Boot.SampleXmlApplication" />
       <item itemvalue="Spring Boot.SampleMapperApplication" />
@@ -229,14 +230,15 @@
       <item itemvalue="Application.StaticInnerClassSingleton" />
       <item itemvalue="Application.EnumSingleton" />
       <item itemvalue="Application.SimpleShapeFactory" />
+      <item itemvalue="Application.SquareShapeMethodFactory" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareShapeMethodFactory" />
         <item itemvalue="Application.SimpleShapeFactory" />
         <item itemvalue="Application.EnumSingleton" />
         <item itemvalue="Application.StaticInnerClassSingleton" />
         <item itemvalue="Application.StaticVariableSingleton" />
-        <item itemvalue="JUnit.MybatisTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -287,14 +289,7 @@
       <workItem from="1713795091302" duration="6000" />
       <workItem from="1713838794759" duration="5374000" />
       <workItem from="1714014161757" duration="6384000" />
-      <workItem from="1714125801485" duration="8346000" />
-    </task>
-    <task id="LOCAL-00003" summary="feat(环境搭建):运行项目">
-      <created>1712146552005</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1712146552005</updated>
+      <workItem from="1714125801485" duration="10420000" />
     </task>
     <task id="LOCAL-00004" summary="feat(环境搭建):提交">
       <created>1712146587076</created>
@@ -632,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714136788547</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="feat(设计模式):重新命名包名">
+      <created>1714137788282</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1714137788282</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +642,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(mybatis):解析sql语句，调用jdbc" />
     <MESSAGE value="feat(mybatis):动态代理" />
     <MESSAGE value="feat(mybatis):导入源码" />
     <MESSAGE value="feat(mybatis):单步调试" />
@@ -665,7 +666,8 @@
     <MESSAGE value="feat(设计模式):单例模式-枚举" />
     <MESSAGE value="feat(设计模式):单例模式-破坏与解决方法" />
     <MESSAGE value="feat(设计模式):工厂模式-简单工厂" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式):工厂模式-简单工厂" />
+    <MESSAGE value="feat(设计模式):重新命名包名" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式):重新命名包名" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -713,10 +715,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714136787307">
+    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714137786867">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714136787307" />
+    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714137786867" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -739,25 +741,25 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="338" key="GridCell.Tab.0.bottom" timestamp="1714137107032">
+    <state width="1867" height="338" key="GridCell.Tab.0.bottom" timestamp="1714144396654">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714137107032" />
+    <state width="1867" height="338" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714144396654" />
     <state width="1483" height="252" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
-    <state width="1867" height="338" key="GridCell.Tab.0.center" timestamp="1714137107032">
+    <state width="1867" height="338" key="GridCell.Tab.0.center" timestamp="1714144396654">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714137107032" />
+    <state width="1867" height="338" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714144396654" />
     <state width="1483" height="252" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
-    <state width="1867" height="338" key="GridCell.Tab.0.left" timestamp="1714137107031">
+    <state width="1867" height="338" key="GridCell.Tab.0.left" timestamp="1714144396653">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714137107031" />
+    <state width="1867" height="338" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714144396653" />
     <state width="1483" height="252" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
-    <state width="1867" height="338" key="GridCell.Tab.0.right" timestamp="1714137107032">
+    <state width="1867" height="338" key="GridCell.Tab.0.right" timestamp="1714144396654">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714137107032" />
+    <state width="1867" height="338" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714144396654" />
     <state width="1483" height="252" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
     <state width="1867" height="489" key="GridCell.Tab.1.bottom" timestamp="1713790938024">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -813,10 +815,10 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713712205797" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714135255947">
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714137793109">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714135255947" />
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714137793109" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />

@@ -8,7 +8,12 @@ package com.yzm.found.factory.simplefactory;
  *          - 不属于23种设计模式
  *          - 违背开闭原则
  *
- *      2、
+ *      2、工厂方法
+ *          -组成部分
+ *              - 产品接口
+ *              - 产品实现类
+ *              - 抽象工厂类
+ *              - 抽象工厂类的实现类
  *
  * @author yzm
  * @date 2024/4/26
