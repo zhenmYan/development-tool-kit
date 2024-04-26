@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/lazyStyle/doubleLock/DoubleLockSingleton.java" afterDir="false" />
+    <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="feat(设计模式):双重锁检验">
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/lazyStyle/staticInnerClass/StaticInnerClassSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/design-patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/staticCodeBlock/StaticCodeBlockSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/hungryStyle/staticCodeBlock/StaticCodeBlockSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/staticVariable/StaticVariableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/hungryStyle/staticVariable/StaticVariableSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/hungryStyle/staticVariable/StaticVariableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/hungryStyle/staticVariable/StaticVariableSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/lazyStyle/doubleLock/DoubleLockSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/singleton/lazyStyle/doubleLock/DoubleLockSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/jvm/jvm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/jvm/jvm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +133,20 @@
       <recent name="W:\idea_project\development-tool-kit\pagehelper-spring-boot-2.1.0" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticVariableSingleton">
+  <component name="RunManager" selected="Application.StaticInnerClassSingleton">
+    <configuration name="StaticInnerClassSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.found.singleton.lazyStyle.staticInnerClass.StaticInnerClassSingleton" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzm.found.singleton.lazyStyle.staticInnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StaticVariableSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzm.found.singleton.hungryStyle.staticVariable.StaticVariableSingleton" />
       <module name="design-patterns" />
@@ -163,22 +180,6 @@
       <module name="mybatis-hand-write-client" />
       <option name="PACKAGE_NAME" value="yzm.test" />
       <option name="MAIN_CLASS_NAME" value="yzm.test.HandWriteMybatisTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-hand-write-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yzm.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="yzm.test" />
-      <option name="MAIN_CLASS_NAME" value="yzm.test.JdbcTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -223,7 +224,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JdbcTest.test" />
       <item itemvalue="JUnit.HandWriteMybatisTest.test" />
       <item itemvalue="JUnit.HandWriteMybatisTest.proxyTest" />
       <item itemvalue="JUnit.MybatisTest.test" />
@@ -231,14 +231,15 @@
       <item itemvalue="Spring Boot.SampleXmlApplication" />
       <item itemvalue="Spring Boot.SampleMapperApplication" />
       <item itemvalue="Application.StaticVariableSingleton" />
+      <item itemvalue="Application.StaticInnerClassSingleton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticInnerClassSingleton" />
         <item itemvalue="Application.StaticVariableSingleton" />
         <item itemvalue="JUnit.MybatisTest.test" />
         <item itemvalue="JUnit.HandWriteMybatisTest.proxyTest" />
         <item itemvalue="JUnit.HandWriteMybatisTest.test" />
-        <item itemvalue="JUnit.JdbcTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +290,7 @@
       <workItem from="1713795091302" duration="6000" />
       <workItem from="1713838794759" duration="5374000" />
       <workItem from="1714014161757" duration="6384000" />
-      <workItem from="1714125801485" duration="2464000" />
+      <workItem from="1714125801485" duration="4406000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1712077623858</created>
@@ -606,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714127423472</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="feat(设计模式):双重锁检验">
+      <created>1714128775532</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1714128775532</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +622,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(mybatis):客户端代码" />
     <MESSAGE value="feat(mybatis):加载配置类" />
     <MESSAGE value="feat(mybatis):builder对象" />
     <MESSAGE value="feat(mybatis):配置文件解析" />
@@ -639,7 +646,8 @@
     <MESSAGE value="feat(mybatis):测试成功" />
     <MESSAGE value="feat(mybatis):源码加注释" />
     <MESSAGE value="feat(全局):添加基础知识模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(全局):添加基础知识模块" />
+    <MESSAGE value="feat(设计模式):双重锁检验" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式):双重锁检验" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -686,10 +694,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1900" y="0" key="CommitChangelistDialog2" timestamp="1714127421050">
+    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714129315094">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1900" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714127421050" />
+    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714129315094" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -712,25 +720,25 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="339" key="GridCell.Tab.0.bottom" timestamp="1714128731322">
+    <state width="1867" height="339" key="GridCell.Tab.0.bottom" timestamp="1714130606579">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="339" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128731322" />
+    <state width="1867" height="339" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714130606579" />
     <state width="1483" height="367" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="339" key="GridCell.Tab.0.center" timestamp="1714128731321">
+    <state width="1867" height="339" key="GridCell.Tab.0.center" timestamp="1714130606579">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="339" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128731321" />
+    <state width="1867" height="339" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714130606579" />
     <state width="1483" height="367" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="339" key="GridCell.Tab.0.left" timestamp="1714128731321">
+    <state width="1867" height="339" key="GridCell.Tab.0.left" timestamp="1714130606579">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="339" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128731321" />
+    <state width="1867" height="339" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714130606579" />
     <state width="1483" height="367" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="339" key="GridCell.Tab.0.right" timestamp="1714128731321">
+    <state width="1867" height="339" key="GridCell.Tab.0.right" timestamp="1714130606579">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="339" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714128731321" />
+    <state width="1867" height="339" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714130606579" />
     <state width="1483" height="367" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
     <state width="1867" height="489" key="GridCell.Tab.1.bottom" timestamp="1713790938024">
       <screen x="-1920" y="0" width="1920" height="1050" />

@@ -6,7 +6,6 @@
         <artifactId>development-tool-kit</artifactId>
         <groupId>com.yzm</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

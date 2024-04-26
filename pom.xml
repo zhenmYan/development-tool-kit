@@ -24,14 +24,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>mybatis-hand-write</module>
+        <module>basic-java-knowledge</module>
         <module>project-test-client</module>
         <module>hand-write-series</module>
-        <module>basic-java-knowledge</module>
-        <module>basic-java-knowledge/design-pattern</module>
-        <module>basic-java-knowledge/basic-knowledge</module>
-        <module>basic-java-knowledge/jvm</module>
-        <module>basic-java-knowledge/high-concurrency</module>
     </modules>
 
     <dependencies>
