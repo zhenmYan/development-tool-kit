@@ -1,4 +1,4 @@
-package com.yzm.found.factory.factorymethod;
+package com.yzm.found.factory.abstractfactory;
 
 /**
  * description:
@@ -6,7 +6,7 @@ package com.yzm.found.factory.factorymethod;
  * @author yzm
  * @date 2024/4/26
  */
-public interface FactoryMethodShape {
+public interface Shape {
 
     void draw();
 

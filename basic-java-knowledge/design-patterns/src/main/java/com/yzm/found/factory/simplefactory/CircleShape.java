@@ -1,5 +1,4 @@
-package com.yzm.found.factory.factorymethod;
-
+package com.yzm.found.factory.simplefactory;
 
 /**
  * description:
@@ -7,7 +6,7 @@ package com.yzm.found.factory.factorymethod;
  * @author yzm
  * @date 2024/4/26
  */
-public class FactoryMethodCircle implements FactoryMethodShape {
+public class CircleShape implements Shape {
     @Override
     public void draw() {
         System.out.println("Inside Circle::draw() method.");

@@ -6,7 +6,7 @@ package com.yzm.found.factory.factorymethod;
  * @author yzm
  * @date 2024/4/26
  */
-public interface ShapeMethodFactory {
+public interface ShapeFactory {
 
-    FactoryMethodShape create();
+    Shape create();
 }

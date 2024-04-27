@@ -7,9 +7,9 @@ package com.yzm.found.factory.factorymethod;
  * @author yzm
  * @date 2024/4/26
  */
-public class FactoryMethodSquare implements FactoryMethodShape {
+public class CircleShape implements Shape {
     @Override
     public void draw() {
-        System.out.println("Inside Square::draw() method.");
+        System.out.println("Inside Circle::draw() method.");
     }
 }
