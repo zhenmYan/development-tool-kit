@@ -12,16 +12,17 @@ package com.yzm.found.factory.abstractfactory;
 public class SquareShapeColorFactory implements ShapeColorFactory {
 
     @Override
-    public SquareShape create(){
-        return new SquareShape();
+    public Shape createShape() {
+        return null;
     }
 
+    @Override
+    public Color createColor() {
+        return null;
+    }
     public static void main(String[] args) {
         ShapeColorFactory factory1 = new BlackCircleFactory();
-        factory1.create().draw();
-        ShapeColorFactory factory2 = new RedRectangleFactory();
-        factory2.create().draw();
-        ShapeColorFactory factory3 = new SquareShapeColorFactory();
-        factory3.create().draw();
     }
+
+
 }
