@@ -7,7 +7,10 @@ import java.lang.reflect.Proxy;
 /**
  * ##### 设计模式 design patterns 动态代理
  *
- *      1、JDK动态代理
+ *      1、应用场景
+ *          - 对类进行增强，多在框架中使用
+ *
+ *      2.1、JDK动态代理
  *          - 实现InvocationHandler接口
  *          - newProxyInstance的三个重要参数
  *              - 类加载器
@@ -16,7 +19,7 @@ import java.lang.reflect.Proxy;
  *          - 为什么JDK只能代理接口
  *              - 临时生成的代理对象$Proxy0继承了Proxy类，而Java单继承
  *
- *      2、Cglib动态代理
+ *      2.2、Cglib动态代理
  *          - 实现MethodInterceptor接口
  *          - 基于Enhancer类
  *          - 其实质是生成被代理类的子类，所以不需要定义接口

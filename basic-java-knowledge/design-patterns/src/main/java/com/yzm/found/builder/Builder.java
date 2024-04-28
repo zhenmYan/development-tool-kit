@@ -3,11 +3,11 @@ package com.yzm.found.builder;
 /**
  * ##### 设计模式 design patterns 建造者模式
  *
- *      1、适用场景
- *          - 使用多个简单的对象一步一步构建成一个复杂的对象
+ *      1、应用场景
+ *          - 复杂对象的构建
  *
  *      2、特点
- *          - 分离了零件的构造（Builder来负责）和装配（Director负责）
+ *          - 分离了零件的构造（Builder来负责）和装配
  *
  *      3、组成部分
  *          - 建造者接口（如Mybatis的BaseBuilder）
