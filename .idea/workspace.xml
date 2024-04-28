@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy/UserServiceProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +103,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/abstractfactory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46182153" />
@@ -107,17 +111,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\found\factory\abstractfactory" />
-      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\high-concurrency\src\main\java\com\yzm" />
-      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\jvm\src\main\java\com\yzm" />
-      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\basic-knowledge\src\main\java\com\yzm" />
-      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yzm.found.factory.factorymethod" />
-      <recent name="com.yzm.dev" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
       <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mapper" />
@@ -125,14 +118,38 @@
       <recent name="W:\idea_project\development-tool-kit\hand-write-series" />
       <recent name="W:\idea_project\development-tool-kit\pagehelper-spring-boot-2.1.0" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzm.found.factory.factorymethod" />
+      <recent name="com.yzm.dev" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\structure\proxy\dynamicproxy\jdkproxy" />
+      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\found\factory\abstractfactory" />
+      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\high-concurrency\src\main\java\com\yzm" />
+      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\jvm\src\main\java\com\yzm" />
+      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\basic-knowledge\src\main\java\com\yzm" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (1)">
     <configuration name="Citation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzm.found.prototype.Citation" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yzm.found.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.structure.proxy.dynamicproxy.jdkproxy.Client" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzm.structure.proxy.dynamicproxy.jdkproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,19 +196,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzm.常量池.StringTableTest" />
-      <module name="jvm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzm.常量池.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Hibernate52Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-hibernate52-tests" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.boot.tests.hibernate52.Hibernate52Application" />
@@ -214,7 +218,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringTableTest" />
       <item itemvalue="Application.SquareShapeFactory" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
       <item itemvalue="Spring Boot.SampleXmlApplication" />
@@ -222,14 +225,15 @@
       <item itemvalue="Application.Citation" />
       <item itemvalue="Application.Phone" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Phone" />
         <item itemvalue="Application.Citation" />
         <item itemvalue="Application.SquareShapeFactory" />
-        <item itemvalue="Application.StringTableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -281,14 +285,7 @@
       <workItem from="1713838794759" duration="5374000" />
       <workItem from="1714014161757" duration="6384000" />
       <workItem from="1714125801485" duration="16612000" />
-      <workItem from="1714218742340" duration="10694000" />
-    </task>
-    <task id="LOCAL-00009" summary="feat(rocketmq):引入源代码">
-      <created>1712562052346</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1712562052346</updated>
+      <workItem from="1714218742340" duration="11503000" />
     </task>
     <task id="LOCAL-00010" summary="feat(rocketmq):启动">
       <created>1712571219280</created>
@@ -626,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714283953337</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="feat(设计模式)：静态代理">
+      <created>1714286079955</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1714286079955</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +638,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(pagehelper):分页生效" />
     <MESSAGE value="feat(pagehelper):分页的两种方式" />
     <MESSAGE value="feat(pagehelper):接入spring的源码" />
     <MESSAGE value="feat(pagehelper):单步" />
@@ -659,7 +662,8 @@
     <MESSAGE value="feat(设计模式):抽象工厂" />
     <MESSAGE value="feat(设计模式):原型模式" />
     <MESSAGE value="feat(设计模式):构建者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式):构建者模式" />
+    <MESSAGE value="feat(设计模式)：静态代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式)：静态代理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -680,10 +684,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="477" y="203" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712077668946" />
-    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1714283765773">
+    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1714286303546">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714283765773" />
+    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286303546" />
     <state x="530" y="26" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713576587811" />
     <state x="-1421" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1712074111479">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -707,10 +711,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714283952110">
+    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714286078957">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714283952110" />
+    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286078957" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -733,45 +737,45 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="338" key="GridCell.Tab.0.bottom" timestamp="1714286049302">
+    <state width="1867" height="338" key="GridCell.Tab.0.bottom" timestamp="1714286743559">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286049302" />
+    <state width="1867" height="338" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286743559" />
     <state width="1483" height="252" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
-    <state width="1867" height="338" key="GridCell.Tab.0.center" timestamp="1714286049301">
+    <state width="1867" height="338" key="GridCell.Tab.0.center" timestamp="1714286743559">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286049301" />
+    <state width="1867" height="338" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286743559" />
     <state width="1483" height="252" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
-    <state width="1867" height="338" key="GridCell.Tab.0.left" timestamp="1714286049301">
+    <state width="1867" height="338" key="GridCell.Tab.0.left" timestamp="1714286743559">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286049301" />
+    <state width="1867" height="338" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286743559" />
     <state width="1483" height="252" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
-    <state width="1867" height="338" key="GridCell.Tab.0.right" timestamp="1714286049301">
+    <state width="1867" height="338" key="GridCell.Tab.0.right" timestamp="1714286743559">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286049301" />
+    <state width="1867" height="338" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286743559" />
     <state width="1483" height="252" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
-    <state width="1867" height="489" key="GridCell.Tab.1.bottom" timestamp="1713790938024">
+    <state width="1867" height="489" key="GridCell.Tab.1.bottom" timestamp="1714286711165">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="489" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713790938024" />
+    <state width="1867" height="489" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286711165" />
     <state width="1483" height="367" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="489" key="GridCell.Tab.1.center" timestamp="1713790938023">
+    <state width="1867" height="489" key="GridCell.Tab.1.center" timestamp="1714286711165">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="489" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713790938023" />
+    <state width="1867" height="489" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286711165" />
     <state width="1483" height="367" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="489" key="GridCell.Tab.1.left" timestamp="1713790938023">
+    <state width="1867" height="489" key="GridCell.Tab.1.left" timestamp="1714286711165">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="489" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713790938023" />
+    <state width="1867" height="489" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286711165" />
     <state width="1483" height="367" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="489" key="GridCell.Tab.1.right" timestamp="1713790938023">
+    <state width="1867" height="489" key="GridCell.Tab.1.right" timestamp="1714286711165">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="489" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713790938023" />
+    <state width="1867" height="489" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286711165" />
     <state width="1483" height="367" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
     <state width="1867" height="531" key="GridCell.Tab.2.bottom" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -807,10 +811,10 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713712205797" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714283958356">
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714286084446">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714283958356" />
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286084446" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -877,6 +881,11 @@
           <url>file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/scripting/defaults/RawSqlSource.java</url>
           <line>43</line>
           <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy/UserServiceProxy.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
