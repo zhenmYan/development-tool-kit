@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/cglibproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/cglibproxy/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/cglibproxy/UserServiceProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/design-patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy/UserServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy/UserServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/cglibproxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/cglibproxy/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,14 +282,7 @@
       <workItem from="1713838794759" duration="5374000" />
       <workItem from="1714014161757" duration="6384000" />
       <workItem from="1714125801485" duration="16612000" />
-      <workItem from="1714218742340" duration="16199000" />
-    </task>
-    <task id="LOCAL-00011" summary="feat(rocketmq):启动">
-      <created>1712675564619</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1712675564619</updated>
+      <workItem from="1714218742340" duration="16491000" />
     </task>
     <task id="LOCAL-00012" summary="feat(mybatis):手写">
       <created>1712913398498</created>
@@ -633,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714286763303</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="feat(设计模式)：Cglib动态代理">
+      <created>1714293405459</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1714293405459</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,7 +635,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(pagehelper):接入spring的源码" />
     <MESSAGE value="feat(pagehelper):单步" />
     <MESSAGE value="feat(mybatis):实现思路" />
     <MESSAGE value="feat(mybatis):创建容器对象" />
@@ -666,7 +659,8 @@
     <MESSAGE value="feat(设计模式):构建者模式" />
     <MESSAGE value="feat(设计模式)：静态代理" />
     <MESSAGE value="feat(设计模式)：JDK动态代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式)：JDK动态代理" />
+    <MESSAGE value="feat(设计模式)：Cglib动态代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式)：Cglib动态代理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -718,10 +712,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714286762331">
+    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714293404158">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286762331" />
+    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714293404158" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -744,25 +738,25 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="338" key="GridCell.Tab.0.bottom" timestamp="1714293239551">
+    <state width="1867" height="338" key="GridCell.Tab.0.bottom" timestamp="1714293529278">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714293239551" />
+    <state width="1867" height="338" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714293529278" />
     <state width="1483" height="252" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
-    <state width="1867" height="338" key="GridCell.Tab.0.center" timestamp="1714293239551">
+    <state width="1867" height="338" key="GridCell.Tab.0.center" timestamp="1714293529278">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714293239551" />
+    <state width="1867" height="338" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714293529278" />
     <state width="1483" height="252" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
-    <state width="1867" height="338" key="GridCell.Tab.0.left" timestamp="1714293239551">
+    <state width="1867" height="338" key="GridCell.Tab.0.left" timestamp="1714293529278">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714293239551" />
+    <state width="1867" height="338" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714293529278" />
     <state width="1483" height="252" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
-    <state width="1867" height="338" key="GridCell.Tab.0.right" timestamp="1714293239551">
+    <state width="1867" height="338" key="GridCell.Tab.0.right" timestamp="1714293529278">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714293239551" />
+    <state width="1867" height="338" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714293529278" />
     <state width="1483" height="252" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714136648869" />
     <state width="1867" height="489" key="GridCell.Tab.1.bottom" timestamp="1714292878955">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -818,10 +812,10 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713712205797" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714286766380">
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714293411187">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714286766380" />
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714293411187" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -888,11 +882,6 @@
           <url>file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/scripting/defaults/RawSqlSource.java</url>
           <line>43</line>
           <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/jdkproxy/UserServiceProxy.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/structure/proxy/dynamicproxy/cglibproxy/UserServiceProxy.java</url>
