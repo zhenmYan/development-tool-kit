@@ -5,6 +5,8 @@ package com.yzm.structure.adapter.combineadapter;
  *
  *      1、应用场景
  *          - 接口不兼容
+ *              - 老系统存在能用的类，但与新系统接口不一致
+ *              - 使用第三方组件，但接口定义与自己要求的不一致
  *
  *      2、分类
  *          - 类适配器模式
