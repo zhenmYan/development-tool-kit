@@ -6,5 +6,6 @@ package com.yzm.behavior.strategy;
  * @author yzm
  * @date 2024/4/29
  */
-public class Strategy {
+public interface Strategy {
+    void show();
 }
