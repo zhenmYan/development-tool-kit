@@ -129,6 +129,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-tests/spring-boot-tests.iml" filepath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-tests/spring-boot-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot-tools/spring-boot-tools.iml" filepath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot-tools/spring-boot-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-yzm/spring-boot-yzm.iml" filepath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-yzm/spring-boot-yzm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hand-write-series/spring-hand-write/spring-hand-write.iml" filepath="$PROJECT_DIR$/hand-write-series/spring-hand-write/spring-hand-write.iml" />
     </modules>
   </component>
 </project>
