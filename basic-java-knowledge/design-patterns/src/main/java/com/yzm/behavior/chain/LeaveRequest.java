@@ -1,7 +1,7 @@
 package com.yzm.behavior.chain;
 
 /**
- * ##### 设计模式 design patterns 责任链模式
+ * ##### 设计模式 design patterns 责任链模式 TODO
  *
  *      1、应用场景
  *          - 链式处理
