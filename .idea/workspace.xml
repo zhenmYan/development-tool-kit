@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/strategy/StrategyA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/strategy/StrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/chain/GeneralManagerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/chain/GroupLeaderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/chain/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/chain/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/chain/ManagerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/strategy/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/strategy/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/strategy/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/behavior/strategy/Strategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,14 +286,7 @@
       <workItem from="1713838794759" duration="5374000" />
       <workItem from="1714014161757" duration="6384000" />
       <workItem from="1714125801485" duration="16612000" />
-      <workItem from="1714218742340" duration="25498000" />
-    </task>
-    <task id="LOCAL-00017" summary="feat(mybatis):配置文件解析">
-      <created>1712991143354</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1712991143354</updated>
+      <workItem from="1714218742340" duration="27890000" />
     </task>
     <task id="LOCAL-00018" summary="feat(mybatis):SqlSession">
       <created>1712992344402</created>
@@ -630,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714362815552</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="feat(设计模式)：策略模式">
+      <created>1714363495300</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1714363495300</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +639,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(jdbc):user的ddl" />
     <MESSAGE value="feat(mybatis):XmlMapperBuilder" />
     <MESSAGE value="feat(mybatis):修改时间" />
     <MESSAGE value="feat(mybatis):Executor" />
@@ -663,7 +663,8 @@
     <MESSAGE value="feat(设计模式)：装饰器代理" />
     <MESSAGE value="feat(设计模式)：门面代理" />
     <MESSAGE value="feat(设计模式)：观察者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式)：观察者模式" />
+    <MESSAGE value="feat(设计模式)：策略模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式)：策略模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -684,10 +685,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="477" y="203" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712077668946" />
-    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1714363134453">
+    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1714373982414">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714363134453" />
+    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714373982414" />
     <state x="530" y="26" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713576587811" />
     <state x="-1421" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1712074111479">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -715,10 +716,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714362814151">
+    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1714363494079">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714362814151" />
+    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714363494079" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -815,10 +816,10 @@
     </state>
     <state x="-1575" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713712205797" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714362820242">
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714363498902">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714362820242" />
+    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714363498902" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />
