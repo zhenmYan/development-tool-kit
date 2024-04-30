@@ -21,10 +21,20 @@ public class CreateThreadMethod3 {
         }
         };
         FutureTask<Callable> futureTask = new FutureTask<>(callable);
-        Thread thread = new Thread(futureTask);
-        thread.start();
+        Thread t1 = new Thread(futureTask);
+        t1.start();
 
         // 通过futureTask.get()获取Callable的返回值
+        // 注意这里get是阻塞的
         System.out.println(futureTask.get());
+
+
+        Callable callable1 = ()->{
+            System.out.println("创建线程的方式三：lambda表达式");
+            return null;
+        };
+        FutureTask<Callable> futureTask1 = new FutureTask<>(callable1);
+        Thread t2 = new Thread(futureTask1);
+        t2.start();
     }
 }

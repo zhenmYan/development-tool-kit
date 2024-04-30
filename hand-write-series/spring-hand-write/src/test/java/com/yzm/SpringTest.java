@@ -13,7 +13,7 @@ import org.junit.Test;
 public class SpringTest {
 
     @Test
-    public void test(){
+    public void test() throws ClassNotFoundException {
         ApplicationContext applicationContext = new ApplicationContext(Configuration.class);
     }
 }

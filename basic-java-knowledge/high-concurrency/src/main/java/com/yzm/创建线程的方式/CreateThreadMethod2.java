@@ -16,8 +16,14 @@ public class CreateThreadMethod2 {
                 System.out.println("创建线程的方式二：实现runnable接口，重写run方法");
             }
         };
-        Thread thread = new Thread(runnable);
-        thread.start();
+        Thread t1 = new Thread(runnable);
+        t1.start();
+
+        Runnable runnable1 = ()->{
+            System.out.println("创建线程的方式二：lambda表达式");
+        };
+        Thread t2 = new Thread(runnable1);
+        t2.start();
     }
 
 
