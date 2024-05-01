@@ -1,7 +1,18 @@
 package com.yzm.创建线程的方式;
 
 /**
- * 创建线程的方式一：继承Thread类，重写run方法
+ * ##### 并发编程 高并发 创建方式的线程
+ *
+ *      1、四种方式
+ *          - 方式一：继承Thread类，重写run方法
+ *          - 方式二：实现runnable接口，重写run方法
+ *          - 方式三：使用Callable和FutureTask
+ *          - 方式四：线程池
+ *
+ *      2、区别
+ *          - 实现runnable接口相比于继承Thread类，将任务创建和执行分离
+ *          - runnable与Callable，Callable有返回值和异常需要抛出
+ *          - 线程池则对线程资源进行统一管理
  *
  * @author: yan
  * @description:
