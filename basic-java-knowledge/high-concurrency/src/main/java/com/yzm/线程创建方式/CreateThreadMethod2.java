@@ -1,4 +1,4 @@
-package com.yzm.创建线程的方式;
+package com.yzm.线程创建方式;
 
 /**
  * 创建线程的方式二：实现runnable接口，重写run方法

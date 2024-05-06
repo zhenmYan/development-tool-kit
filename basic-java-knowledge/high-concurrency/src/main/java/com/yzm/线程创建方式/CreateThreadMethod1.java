@@ -1,4 +1,4 @@
-package com.yzm.创建线程的方式;
+package com.yzm.线程创建方式;
 
 /**
  * ##### 并发编程 高并发 创建方式的线程

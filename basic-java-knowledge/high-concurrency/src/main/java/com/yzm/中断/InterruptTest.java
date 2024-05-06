@@ -7,19 +7,6 @@ import java.util.concurrent.locks.LockSupport;
 /**
  * ##### 并发编程 中断
  *
- *          不可中断的意思是等待获取锁的时候不可中断，拿到锁之后可中断，
- *          没获取到锁的情况下，中断操作一直不会生效
- *
- *
- *          原因：
- *
- *          只是做了修改一个中断状态值为true，并没有显式声明抛出InterruptedException异常
- *
- *          等待状态（如sleep等待的时间范围内）interrupt()只设置标志位true，不抛异常
- *          非等待状态（如sleep等待结束）interrupt()设置标志位未false，抛异常
- *
- *
- *
  * @author 颜真明
  * @date 2024/3/19
  */

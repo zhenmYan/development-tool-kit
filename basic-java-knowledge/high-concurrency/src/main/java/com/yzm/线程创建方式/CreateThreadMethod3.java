@@ -1,4 +1,4 @@
-package com.yzm.创建线程的方式;
+package com.yzm.线程创建方式;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
