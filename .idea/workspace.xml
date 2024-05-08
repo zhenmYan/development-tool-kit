@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="feat(spring)：源码">
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/函数式编程/TriFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/basic-knowledge/src/main/java/com/yzm/函数式编程/TriFunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java/com/yzm/自定义锁/ReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/redis/redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/redis/src/main/java/com/yzm/RedisTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/.editorconfig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/.mailmap" afterDir="false" />
@@ -7989,8 +7992,12 @@
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/src/test/resources/org/springframework/util/testlog4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/src/test/resources/org/springframework/web/util/testlog4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/src/test/resources/testlog4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/RectangleShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/design-patterns/src/main/java/com/yzm/found/factory/factorymethod/RectangleShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java/com/yzm/手写同步器/AQSImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java/com/yzm/自定义锁/YzmLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -8096,20 +8103,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mapper" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mappers" />
-      <recent name="W:\idea_project\development-tool-kit\hand-write-series" />
-      <recent name="W:\idea_project\development-tool-kit\pagehelper-spring-boot-2.1.0" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.yzm" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yzm.config" />
-      <recent name="com.yzm.found.factory.factorymethod" />
-      <recent name="com.yzm.dev" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\structure\proxy\dynamicproxy\cglibproxy" />
@@ -8117,6 +8112,18 @@
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\found\factory\abstractfactory" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\high-concurrency\src\main\java\com\yzm" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\jvm\src\main\java\com\yzm" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzm.config" />
+      <recent name="com.yzm.found.factory.factorymethod" />
+      <recent name="com.yzm.dev" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mapper" />
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mappers" />
+      <recent name="W:\idea_project\development-tool-kit\hand-write-series" />
+      <recent name="W:\idea_project\development-tool-kit\pagehelper-spring-boot-2.1.0" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TriFunctionTest">
@@ -8279,14 +8286,7 @@
       <workItem from="1714667433650" duration="3358000" />
       <workItem from="1714958177431" duration="12314000" />
       <workItem from="1715049097236" duration="2082000" />
-      <workItem from="1715061633193" duration="2304000" />
-    </task>
-    <task id="LOCAL-00029" summary="feat(pagehelper):分页生效">
-      <created>1713269452028</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1713269452028</updated>
+      <workItem from="1715061633193" duration="9658000" />
     </task>
     <task id="LOCAL-00030" summary="feat(pagehelper):分页的两种方式">
       <created>1713279157253</created>
@@ -8624,7 +8624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714992821691</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="feat(Java基础)：函数式编程">
+      <created>1715090957495</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1715090957496</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -8632,7 +8639,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(设计模式):工厂模式-简单工厂" />
     <MESSAGE value="feat(设计模式):重新命名包名" />
     <MESSAGE value="feat(设计模式):工厂方法" />
     <MESSAGE value="feat(jvm):字符串常量池" />
@@ -8657,17 +8663,18 @@
     <MESSAGE value="feat(并发编程)：中断" />
     <MESSAGE value="feat(并发编程)：顺序打印" />
     <MESSAGE value="feat(spring)：源码" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(spring)：源码" />
+    <MESSAGE value="feat(Java基础)：函数式编程" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Java基础)：函数式编程" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="261" y="0" key="#Plugins/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713435972362" />
-    <state x="-1468" y="101" key="#Project_Structure" timestamp="1714995888257">
+    <state x="-1468" y="101" key="#Project_Structure" timestamp="1715139606186">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1468" y="101" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714995888257" />
+    <state x="-1468" y="101" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715139606186" />
     <state x="362" y="0" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713520694496" />
     <state x="-1451" y="85" width="1111" height="894" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1713266577544">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -8678,10 +8685,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="477" y="203" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712077668946" />
-    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1714375948291">
+    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1715141721741">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714375948291" />
+    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715141721741" />
     <state x="530" y="26" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713576587811" />
     <state x="-1421" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1712074111479">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -8713,15 +8720,15 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1715043000139">
+    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1715182029850">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715043000139" />
+    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715182029850" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
-    <state x="-1843" y="121" key="DiffContextDialog" timestamp="1712675548596">
+    <state x="-1843" y="121" key="DiffContextDialog" timestamp="1715090710060">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1843" y="121" key="DiffContextDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712675548596" />
+    <state x="-1843" y="121" key="DiffContextDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715090710060" />
     <state x="513" y="173" key="EnvironmentVariablesDialog" timestamp="1712625761896">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -8739,25 +8746,25 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="204" key="GridCell.Tab.0.bottom" timestamp="1715090629049">
+    <state width="1867" height="204" key="GridCell.Tab.0.bottom" timestamp="1715091118492">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715090629049" />
+    <state width="1867" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715091118492" />
     <state width="1483" height="148" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351219" />
-    <state width="1867" height="204" key="GridCell.Tab.0.center" timestamp="1715090629049">
+    <state width="1867" height="204" key="GridCell.Tab.0.center" timestamp="1715091118492">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="204" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715090629049" />
+    <state width="1867" height="204" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715091118492" />
     <state width="1483" height="148" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351219" />
-    <state width="1867" height="204" key="GridCell.Tab.0.left" timestamp="1715090629049">
+    <state width="1867" height="204" key="GridCell.Tab.0.left" timestamp="1715091118492">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="204" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715090629049" />
+    <state width="1867" height="204" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715091118492" />
     <state width="1483" height="148" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351218" />
-    <state width="1867" height="204" key="GridCell.Tab.0.right" timestamp="1715090629049">
+    <state width="1867" height="204" key="GridCell.Tab.0.right" timestamp="1715091118492">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="204" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715090629049" />
+    <state width="1867" height="204" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715091118492" />
     <state width="1483" height="148" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351219" />
     <state width="1867" height="489" key="GridCell.Tab.1.bottom" timestamp="1714964672328">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -8813,10 +8820,10 @@
     </state>
     <state x="-1664" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715061654619" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2" timestamp="1714992825776">
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1715090823213">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1594" y="108" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714992825776" />
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715090823213" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -8840,20 +8847,20 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="131" y="182" width="1160" height="498" maximized="true" key="dock-window-2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713540123941" />
-    <state x="-1575" y="116" width="1293" height="824" key="find.popup" timestamp="1715089568952">
+    <state x="-1575" y="116" width="1293" height="824" key="find.popup" timestamp="1715091074966">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1575" y="116" width="1293" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715089568952" />
+    <state x="-1575" y="116" width="1293" height="824" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715091074966" />
     <state x="365" y="90" width="1171" height="738" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713944580752" />
-    <state x="-1726" y="190" width="1598" height="695" key="new project wizard" timestamp="1714390006980">
+    <state x="-1726" y="190" width="1598" height="695" key="new project wizard" timestamp="1715135605055">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1726" y="190" width="1598" height="695" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714390006980" />
+    <state x="-1726" y="190" width="1598" height="695" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715135605055" />
     <state x="-1536" y="118" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713511031447" />
-    <state x="-1486" y="0" width="1050" height="1048" key="search.everywhere.popup" timestamp="1714963978266">
+    <state x="-1486" y="0" width="1050" height="1048" key="search.everywhere.popup" timestamp="1715091238137">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1486" y="0" width="1050" height="1048" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714963978266" />
+    <state x="-1486" y="0" width="1050" height="1048" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715091238137" />
     <state x="347" y="0" width="840" height="832" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713520520440" />
   </component>
   <component name="XDebuggerManager">
