@@ -1,17 +1,36 @@
 package com.yzm.自定义锁;
 
+import java.io.Serializable;
 import java.util.concurrent.TimeUnit;
 import java.util.Collection;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 /**
- * description:
+ * ##### 并发编程 ReentrantLock源码分析
+ *
+ *      1、代码结构
+ *          - 实现lock
+ *          - 内部类Sync继承AQS
+ *              - NonfairSync、FairSync继承Sync
+ *
+ *      2、公平、非公平
+ *          - 非公平
+ *              - 先CAS再acquire
+ *          - 公平
+ *              -直接acquire
+ *
+ *      3、可重入
+ *          - state可以累加
+ *
+ *      4、可中断
+ *          - 等待队列中会抛异常
+ *
  *
  * @author yzm
  * @date 2024/5/8
  */
-public class ReentrantLock implements Lock, java.io.Serializable {
+public class ReentrantLock implements Lock, Serializable {
     private static final long serialVersionUID = 7373984872572414699L;
     private final Sync sync;
 
@@ -55,16 +74,12 @@ public class ReentrantLock implements Lock, java.io.Serializable {
 
         @Override
         protected final boolean isHeldExclusively() {
-            // While we must in general read state before owner,
-            // we don't need to do so to check if current thread is owner
             return getExclusiveOwnerThread() == Thread.currentThread();
         }
 
-        final AbstractQueuedSynchronizer.ConditionObject newCondition() {
+        final ConditionObject newCondition() {
             return new ConditionObject();
         }
-
-        // Methods relayed from outer class
 
         final Thread getOwner() {
             return getState() == 0 ? null : getExclusiveOwnerThread();
@@ -88,6 +103,11 @@ public class ReentrantLock implements Lock, java.io.Serializable {
     static final class NonfairSync extends Sync {
         private static final long serialVersionUID = 7316153563782823691L;
 
+        /**
+         * 非公平的原因
+         *      先cas
+         *      再acquire
+         */
         @Override
         final void lock() {
             if (compareAndSetState(0, 1))
