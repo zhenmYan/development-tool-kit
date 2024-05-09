@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="feat(spring)：源码">
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/redis/redis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/redis/src/main/java/com/yzm/RedisTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/.editorconfig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/.mailmap" afterDir="false" />
@@ -7990,8 +7987,6 @@
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/src/test/resources/org/springframework/util/testlog4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/src/test/resources/org/springframework/web/util/testlog4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/src/test/resources/testlog4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java/com/yzm/自定义锁/ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java/com/yzm/自定义锁/ReentrantLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -8281,14 +8276,7 @@
       <workItem from="1714667433650" duration="3358000" />
       <workItem from="1714958177431" duration="12314000" />
       <workItem from="1715049097236" duration="2082000" />
-      <workItem from="1715061633193" duration="18516000" />
-    </task>
-    <task id="LOCAL-00031" summary="feat(pagehelper):接入spring的源码">
-      <created>1713279917407</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1713279917407</updated>
+      <workItem from="1715061633193" duration="19168000" />
     </task>
     <task id="LOCAL-00032" summary="feat(pagehelper):单步">
       <created>1713285560169</created>
@@ -8626,7 +8614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715182200111</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="feat(spring)：源码">
+      <created>1715275512595</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1715275512595</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -8715,10 +8710,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1715275318483">
+    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1715279675374">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715275318483" />
+    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715279675374" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1715090710060">
       <screen x="-1920" y="0" width="1920" height="1050" />

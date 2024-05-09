@@ -27,6 +27,7 @@
         <module>basic-java-knowledge</module>
         <module>project-test-client</module>
         <module>hand-write-series</module>
+        <module>basic-java-knowledge/untitled</module>
     </modules>
 
     <dependencies>
