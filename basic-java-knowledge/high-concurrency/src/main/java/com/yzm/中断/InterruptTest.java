@@ -18,11 +18,11 @@ public class InterruptTest {
         // 打断sleep方法
 //        interruptSleep();
         // 打断正常运行的线程
-//        interruptRunThead();
+        interruptRunThead();
         // 两阶段终止
 //        twoPhaseTermination();
         // 打断park方法
-        interruptPark();
+//        interruptPark();
 
     }
 
