@@ -130,13 +130,13 @@ public class SimpleExecutor implements Executor {
         // 标记处理器
         ParameterMappingTokenHandler parameterMappingTokenHandler = new ParameterMappingTokenHandler();
         // 标记解析器
-        GenericTokenParser genericTokenParser = new GenericTokenParser("#{","}",parameterMappingTokenHandler);
+//        GenericTokenParser genericTokenParser = new GenericTokenParser("#{","}",parameterMappingTokenHandler);
         // 将#{id}替换为？
-        String finalSql = genericTokenParser.parse(sql);
+//        String finalSql = genericTokenParser.parse(sql);
         // 获取参数列表
-        List<ParameterMapping> parameterMappings = parameterMappingTokenHandler.getParameterMappings();
-        boundSql.setFinalSql(finalSql);
-        boundSql.setList(parameterMappings);
+//        List<ParameterMapping> parameterMappings = parameterMappingTokenHandler.getParameterMappings();
+//        boundSql.setFinalSql(finalSql);
+//        boundSql.setList(parameterMappings);
         return boundSql;
     }
 }

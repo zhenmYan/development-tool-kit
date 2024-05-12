@@ -12,7 +12,7 @@ public class Resources {
 
     /**
      *  加载配置文件
-      */
+     */
     public static InputStream getResourceAsStream(String path){
         InputStream resourceAsStream
                 = Resources.class.getClassLoader().getResourceAsStream(path);

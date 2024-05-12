@@ -1,6 +1,0 @@
-
-a	java:S112Ò"FDefine and throw a dedicated exception instead of using a generic one.(ç¼ëÞüÿÿÿÿ
-S
-java:S1610:"8Convert the abstract class "AopUtils" into an interface.(Ò’¦Ôøÿÿÿÿ
-U
-java:S1118:":Add a private constructor to hide the implicit public one.(Ò’¦Ôøÿÿÿÿ

@@ -1,8 +1,9 @@
 package com.yzm.pojo;
 
 /**
- * description:
- *      mapper文件的映射对象，每条sql对应一个MappedStatement对象
+ * ##### 自定义MyBatis MappedStatement
+ *
+ *      1、mapper文件的映射对象，每条sql对应一个MappedStatement对象
  *
  * @author yzm
  * @date 2024/4/12

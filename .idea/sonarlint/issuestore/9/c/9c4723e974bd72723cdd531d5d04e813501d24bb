@@ -1,6 +1,0 @@
-
-r
-java:S30770"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ü§¦‰üÿÿÿÿ
-h
-java:S3776S"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(úšŒµ
-s	java:S135^"YReduce the total number of break and continue statements in this loop to use at most one.(‡ÓÍ’ùÿÿÿÿ

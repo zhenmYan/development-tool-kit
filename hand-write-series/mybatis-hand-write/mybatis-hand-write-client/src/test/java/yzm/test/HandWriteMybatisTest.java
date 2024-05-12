@@ -3,7 +3,9 @@ package yzm.test;
 import com.yzm.dao.UserMapper;
 import com.yzm.io.Resources;
 import com.yzm.pojo.User;
-import com.yzm.sqlSession.*;
+import com.yzm.sqlSession.SqlSession;
+import com.yzm.sqlSession.SqlSessionFactory;
+import com.yzm.sqlSession.SqlSessionFactoryBuilder;
 import org.junit.Test;
 
 import java.io.InputStream;

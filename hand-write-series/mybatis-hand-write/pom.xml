@@ -11,5 +11,9 @@
 
     <artifactId>mybatis-hand-write</artifactId>
 
+    <modules>
+        <module>mybatis-hand-write-client</module>
+        <module>mybatis-hand-write-service</module>
+    </modules>
 
 </project>

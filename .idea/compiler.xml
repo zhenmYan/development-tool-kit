@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot (1) (org.springframework.boot)" />
         <module name="spring-boot-test" />
         <module name="spring-boot-starter-thymeleaf" />
         <module name="spring-boot-starter-data-cassandra" />
         <module name="spring-boot-starter-data-redis" />
+        <module name="rocketmq-common" />
         <module name="spring-boot-starter-data-mongodb-reactive" />
         <module name="rocketmq-openmessaging" />
         <module name="spring-boot-test-support" />
@@ -19,7 +19,6 @@
         <module name="spring-boot-configuration-processor-tests" />
         <module name="rocketmq-acl" />
         <module name="spring-boot-starter-security" />
-        <module name="spring-boot-starter-freemarker" />
         <module name="rocketmq-namesrv" />
         <module name="mybatis-hand-write-client" />
         <module name="pagehelper" />
@@ -56,6 +55,7 @@
         <module name="rocketmq-tiered-store" />
         <module name="spring-boot-cli" />
         <module name="redis" />
+        <module name="spring-boot-starter-activemq" />
         <module name="spring-boot-starter-jta-narayana" />
         <module name="high-concurrency" />
         <module name="spring-boot" />
@@ -65,28 +65,27 @@
         <module name="spring-boot-starter-web-services" />
         <module name="rocketmq-test" />
         <module name="pagehelper-spring-boot-sample-xml" />
+        <module name="spring-boot-starter-quartz" />
         <module name="spring-boot-starter-jetty" />
         <module name="rocketmq-client" />
         <module name="basic-java-knowledge" />
-        <module name="spring-boot-test-autoconfigure" />
-        <module name="spring-boot-devtools-tests" />
+        <module name="basic-knowledge" />
         <module name="spring-boot-starter-tomcat" />
         <module name="rocketmq-store" />
         <module name="spring-boot-starter-integration" />
-        <module name="spring-boot-starter-jdbc" />
         <module name="spring-boot-starter-data-couchbase-reactive" />
         <module name="spring-boot-starter-amqp" />
         <module name="rocketmq-container" />
-        <module name="basic-knowledge" />
-        <module name="spring-hand-write" />
+        <module name="spring-boot-starter-freemarker" />
+        <module name="rocketmq-srvutil" />
         <module name="spring-boot-actuator-autoconfigure" />
         <module name="spring-boot-starter-log4j2" />
         <module name="mybatis-3-mybatis-3.5.7-client" />
         <module name="spring-boot-starter-data-ldap" />
         <module name="rocketmq" />
         <module name="rocketmq-tools" />
+        <module name="spring-boot-starter-jdbc" />
         <module name="spring-boot-starter-mail" />
-        <module name="spring-boot-starter-cache" />
         <module name="pagehelper-spring-boot-2.1.0-client" />
         <module name="rocketmq-example" />
         <module name="spring-boot-loader" />
@@ -95,9 +94,9 @@
         <module name="mybatis-hand-write" />
         <module name="spring-boot-loader-tools" />
         <module name="spring-boot-starter-artemis" />
-        <module name="spring-boot-starter-data-mongodb" />
+        <module name="spring-hand-write" />
         <module name="spring-boot-starter-hateoas" />
-        <module name="rocketmq-common" />
+        <module name="spring-boot-starter-data-mongodb" />
         <module name="spring-boot-configuration-metadata" />
         <module name="spring-boot-starter-test" />
         <module name="rocketmq-filter" />
@@ -107,16 +106,16 @@
         <module name="spring-boot-autoconfigure" />
         <module name="spring-boot-devtools" />
         <module name="spring-boot-maven-plugin" />
-        <module name="spring-boot-starter-activemq" />
+        <module name="spring-boot-devtools-tests" />
         <module name="spring-boot-antlib" />
         <module name="spring-boot-starter-actuator" />
         <module name="pagehelper-spring-boot-autoconfigure" />
         <module name="spring-boot-starter-webflux" />
-        <module name="rocketmq-srvutil" />
+        <module name="spring-boot-test-autoconfigure" />
         <module name="spring-boot-starter-aop" />
         <module name="spring-boot-starter-data-solr" />
         <module name="spring-boot-server-tests" />
-        <module name="spring-boot-starter-quartz" />
+        <module name="spring-boot-starter-cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -130,7 +129,7 @@
       <module name="mybatis" target="1.8" />
       <module name="mybatis-3-mybatis-3.5.7-client" target="8" />
       <module name="mybatis-hand-write" target="8" />
-      <module name="mybatis-hand-write-client" target="1.5" />
+      <module name="mybatis-hand-write-client" target="8" />
       <module name="mybatis-hand-write-service" target="8" />
       <module name="pagehelper" target="8" />
       <module name="pagehelper-spring-boot" target="8" />
@@ -164,7 +163,6 @@
       <module name="rocketmq-tools" target="1.8" />
       <module name="rocketmq-yzm" target="8" />
       <module name="spring-boot" target="1.8" />
-      <module name="spring-boot (1) (org.springframework.boot)" target="1.8" />
       <module name="spring-boot-actuator" target="1.8" />
       <module name="spring-boot-actuator-autoconfigure" target="1.8" />
       <module name="spring-boot-antlib" target="1.8" />
@@ -175,7 +173,7 @@
       <module name="spring-boot-configuration-metadata" target="1.8" />
       <module name="spring-boot-configuration-processor" target="1.8" />
       <module name="spring-boot-configuration-processor-tests" target="1.8" />
-      <module name="spring-boot-dependencies" target="1.5" />
+      <module name="spring-boot-dependencies" target="8" />
       <module name="spring-boot-devtools" target="1.8" />
       <module name="spring-boot-devtools-tests" target="1.8" />
       <module name="spring-boot-docs" target="1.8" />
@@ -186,7 +184,7 @@
       <module name="spring-boot-loader-tools" target="1.8" />
       <module name="spring-boot-maven-plugin" target="1.8" />
       <module name="spring-boot-parent" target="1.8" />
-      <module name="spring-boot-project" target="1.5" />
+      <module name="spring-boot-project" target="8" />
       <module name="spring-boot-properties-migrator" target="1.8" />
       <module name="spring-boot-samples-invoker" target="1.8" />
       <module name="spring-boot-server-tests" target="1.8" />
@@ -263,13 +261,12 @@
       <module name="java-jvm" options="-parameters" />
       <module name="mybatis-3-mybatis-3.5.7-client" options="-parameters" />
       <module name="mybatis-hand-write" options="-parameters" />
-      <module name="mybatis-hand-write-service" options="-parameters" />
+      <module name="mybatis-hand-write-service" options="" />
       <module name="pagehelper-spring-boot-2.1.0-client" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="rocketmq" options="-parameters" />
       <module name="rocketmq-yzm" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
-      <module name="spring-boot (1) (org.springframework.boot)" options="-parameters" />
       <module name="spring-boot-actuator" options="-parameters" />
       <module name="spring-boot-actuator-autoconfigure" options="-parameters" />
       <module name="spring-boot-antlib" options="-parameters" />

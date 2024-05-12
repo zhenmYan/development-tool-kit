@@ -12,7 +12,7 @@
     <artifactId>hand-write-series</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>spring</module>
+        <module>spring-hand-write</module>
         <module>mybatis-hand-write</module>
     </modules>
 

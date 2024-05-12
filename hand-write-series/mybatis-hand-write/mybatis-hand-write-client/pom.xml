@@ -16,7 +16,7 @@
         </dependency>
         <dependency>
             <groupId>com.yzm</groupId>
-            <artifactId>mybatis-hand-write</artifactId>
+            <artifactId>mybatis-hand-write-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

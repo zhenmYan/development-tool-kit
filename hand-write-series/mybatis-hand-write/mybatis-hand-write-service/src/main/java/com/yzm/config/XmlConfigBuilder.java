@@ -13,7 +13,13 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * description:采用dom4j+xpath解析，封装Configuration类
+ * ##### 自定义MyBatis XmlConfigBuilder
+ *
+ *      1、专门用于解析配置文件的类
+ *          - parse方法进行解析，返回值是Configuration
+ *
+ *      2、采用dom4j+xpath解析，封装Configuration类
+ *          - 内存中的字节流（io之后） -> Document -> Element
  *
  * @author yzm
  * @date 2024/4/12
@@ -40,6 +46,13 @@ public class XmlConfigBuilder {
         // xpath表达式  找所有的property 例如 <property name="driver" value="com.mysql.jdbc.Driver" />是一个property
         List<Element> elementList = rootElement.selectNodes("//property");
         Properties properties = new Properties();
+        /*
+           遍历
+          <property name="driver" value="com.mysql.cj.jdbc.Driver" />
+          <property name="url" value="jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=UTC" />
+          <property name="username" value="root" />
+          <property name="password" value="123" />
+         */
         for(Element element:elementList){
             String name = element.attributeValue("name");
             String value = element.attributeValue("value");

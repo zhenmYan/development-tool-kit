@@ -1,7 +1,0 @@
-
-[	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(­ÒÃ
-\	java:S112¶"FDefine and throw a dedicated exception instead of using a generic one.(òğ÷Ğ
-d
-java:S2133Y"IRemove this object instantiation and use "TestServiceImpl.class" instead.(Ş—ş¦øÿÿÿÿ
-k
-java:S11920"PDefine a constant instead of duplicating this literal "TestServiceImpl" 7 times.(µ¢‰Õıÿÿÿÿ
