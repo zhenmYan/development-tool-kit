@@ -1,0 +1,21 @@
+
+>
+java:S1948q"(Make "logger" transient or serializable.(¬Ç´
+N
+java:S1948t"8Make "advisorAdapterRegistry" transient or serializable.(ŒÚÀ¾
+S
+java:S1948‚"<Make "customTargetSourceCreators" transient or serializable.(£½ŞÖ
+I
+java:S1948…"-Make "beanFactory" transient or serializable.(–Üéûùÿÿÿÿ
+M
+java:S1948‰"6Make "earlyProxyReferences" transient or serializable.(£Ğ¤
+a
+java:S1874›"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(™éœà
+o
+java:S2637³"YThis method's return value is marked "@NonNullApi at package level" but null is returned.(ëº©l
+p
+java:S2637ü"YThis method's return value is marked "@NonNullApi at package level" but null is returned.(¥¹ï
+p
+java:S2637€"YThis method's return value is marked "@NonNullApi at package level" but null is returned.(¥¹ï
+p
+java:S2637’"YThis method's return value is marked "@NonNullApi at package level" but null is returned.(¥¹ï

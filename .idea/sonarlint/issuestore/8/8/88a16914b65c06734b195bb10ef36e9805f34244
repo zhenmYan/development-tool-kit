@@ -1,0 +1,14 @@
+
+[	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(°“‘¿
+y
+java:S2142^"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(Ê‰¬åÿÿÿÿÿ
+y
+java:S2142i"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(Ê‰¬åÿÿÿÿÿ
+h
+java:S3776{"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(“–ýþ
+N
+java:S1117€"7Rename "ex" which hides the field declared at line 115.(Ý­áÞ
+S
+java:S1117’"7Rename "ex" which hides the field declared at line 115.(º¹áôÿÿÿÿÿ
+Ÿ
+java:S4449W"ˆAnnotate the parameter with @javax.annotation.Nullable in constructor declaration, or make sure that null can not be passed as argument.(çð€á

@@ -1,0 +1,7 @@
+
+U
+java:S1118*":Add a private constructor to hide the implicit public one.(Εινύÿÿÿÿ
+
+java:S1192G"yDefine a constant instead of duplicating this literal "MethodInvocation is not a Spring ProxyMethodInvocation: " 3 times.(³αθθ
+p
+java:S2637"YThis method's return value is marked "@NonNullApi at package level" but null is returned.(όλ‘Σ

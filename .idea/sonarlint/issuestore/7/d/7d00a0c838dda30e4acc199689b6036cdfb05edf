@@ -1,0 +1,11 @@
+
+F
+java:S2160,"+Override the "equals" method in this class.(éÛ´„ÿÿÿÿÿ
+H
+java:S19482"-Make "beanFactory" transient or serializable.(–Üéûùÿÿÿÿ
+r
+java:S30775"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(êÉàËùÿÿÿÿ
+r
+java:S30777"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ß¬†ıÿÿÿÿ
+P
+java:S1117j":Rename "advice" which hides the field declared at line 52.(ŒÛÉ

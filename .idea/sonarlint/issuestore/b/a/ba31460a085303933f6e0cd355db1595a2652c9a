@@ -1,0 +1,75 @@
+
+˜
+java:S1186¯"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‘Êô–
+˜
+java:S1186²"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‡äıé
+
+java:S1186µ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úåç¡øÿÿÿÿ
+˜
+java:S1186¸"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©•ûˆ
+
+java:S1186»"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úŒÃ‘øÿÿÿÿ
+
+java:S1186¾"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¾êÙüÿÿÿÿ
+
+java:S1186Á"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(öÌúŸÿÿÿÿÿ
+
+java:S1186Ä"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(îç‘şÿÿÿÿ
+
+java:S1186Ç"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ø­üøÿÿÿÿ
+
+java:S1186Ê"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(àÇšİúÿÿÿÿ
+˜
+java:S1186Í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»¬¨é
+˜
+java:S1186Ğ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(İ½Õ
+˜
+java:S1186Ó"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(³ô–Ä
+v
+java:S1149 "_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+ 
+java:S11928"„Define a constant instead of duplicating this literal "Failed to bind all argument names: 1 argument(s) could not be bound" 5 times.( ½ù‘øÿÿÿÿ
+a
+java:S11927"FDefine a constant instead of duplicating this literal "foo()" 8 times.(ÀÌ“³şÿÿÿÿ
+n
+java:S1192("SDefine a constant instead of duplicating this literal "execution(* *(..))" 3 times.(ÈÏüáÿÿÿÿÿ
+]
+java:S1192­"FDefine a constant instead of duplicating this literal "count" 4 times.(¯–ß
+b
+java:S1192("GDefine a constant instead of duplicating this literal "noArgs" 3 times.(ÈÏüáÿÿÿÿÿ
+±
+java:S1192s"šDefine a constant instead of duplicating this literal "Found 2 candidate this(), target() or args() variables but only one unbound argument slot" 3 times.(Æ¹ÚÌ
+m
+java:S1192²"VDefine a constant instead of duplicating this literal "oneObjectOnePrimitive" 3 times.(¦áù—
+a
+java:S1192S"KDefine a constant instead of duplicating this literal "oneObject" 21 times.(ê™¤“
+d
+java:S1192-"NDefine a constant instead of duplicating this literal "thisJoinPoint" 3 times.(Ğâÿƒ
+d
+java:S1192­"MDefine a constant instead of duplicating this literal "onePrimitive" 5 times.(¯–ß
+p
+java:S2637ä"YThis method's return value is marked "@NonNullApi at package level" but null is returned.(¥¹ï
+±
+java:S4449M"•Annotate the parameter with @javax.annotation.Nullable in method 'assertException' declaration, or make sure that null can not be passed as argument.(›ù¿¢ÿÿÿÿÿ
+·
+java:S4449Ê"šAnnotate the parameter with @javax.annotation.Nullable in method 'assertParameterNames' declaration, or make sure that null can not be passed as argument.(³Ô’èùÿÿÿÿ
+±
+java:S4449="šAnnotate the parameter with @javax.annotation.Nullable in method 'assertParameterNames' declaration, or make sure that null can not be passed as argument.(¨¨
+±
+java:S4449^"•Annotate the parameter with @javax.annotation.Nullable in method 'assertException' declaration, or make sure that null can not be passed as argument.(¢ˆ˜¨øÿÿÿÿ
+·
+java:S4449Ä"šAnnotate the parameter with @javax.annotation.Nullable in method 'assertParameterNames' declaration, or make sure that null can not be passed as argument.(£æÊ‹øÿÿÿÿ
+¬
+java:S4449G"•Annotate the parameter with @javax.annotation.Nullable in method 'assertException' declaration, or make sure that null can not be passed as argument.(•Ó˜¹
+²
+java:S4449è"šAnnotate the parameter with @javax.annotation.Nullable in method 'assertParameterNames' declaration, or make sure that null can not be passed as argument.(Õšû‘
+²
+java:S4449ˆ"•Annotate the parameter with @javax.annotation.Nullable in method 'assertException' declaration, or make sure that null can not be passed as argument.(«“´şÿÿÿÿ
+±
+java:S4449B"šAnnotate the parameter with @javax.annotation.Nullable in method 'assertParameterNames' declaration, or make sure that null can not be passed as argument.(ŒŞõÿ
+¬
+java:S4449X"•Annotate the parameter with @javax.annotation.Nullable in method 'assertException' declaration, or make sure that null can not be passed as argument.(ªÂ÷
+©
+java:S4449ø"ŒAnnotate the parameter with @javax.annotation.Nullable in method 'format' declaration, or make sure that null can not be passed as argument.(¤‰ Óùÿÿÿÿ
+±
+java:S4449S"šAnnotate the parameter with @javax.annotation.Nullable in method 'assertParameterNames' declaration, or make sure that null can not be passed as argument.(ê™¤“

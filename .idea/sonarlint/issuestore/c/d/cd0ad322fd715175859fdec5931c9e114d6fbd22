@@ -1,0 +1,11 @@
+
+[	java:S1128"FDefine and throw a dedicated exception instead of using a generic one.(‹™½¡
+[	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(Û…Á“
+`	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(¿ê¾Ëþÿÿÿÿ
+Z	java:S112U"FDefine and throw a dedicated exception instead of using a generic one.(¸øî
+`	java:S112\"FDefine and throw a dedicated exception instead of using a generic one.(†ÌƒÔþÿÿÿÿ
+`	java:S112c"FDefine and throw a dedicated exception instead of using a generic one.(ß™¿¹ÿÿÿÿÿ
+[	java:S112k"FDefine and throw a dedicated exception instead of using a generic one.(õ¶µŸ
+V	java:S125G"<This block of commented-out lines of code should be removed.(Ù™áÍÿÿÿÿÿ
+d
+java:S11929"IDefine a constant instead of duplicating this literal "hashCode" 8 times.(ˆ´Äùÿÿÿÿ

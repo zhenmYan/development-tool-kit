@@ -1,0 +1,15 @@
+
+`	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(âÙ†şÿÿÿÿ
+`	java:S1128"FDefine and throw a dedicated exception instead of using a generic one.(££²äüÿÿÿÿ
+[	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(§ÌÄµ
+`	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(í÷ºĞúÿÿÿÿ
+Z	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(×âÀ(
+`	java:S112_"FDefine and throw a dedicated exception instead of using a generic one.(úñ­«ıÿÿÿÿ
+y	java:S116&"_Rename this field "EXCEPTION_GETMESSAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼²ß¼úÿÿÿÿ
+u	java:S116("[Rename this field "ITESTBEAN_SETAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢˜ÔÜøÿÿÿÿ
+p	java:S116*"[Rename this field "ITESTBEAN_GETAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯›˜Æ
+x	java:S116,"^Rename this field "IOTHER_ABSQUATULATE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö†™”ùÿÿÿÿ
+<
+java:S2129V"!Remove this "Integer" constructor(ù²Á·şÿÿÿÿ
+<
+java:S2129["!Remove this "Integer" constructor(Èş›”üÿÿÿÿ

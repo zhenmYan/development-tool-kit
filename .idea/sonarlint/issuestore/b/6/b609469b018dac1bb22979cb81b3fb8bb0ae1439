@@ -1,0 +1,231 @@
+
+T	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(¨äÑ>
+E	Web:S1827"+Remove this deprecated "BGCOLOR" attribute.(…¬Éùÿÿÿÿ
+GWeb:TableWithoutCaptionCheck" Add a description to this table.(­ı¯6
+9	Web:S5256"%Add "<th>" headers to this "<table>".(­ı¯6
+=	Web:S1827")Remove this deprecated "width" attribute.(­ı¯6
+C	Web:S1827
+")Remove this deprecated "align" attribute.(³úõˆùÿÿÿÿ
+=	Web:S1827")Remove this deprecated "align" attribute.(¿ˆİ=
+SWeb:UnsupportedTagsInHtml5Check"(Remove this deprecated "center" element.(¡á€Ò
+GWeb:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(Ä÷…Ç
+LWeb:BoldAndItalicTagsCheck%"!Replace this <B> tag by <strong>.(ƒ°‡øÿÿÿÿ
+GWeb:BoldAndItalicTagsCheck&"!Replace this <B> tag by <strong>.(ã¦Î„
+LWeb:BoldAndItalicTagsCheck'"!Replace this <B> tag by <strong>.(äÆªşùÿÿÿÿ
+LWeb:BoldAndItalicTagsCheck("!Replace this <B> tag by <strong>.(ñíîşşÿÿÿÿ
+GWeb:BoldAndItalicTagsCheck)"!Replace this <B> tag by <strong>.(¥ïªú
+GWeb:BoldAndItalicTagsCheck+"!Replace this <B> tag by <strong>.(¤½îÄ
+GWeb:BoldAndItalicTagsCheck,"!Replace this <B> tag by <strong>.(àÜ˜ü
+LWeb:BoldAndItalicTagsCheck."!Replace this <B> tag by <strong>.(ÃÃœ¸şÿÿÿÿ
+LWeb:BoldAndItalicTagsCheck/"!Replace this <B> tag by <strong>.(°øöšùÿÿÿÿ
+GWeb:BoldAndItalicTagsCheck0"!Replace this <B> tag by <strong>.(ÖÙßì
+B	Web:S18274"(Remove this deprecated "NAME" attribute.(øÇ¤—şÿÿÿÿ
+CWeb:BoldAndItalicTagsCheckJ"Replace this <i> tag by <em>.(Å®Ü
+B	Web:S1827X"(Remove this deprecated "NAME" attribute.(©¾ùñûÿÿÿÿ
+B	Web:S1827x"(Remove this deprecated "NAME" attribute.(îÓÛıüÿÿÿÿ
+HWeb:TableWithoutCaptionCheck" Add a description to this table.(ëÉöÛ
+:	Web:S5256"%Add "<th>" headers to this "<table>".(ëÉöÛ
+D	Web:S1827"/Remove this deprecated "cellpadding" attribute.(ëÉöÛ
+D	Web:S1827"/Remove this deprecated "cellspacing" attribute.(ëÉöÛ
+HWeb:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(§ó›ˆ
+HWeb:BoldAndItalicTagsCheck‚"!Replace this <b> tag by <strong>.(¹¿üÜ
+?	Web:S1827ƒ")Remove this deprecated "align" attribute.(öè³Ú
+HWeb:BoldAndItalicTagsCheckƒ"!Replace this <b> tag by <strong>.(öè³Ú
+?	Web:S1827‰")Remove this deprecated "align" attribute.(£•Ô
+?	Web:S1827")Remove this deprecated "align" attribute.(£•Ô
+?	Web:S1827–")Remove this deprecated "align" attribute.(£•Ô
+?	Web:S1827œ")Remove this deprecated "align" attribute.(£•Ô
+HWeb:BoldAndItalicTagsCheck¢"!Replace this <b> tag by <strong>.(Ó°‚¹
+IWeb:TableWithoutCaptionCheckª" Add a description to this table.(ëÉöÛ
+;	Web:S5256ª"%Add "<th>" headers to this "<table>".(ëÉöÛ
+E	Web:S1827ª"/Remove this deprecated "cellpadding" attribute.(ëÉöÛ
+E	Web:S1827ª"/Remove this deprecated "cellspacing" attribute.(ëÉöÛ
+HWeb:BoldAndItalicTagsCheck¬"!Replace this <b> tag by <strong>.(§ó›ˆ
+HWeb:BoldAndItalicTagsCheck­"!Replace this <b> tag by <strong>.(¹¿üÜ
+?	Web:S1827®")Remove this deprecated "align" attribute.(öè³Ú
+HWeb:BoldAndItalicTagsCheck®"!Replace this <b> tag by <strong>.(öè³Ú
+?	Web:S1827µ")Remove this deprecated "align" attribute.(…•¨Ì
+?	Web:S1827»")Remove this deprecated "align" attribute.(£•Ô
+MWeb:BoldAndItalicTagsCheckÌ"!Replace this <b> tag by <strong>.(×ıËŞşÿÿÿÿ
+CWeb:BoldAndItalicTagsCheckÍ"Replace this <i> tag by <em>.(¯ë™"
+DWeb:BoldAndItalicTagsCheckÎ"Replace this <i> tag by <em>.(¨ô
+IWeb:BoldAndItalicTagsCheckÏ"Replace this <i> tag by <em>.(î¤‡Ëùÿÿÿÿ
+CWeb:BoldAndItalicTagsCheckĞ"Replace this <i> tag by <em>.(¢€ãa
+DWeb:BoldAndItalicTagsCheckÑ"Replace this <i> tag by <em>.(ÙšÈ
+DWeb:BoldAndItalicTagsCheckÒ"Replace this <i> tag by <em>.(¹Î²’
+IWeb:BoldAndItalicTagsCheckÓ"Replace this <i> tag by <em>.(›ÀŠûÿÿÿÿ
+DWeb:BoldAndItalicTagsCheckÔ"Replace this <i> tag by <em>.(©Š€º
+DWeb:BoldAndItalicTagsCheckÕ"Replace this <i> tag by <em>.(¿ÙÆ¥
+IWeb:BoldAndItalicTagsCheckÖ"Replace this <i> tag by <em>.(´ Áªùÿÿÿÿ
+DWeb:BoldAndItalicTagsCheck×"Replace this <i> tag by <em>.(İôÇ—
+DWeb:BoldAndItalicTagsCheckØ"Replace this <i> tag by <em>.(ïÜà±
+DWeb:BoldAndItalicTagsCheckÙ"Replace this <i> tag by <em>.(“Ğ¾²
+IWeb:BoldAndItalicTagsCheckà"Replace this <i> tag by <em>.(ÏÄ ’üÿÿÿÿ
+DWeb:BoldAndItalicTagsCheckâ"Replace this <i> tag by <em>.(ÉÉ¿–
+DWeb:BoldAndItalicTagsCheckã"Replace this <i> tag by <em>.(›ßß«
+DWeb:BoldAndItalicTagsCheckõ"Replace this <i> tag by <em>.(˜Í®ã
+IWeb:BoldAndItalicTagsCheck„"Replace this <i> tag by <em>.(•âôïıÿÿÿÿ
+IWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(áãœÄúÿÿÿÿ
+DWeb:BoldAndItalicTagsCheck˜"Replace this <i> tag by <em>.(Ûº¼È
+CWeb:BoldAndItalicTagsCheckŸ"Replace this <i> tag by <em>.(õºëu
+IWeb:BoldAndItalicTagsCheck§"Replace this <i> tag by <em>.(åœîÜşÿÿÿÿ
+DWeb:BoldAndItalicTagsCheck¯"Replace this <i> tag by <em>.(øÓÁ
+IWeb:BoldAndItalicTagsCheck¸"Replace this <i> tag by <em>.(–©Šºüÿÿÿÿ
+HWeb:BoldAndItalicTagsCheck»"!Replace this <b> tag by <strong>.(Â»†ã
+HWeb:BoldAndItalicTagsCheck¿"!Replace this <b> tag by <strong>.(½ŠÒ»
+DWeb:BoldAndItalicTagsCheckÆ"Replace this <i> tag by <em>.(Î¯Ôû
+MWeb:BoldAndItalicTagsCheckÈ"!Replace this <b> tag by <strong>.(€¡²çşÿÿÿÿ
+HWeb:BoldAndItalicTagsCheckÌ"!Replace this <b> tag by <strong>.(ß³µ‹
+>	Web:S1827Ò"(Remove this deprecated "NAME" attribute.(ñ¿€
+DWeb:BoldAndItalicTagsCheckÓ"Replace this <i> tag by <em>.(ÍÊÜƒ
+DWeb:BoldAndItalicTagsCheckÙ"Replace this <i> tag by <em>.(óÒıÜ
+DWeb:BoldAndItalicTagsCheckŞ"Replace this <i> tag by <em>.(î†ÛÆ
+IWeb:BoldAndItalicTagsChecké"Replace this <i> tag by <em>.(Ô‰åƒûÿÿÿÿ
+DWeb:BoldAndItalicTagsCheck‰"Replace this <i> tag by <em>.(ŒúŠ
+IWeb:BoldAndItalicTagsCheckÀ"Replace this <i> tag by <em>.(“ôÑßúÿÿÿÿ
+CWeb:BoldAndItalicTagsCheck×"Replace this <i> tag by <em>.(¸æ¼E
+IWeb:BoldAndItalicTagsCheckà"Replace this <i> tag by <em>.(¤¯ÎÜÿÿÿÿÿ
+>	Web:S1827÷"(Remove this deprecated "NAME" attribute.(ğ½¾í
+IWeb:BoldAndItalicTagsCheckû"Replace this <i> tag by <em>.(Ñ¤¢Áùÿÿÿÿ
+MWeb:BoldAndItalicTagsCheckü"!Replace this <b> tag by <strong>.(®µ©…ûÿÿÿÿ
+YWeb:UnsupportedTagsInHtml5Checkş"(Remove this deprecated "strike" element.(à‘Âøûÿÿÿÿ
+DWeb:BoldAndItalicTagsCheckŒ"Replace this <i> tag by <em>.(×ìôÚ
+>	Web:S1827–"(Remove this deprecated "NAME" attribute.(ÔèŠÏ
+RWeb:UnsupportedTagsInHtml5Check¾"&Remove this deprecated "nobr" element.(Ã¼³Í
+WWeb:UnsupportedTagsInHtml5CheckÅ"&Remove this deprecated "nobr" element.(­³ŠĞıÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5CheckË"&Remove this deprecated "nobr" element.(íÂ¤üÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5CheckÑ"&Remove this deprecated "nobr" element.(âğ°ºÿÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5CheckØ"&Remove this deprecated "nobr" element.(¾œ½¾üÿÿÿÿ
+C	Web:S1827í"(Remove this deprecated "NAME" attribute.(É¿ë¼ùÿÿÿÿ
+IWeb:TableWithoutCaptionCheckï" Add a description to this table.(×¨Üº
+;	Web:S5256ï"%Add "<th>" headers to this "<table>".(×¨Üº
+?	Web:S1827ï")Remove this deprecated "width" attribute.(×¨Üº
+E	Web:S1827ñ"*Remove this deprecated "VALIGN" attribute.(ğÜé‹ÿÿÿÿÿ
+D	Web:S1827ñ")Remove this deprecated "align" attribute.(ğÜé‹ÿÿÿÿÿ
+MWeb:BoldAndItalicTagsCheckñ"!Replace this <b> tag by <strong>.(ğÜé‹ÿÿÿÿÿ
+E	Web:S1827ò"*Remove this deprecated "VALIGN" attribute.(õ‘©Õúÿÿÿÿ
+D	Web:S1827ò")Remove this deprecated "align" attribute.(õ‘©Õúÿÿÿÿ
+MWeb:BoldAndItalicTagsCheckò"!Replace this <b> tag by <strong>.(õ‘©Õúÿÿÿÿ
+E	Web:S1827ö"*Remove this deprecated "VALIGN" attribute.(§Öâ´úÿÿÿÿ
+@	Web:S1827ø"*Remove this deprecated "VALIGN" attribute.(æœÿş
+E	Web:S1827ü"*Remove this deprecated "VALIGN" attribute.(ŠÂû­şÿÿÿÿ
+@	Web:S1827ı"*Remove this deprecated "VALIGN" attribute.(§‘µñ
+E	Web:S1827„"*Remove this deprecated "VALIGN" attribute.(Ş¾Ì¢ÿÿÿÿÿ
+E	Web:S1827…"*Remove this deprecated "VALIGN" attribute.(Ñ©Óöøÿÿÿÿ
+@	Web:S1827Š"*Remove this deprecated "VALIGN" attribute.(–™ƒû
+E	Web:S1827‹"*Remove this deprecated "VALIGN" attribute.(¨‘ÎÍÿÿÿÿÿ
+@	Web:S1827‘"*Remove this deprecated "VALIGN" attribute.(æÉÖÍ
+@	Web:S1827’"*Remove this deprecated "VALIGN" attribute.(ô»›»
+@	Web:S1827œ"*Remove this deprecated "VALIGN" attribute.(º´¬Ã
+@	Web:S1827"*Remove this deprecated "VALIGN" attribute.(“Î‘³
+E	Web:S1827¥"*Remove this deprecated "VALIGN" attribute.(ÿ…™•ÿÿÿÿÿ
+>	Web:S1827¦"(Remove this deprecated "NAME" attribute.(æ‘îà
+@	Web:S1827¨"*Remove this deprecated "VALIGN" attribute.(Éõ¬Ú
+RWeb:UnsupportedTagsInHtml5Checkª"&Remove this deprecated "nobr" element.(˜ßÎ‘
+RWeb:UnsupportedTagsInHtml5Checkª"&Remove this deprecated "nobr" element.(˜ßÎ‘
+DWeb:BoldAndItalicTagsCheck³"Replace this <i> tag by <em>.(óÒıÜ
+DWeb:BoldAndItalicTagsCheck¶"Replace this <i> tag by <em>.(ÑÇÄ¢
+@	Web:S1827»"*Remove this deprecated "VALIGN" attribute.(óÖ±Á
+?	Web:S1827¼"*Remove this deprecated "VALIGN" attribute.(îöb
+@	Web:S1827Â"*Remove this deprecated "VALIGN" attribute.(ØÏµú
+@	Web:S1827Ã"*Remove this deprecated "VALIGN" attribute.(ÑÇ™
+WWeb:UnsupportedTagsInHtml5CheckÅ"&Remove this deprecated "nobr" element.(±ò®øÿÿÿÿ
+RWeb:UnsupportedTagsInHtml5CheckÉ"&Remove this deprecated "nobr" element.(Æ €
+RWeb:UnsupportedTagsInHtml5CheckÉ"&Remove this deprecated "nobr" element.(Æ €
+E	Web:S1827Î"*Remove this deprecated "VALIGN" attribute.(¶ÿİÖÿÿÿÿÿ
+E	Web:S1827Ğ"*Remove this deprecated "VALIGN" attribute.(¿½ñ¿úÿÿÿÿ
+E	Web:S1827×"*Remove this deprecated "VALIGN" attribute.( ­¢ûıÿÿÿÿ
+@	Web:S1827Ù"*Remove this deprecated "VALIGN" attribute.(²ç·Ñ
+@	Web:S1827å"*Remove this deprecated "VALIGN" attribute.(ÁÎÄÂ
+@	Web:S1827æ"*Remove this deprecated "VALIGN" attribute.( ‹¯Á
+@	Web:S1827ë"*Remove this deprecated "VALIGN" attribute.(’½û›
+E	Web:S1827ì"*Remove this deprecated "VALIGN" attribute.(Ô‡Äóşÿÿÿÿ
+>	Web:S1827÷"(Remove this deprecated "NAME" attribute.(®Ü
+IWeb:TableWithoutCaptionCheckÿ" Add a description to this table.(˜ÂÛ
+;	Web:S5256ÿ"%Add "<th>" headers to this "<table>".(˜ÂÛ
+@	Web:S1827"*Remove this deprecated "VALIGN" attribute.(öéíû
+?	Web:S1827")Remove this deprecated "align" attribute.(öéíû
+?	Web:S1827")Remove this deprecated "width" attribute.(öéíû
+HWeb:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(öéíû
+E	Web:S1827‚"*Remove this deprecated "VALIGN" attribute.(Æ®Ö¥ÿÿÿÿÿ
+D	Web:S1827‚")Remove this deprecated "align" attribute.(Æ®Ö¥ÿÿÿÿÿ
+MWeb:BoldAndItalicTagsCheck‚"!Replace this <b> tag by <strong>.(Æ®Ö¥ÿÿÿÿÿ
+@	Web:S1827…"*Remove this deprecated "VALIGN" attribute.(â®©
+@	Web:S1827†"*Remove this deprecated "VALIGN" attribute.(ö‹Í˜
+?	Web:S1827Œ"*Remove this deprecated "VALIGN" attribute.(÷õ’K
+CWeb:BoldAndItalicTagsCheckŒ"Replace this <i> tag by <em>.(÷õ’K
+@	Web:S1827"*Remove this deprecated "VALIGN" attribute.(íÍÔ
+E	Web:S1827’"*Remove this deprecated "VALIGN" attribute.(©ğÒşúÿÿÿÿ
+@	Web:S1827“"*Remove this deprecated "VALIGN" attribute.(¹ú‚É
+E	Web:S1827˜"*Remove this deprecated "VALIGN" attribute.(É½ÓÌıÿÿÿÿ
+@	Web:S1827™"*Remove this deprecated "VALIGN" attribute.(øÛ„
+?	Web:S1827œ"*Remove this deprecated "VALIGN" attribute.(ÕòÆ
+CWeb:BoldAndItalicTagsCheckœ"Replace this <i> tag by <em>.(ÕòÆ
+@	Web:S1827"*Remove this deprecated "VALIGN" attribute.(›ÊõÉ
+E	Web:S1827¢"*Remove this deprecated "VALIGN" attribute.(°æ»€ûÿÿÿÿ
+IWeb:BoldAndItalicTagsCheck¢"Replace this <i> tag by <em>.(°æ»€ûÿÿÿÿ
+@	Web:S1827£"*Remove this deprecated "VALIGN" attribute.(³ÓÓ
+E	Web:S1827®"*Remove this deprecated "VALIGN" attribute.(á™†îûÿÿÿÿ
+IWeb:BoldAndItalicTagsCheck®"Replace this <i> tag by <em>.(á™†îûÿÿÿÿ
+E	Web:S1827¯"*Remove this deprecated "VALIGN" attribute.(Ìà£«ıÿÿÿÿ
+@	Web:S1827³"*Remove this deprecated "VALIGN" attribute.(ä’ú
+@	Web:S1827´"*Remove this deprecated "VALIGN" attribute.(§•Úù
+IWeb:TableWithoutCaptionCheck»" Add a description to this table.(˜ÂÛ
+;	Web:S5256»"%Add "<th>" headers to this "<table>".(˜ÂÛ
+E	Web:S1827½"*Remove this deprecated "VALIGN" attribute.(à§óùÿÿÿÿ
+D	Web:S1827½")Remove this deprecated "align" attribute.(à§óùÿÿÿÿ
+D	Web:S1827½")Remove this deprecated "width" attribute.(à§óùÿÿÿÿ
+MWeb:BoldAndItalicTagsCheck½"!Replace this <b> tag by <strong>.(à§óùÿÿÿÿ
+E	Web:S1827¾"*Remove this deprecated "VALIGN" attribute.(Æ®Ö¥ÿÿÿÿÿ
+D	Web:S1827¾")Remove this deprecated "align" attribute.(Æ®Ö¥ÿÿÿÿÿ
+MWeb:BoldAndItalicTagsCheck¾"!Replace this <b> tag by <strong>.(Æ®Ö¥ÿÿÿÿÿ
+@	Web:S1827Á"*Remove this deprecated "VALIGN" attribute.(¸ğï°
+@	Web:S1827Â"*Remove this deprecated "VALIGN" attribute.(ß±°—
+E	Web:S1827Æ"*Remove this deprecated "VALIGN" attribute.(®áÚòúÿÿÿÿ
+E	Web:S1827Ç"*Remove this deprecated "VALIGN" attribute.(¬ÄÈãúÿÿÿÿ
+E	Web:S1827Ë"*Remove this deprecated "VALIGN" attribute.(Ë¨—ùÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckË"Replace this <i> tag by <em>.(Ë¨—ùÿÿÿÿ
+@	Web:S1827Ì"*Remove this deprecated "VALIGN" attribute.(æ£Æö
+E	Web:S1827Ï"*Remove this deprecated "VALIGN" attribute.(Ğ°Ğìøÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckÏ"Replace this <i> tag by <em>.(Ğ°Ğìøÿÿÿÿ
+E	Web:S1827Ğ"*Remove this deprecated "VALIGN" attribute.(«É¯ôûÿÿÿÿ
+@	Web:S1827Õ"*Remove this deprecated "VALIGN" attribute.(™ î¢
+DWeb:BoldAndItalicTagsCheckÖ"Replace this <i> tag by <em>.(¸·¶¯
+@	Web:S1827×"*Remove this deprecated "VALIGN" attribute.(°»´Õ
+E	Web:S1827Ü"*Remove this deprecated "VALIGN" attribute.(ßËßíûÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckÜ"Replace this <i> tag by <em>.(ßËßíûÿÿÿÿ
+@	Web:S1827İ"*Remove this deprecated "VALIGN" attribute.(Íß·Ø
+E	Web:S1827â"*Remove this deprecated "VALIGN" attribute.(æº‚—ûÿÿÿÿ
+@	Web:S1827ã"*Remove this deprecated "VALIGN" attribute.(îÀà·
+@	Web:S1827ç"*Remove this deprecated "VALIGN" attribute.(«½Ù
+DWeb:BoldAndItalicTagsCheckç"Replace this <i> tag by <em>.(«½Ù
+@	Web:S1827è"*Remove this deprecated "VALIGN" attribute.(¾€ö
+IWeb:BoldAndItalicTagsChecké"Replace this <i> tag by <em>.(¯°—ôùÿÿÿÿ
+E	Web:S1827í"*Remove this deprecated "VALIGN" attribute.(Ä‡áíùÿÿÿÿ
+E	Web:S1827î"*Remove this deprecated "VALIGN" attribute.(‘úÆ±ÿÿÿÿÿ
+E	Web:S1827ò"*Remove this deprecated "VALIGN" attribute.(ù¥©şÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckò"Replace this <i> tag by <em>.(ù¥©şÿÿÿÿ
+E	Web:S1827ó"*Remove this deprecated "VALIGN" attribute.(£´ õüÿÿÿÿ
+@	Web:S1827ù"*Remove this deprecated "VALIGN" attribute.(ƒŸ‰
+@	Web:S1827ú"*Remove this deprecated "VALIGN" attribute.(­üÒ³
+@	Web:S1827ÿ"*Remove this deprecated "VALIGN" attribute.(¥‹‡“
+DWeb:BoldAndItalicTagsCheckÿ"Replace this <i> tag by <em>.(¥‹‡“
+@	Web:S1827€"*Remove this deprecated "VALIGN" attribute.(ó±‘Ø
+@	Web:S1827„"*Remove this deprecated "VALIGN" attribute.(è¢å™
+@	Web:S1827…"*Remove this deprecated "VALIGN" attribute.(‘·ë
+E	Web:S1827Š"*Remove this deprecated "VALIGN" attribute.(á Ü«ûÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckŠ"Replace this <i> tag by <em>.(á Ü«ûÿÿÿÿ
+@	Web:S1827‹"*Remove this deprecated "VALIGN" attribute.(²Â³
+@	Web:S1827"*Remove this deprecated "VALIGN" attribute.(¤ÃÎ
+E	Web:S1827‘"*Remove this deprecated "VALIGN" attribute.(—£‰¾üÿÿÿÿ
+E	Web:S1827›"*Remove this deprecated "VALIGN" attribute.(®ÊÙùùÿÿÿÿ
+IWeb:BoldAndItalicTagsCheck›"Replace this <i> tag by <em>.(®ÊÙùùÿÿÿÿ
+IWeb:BoldAndItalicTagsCheck›"Replace this <i> tag by <em>.(®ÊÙùùÿÿÿÿ
+E	Web:S1827œ"*Remove this deprecated "VALIGN" attribute.(ìÈà¤ûÿÿÿÿ
+>	Web:S1827¦"(Remove this deprecated "NAME" attribute.(¨ê¸ƒ
+C	Web:S1827Ì"(Remove this deprecated "NAME" attribute.(Æ‘ú÷øÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckØ"Replace this <i> tag by <em>.(ÈŠÿşÿÿÿÿ
+>	Web:S1827é"(Remove this deprecated "NAME" attribute.(—¥š’
+TWeb:UnsupportedTagsInHtml5Checkü"(Remove this deprecated "center" element.(¡á€Ò
+>	Web:S1827")Remove this deprecated "align" attribute.(™×h
+WWeb:UnsupportedTagsInHtml5Check‚"&Remove this deprecated "font" element.(±¨ØŞıÿÿÿÿ

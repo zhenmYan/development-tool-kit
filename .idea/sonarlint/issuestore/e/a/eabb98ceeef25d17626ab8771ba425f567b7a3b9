@@ -1,0 +1,11 @@
+
+C
+java:S1948."(Make "target" transient or serializable.(ô¸òüÿÿÿÿ
+G
+java:S19484"1Make "preInterceptors" transient or serializable.(üÔõØ
+M
+java:S19487"2Make "postInterceptors" transient or serializable.(æ–Œ‰üÿÿÿÿ
+N
+java:S1948:"8Make "advisorAdapterRegistry" transient or serializable.(ŒÚÀ¾
+=
+java:S1948@"'Make "proxy" transient or serializable.(å÷®

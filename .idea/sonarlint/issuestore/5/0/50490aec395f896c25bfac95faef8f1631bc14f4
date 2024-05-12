@@ -1,0 +1,27 @@
+
+{
+java:S4144¶"_Update this method so that its implementation is not identical to "getClassFilter" on line 176.(äî¢áüÿÿÿÿ
+H
+java:S1948r"-Make "beanFactory" transient or serializable.(–Üéûùÿÿÿÿ
+c
+java:S1117"GRename "pointcutExpression" which hides the field declared at line 119.(¿ö™ûÿÿÿÿ
+i
+java:S3776Ã"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(ë¯ÔÎ
+Q
+java:S1133ò"5Do not forget to remove this deprecated code someday.(ÁÑÑ“ıÿÿÿÿ
+D
+java:S1123ò"(Add the missing @deprecated Javadoc tag.(ÁÑÑ“ıÿÿÿÿ
+Q
+java:S1133ù"5Do not forget to remove this deprecated code someday.(åÂ‡’şÿÿÿÿ
+D
+java:S1123ù"(Add the missing @deprecated Javadoc tag.(åÂ‡’şÿÿÿÿ
+Q
+java:S1141’"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141Î"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141Ô"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141ä"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141ê"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ

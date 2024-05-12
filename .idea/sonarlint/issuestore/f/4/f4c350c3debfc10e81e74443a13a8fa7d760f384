@@ -1,0 +1,15 @@
+
+a	java:S112ü"FDefine and throw a dedicated exception instead of using a generic one.(®Ì˜‡ÿÿÿÿÿ
+P
+java:S5993¦"9Change the visibility of this constructor to "protected".(øÓÃä
+M
+java:S1948h"7Make "aspectInstanceFactory" transient or serializable.(’§Ï…
+\
+java:S1948›"@Make "discoveredReturningGenericType" transient or serializable.(ˆŞªüÿÿÿÿ
+^
+java:S1117ƒ"BRename "parameterTypes" which hides the field declared at line 98.(¨ê…¤úÿÿÿÿ
+I
+java:S1135ƒ"2Complete the task associated to this TODO comment.(½Ë÷Æ
+t	java:S135—"YReduce the total number of break and continue statements in this loop to use at most one.(Ì€ŸĞøÿÿÿÿ
+F
+java:S1066‘"/Merge this if statement with the enclosing one.(’î„²

@@ -1,0 +1,94 @@
+
+\	java:S112Õ"FDefine and throw a dedicated exception instead of using a generic one.(òÇÈ
+\	java:S112ë"FDefine and throw a dedicated exception instead of using a generic one.(òÇÈ
+[	java:S112ú"FDefine and throw a dedicated exception instead of using a generic one.(”ëÆ
+a	java:S112ˆ"FDefine and throw a dedicated exception instead of using a generic one.(¡‹´÷ûÿÿÿÿ
+\	java:S112™"FDefine and throw a dedicated exception instead of using a generic one.(¦•“º
+\	java:S112¡"FDefine and throw a dedicated exception instead of using a generic one.(µ•Ö÷
+{
+java:S1149Ê"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(å»óæıÿÿÿÿ
+v
+java:S1149ƒ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¤ÃíÜ
+{
+java:S1149ˆ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¡‹´÷ûÿÿÿÿ
+?	java:S108î")Either remove or fill this block of code.(ÆÉ©ª
+i	java:S100£"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¾±ûÿÿÿÿ
+N	java:S106¨"9Replace this use of System.out or System.err by a logger.(³ãû/
+I
+java:S1135®"2Complete the task associated to this TODO comment.(’üü©
+I
+java:S1135é"2Complete the task associated to this TODO comment.(Òé³Œ
+
+java:S1186´"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á€ºÿÿÿÿÿ
+
+java:S1186Â"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á€ºÿÿÿÿÿ
+
+java:S1186ß"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬“•°ùÿÿÿÿ
+
+java:S1186â"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(í»†Ôúÿÿÿÿ
+
+java:S1186õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Óô’¤şÿÿÿÿ
+
+java:S1186È"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á€ºÿÿÿÿÿ
+
+java:S1186Ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á€ºÿÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(à§Êûıÿÿÿÿ
+R	java:S125§"<This block of commented-out lines of code should be removed.(„Ì±
+W	java:S125°"<This block of commented-out lines of code should be removed.(Øó¥Àúÿÿÿÿ
+R	java:S125ï"<This block of commented-out lines of code should be removed.(÷’äò
+
+java:S1186û"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œ×‚ôşÿÿÿÿ
+u
+java:S1210‰"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(°†¥Úøÿÿÿÿ
+n
+java:S1068±"WRemove this unused "fieldThatShouldBeIgnoredBySpringAtAspectJProcessing" private field.(Ó¯ùë
+n
+java:S1068Ã"WRemove this unused "fieldThatShouldBeIgnoredBySpringAtAspectJProcessing" private field.(Ó¯ùë
+q
+java:S1192…"ZDefine a constant instead of duplicating this literal "Around advice must apply" 11 times.(ïØöÌ
+e
+java:S1192U"JDefine a constant instead of duplicating this literal "someBean" 23 times.(°´ñäûÿÿÿÿ
+x
+java:S1192q"]Define a constant instead of duplicating this literal "Around advice must NOT apply" 4 times.(Ÿ´†Óùÿÿÿÿ
+e
+java:S1192v"JDefine a constant instead of duplicating this literal "getSpouse" 6 times.(ºÈ€«ùÿÿÿÿ
+m
+java:S1104Ù"QMake count a static final constant or non-public and provide accessors if needed.(†Í˜Åıÿÿÿÿ
+m
+java:S1104ë"QMake count a static final constant or non-public and provide accessors if needed.(†Í˜Åıÿÿÿÿ
+m
+java:S1104ü"QMake count a static final constant or non-public and provide accessors if needed.(†Í˜Åıÿÿÿÿ
+t
+java:S1104­"XMake successCount a static final constant or non-public and provide accessors if needed.(íóõ”üÿÿÿÿ
+t
+java:S1104¯"XMake failureCount a static final constant or non-public and provide accessors if needed.(¨²Ûİşÿÿÿÿ
+m
+java:S1104±"VMake afterCount a static final constant or non-public and provide accessors if needed.(¸Èôâ
+m
+java:S1104À"QMake count a static final constant or non-public and provide accessors if needed.(†Í˜Åıÿÿÿÿ
+B
+java:S1444Ï"+Make this "public static mixin" field final(ªØëà
+B
+java:S1444Ş"+Make this "public static mixin" field final(Ğş
+B
+java:S1444ê"+Make this "public static mixin" field final(Ğş
+_
+java:S2259e"IA "NullPointerException" could be thrown; "getMessage()" can return null.(§”¶Ÿ
+_
+java:S2259Y"IA "NullPointerException" could be thrown; "getMessage()" can return null.(¤­¢ÿ
+ª
+java:S4449ù"Annotate the parameter with @javax.annotation.Nullable in method 'matches' declaration, or make sure that null can not be passed as argument.(ßÅóÅüÿÿÿÿ
+ª
+java:S4449İ"Annotate the parameter with @javax.annotation.Nullable in method 'matches' declaration, or make sure that null can not be passed as argument.(–’Ğİÿÿÿÿÿ
+©
+java:S4449}"Annotate the parameter with @javax.annotation.Nullable in method 'matches' declaration, or make sure that null can not be passed as argument.(ßÅóÅüÿÿÿÿ
+ª
+java:S4449ò"Annotate the parameter with @javax.annotation.Nullable in method 'matches' declaration, or make sure that null can not be passed as argument.(ºÈ€«ùÿÿÿÿ
+ª
+java:S4449"Annotate the parameter with @javax.annotation.Nullable in method 'matches' declaration, or make sure that null can not be passed as argument.(–’Ğİÿÿÿÿÿ
+ª
+java:S4449Î"Annotate the parameter with @javax.annotation.Nullable in method 'matches' declaration, or make sure that null can not be passed as argument.(ºÈ€«ùÿÿÿÿ
+©
+java:S4449v"Annotate the parameter with @javax.annotation.Nullable in method 'matches' declaration, or make sure that null can not be passed as argument.(ºÈ€«ùÿÿÿÿ
+ª
+java:S4449Õ"Annotate the parameter with @javax.annotation.Nullable in method 'matches' declaration, or make sure that null can not be passed as argument.(ßÅóÅüÿÿÿÿ

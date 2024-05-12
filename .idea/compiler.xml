@@ -11,8 +11,7 @@
         <module name="spring-boot-test" />
         <module name="spring-boot-starter-thymeleaf" />
         <module name="spring-boot-starter-data-cassandra" />
-        <module name="spring-boot-starter-web" />
-        <module name="rocketmq-common" />
+        <module name="spring-boot-starter-data-redis" />
         <module name="spring-boot-starter-data-mongodb-reactive" />
         <module name="rocketmq-openmessaging" />
         <module name="spring-boot-test-support" />
@@ -27,21 +26,20 @@
         <module name="spring-boot-starter-jersey" />
         <module name="spring-boot-starter-mustache" />
         <module name="spring-boot-starter-jta-atomikos" />
-        <module name="jvm" />
         <module name="spring-boot-starter-undertow" />
         <module name="spring-boot-starter-batch" />
         <module name="spring-boot-starter-data-rest" />
-        <module name="rocketmq-store" />
         <module name="rocketmq-remoting" />
         <module name="mybatis" />
         <module name="rocketmq-proxy" />
         <module name="spring-boot-starter-reactor-netty" />
         <module name="spring-boot-starter-websocket" />
-        <module name="spring-hand-write" />
+        <module name="spring-boot-starter-web" />
         <module name="rocketmq-controller" />
         <module name="spring-boot-starter-data-redis-reactive" />
-        <module name="spring-boot-starter-cache" />
+        <module name="java-jvm" />
         <module name="rocketmq-yzm" />
+        <module name="mybatis-hand-write-service" />
         <module name="spring-boot-starter-data-elasticsearch" />
         <module name="spring-boot-starter-data-neo4j" />
         <module name="spring-boot-starter-groovy-templates" />
@@ -52,7 +50,6 @@
         <module name="pagehelper-spring-boot-sample-annotation" />
         <module name="spring-boot-actuator" />
         <module name="pagehelper-spring-boot-starter" />
-        <module name="spring-boot-starter-aop" />
         <module name="spring-boot-starter-data-cassandra-reactive" />
         <module name="demo" />
         <module name="spring-boot-starter-data-couchbase" />
@@ -71,22 +68,25 @@
         <module name="spring-boot-starter-jetty" />
         <module name="rocketmq-client" />
         <module name="basic-java-knowledge" />
-        <module name="spring-boot-starter-tomcat" />
         <module name="spring-boot-test-autoconfigure" />
+        <module name="spring-boot-devtools-tests" />
+        <module name="spring-boot-starter-tomcat" />
+        <module name="rocketmq-store" />
         <module name="spring-boot-starter-integration" />
+        <module name="spring-boot-starter-jdbc" />
         <module name="spring-boot-starter-data-couchbase-reactive" />
-        <module name="spring-boot-starter-data-redis" />
         <module name="spring-boot-starter-amqp" />
         <module name="rocketmq-container" />
-        <module name="spring-boot-devtools-tests" />
+        <module name="basic-knowledge" />
+        <module name="spring-hand-write" />
         <module name="spring-boot-actuator-autoconfigure" />
         <module name="spring-boot-starter-log4j2" />
         <module name="mybatis-3-mybatis-3.5.7-client" />
         <module name="spring-boot-starter-data-ldap" />
         <module name="rocketmq" />
         <module name="rocketmq-tools" />
-        <module name="spring-boot-starter-jdbc" />
         <module name="spring-boot-starter-mail" />
+        <module name="spring-boot-starter-cache" />
         <module name="pagehelper-spring-boot-2.1.0-client" />
         <module name="rocketmq-example" />
         <module name="spring-boot-loader" />
@@ -95,8 +95,9 @@
         <module name="mybatis-hand-write" />
         <module name="spring-boot-loader-tools" />
         <module name="spring-boot-starter-artemis" />
-        <module name="spring-boot-starter-hateoas" />
         <module name="spring-boot-starter-data-mongodb" />
+        <module name="spring-boot-starter-hateoas" />
+        <module name="rocketmq-common" />
         <module name="spring-boot-configuration-metadata" />
         <module name="spring-boot-starter-test" />
         <module name="rocketmq-filter" />
@@ -112,7 +113,7 @@
         <module name="pagehelper-spring-boot-autoconfigure" />
         <module name="spring-boot-starter-webflux" />
         <module name="rocketmq-srvutil" />
-        <module name="basic-knowledge" />
+        <module name="spring-boot-starter-aop" />
         <module name="spring-boot-starter-data-solr" />
         <module name="spring-boot-server-tests" />
         <module name="spring-boot-starter-quartz" />
@@ -125,11 +126,12 @@
       <module name="development-tool-kit" target="8" />
       <module name="hand-write-series" target="8" />
       <module name="high-concurrency" target="8" />
-      <module name="jvm" target="8" />
+      <module name="java-jvm" target="8" />
       <module name="mybatis" target="1.8" />
       <module name="mybatis-3-mybatis-3.5.7-client" target="8" />
       <module name="mybatis-hand-write" target="8" />
       <module name="mybatis-hand-write-client" target="1.5" />
+      <module name="mybatis-hand-write-service" target="8" />
       <module name="pagehelper" target="8" />
       <module name="pagehelper-spring-boot" target="8" />
       <module name="pagehelper-spring-boot-2.1.0-client" target="8" />
@@ -258,9 +260,10 @@
       <module name="development-tool-kit" options="-parameters" />
       <module name="hand-write-series" options="-parameters" />
       <module name="high-concurrency" options="-parameters" />
-      <module name="jvm" options="-parameters" />
+      <module name="java-jvm" options="-parameters" />
       <module name="mybatis-3-mybatis-3.5.7-client" options="-parameters" />
       <module name="mybatis-hand-write" options="-parameters" />
+      <module name="mybatis-hand-write-service" options="-parameters" />
       <module name="pagehelper-spring-boot-2.1.0-client" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="rocketmq" options="-parameters" />

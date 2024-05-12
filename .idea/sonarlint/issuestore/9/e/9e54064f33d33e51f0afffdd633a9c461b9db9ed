@@ -1,0 +1,86 @@
+
+[	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(¨úò÷
+r
+java:S3008$"\Rename this field "TEST_BEAN_SET_AGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ê»á
+w
+java:S3008%"\Rename this field "TEST_BEAN_GET_AGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÈóÒøÿÿÿÿ
+s
+java:S3008&"]Rename this field "TEST_BEAN_GET_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µı‹
+w
+java:S3008'"aRename this field "TEST_BEAN_ABSQUATULATE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ë‘Á
+8
+java:S2129"!Remove this "Integer" constructor(©É¯ä
+8
+java:S2129„"!Remove this "Integer" constructor(©É¯ä
+=
+java:S2129‹"!Remove this "Integer" constructor(ÆŸ«üÿÿÿÿ
+8
+java:S2129"!Remove this "Integer" constructor(–çŠ©
+8
+java:S2129™"!Remove this "Integer" constructor(ªíğ©
+=
+java:S2129¡"!Remove this "Integer" constructor(ÈÉÎóşÿÿÿÿ
+8
+java:S2129©"!Remove this "Integer" constructor(ªíğ©
+8
+java:S2129¯"!Remove this "Integer" constructor(ªíğ©
+8
+java:S2129¸"!Remove this "Integer" constructor(Œığƒ
+8
+java:S2129¹"!Remove this "Integer" constructor(‹ÓßÙ
+=
+java:S2129À"!Remove this "Integer" constructor(ÌÇ¿öşÿÿÿÿ
+=
+java:S2129Á"!Remove this "Integer" constructor(ÈÉÎóşÿÿÿÿ
+=
+java:S2129ù"!Remove this "Integer" constructor(‚¸°Âúÿÿÿÿ
+>
+java:S1604;"(Make this anonymous inner class a lambda(ÿïÍ‰
+s
+java:S1104$"]Make TEST_BEAN_SET_AGE a static final constant or non-public and provide accessors if needed.(¸Ê»á
+x
+java:S1104%"]Make TEST_BEAN_GET_AGE a static final constant or non-public and provide accessors if needed.(üÈóÒøÿÿÿÿ
+t
+java:S1104&"^Make TEST_BEAN_GET_NAME a static final constant or non-public and provide accessors if needed.(µı‹
+x
+java:S1104'"bMake TEST_BEAN_ABSQUATULATE a static final constant or non-public and provide accessors if needed.(¨ë‘Á
+{
+java:S11048"fMake allTestBeanMethodsPointcut a static final constant or non-public and provide accessors if needed.(ıÕ¶c
+x
+java:S1104I"bMake allClassSetterPointcut a static final constant or non-public and provide accessors if needed.(™£À
+z
+java:S1104O"dMake myTestBeanSetterPointcut a static final constant or non-public and provide accessors if needed.(–îæ´
+
+java:S1104\"dMake myTestBeanGetterPointcut a static final constant or non-public and provide accessors if needed.(å¤Şûÿÿÿÿÿ
+‡
+java:S1104l"lMake myTestBeanSubclassGetterPointcut a static final constant or non-public and provide accessors if needed.(º”½èùÿÿÿÿ
+x
+java:S1104x"bMake allClassGetterPointcut a static final constant or non-public and provide accessors if needed.(•ùÇà
+}
+java:S1104z"bMake allClassGetAgePointcut a static final constant or non-public and provide accessors if needed.(¹Úôµüÿÿÿÿ
+~
+java:S1104|"cMake allClassGetNamePointcut a static final constant or non-public and provide accessors if needed.(„êåÿÿÿÿÿ
+M
+java:S1444$"7Make this "public static TEST_BEAN_SET_AGE" field final(¸Ê»á
+R
+java:S1444%"7Make this "public static TEST_BEAN_GET_AGE" field final(üÈóÒøÿÿÿÿ
+N
+java:S1444&"8Make this "public static TEST_BEAN_GET_NAME" field final(µı‹
+R
+java:S1444'"<Make this "public static TEST_BEAN_ABSQUATULATE" field final(¨ë‘Á
+U
+java:S14448"@Make this "public static allTestBeanMethodsPointcut" field final(ıÕ¶c
+R
+java:S1444I"<Make this "public static allClassSetterPointcut" field final(™£À
+T
+java:S1444O">Make this "public static myTestBeanSetterPointcut" field final(–îæ´
+Y
+java:S1444\">Make this "public static myTestBeanGetterPointcut" field final(å¤Şûÿÿÿÿÿ
+a
+java:S1444l"FMake this "public static myTestBeanSubclassGetterPointcut" field final(º”½èùÿÿÿÿ
+R
+java:S1444x"<Make this "public static allClassGetterPointcut" field final(•ùÇà
+W
+java:S1444z"<Make this "public static allClassGetAgePointcut" field final(¹Úôµüÿÿÿÿ
+X
+java:S1444|"=Make this "public static allClassGetNamePointcut" field final(„êåÿÿÿÿÿ

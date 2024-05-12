@@ -1,0 +1,19 @@
+
+>
+java:S1948g"(Make "logger" transient or serializable.(¬Ç´
+N
+java:S1948s"8Make "advisorAdapterRegistry" transient or serializable.(ŒÚÀ¾
+O
+java:S1948„"3Make "singletonInstance" transient or serializable.(üÚä‹ûÿÿÿÿ
+
+java:S1130"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(Ğãš
+n
+java:S3776±"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ƒ•…¤ùÿÿÿÿ
+Ÿ
+java:S1192¸"‚Define a constant instead of duplicating this literal "No BeanFactory available anymore (probably due to serialization) " 3 times.(„œ×¿úÿÿÿÿ
+F
+java:S1066‡"/Merge this if statement with the enclosing one.(øÎïæ
+u
+java:S2637¡"YThis method's return value is marked "@NonNullApi at package level" but null is returned.(Åñ¼¡úÿÿÿÿ
+u
+java:S2637"YThis method's return value is marked "@NonNullApi at package level" but null is returned.(è¿ŠŞúÿÿÿÿ
