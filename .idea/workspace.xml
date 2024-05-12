@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="feat(spring)：源码">
-      <change afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/.editorconfig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/.mailmap" afterDir="false" />
@@ -3550,40 +3549,7 @@
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/src/test/resources/org/springframework/util/testlog4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/src/test/resources/org/springframework/web/util/testlog4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-framework-5.0.10.RELEASE/src/test/resources/testlog4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/jvm/jvm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/java-jvm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/jvm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/双亲委派/String.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/src/main/java/com/yzm/双亲委派/String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/双亲委派/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/src/main/java/com/yzm/双亲委派/TestString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/常量池/StringTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/src/main/java/com/yzm/常量池/StringTableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/操作数栈/OperandStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/src/main/java/com/yzm/操作数栈/OperandStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/类加载/ChildStaticClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/src/main/java/com/yzm/类加载/ChildStaticClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/jvm/src/main/java/com/yzm/类加载/FatherStaticClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/src/main/java/com/yzm/类加载/FatherStaticClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/mybatis-hand-write-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/config/BoundSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/config/BoundSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/config/XmlConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/config/XmlConfigBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/config/XmlMapperBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/config/XmlMapperBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/executor/Executor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/executor/SimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/executor/SimpleExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/io/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/io/Resources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/pojo/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/pojo/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/pojo/MappedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/pojo/MappedStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/sqlSession/DefaultSqlSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/DefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/sqlSession/DefaultSqlSessionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/sqlSession/SqlSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/sqlSession/SqlSessionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/sqlSession/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/sqlSession/SqlSessionFactoryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/utils/GenericTokenParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/utils/GenericTokenParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/utils/ParameterMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/utils/ParameterMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/utils/ParameterMappingTokenHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/utils/ParameterMappingTokenHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/src/main/java/com/yzm/utils/TokenHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/utils/TokenHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/mybatis-hand-write-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/mybatis-hand-write-client/mybatis-hand-write-client.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3689,8 +3655,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\idea_project\development-tool-kit\hand-write-series\mybatis-hand-write" />
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mapper" />
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mappers" />
+      <recent name="W:\idea_project\development-tool-kit\hand-write-series" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.yzm" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzm.config" />
+      <recent name="com.yzm.found.factory.factorymethod" />
+      <recent name="com.yzm.dev" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\structure\proxy\dynamicproxy\cglibproxy" />
@@ -3698,18 +3676,6 @@
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\found\factory\abstractfactory" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\high-concurrency\src\main\java\com\yzm" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\jvm\src\main\java\com\yzm" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yzm.config" />
-      <recent name="com.yzm.found.factory.factorymethod" />
-      <recent name="com.yzm.dev" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mapper" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mappers" />
-      <recent name="W:\idea_project\development-tool-kit\hand-write-series" />
-      <recent name="W:\idea_project\development-tool-kit\pagehelper-spring-boot-2.1.0" />
     </key>
   </component>
   <component name="RunManager" selected="Application.InterruptTest">
@@ -3875,14 +3841,7 @@
       <workItem from="1715061633193" duration="19383000" />
       <workItem from="1715280064295" duration="5774000" />
       <workItem from="1715441079188" duration="3815000" />
-      <workItem from="1715479072409" duration="287000" />
-    </task>
-    <task id="LOCAL-00034" summary="feat(mybatis):实现思路">
-      <created>1713510545493</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1713510545493</updated>
+      <workItem from="1715479072409" duration="1352000" />
     </task>
     <task id="LOCAL-00035" summary="feat(mybatis):创建容器对象">
       <created>1713516422466</created>
@@ -4220,7 +4179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715396434797</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="feat(整体架构)：调整">
+      <created>1715479675250</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1715479675250</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -4228,7 +4194,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(设计模式):工厂方法" />
     <MESSAGE value="feat(jvm):字符串常量池" />
     <MESSAGE value="feat(设计模式):抽象工厂" />
     <MESSAGE value="feat(设计模式):原型模式" />
@@ -4253,7 +4218,8 @@
     <MESSAGE value="feat(Java基础)：函数式编程" />
     <MESSAGE value="feat(并发编程)：自定义锁" />
     <MESSAGE value="feat(spring)：源码" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(spring)：源码" />
+    <MESSAGE value="feat(整体架构)：调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(整体架构)：调整" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -4309,10 +4275,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1920" y="0" key="CommitChangelistDialog2" timestamp="1715477572829">
+    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1715479648347">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1920" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715477572829" />
+    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715479648347" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1715428327193">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -4409,10 +4375,10 @@
     </state>
     <state x="-1664" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715061654619" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1715279753978">
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1715479688712">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715279753978" />
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715479688712" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -4471,7 +4437,7 @@
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write-service/src/main/java/com/yzm/sqlSession/DefaultSqlSession.java</url>
+          <url>file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-service/src/main/java/com/yzm/sqlSession/DefaultSqlSession.java</url>
           <line>43</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
