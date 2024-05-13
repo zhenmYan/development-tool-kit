@@ -84,7 +84,7 @@ public class DefaultSqlSession implements SqlSession {
                          *      从而可以通过method去获取statementId、param的值
                          *
                          * 问题2：
-                         *      要调用哪个方法
+                         *      要调用哪个方法，是select还是update等
                          * 解决办法
                          *      MappedStatement的sqlCommandType记录是什么操作
                          *
@@ -99,6 +99,7 @@ public class DefaultSqlSession implements SqlSession {
                         String methodName = method.getName();
                         // com.yzm.dao.UserMapper
                         String className = method.getDeclaringClass().getName();
+                        // 这就是规定接口全类名与nameSpace相同，id为方法名的原因，为了获取statementId
                         String statementId = className + "." + methodName;
                         MappedStatement mappedStatement = configuration.getMappedStatementMap().get(statementId);
                         String sqlCommandType = mappedStatement.getSqlCommandType();
