@@ -19,7 +19,7 @@ public class DefaultSqlSessionFactory implements SqlSessionFactory{
     }
 
     @Override
-    public SqlSession openSqlSession() {
+    public SqlSession openSession() {
         Executor executor = new SimpleExecutor();
         SqlSession sqlSession = new DefaultSqlSession(configuration, executor);
         return sqlSession;

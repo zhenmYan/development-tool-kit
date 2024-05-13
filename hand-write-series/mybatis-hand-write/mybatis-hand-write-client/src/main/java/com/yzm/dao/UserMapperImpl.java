@@ -49,7 +49,7 @@ public class UserMapperImpl {
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
         // 3、创建SqlSession、创建sql执行器Executor
-        SqlSession sqlSession = sqlSessionFactory.openSqlSession();
+        SqlSession sqlSession = sqlSessionFactory.openSession();
 
         User user = new User();
         user.setId(1);
