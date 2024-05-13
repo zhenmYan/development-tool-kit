@@ -107,13 +107,28 @@ public class XMLMapperBuilder extends BaseBuilder {
     return sqlFragments.get(refid);
   }
 
+  /**
+   * ##### MyBatis mapper标签的解析
+   *
+   *
+   * parser.evalNode("/mapper")表达式的值
+   *
+   * <mapper namespace="com.yzm.dao.UserMapper">
+   *     <select resultType="com.yzm.pojo.User" parameterType="com.yzm.pojo.User" id="selectOne">
+   *         select * from user where id = #{id} and username = #{username}
+   *     </select>
+   *     <select resultType="com.yzm.pojo.User" id="selectList">
+   *         select * from user
+   *     </select>
+   * </mapper>
+   */
   private void configurationElement(XNode context) {
     try {
       String namespace = context.getStringAttribute("namespace");
       if (namespace == null || namespace.isEmpty()) {
         throw new BuilderException("Mapper's namespace cannot be empty");
       }
-      // builderAssistant 是 MappedStatement 的构建助手
+      // builderAssistant 是 MappedStatement 的构建助手，将namespace存到builderAssistant以供后续使用
       builderAssistant.setCurrentNamespace(namespace);
 
       // 标签解析 ： <cache-ref>、<cache>、<parameterMap>、<resultMap>、<sql>
@@ -141,6 +156,7 @@ public class XMLMapperBuilder extends BaseBuilder {
     for (XNode context : list) {
       final XMLStatementBuilder statementParser = new XMLStatementBuilder(configuration, builderAssistant, context, requiredDatabaseId);
       try {
+        // 解析标签 statementParser
         statementParser.parseStatementNode();
       } catch (IncompleteElementException e) {
         configuration.addIncompleteStatement(statementParser);

@@ -50,7 +50,11 @@ public class XMLScriptBuilder extends BaseBuilder {
     initNodeHandlerMap();
   }
 
-  // 节点处理器
+  /**
+   * ##### MyBatis 动态sql 节点处理器
+   *
+   *    不同的handler处理不同的动态标签，都是内部类
+   */
   private void initNodeHandlerMap() {
     nodeHandlerMap.put("trim", new TrimHandler());
     nodeHandlerMap.put("where", new WhereHandler());
@@ -64,7 +68,7 @@ public class XMLScriptBuilder extends BaseBuilder {
   }
 
   /**
-   * ### Mybatis 占位符替换 动态SQL解析
+   * ### Mybatis ${}与#{} 占位符替换
    *
    *    - 将带有 ${} 的SQL封装到 TextSqlNode
    *    - 将带有 #{} 的sQL信息封装到 StaticTextSqlNode
@@ -72,6 +76,13 @@ public class XMLScriptBuilder extends BaseBuilder {
    * @return
    */
   public SqlSource parseScriptNode() {
+    /**
+     * context的值
+     *
+     * <select resultType="com.yzm.pojo.User" parameterType="com.yzm.pojo.User" id="selectOne">
+     *         select * from user where id = #{id} and username = #{username}
+     *     </select>
+     */
     MixedSqlNode rootSqlNode = parseDynamicTags(context);
     SqlSource sqlSource;
     if (isDynamic) {
@@ -86,9 +97,11 @@ public class XMLScriptBuilder extends BaseBuilder {
 
   protected MixedSqlNode parseDynamicTags(XNode node) {
     List<SqlNode> contents = new ArrayList<>();
+    // ChildNodes 包含文本节点（如sql语句）和表达式节点（如动态sql部分）
     NodeList children = node.getNode().getChildNodes();
     for (int i = 0; i < children.getLength(); i++) {
       XNode child = node.newXNode(children.item(i));
+      // 如果是文本节点，则进入if逻辑
       if (child.getNode().getNodeType() == Node.CDATA_SECTION_NODE || child.getNode().getNodeType() == Node.TEXT_NODE) {
         String data = child.getStringBody("");
         TextSqlNode textSqlNode = new TextSqlNode(data);
@@ -97,8 +110,10 @@ public class XMLScriptBuilder extends BaseBuilder {
           contents.add(textSqlNode);
           isDynamic = true;
         } else {
+          // new StaticTextSqlNode(data)表达式的值 select * from user where id = #{id} and username = #{username}
           contents.add(new StaticTextSqlNode(data));
         }
+        // 表达式节点走该逻辑
       } else if (child.getNode().getNodeType() == Node.ELEMENT_NODE) { // issue #628
         String nodeName = child.getNode().getNodeName();
         // 获取动态sql标签对应的处理器

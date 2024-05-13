@@ -57,6 +57,10 @@ public class XMLStatementBuilder extends BaseBuilder {
    * ##### Mybatis 增删改查语句的解析
    *
    *
+   * <select id="selectOne" resultType = "com.yzm.pojo.User" parameterType = "com.yzm.pojo.User">
+   *       select * from user where id = #{id} and username = #{username}
+   * </select>
+   *
    */
   public void parseStatementNode() {
     String id = context.getStringAttribute("id");
@@ -66,6 +70,7 @@ public class XMLStatementBuilder extends BaseBuilder {
       return;
     }
 
+    // nodeName = "select"
     String nodeName = context.getNode().getNodeName();
     // sqlCommandType 用于记录是哪种类型的数据库操作
     SqlCommandType sqlCommandType = SqlCommandType.valueOf(nodeName.toUpperCase(Locale.ENGLISH));
@@ -81,8 +86,9 @@ public class XMLStatementBuilder extends BaseBuilder {
     String parameterType = context.getStringAttribute("parameterType");
     Class<?> parameterTypeClass = resolveClass(parameterType);
 
-    // lang标签可以配置，没配置默认返回 XMLLanguageDriver
+    // 这里lang为null
     String lang = context.getStringAttribute("lang");
+    // lang标签可以配置，没配置默认返回 XMLLanguageDriver
     LanguageDriver langDriver = getLanguageDriver(lang);
 
     // Parse selectKey after includes and remove them.

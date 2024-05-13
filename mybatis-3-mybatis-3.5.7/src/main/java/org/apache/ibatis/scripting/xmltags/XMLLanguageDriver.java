@@ -40,7 +40,9 @@ public class XMLLanguageDriver implements LanguageDriver {
 
   @Override
   public SqlSource createSqlSource(Configuration configuration, XNode script, Class<?> parameterType) {
+    // XMLScriptBuilder 是动态sql标签处理器
     XMLScriptBuilder builder = new XMLScriptBuilder(configuration, script, parameterType);
+    // 占位符替换、参数的保存
     return builder.parseScriptNode();
   }
 
@@ -55,8 +57,10 @@ public class XMLLanguageDriver implements LanguageDriver {
       script = PropertyParser.parse(script, configuration.getVariables());
       TextSqlNode textSqlNode = new TextSqlNode(script);
       if (textSqlNode.isDynamic()) {
+        // 动态sql
         return new DynamicSqlSource(configuration, textSqlNode);
       } else {
+        // 普通sql
         return new RawSqlSource(configuration, script, parameterType);
       }
     }

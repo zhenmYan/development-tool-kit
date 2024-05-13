@@ -33,6 +33,16 @@ public class DynamicSqlSource implements SqlSource {
     this.rootSqlNode = rootSqlNode;
   }
 
+  /**
+   * ### MyBatis 动态sql
+   *
+   *    动态sql的获取会每次调用 DynamicSqlSource::getBoundSql
+   *
+   *    这么做是因为每次sql的参数不确定是否存在，有可能sql就没有这个参数
+   *
+   * @param parameterObject
+   * @return
+   */
   @Override
   public BoundSql getBoundSql(Object parameterObject) {
     DynamicContext context = new DynamicContext(configuration, parameterObject);

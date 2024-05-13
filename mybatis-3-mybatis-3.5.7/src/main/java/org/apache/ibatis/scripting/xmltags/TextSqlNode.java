@@ -38,6 +38,11 @@ public class TextSqlNode implements SqlNode {
     this.injectionFilter = injectionFilter;
   }
 
+  /**
+   * 并返回是否是动态sql的boolean值
+   *
+   * @return
+   */
   public boolean isDynamic() {
     DynamicCheckerTokenParser checker = new DynamicCheckerTokenParser();
     GenericTokenParser parser = createParser(checker);
@@ -99,6 +104,12 @@ public class TextSqlNode implements SqlNode {
       return isDynamic;
     }
 
+    /**
+     * 如果包含 $ 符号
+     * 这里不会进行处理，而是设置 isDynamic 为true
+     * @param content
+     * @return
+     */
     @Override
     public String handleToken(String content) {
       this.isDynamic = true;

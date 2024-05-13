@@ -34,6 +34,7 @@ import org.apache.ibatis.session.Configuration;
  */
 public class RawSqlSource implements SqlSource {
 
+  // 这里存的是StaticSqlSource
   private final SqlSource sqlSource;
 
   public RawSqlSource(Configuration configuration, SqlNode rootSqlNode, Class<?> parameterType) {
@@ -41,9 +42,11 @@ public class RawSqlSource implements SqlSource {
   }
 
   public RawSqlSource(Configuration configuration, String sql, Class<?> parameterType) {
+    // SqlSourceBuilder 用于构建 SqlSource
     SqlSourceBuilder sqlSourceParser = new SqlSourceBuilder(configuration);
     Class<?> clazz = parameterType == null ? Object.class : parameterType;
     // sqlSourceParser.parse 进行占位符替换
+    // 返回StaticSqlSource，其中包含sql和parameterMappings
     sqlSource = sqlSourceParser.parse(sql, clazz, new HashMap<>());
   }
 
@@ -53,6 +56,14 @@ public class RawSqlSource implements SqlSource {
     return context.getSql();
   }
 
+  /**
+   * 获取sql的接口
+   *
+   * 普通的sql在解析一次后存到StaticSqlSource的sql中，参数存到parameterMappings中，供后续使用
+   *
+   * @param parameterObject
+   * @return
+   */
   @Override
   public BoundSql getBoundSql(Object parameterObject) {
     return sqlSource.getBoundSql(parameterObject);
