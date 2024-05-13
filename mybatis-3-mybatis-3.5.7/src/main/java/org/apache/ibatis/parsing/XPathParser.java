@@ -209,6 +209,7 @@ public class XPathParser {
   }
 
   public XNode evalNode(String expression) {
+    // document 在创建 XMLConfigBuilder 对象时创建的
     return evalNode(document, expression);
   }
 

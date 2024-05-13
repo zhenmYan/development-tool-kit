@@ -126,7 +126,6 @@
       <module name="high-concurrency" target="8" />
       <module name="java-jvm" target="8" />
       <module name="mybatis" target="1.8" />
-      <module name="mybatis-3-mybatis-3.5.7-client" target="8" />
       <module name="mybatis-hand-write" target="8" />
       <module name="mybatis-hand-write-client" target="1.5" />
       <module name="mybatis-hand-write-service" target="8" />
@@ -258,7 +257,6 @@
       <module name="hand-write-series" options="-parameters" />
       <module name="high-concurrency" options="-parameters" />
       <module name="java-jvm" options="-parameters" />
-      <module name="mybatis-3-mybatis-3.5.7-client" options="-parameters" />
       <module name="mybatis-hand-write" options="-parameters" />
       <module name="mybatis-hand-write-service" options="" />
       <module name="pagehelper-spring-boot-2.1.0-client" options="-parameters" />

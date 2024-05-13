@@ -100,13 +100,36 @@ public class XMLConfigBuilder extends BaseBuilder {
       throw new BuilderException("Each XMLConfigBuilder can only be used once.");
     }
     parsed = true;
+    /**
+     * parser.evalNode("/configuration") 表达式的值
+     *
+     * <configuration>
+     *     <environments default="development">
+     *         <environment id="development">
+     *             <transactionManager type="JDBC"/>
+     *             <dataSource type="POOLED">
+     *                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+     *                 <property name="url" value="jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC"/>
+     *                 <property name="username" value="root"/>
+     *                 <property name="password" value="123"/>
+     *             </dataSource>
+     *         </environment>
+     *     </environments>
+     *     <mappers>
+     *         <mapper resource="mapper/UserMapper.xml"/>
+     *     </mappers>
+     * </configuration>
+     */
     // parser.evalNode("/configuration")：通过Xpath解析configuration根节点
+    // parseConfiguration方法对/configuration标签下的值进行解析
     parseConfiguration(parser.evalNode("/configuration"));
     return configuration;
   }
 
   /**
-   * 解析各种标签
+   * ##### MyBatis 各种标签的解析
+   *
+   *     解析后设置到configuration对象中
    *
    * @param root
    */
@@ -124,8 +147,8 @@ public class XMLConfigBuilder extends BaseBuilder {
       objectWrapperFactoryElement(root.evalNode("objectWrapperFactory"));
       reflectorFactoryElement(root.evalNode("reflectorFactory"));
       settingsElement(settings);
-      // environments标签
       // read it after objectFactory and objectWrapperFactory issue #631
+      // 解析environments标签，封装成environment对象，存到Configuration对象中
       environmentsElement(root.evalNode("environments"));
       databaseIdProviderElement(root.evalNode("databaseIdProvider"));
       typeHandlerElement(root.evalNode("typeHandlers"));
@@ -289,8 +312,10 @@ public class XMLConfigBuilder extends BaseBuilder {
 
   private void environmentsElement(XNode context) throws Exception {
     if (context != null) {
+      // SqlSessionFactoryBuilder().build(inputStream)的build方法有没有传入environment
       if (environment == null) {
-        // 获取default的值
+        // 没有手动传入environment值，则去配置文件中获取
+        // <environments default="development"> default 是 development
         environment = context.getStringAttribute("default");
       }
       for (XNode child : context.getChildren()) {
@@ -299,11 +324,12 @@ public class XMLConfigBuilder extends BaseBuilder {
         // environments标签中可以配置多个environment子标签，其中default与id相等的会生效
         if (isSpecifiedEnvironment(id)) {
           /**
-           * 创建事务工厂对象
+           * 创建事务工厂对象，存在 Environment 对象中
+           * XMLConfigBuilder、configuration 中都有 Environment属性
            */
           TransactionFactory txFactory = transactionManagerElement(child.evalNode("transactionManager"));
           /**
-           * 创建数据源对象
+           * 创建数据源工厂对象
            */
           DataSourceFactory dsFactory = dataSourceElement(child.evalNode("dataSource"));
           DataSource dataSource = dsFactory.getDataSource();
@@ -311,7 +337,9 @@ public class XMLConfigBuilder extends BaseBuilder {
               .transactionFactory(txFactory)
               .dataSource(dataSource);
           /**
-           * 存储到configuration
+           * 将 environment 存储到 configuration
+           *
+           * 这里主要是创建environment的TransactionFactory、DataSource
            */
           configuration.setEnvironment(environmentBuilder.build());
           break;
@@ -343,6 +371,8 @@ public class XMLConfigBuilder extends BaseBuilder {
     if (context != null) {
       String type = context.getStringAttribute("type");
       Properties props = context.getChildrenAsProperties();
+      // 这里创建事务工厂对象，根据type为JDBC，去typeAliasRegistry这个map中获取 org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory
+      // 通过反射获取构造方法创建对象
       TransactionFactory factory = (TransactionFactory) resolveClass(type).getDeclaredConstructor().newInstance();
       factory.setProperties(props);
       return factory;
@@ -354,6 +384,7 @@ public class XMLConfigBuilder extends BaseBuilder {
     if (context != null) {
       String type = context.getStringAttribute("type");
       Properties props = context.getChildrenAsProperties();
+      // 这里也是去别名map中获取全类名，通过反射创建对象
       DataSourceFactory factory = (DataSourceFactory) resolveClass(type).getDeclaredConstructor().newInstance();
       factory.setProperties(props);
       return factory;
@@ -388,13 +419,27 @@ public class XMLConfigBuilder extends BaseBuilder {
     }
   }
 
+  /*
+   *  ##### MyBatis 解析mappers标签
+   *
+   *    两种方式
+   *      1、Mapper代理
+   *          对应 package 标签
+   *
+   *      2、直接解析xml文件
+   *          对应 mapper 标签
+   *
+   *    <mappers>
+   *       <mapper resource="mapper/UserMapper.xml"></mapper>
+   *    </mappers>
+   */
   private void mapperElement(XNode parent) throws Exception {
     if (parent != null) {
       // 对<mappers>标签进行遍历
       for (XNode child : parent.getChildren()) {
         // <package>子标签，采用mapper代理
         if ("package".equals(child.getName())) {
-          // 获取nema属性，即包名
+          // 获取name属性，即包名
           String mapperPackage = child.getStringAttribute("name");
           // 将包下所有的mapper接口以及代理工厂对象存到一个map集合中，key为mapper接口类型，value为代理工厂对象
           configuration.addMappers(mapperPackage);
@@ -432,9 +477,11 @@ public class XMLConfigBuilder extends BaseBuilder {
   }
 
   private boolean isSpecifiedEnvironment(String id) {
+    // 必须配置 environment
     if (environment == null) {
       throw new BuilderException("No environment specified.");
     }
+    // 必须配置 id
     if (id == null) {
       throw new BuilderException("Environment requires an id attribute.");
     }

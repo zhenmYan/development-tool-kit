@@ -100,6 +100,7 @@ import org.apache.ibatis.type.TypeHandlerRegistry;
  */
 public class Configuration {
 
+  // 对应 environment 标签， Environment 中封装了TransactionFactory、DataSource
   protected Environment environment;
 
   protected boolean safeRowBoundsEnabled;
@@ -192,7 +193,9 @@ public class Configuration {
      *      mybatis-config文件中<transactionManager type="JDBC"/>标签
      *      注册到typeAliases这个map中
      *        key为全小写 jdbc
-     *        value为 class org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory
+     *        value为 org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory
+     *
+     *      JdbcTransactionFactory的真正创建是在解析 environment 标签的时候
      *
      */
     typeAliasRegistry.registerAlias("JDBC", JdbcTransactionFactory.class);

@@ -96,8 +96,15 @@ public class SqlSessionFactoryBuilder {
   public SqlSessionFactory build(InputStream inputStream, String environment, Properties properties) {
     try {
       /**
-       * 1、创建XPathParser解析器对象，根据inputStream解析成document对象，存在XPathParser解析器对象中
-       * 2、创建全局配置对象 Configuration
+       * ##### MyBatis 设计模式 建造者模式
+       *
+       *    一、复杂对象 Configuration 的构建
+       *      1、XMLConfigBuilder的创建完成了 Configuration 中 typeAliasRegistry、variables 属性的注入
+       *      2、XMLConfigBuilder的parse方法会完成更多Configuration属性的注入
+       *
+       *    二、XMLConfigBuilder的作用
+       *      1、创建XPathParser解析器对象，根据inputStream解析成document对象，存在XPathParser解析器对象中
+       *      2、创建全局配置对象 Configuration
        */
       XMLConfigBuilder parser = new XMLConfigBuilder(inputStream, environment, properties);
 
