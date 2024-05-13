@@ -2,6 +2,10 @@ package com.yzm.utils;
 
 
 
+import org.apache.ibatis.builder.BuilderException;
+import org.apache.ibatis.builder.ParameterExpression;
+import org.apache.ibatis.reflection.MetaObject;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -12,7 +16,7 @@ import java.util.Map;
  * @author yzm
  * @date 2024/4/13
  */
-public class ParameterMappingTokenHandler /*implements TokenHandler*/ {
+public class ParameterMappingTokenHandler implements TokenHandler {
     private List<ParameterMapping> parameterMappings = new ArrayList<>();
     private Class<?> parameterType;
     private MetaObject metaParameters;

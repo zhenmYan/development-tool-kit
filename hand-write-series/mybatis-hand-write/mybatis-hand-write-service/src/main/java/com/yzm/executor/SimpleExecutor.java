@@ -51,8 +51,10 @@ public class SimpleExecutor implements Executor {
         this.preparedStatement = connection.prepareStatement(boundSql.getFinalSql());
 
         // 3、设置参数
+        // com.yzm.pojo.User
         String parameterType = mappedStatement.getParameterType();
         if (parameterType != null) {
+            // 创建 com.yzm.pojo.User 对象
             Class<?> parameterTypeClass = Class.forName(parameterType);
             List<ParameterMapping> parameterMappings = boundSql.getList();
             for (int i = 0; i < parameterMappings.size(); i++){

@@ -19,10 +19,7 @@ import java.util.List;
  * @author yzm
  * @date 2024/4/20
  */
-public class UserMapperImpl implements UserMapper {
-    public User selectOne(User user) {
-        return null;
-    }
+public class UserMapperImpl {
 
     /**
      *  问题：
@@ -35,7 +32,7 @@ public class UserMapperImpl implements UserMapper {
      *      动态代理
      *
      */
-    public List<User> selectList()
+    public User selectOne()
             throws IllegalAccessException, IntrospectionException, InstantiationException,
             NoSuchFieldException, SQLException, InvocationTargetException,
             ClassNotFoundException, DocumentException {
@@ -64,4 +61,9 @@ public class UserMapperImpl implements UserMapper {
         System.out.println(userR.toString());
         return null;
     }
+
+    public List<User> selectList(User user) {
+        return null;
+    }
+
 }

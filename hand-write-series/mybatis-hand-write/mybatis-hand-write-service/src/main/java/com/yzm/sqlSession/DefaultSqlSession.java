@@ -14,6 +14,7 @@ import java.util.List;
  *
  *      1、SqlSession对象
  *      2、包含代理和增删改查方法，委派给底层executor
+ *      3、动态代理
  *
  * @author yzm
  * @date 2024/4/13
@@ -70,6 +71,8 @@ public class DefaultSqlSession implements SqlSession {
 
                         // 通过调用sqlSession委派给executor
                         /**
+                         * ##### 自定义MyBatis 动态代理
+                         *
                          * 参数的准备：
                          *      statementId、param
                          *
@@ -98,10 +101,10 @@ public class DefaultSqlSession implements SqlSession {
                         String className = method.getDeclaringClass().getName();
                         String statementId = className + "." + methodName;
                         MappedStatement mappedStatement = configuration.getMappedStatementMap().get(statementId);
-                        // 通过泛型判断是查询单值还是多值
                         String sqlCommandType = mappedStatement.getSqlCommandType();
                         switch (sqlCommandType){
                             case "select":
+                                // 通过泛型判断是查询单值还是多值
                                 Type genericReturnType = method.getGenericReturnType();
                                 if (genericReturnType instanceof ParameterizedType){
                                     if (args != null) {
