@@ -7,7 +7,9 @@ import org.dom4j.DocumentException;
 import java.io.InputStream;
 
 /**
- * description:
+ * ##### 自定义MyBatis SqlSessionFactoryBuilder
+ *
+ *      用于构建 SqlSessionFactory，可以在 SqlSessionFactory 中获取 SqlSession
  *
  * @author yzm
  * @date 2024/4/12

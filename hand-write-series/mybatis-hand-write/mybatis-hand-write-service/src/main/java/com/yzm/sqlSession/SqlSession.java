@@ -6,12 +6,13 @@ import java.sql.SQLException;
 import java.util.List;
 
 /**
- * description:
+ * ##### 自定义MyBatis SqlSession接口
  *
  *      - 添加增删改查方法
  *             - selectOne()
  *             - selectList()
  *             ...
+ *      - 增删改查都是update方法
  *      - 这里的方法不直接调用Jdbc，而是委派给Executor去执行
  *
  * @author yzm

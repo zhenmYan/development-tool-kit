@@ -11,9 +11,9 @@ import java.io.InputStream;
 import java.util.List;
 
 /**
- * description:
+ * ##### 自定义MyBatis XmlMapperBuilder
  *
- * parse：解析映射配置文件-存储到mappedStatement对象-存储到Configuration的map中
+ *      parse：解析映射配置文件-存储到mappedStatement对象-存储到Configuration的map中
  *
  * @author yzm
  * @date 2024/4/13

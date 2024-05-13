@@ -17,7 +17,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * description:
+ * ##### 自定义MyBatis SimpleExecutor
+ *
+ *      1、实际调用jdbc接口的类
  *
  *      parameterType、resultType都是通过反射去获取的
  *
@@ -130,13 +132,13 @@ public class SimpleExecutor implements Executor {
         // 标记处理器
         ParameterMappingTokenHandler parameterMappingTokenHandler = new ParameterMappingTokenHandler();
         // 标记解析器
-//        GenericTokenParser genericTokenParser = new GenericTokenParser("#{","}",parameterMappingTokenHandler);
+        GenericTokenParser genericTokenParser = new GenericTokenParser("#{","}",parameterMappingTokenHandler);
         // 将#{id}替换为？
-//        String finalSql = genericTokenParser.parse(sql);
+        String finalSql = genericTokenParser.parse(sql);
         // 获取参数列表
-//        List<ParameterMapping> parameterMappings = parameterMappingTokenHandler.getParameterMappings();
-//        boundSql.setFinalSql(finalSql);
-//        boundSql.setList(parameterMappings);
+        List<ParameterMapping> parameterMappings = parameterMappingTokenHandler.getParameterMappings();
+        boundSql.setFinalSql(finalSql);
+        boundSql.setList(parameterMappings);
         return boundSql;
     }
 }

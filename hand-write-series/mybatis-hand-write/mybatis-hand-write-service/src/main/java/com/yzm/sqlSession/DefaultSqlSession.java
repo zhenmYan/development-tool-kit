@@ -10,7 +10,10 @@ import java.sql.SQLException;
 import java.util.List;
 
 /**
- * description:
+ * ##### 自定义MyBatis DefaultSqlSession
+ *
+ *      1、SqlSession对象
+ *      2、包含代理和增删改查方法，委派给底层executor
  *
  * @author yzm
  * @date 2024/4/13

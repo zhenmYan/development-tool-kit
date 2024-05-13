@@ -23,11 +23,11 @@
     <artifactId>development-tool-kit</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>basic-java-knowledge</module>
         <module>project-test-client</module>
         <module>hand-write-series</module>
-        <module>basic-java-knowledge/untitled</module>
     </modules>
 
     <dependencies>

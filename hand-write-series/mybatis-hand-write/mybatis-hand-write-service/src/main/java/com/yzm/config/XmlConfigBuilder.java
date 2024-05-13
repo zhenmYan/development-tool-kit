@@ -29,7 +29,7 @@ public class XmlConfigBuilder {
     private Configuration configuration;
 
     public XmlConfigBuilder(){
-        configuration = new Configuration();
+        this.configuration = new Configuration();
     }
 
     /**
@@ -68,7 +68,7 @@ public class XmlConfigBuilder {
         configuration.setDataSource(druidDataSource);
 
         /**
-         * 2、解析映射配置文件
+         * 解析映射配置文件
          *      - 在mybatis-config.xml中获取映射配置文件的路径
          *      - 根据路径解析映射配置文件
          *      - 封装到MappedStatement对象

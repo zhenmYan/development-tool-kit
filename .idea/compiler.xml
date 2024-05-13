@@ -129,7 +129,7 @@
       <module name="mybatis" target="1.8" />
       <module name="mybatis-3-mybatis-3.5.7-client" target="8" />
       <module name="mybatis-hand-write" target="8" />
-      <module name="mybatis-hand-write-client" target="8" />
+      <module name="mybatis-hand-write-client" target="1.5" />
       <module name="mybatis-hand-write-service" target="8" />
       <module name="pagehelper" target="8" />
       <module name="pagehelper-spring-boot" target="8" />
@@ -173,7 +173,7 @@
       <module name="spring-boot-configuration-metadata" target="1.8" />
       <module name="spring-boot-configuration-processor" target="1.8" />
       <module name="spring-boot-configuration-processor-tests" target="1.8" />
-      <module name="spring-boot-dependencies" target="8" />
+      <module name="spring-boot-dependencies" target="1.5" />
       <module name="spring-boot-devtools" target="1.8" />
       <module name="spring-boot-devtools-tests" target="1.8" />
       <module name="spring-boot-docs" target="1.8" />
@@ -184,7 +184,7 @@
       <module name="spring-boot-loader-tools" target="1.8" />
       <module name="spring-boot-maven-plugin" target="1.8" />
       <module name="spring-boot-parent" target="1.8" />
-      <module name="spring-boot-project" target="8" />
+      <module name="spring-boot-project" target="1.5" />
       <module name="spring-boot-properties-migrator" target="1.8" />
       <module name="spring-boot-samples-invoker" target="1.8" />
       <module name="spring-boot-server-tests" target="1.8" />
