@@ -180,13 +180,19 @@ public class Configuration {
     this.environment = environment;
   }
 
+  /**
+   * ##### Mybatis 别名
+   *
+   */
   public Configuration() {
 
     /**
      * 注册事务工厂别名
      *
      *      mybatis-config文件中<transactionManager type="JDBC"/>标签
-     *      解析过后实际上创建的是JdbcTransactionFactory.class对象
+     *      注册到typeAliases这个map中
+     *        key为全小写 jdbc
+     *        value为 class org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory
      *
      */
     typeAliasRegistry.registerAlias("JDBC", JdbcTransactionFactory.class);

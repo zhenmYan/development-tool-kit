@@ -85,6 +85,7 @@ public class XMLConfigBuilder extends BaseBuilder {
   }
 
   private XMLConfigBuilder(XPathParser parser, String environment, Properties props) {
+    // 注意：Configuration对象是在这里创建的
     // Configuration 的无参构造会完成配置文件中的别名注册
     super(new Configuration());
     ErrorContext.instance().resource("SQL Mapper Configuration");

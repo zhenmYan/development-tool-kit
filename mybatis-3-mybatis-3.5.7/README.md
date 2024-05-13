@@ -21,3 +21,14 @@ Essentials
 * [See the docs](http://mybatis.github.io/mybatis-3)
 * [Download Latest](https://github.com/mybatis/mybatis-3/releases)
 * [Download Snapshot](https://oss.sonatype.org/content/repositories/snapshots/org/mybatis/mybatis/)
+
+
+### 源码环境搭建
+
+1、下载源代码
+
+2、在test目录下创建resources目录
+    
+    - 并创建配置文件和映射文件
+   
+3、编写测试类

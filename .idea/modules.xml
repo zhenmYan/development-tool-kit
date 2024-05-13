@@ -10,7 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/basic-java-knowledge/high-concurrency/high-concurrency.iml" filepath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/high-concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-java-knowledge/java-jvm/java-jvm.iml" filepath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/java-jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/mybatis.iml" filepath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/mybatis-3-mybatis-3.5.7-client.iml" filepath="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/mybatis-3-mybatis-3.5.7-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" filepath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" />
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" filepath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-service/mybatis-hand-write-service.iml" filepath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-service/mybatis-hand-write-service.iml" />

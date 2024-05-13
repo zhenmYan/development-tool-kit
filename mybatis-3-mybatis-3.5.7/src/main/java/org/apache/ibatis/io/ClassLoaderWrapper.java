@@ -21,6 +21,8 @@ import java.net.URL;
 /**
  * A class to wrap access to multiple class loaders making them work as one
  *
+ * ClassLoaderWrapper 封装了多种类型的 ClassLoader
+ *
  * @author Clinton Begin
  */
 public class ClassLoaderWrapper {
@@ -115,6 +117,7 @@ public class ClassLoaderWrapper {
       if (null != cl) {
 
         // try to find the resource as passed
+        // 通过类加载器加载配置文件
         InputStream returnValue = cl.getResourceAsStream(resource);
 
         // now, some class loaders want this leading "/", so we'll add it and try again if we didn't find the resource

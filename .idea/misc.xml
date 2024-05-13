@@ -27,6 +27,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7-client/pom.xml" />
+        <option value="$PROJECT_DIR$/project-test-client/mybatis-3-mybatis-3.5.7-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-build/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot/spring-boot-2.1.x/pom.xml" />
       </set>

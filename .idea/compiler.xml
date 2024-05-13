@@ -80,7 +80,6 @@
         <module name="rocketmq-srvutil" />
         <module name="spring-boot-actuator-autoconfigure" />
         <module name="spring-boot-starter-log4j2" />
-        <module name="mybatis-3-mybatis-3.5.7-client" />
         <module name="spring-boot-starter-data-ldap" />
         <module name="rocketmq" />
         <module name="rocketmq-tools" />

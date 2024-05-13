@@ -74,13 +74,19 @@ public class SqlSessionFactoryBuilder {
 
   /**
    * TODO
-   * build方法的参数
-   *    1、inputStream
-   *      mybatis-config.xml的配置文件字节流
+   * ##### MyBatis SqlSessionFactory::build
    *
-   *    2、environment
-   *      环境类型，对应mybatis-config.xml中的environment标签
-   *      例如需要区分生产与开发环境，就可以在mybatis-config.xml中配置多种不同的环境，然后调用该方法时传入不同的参数
+   *    入参
+   *      1、inputStream
+   *        mybatis-config.xml的配置文件字节流
+   *
+   *      2、environment
+   *        环境类型，对应mybatis-config.xml中的environment标签
+   *        例如需要区分生产与开发环境，就可以在mybatis-config.xml中配置多种不同的环境，然后调用该方法时传入不同的参数
+   *
+   *    作用
+   *      1、创建 XMLConfigBuilder 对象，用于解析配置文件
+   *
    *
    * @param inputStream
    * @param environment
@@ -91,7 +97,7 @@ public class SqlSessionFactoryBuilder {
     try {
       /**
        * 1、创建XPathParser解析器对象，根据inputStream解析成document对象，存在XPathParser解析器对象中
-       * 2、创建全局配置对象Configuration
+       * 2、创建全局配置对象 Configuration
        */
       XMLConfigBuilder parser = new XMLConfigBuilder(inputStream, environment, properties);
 

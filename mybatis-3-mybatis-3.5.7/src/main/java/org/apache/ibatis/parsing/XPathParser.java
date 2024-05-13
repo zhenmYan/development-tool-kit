@@ -124,7 +124,7 @@ public class XPathParser {
 
   public XPathParser(InputStream inputStream, boolean validation, Properties variables, EntityResolver entityResolver) {
     commonConstructor(validation, variables, entityResolver);
-    // 解析xml文件为 Document 对象
+    // 解析xml文件为 Document 对象，赋值给XPathParser的document属性
     this.document = createDocument(new InputSource(inputStream));
   }
 
@@ -266,7 +266,7 @@ public class XPathParser {
           // NOP
         }
       });
-      // 通过dom解析，获取 Document 对象
+      // 通过dom4j解析，获取 Document 对象
       return builder.parse(inputSource);
     } catch (Exception e) {
       throw new BuilderException("Error creating document instance.  Cause: " + e, e);
