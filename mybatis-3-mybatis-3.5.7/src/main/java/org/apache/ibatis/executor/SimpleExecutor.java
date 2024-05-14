@@ -32,6 +32,7 @@ import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.transaction.Transaction;
 
 /**
+ * 简单执行器
  * @author Clinton Begin
  */
 public class SimpleExecutor extends BaseExecutor {
@@ -58,6 +59,7 @@ public class SimpleExecutor extends BaseExecutor {
     Statement stmt = null;
     try {
       Configuration configuration = ms.getConfiguration();
+      // SqlSession 委派给 Executor，Executor 委派给 StatementHandler， StatementHandler 再委派给其他处理器
       StatementHandler handler = configuration.newStatementHandler(wrapper, ms, parameter, rowBounds, resultHandler, boundSql);
       // 构建Statement对象和参数的设置
       stmt = prepareStatement(handler, ms.getStatementLog());
@@ -88,7 +90,7 @@ public class SimpleExecutor extends BaseExecutor {
     Connection connection = getConnection(statementLog);
     // 创建Statement对象
     stmt = handler.prepare(connection, transaction.getTimeout());
-    // 参数化处理
+    // 委托给 parameterHandler 进行参数处理
     handler.parameterize(stmt);
     return stmt;
   }

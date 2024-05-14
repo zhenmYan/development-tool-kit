@@ -36,6 +36,21 @@ public class RoutingStatementHandler implements StatementHandler {
 
   private final StatementHandler delegate;
 
+  /**
+   * 可以在<select>标签下配置statementType
+   *
+   *    从而决定用什么处理器
+   *        SimpleStatementHandler：对应jdbc的Statement
+   *        PreparedStatementHandler：对应jdbc的PreparedStatement
+   *        CallableStatementHandler：对应jdbc的CallableStatement
+   *
+   * @param executor
+   * @param ms
+   * @param parameter
+   * @param rowBounds
+   * @param resultHandler
+   * @param boundSql
+   */
   public RoutingStatementHandler(Executor executor, MappedStatement ms, Object parameter, RowBounds rowBounds, ResultHandler resultHandler, BoundSql boundSql) {
 
     switch (ms.getStatementType()) {

@@ -9,7 +9,10 @@ package com.yzm.structure.decorator;
  *      2、特点
  *          - 可以替代继承
  *
- *
+ *      3、典型案例
+ *          - MyBatis的CachingExecutor
+ *              - 在开启缓存时，创建CachingExecutor，其他类型的Executor作为构造函数的入参
+ *              - 其中的方法会对Executor的原方法做一个增强，增强主要是缓存方面的处理
  *
  * @author yzm
  * @date 2024/4/28

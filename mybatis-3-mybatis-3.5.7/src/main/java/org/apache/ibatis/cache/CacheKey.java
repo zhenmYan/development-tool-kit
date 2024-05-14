@@ -23,6 +23,12 @@ import java.util.StringJoiner;
 import org.apache.ibatis.reflection.ArrayUtil;
 
 /**
+ * ### MyBatis CacheKey hashcode、equals、updateList
+ *
+ *    CacheKey 作为map的key 需要重写hashcode和equals
+ *
+ *    每次update都更新 hashcode，将参数存储到updateList
+ *
  * @author Clinton Begin
  */
 public class CacheKey implements Cloneable, Serializable {
@@ -51,6 +57,7 @@ public class CacheKey implements Cloneable, Serializable {
   private int count;
   // 8/21/2017 - Sonarlint flags this as needing to be marked transient. While true if content is not serializable, this
   // is not always true and thus should not be marked transient.
+  // 通过list存储各种参数，每次调用update方法
   private List<Object> updateList;
 
   public CacheKey() {
@@ -76,6 +83,7 @@ public class CacheKey implements Cloneable, Serializable {
     checksum += baseHashCode;
     baseHashCode *= count;
 
+    // 更新hashcode
     hashcode = multiplier * hashcode + baseHashCode;
 
     updateList.add(object);
@@ -108,6 +116,7 @@ public class CacheKey implements Cloneable, Serializable {
       return false;
     }
 
+    // 判断相等是对 updateList 进行遍历判断
     for (int i = 0; i < updateList.size(); i++) {
       Object thisObject = updateList.get(i);
       Object thatObject = cacheKey.updateList.get(i);

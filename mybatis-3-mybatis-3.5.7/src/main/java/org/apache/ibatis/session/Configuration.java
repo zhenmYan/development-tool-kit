@@ -687,6 +687,16 @@ public class Configuration {
     return newExecutor(transaction, defaultExecutorType);
   }
 
+  /**
+   * ##### MyBatis 创建执行器
+   *
+   *    1、使用装饰器模式
+   *      - 主要目的是增强原有执行器的方法，如查缓存等操作
+   *
+   * @param transaction
+   * @param executorType
+   * @return
+   */
   public Executor newExecutor(Transaction transaction, ExecutorType executorType) {
     executorType = executorType == null ? defaultExecutorType : executorType;
     executorType = executorType == null ? ExecutorType.SIMPLE : executorType;
@@ -699,6 +709,7 @@ public class Configuration {
       executor = new SimpleExecutor(this, transaction);
     }
     // 是否允许缓存，装饰器模式
+    // cacheEnabled 默认是true
     if (cacheEnabled) {
       executor = new CachingExecutor(executor);
     }

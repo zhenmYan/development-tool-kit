@@ -33,11 +33,18 @@ import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.transaction.Transaction;
 
 /**
+ * 缓存执行器
+ *
+ *    装饰器模式
+ *    只要允许缓存，创建的是这个执行器，但是实际执行的其他类型的执行器
+ *
+ *
  * @author Clinton Begin
  * @author Eduardo Macarron
  */
 public class CachingExecutor implements Executor {
 
+  // 实际执行器
   private final Executor delegate;
   private final TransactionalCacheManager tcm = new TransactionalCacheManager();
 
@@ -125,6 +132,7 @@ public class CachingExecutor implements Executor {
         @SuppressWarnings("unchecked")
         // 从二级缓存中查询对象
         List<E> list = (List<E>) tcm.getObject(cache, key);
+        // 如果二级缓存没有查到，委派给delegate进行查询，这里CachingExecutor的query对delegate的query进行了增强
         if (list == null) {
           list = delegate.query(ms, parameterObject, rowBounds, resultHandler, key, boundSql);
           // 将查询结果存到二级缓存
@@ -170,7 +178,7 @@ public class CachingExecutor implements Executor {
 
   @Override
   public CacheKey createCacheKey(MappedStatement ms, Object parameterObject, RowBounds rowBounds, BoundSql boundSql) {
-    // 装饰器模式，实际是simpleExecutor执行
+    // 装饰器模式，实际是simpleExecutor或其他类型执行器执行
     return delegate.createCacheKey(ms, parameterObject, rowBounds, boundSql);
   }
 

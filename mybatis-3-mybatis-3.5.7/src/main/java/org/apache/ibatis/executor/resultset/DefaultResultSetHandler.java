@@ -180,7 +180,7 @@ public class DefaultResultSetHandler implements ResultSetHandler {
   //
 
   /**
-   * #### mybatis 结果集解析
+   * #### mybatis resultSetHandler 结果集解析
    *
    *    1、获取结果集
    *    2、获取映射关系
@@ -414,6 +414,7 @@ public class DefaultResultSetHandler implements ResultSetHandler {
       final MetaObject metaObject = configuration.newMetaObject(rowValue);
       boolean foundValues = this.useConstructorMappings;
       if (shouldApplyAutomaticMappings(resultMap, false)) {
+        // 映射赋值
         foundValues = applyAutomaticMappings(rsw, resultMap, metaObject, columnPrefix) || foundValues;
       }
       foundValues = applyPropertyMappings(rsw, resultMap, metaObject, lazyLoader, columnPrefix) || foundValues;

@@ -45,6 +45,9 @@ import org.apache.ibatis.transaction.Transaction;
 import org.apache.ibatis.type.TypeHandlerRegistry;
 
 /**
+ * 简单执行器
+ *    封装了公共方法和变量
+ *
  * @author Clinton Begin
  */
 public abstract class BaseExecutor implements Executor {
@@ -139,6 +142,8 @@ public abstract class BaseExecutor implements Executor {
   /**
    * ##### mybatis 一级缓存
    *
+   *      - 二级缓存没查到则委派到这一层处理
+   *
    * @param ms
    * @param parameter
    * @param rowBounds
@@ -167,7 +172,7 @@ public abstract class BaseExecutor implements Executor {
       if (list != null) {
         handleLocallyCachedOutputParameters(ms, key, parameter, boundSql);
       } else {
-        // 查询数据库
+        // 没查询到缓存，查询数据库
         list = queryFromDatabase(ms, parameter, rowBounds, resultHandler, key, boundSql);
       }
     } finally {
@@ -207,7 +212,7 @@ public abstract class BaseExecutor implements Executor {
   }
 
   /**
-   * ### Mybatis CacheKey 缓存主键
+   * ### Mybatis CacheKey 缓存主键的组成
    *
    *    1、由六个部分组成
    *      - statementId
@@ -230,6 +235,7 @@ public abstract class BaseExecutor implements Executor {
       throw new ExecutorException("Executor was closed.");
     }
     CacheKey cacheKey = new CacheKey();
+    // 每次更新方法会更新hashcode，然后将参数存到cacheKey内部的list中
     cacheKey.update(ms.getId());
     cacheKey.update(rowBounds.getOffset());
     cacheKey.update(rowBounds.getLimit());
@@ -356,6 +362,7 @@ public abstract class BaseExecutor implements Executor {
     // 占位
     localCache.putObject(key, EXECUTION_PLACEHOLDER);
     try {
+      // 实际查询的方法
       list = doQuery(ms, parameter, rowBounds, resultHandler, boundSql);
     } finally {
       localCache.removeObject(key);

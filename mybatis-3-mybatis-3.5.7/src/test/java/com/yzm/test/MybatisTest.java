@@ -32,17 +32,20 @@ public class MybatisTest {
      */
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
-    // 3、创建SqlSession、创建sql执行器Executor
+    /**
+     * 3、创建事务对象，创建cachingExecutor，创建DefaultSqlSession
+     */
     SqlSession sqlSession = sqlSessionFactory.openSession();
 
     User user = new User();
     user.setId(1);
     user.setUsername("张三");
 
-    // 调用 sqlSession 的方法
+    // 4、委派给Executor，Executor会委派给其他很多handler，进行参数设置，sql执行，结果集封装
     User userR = sqlSession.selectOne("com.yzm.dao.UserMapper.selectOne", user);
 
     System.out.println(userR.toString());
+    // 5、释放资源
     sqlSession.close();
   }
 }

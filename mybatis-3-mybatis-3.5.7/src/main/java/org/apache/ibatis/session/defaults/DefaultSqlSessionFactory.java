@@ -93,7 +93,16 @@ public class DefaultSqlSessionFactory implements SqlSessionFactory {
       final Environment environment = configuration.getEnvironment();
       // 根据environment获取事务工厂对象
       final TransactionFactory transactionFactory = getTransactionFactoryFromEnvironment(environment);
-      // 构建事务对象
+      /**
+       * ##### MyBatis 事务控制
+       *
+       *    <transactionManager type="JDBC"/>
+       *        JdbcTransactionFactory：通过 connection 进行事务控制
+       *
+       *    <transactionManager type="MANAGED"/>
+       *        ManagedTransactionFactory：没有做任何处理，将事务管理交给容器
+       *
+       */
       tx = transactionFactory.newTransaction(environment.getDataSource(), level, autoCommit);
       // 构建执行器对象
       final Executor executor = configuration.newExecutor(tx, execType);
