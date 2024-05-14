@@ -439,7 +439,7 @@ public class XMLConfigBuilder extends BaseBuilder {
       for (XNode child : parent.getChildren()) {
         // <package>子标签，采用mapper代理
         if ("package".equals(child.getName())) {
-          // 获取name属性，即包名
+          // 获取name属性，即包名 com.yzm.mapper
           String mapperPackage = child.getStringAttribute("name");
           // 将包下所有的mapper接口以及代理工厂对象存到一个map集合中，key为mapper接口类型，value为代理工厂对象
           configuration.addMappers(mapperPackage);

@@ -55,7 +55,7 @@ public class MapperMethod {
   }
 
   /**
-   * ##### Mybatis 方法执行
+   * ##### Mybatis 代理方法的执行
    *
    * @param sqlSession
    * @param args

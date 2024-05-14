@@ -3,7 +3,7 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <!--这里的namespace如果不使用代理可以随便取名-->
-<mapper namespace="com.yzm.dao.UserMapper">
+<mapper namespace="com.yzm.mapper.UserMapper">
 
   <select id="selectOne" resultType = "com.yzm.pojo.User" parameterType = "com.yzm.pojo.User">
         select * from user where id = #{id} and username = #{username}
@@ -12,7 +12,5 @@
   <select id="selectList" resultType = "com.yzm.pojo.User">
         select * from user
     </select>
-
-
 
 </mapper>

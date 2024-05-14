@@ -160,13 +160,23 @@ public class MapperAnnotationBuilder {
     }
   }
 
+  /**
+   * ##### MyBatis 接口与映射文件同名的原因
+   *
+   *    通过接口全类名将 com.yzm.mapper.UserMapper 转化成 com/yzm/mapper/UserMapper.xml
+   *    然后加载映射配置文件的资源
+   *
+   */
   private void loadXmlResource() {
     // Spring may not know the real resource name so we check a flag
     // to prevent loading again a resource twice
     // this flag is set at XMLMapperBuilder#bindMapperForNamespace
     if (!configuration.isResourceLoaded("namespace:" + type.getName())) {
+      // 替换成映射配置文件的路径
+      // 这也是接口与映射文件同名的原因，需要通过接口名替换成com/yzm/mapper/UserMapper.xml，然后加载映射文件的资源
       String xmlResource = type.getName().replace('.', '/') + ".xml";
       // #1347
+      // 加载 com/yzm/mapper/UserMapper.xml 资源
       InputStream inputStream = type.getResourceAsStream("/" + xmlResource);
       if (inputStream == null) {
         // Search XML mapper that is not in the module but in the classpath.

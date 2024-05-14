@@ -281,14 +281,17 @@ public class ResolverUtil<T> {
   @SuppressWarnings("unchecked")
   protected void addIfMatching(Test test, String fqn) {
     try {
+      // externalName -> com.yzm.mapper.UserMapper
       String externalName = fqn.substring(0, fqn.indexOf('.')).replace('/', '.');
       ClassLoader loader = getClassLoader();
       if (log.isDebugEnabled()) {
         log.debug("Checking to see if class " + externalName + " matches criteria [" + test + "]");
       }
 
+      // 创建对象
       Class<?> type = loader.loadClass(externalName);
       if (test.matches(type)) {
+        // 往matches这个set中添加
         matches.add((Class<T>) type);
       }
     } catch (Throwable t) {
