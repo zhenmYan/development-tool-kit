@@ -127,7 +127,7 @@ public class XMLConfigBuilder extends BaseBuilder {
   }
 
   /**
-   * ##### MyBatis 各种标签的解析
+   * ##### MyBatis 配置文件标签的解析
    *
    *     解析后设置到configuration对象中
    *
@@ -220,10 +220,12 @@ public class XMLConfigBuilder extends BaseBuilder {
   private void pluginElement(XNode parent) throws Exception {
     if (parent != null) {
       for (XNode child : parent.getChildren()) {
+        // 获取拦截器
         String interceptor = child.getStringAttribute("interceptor");
         Properties properties = child.getChildrenAsProperties();
         // 构建自定义插件的实例
         Interceptor interceptorInstance = (Interceptor) resolveClass(interceptor).getDeclaredConstructor().newInstance();
+        // 这里会首先调用 setProperties
         interceptorInstance.setProperties(properties);
         // 添加到拦截器链中 InterceptorChain
         configuration.addInterceptor(interceptorInstance);

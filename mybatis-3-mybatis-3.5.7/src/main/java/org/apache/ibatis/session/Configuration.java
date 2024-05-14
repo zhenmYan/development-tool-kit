@@ -148,6 +148,7 @@ public class Configuration {
   protected Class<?> configurationFactory;
 
   protected final MapperRegistry mapperRegistry = new MapperRegistry(this);
+  // 拦截器链
   protected final InterceptorChain interceptorChain = new InterceptorChain();
   protected final TypeHandlerRegistry typeHandlerRegistry = new TypeHandlerRegistry(this);
   protected final TypeAliasRegistry typeAliasRegistry = new TypeAliasRegistry();
@@ -713,7 +714,11 @@ public class Configuration {
     if (cacheEnabled) {
       executor = new CachingExecutor(executor);
     }
-    // 拦截器插件
+    /**
+     *  ### MyBatis 插件 代理对象的创建
+     *
+     *    对interceptors进行遍历，调用public Object plugin(Object target) 生成代理对象
+     */
     executor = (Executor) interceptorChain.pluginAll(executor);
     return executor;
   }

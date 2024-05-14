@@ -34,6 +34,8 @@ public @interface Signature {
    * Returns the java type.
    *
    * @return the java type
+   *
+   * 四种类型：Executor、StatementHandler、ParameterHandler、ResultSetHandler
    */
   Class<?> type();
 
@@ -41,12 +43,16 @@ public @interface Signature {
    * Returns the method name.
    *
    * @return the method name
+   *
+   *  各类型中的方法
    */
   String method();
 
   /**
    * Returns java types for method argument.
    * @return java types for method argument
+   *
+   * 参数列表，用于method()方法重载的，从而确定是重载方法中的哪个
    */
   Class<?>[] args();
 }

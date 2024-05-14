@@ -4,6 +4,14 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 
 <configuration>
+
+  <plugins>
+    <plugin interceptor="com.yzm.interceptor.ExecutionTimeInterceptor">
+      <!--这里会将key和value封装到public void setProperties(Properties properties)的Properties中，key为yzm，value为666-->
+      <property name="yzm" value="666"/>
+    </plugin>
+  </plugins>
+
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
@@ -24,9 +32,13 @@
         </environment>
     </environments>
 
+
     <mappers>
 <!--        <mapper resource="mapper/UserMapper.xml"></mapper>-->
       <package name="com.yzm.mapper"></package>
     </mappers>
 
+
 </configuration>
+
+

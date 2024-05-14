@@ -27,6 +27,8 @@ import org.apache.ibatis.reflection.ExceptionUtil;
 import org.apache.ibatis.util.MapUtil;
 
 /**
+ * 插件代理对象
+ *
  * @author Clinton Begin
  */
 public class Plugin implements InvocationHandler {
@@ -41,7 +43,13 @@ public class Plugin implements InvocationHandler {
     this.signatureMap = signatureMap;
   }
 
+  /**
+   * @param target 被代理的对象 CachingExecutor
+   * @param interceptor 即自定义拦截器对象 ExecutionTimeInterceptor
+   * @return
+   */
   public static Object wrap(Object target, Interceptor interceptor) {
+    // signatureMap 存放拦截器接口和方法
     Map<Class<?>, Set<Method>> signatureMap = getSignatureMap(interceptor);
     Class<?> type = target.getClass();
     Class<?>[] interfaces = getAllInterfaces(type, signatureMap);
@@ -54,11 +62,21 @@ public class Plugin implements InvocationHandler {
     return target;
   }
 
+  /**
+   * 实际调用的方法
+   *
+   * @param proxy
+   * @param method
+   * @param args
+   * @return
+   * @throws Throwable
+   */
   @Override
   public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
     try {
       Set<Method> methods = signatureMap.get(method.getDeclaringClass());
       if (methods != null && methods.contains(method)) {
+        // 执行 intercept 方法
         return interceptor.intercept(new Invocation(target, method, args));
       }
       return method.invoke(target, args);
