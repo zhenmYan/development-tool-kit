@@ -62,6 +62,8 @@ public class PageHelperAutoConfiguration implements InitializingBean {
     /**
      * 通过InitializingBean的afterPropertiesSet()注入PageInterceptor对象
      *
+     * 需要加到拦截器链中，在创建四种对象时，遍历拦截器链判断是否需要创建代理对象
+     *
      * @throws Exception
      */
     @Override
@@ -70,6 +72,7 @@ public class PageHelperAutoConfiguration implements InitializingBean {
         interceptor.setProperties(this.properties);
         for (SqlSessionFactory sqlSessionFactory : sqlSessionFactoryList) {
             org.apache.ibatis.session.Configuration configuration = sqlSessionFactory.getConfiguration();
+            // 加到拦截器链中 interceptorChain
             if (!containsInterceptor(configuration, interceptor)) {
                 configuration.addInterceptor(interceptor);
             }
@@ -86,6 +89,7 @@ public class PageHelperAutoConfiguration implements InitializingBean {
     private boolean containsInterceptor(org.apache.ibatis.session.Configuration configuration, Interceptor interceptor) {
         try {
             // getInterceptors since 3.2.2
+            // 遍历 interceptorChain
             return configuration.getInterceptors().stream().anyMatch(config->interceptor.getClass().isAssignableFrom(config.getClass()));
         } catch (Exception e) {
             return false;

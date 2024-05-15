@@ -31,9 +31,10 @@ public class CopyTest {
          *
          *  所以需要注意第三次需要取长度的值，
          */
+        int len;
         byte[] stream = new byte[1024*1024*5];
-        while ((b = fis.read(stream))!= -1){
-            fos.write(b);
+        while ((len = fis.read(stream))!= -1){
+            fos.write(stream, 0, len);
         }
 
 

@@ -24,7 +24,7 @@ import java.io.InputStream;
 public class FileInputStreamTest {
 
     public static void main(String[] args) throws IOException {
-        InputStream fis = new FileInputStream("basic-java-knowledge/java-io/src/main/resources/text/fileInputStream.txt");
+        InputStream fis = new FileInputStream("basic-java-knowledge/java-io/src/main/resources/text/fileInputStream");
         // 1、一次读取一个字节
         int stream1 = fis.read();
         int stream2 = fis.read();

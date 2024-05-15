@@ -26,7 +26,7 @@ import java.io.IOException;
 public class FileOutputStreamTest {
 
     public static void main(String[] args) throws IOException {
-        FileOutputStream fos = new FileOutputStream("basic-java-knowledge/java-io/src/main/resources/text/fileOutputStream.txt");
+        FileOutputStream fos = new FileOutputStream("basic-java-knowledge/java-io/src/main/resources/text/fileOutputStream");
 
         // 1、一次写一个字节
         fos.write(66);

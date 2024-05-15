@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/java-io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/copy/CopyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/inputstream/FileInputStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/outputstream/FileOutputStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/fileInputStream.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/fileOutputStream.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/filereader/BufferedReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/filereader/FileReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/inputstream/BufferedInputStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/serializable/ObjectOutputStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/serializable/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/bufferedInputStream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/bufferedReader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/fileReader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/readersdbbhb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/serializable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/java-jvm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/java-jvm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/copy/CopyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/copy/CopyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/inputstream/FileInputStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/inputstream/FileInputStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/outputstream/FileOutputStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/outputstream/FileOutputStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/fileInputStream.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/fileInputStream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/fileOutputStream.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources/text/fileOutputStream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot-autoconfigure/src/main/java/com/github/pagehelper/autoconfigure/PageHelperAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot-autoconfigure/src/main/java/com/github/pagehelper/autoconfigure/PageHelperAutoConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +126,20 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\java-io\src\main\resources" />
+      <recent name="W:\idea_project\development-tool-kit\mybatis-3-mybatis-3.5.7\src\test\resources\com\yzm" />
+      <recent name="W:\idea_project\development-tool-kit\hand-write-series\mybatis-hand-write" />
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mapper" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.yzm" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzm.config" />
+      <recent name="com.yzm.found.factory.factorymethod" />
+      <recent name="com.yzm.dev" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="W:\idea_project\development-tool-kit\mybatis-3-mybatis-3.5.7\src\test\java\ddl" />
@@ -132,20 +148,34 @@
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\structure\proxy\dynamicproxy\jdkproxy" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\found\factory\abstractfactory" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yzm.config" />
-      <recent name="com.yzm.found.factory.factorymethod" />
-      <recent name="com.yzm.dev" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\java-io\src\main\resources" />
-      <recent name="W:\idea_project\development-tool-kit\mybatis-3-mybatis-3.5.7\src\test\resources\com\yzm" />
-      <recent name="W:\idea_project\development-tool-kit\hand-write-series\mybatis-hand-write" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-3-mybatis-3.5.7-client\src\main\resources\mapper" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.FileInputStreamTest">
+  <component name="RunManager" selected="Application.ObjectOutputStreamTest">
+    <configuration name="BufferedInputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.inputstream.BufferedInputStreamTest" />
+      <module name="java-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzm.inputstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BufferedReaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.filereader.BufferedReaderTest" />
+      <module name="java-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzm.filereader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileInputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzm.inputstream.FileInputStreamTest" />
       <module name="java-io" />
@@ -159,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzm.outputstream.FileOutputStreamTest" />
+    <configuration name="FileReaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.filereader.FileReaderTest" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzm.outputstream.*" />
+          <option name="PATTERN" value="com.yzm.filereader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,97 +202,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CacheTest.firstCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-3-mybatis-3.5.7" />
+    <configuration name="ObjectOutputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.serializable.ObjectOutputStreamTest" />
+      <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzm.cache.*" />
+          <option name="PATTERN" value="com.yzm.serializable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yzm.cache" />
-      <option name="MAIN_CLASS_NAME" value="com.yzm.cache.CacheTest" />
-      <option name="METHOD_NAME" value="firstCacheTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CacheTest.secCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-3-mybatis-3.5.7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzm.cache.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yzm.cache" />
-      <option name="MAIN_CLASS_NAME" value="com.yzm.cache.CacheTest" />
-      <option name="METHOD_NAME" value="secCacheTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.ProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-3-mybatis-3.5.7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzm.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yzm.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yzm.test.MybatisTest" />
-      <option name="METHOD_NAME" value="ProxyTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="mybatis-3-mybatis-3.5.7" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="mybatis-3-mybatis-3.5.7" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -289,22 +237,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MybatisTest.ProxyTest" />
+      <item itemvalue="Application.FileInputStreamTest" />
+      <item itemvalue="Application.FileReaderTest" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
       <item itemvalue="Spring Boot.SampleXmlApplication" />
       <item itemvalue="Spring Boot.SampleMapperApplication" />
-      <item itemvalue="JUnit.CacheTest.firstCacheTest" />
-      <item itemvalue="JUnit.CacheTest.secCacheTest" />
-      <item itemvalue="Application.FileOutputStreamTest" />
-      <item itemvalue="Application.FileInputStreamTest" />
+      <item itemvalue="Application.BufferedInputStreamTest" />
+      <item itemvalue="Application.BufferedReaderTest" />
+      <item itemvalue="Application.ObjectOutputStreamTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectOutputStreamTest" />
+        <item itemvalue="Application.BufferedReaderTest" />
+        <item itemvalue="Application.BufferedInputStreamTest" />
+        <item itemvalue="Application.FileReaderTest" />
         <item itemvalue="Application.FileInputStreamTest" />
-        <item itemvalue="Application.FileOutputStreamTest" />
-        <item itemvalue="JUnit.CacheTest.secCacheTest" />
-        <item itemvalue="JUnit.CacheTest.firstCacheTest" />
-        <item itemvalue="JUnit.MybatisTest.ProxyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -370,14 +318,8 @@
       <workItem from="1715498565784" duration="17737000" />
       <workItem from="1715600194177" duration="14737000" />
       <workItem from="1715675277056" duration="14897000" />
-      <workItem from="1715732913596" duration="13211000" />
-    </task>
-    <task id="LOCAL-00049" summary="feat(设计模式):单例模式-破坏与解决方法">
-      <created>1714135188571</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1714135188571</updated>
+      <workItem from="1715732913596" duration="16512000" />
+      <workItem from="1715764001251" duration="9092000" />
     </task>
     <task id="LOCAL-00050" summary="feat(设计模式):单例模式-破坏与解决方法">
       <created>1714135247950</created>
@@ -715,7 +657,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715740294877</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="feat(java-io)：文件读取">
+      <created>1715753592901</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1715753592901</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -723,7 +672,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(设计模式)：适配器代理" />
     <MESSAGE value="feat(设计模式)：装饰器代理" />
     <MESSAGE value="feat(设计模式)：门面代理" />
     <MESSAGE value="feat(设计模式)：观察者模式" />
@@ -748,7 +696,8 @@
     <MESSAGE value="feat(MyBatis)：插件" />
     <MESSAGE value="feat(MyBatis)：拦截器执行顺序" />
     <MESSAGE value="feat(MyBatis)：缓存" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(MyBatis)：缓存" />
+    <MESSAGE value="feat(java-io)：文件读取" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(java-io)：文件读取" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -765,15 +714,15 @@
     </state>
     <state x="-1451" y="85" width="1111" height="894" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1713266577544" />
     <state x="331" y="137" width="1089" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712625763162" />
-    <state x="-1324" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1715588006413">
+    <state x="-1324" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1715783661768">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1324" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715588006413" />
+    <state x="-1324" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715783661768" />
     <state x="477" y="203" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712077668946" />
-    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1715141721741">
+    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1715784197835">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715141721741" />
+    <state x="-1257" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715784197835" />
     <state x="530" y="26" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713576587811" />
     <state x="-1421" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1712074111479">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -805,10 +754,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1715740293536">
+    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1715753591331">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715740293536" />
+    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715753591331" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1715525112735">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -831,45 +780,45 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="301" key="GridCell.Tab.0.bottom" timestamp="1715751077627">
+    <state width="1867" height="301" key="GridCell.Tab.0.bottom" timestamp="1715784355895">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="301" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715751077627" />
+    <state width="1867" height="301" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715784355895" />
     <state width="1483" height="148" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351219" />
-    <state width="1867" height="301" key="GridCell.Tab.0.center" timestamp="1715751077627">
+    <state width="1867" height="301" key="GridCell.Tab.0.center" timestamp="1715784355895">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="301" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715751077627" />
+    <state width="1867" height="301" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715784355895" />
     <state width="1483" height="148" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351219" />
-    <state width="1867" height="301" key="GridCell.Tab.0.left" timestamp="1715751077627">
+    <state width="1867" height="301" key="GridCell.Tab.0.left" timestamp="1715784355895">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="301" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715751077627" />
+    <state width="1867" height="301" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715784355895" />
     <state width="1483" height="148" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351218" />
-    <state width="1867" height="301" key="GridCell.Tab.0.right" timestamp="1715751077627">
+    <state width="1867" height="301" key="GridCell.Tab.0.right" timestamp="1715784355895">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="301" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715751077627" />
+    <state width="1867" height="301" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715784355895" />
     <state width="1483" height="148" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351219" />
-    <state width="1867" height="348" key="GridCell.Tab.1.bottom" timestamp="1715750389670">
+    <state width="1867" height="348" key="GridCell.Tab.1.bottom" timestamp="1715766872551">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="348" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715750389670" />
+    <state width="1867" height="348" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715766872551" />
     <state width="1483" height="367" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="348" key="GridCell.Tab.1.center" timestamp="1715750389670">
+    <state width="1867" height="348" key="GridCell.Tab.1.center" timestamp="1715766872550">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="348" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715750389670" />
+    <state width="1867" height="348" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715766872550" />
     <state width="1483" height="367" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="348" key="GridCell.Tab.1.left" timestamp="1715750389670">
+    <state width="1867" height="348" key="GridCell.Tab.1.left" timestamp="1715766872549">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="348" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715750389670" />
+    <state width="1867" height="348" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715766872549" />
     <state width="1483" height="367" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
-    <state width="1867" height="348" key="GridCell.Tab.1.right" timestamp="1715750389670">
+    <state width="1867" height="348" key="GridCell.Tab.1.right" timestamp="1715766872550">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="348" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715750389670" />
+    <state width="1867" height="348" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715766872550" />
     <state width="1483" height="367" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713699631440" />
     <state width="1867" height="531" key="GridCell.Tab.2.bottom" timestamp="1713290329159">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -905,10 +854,10 @@
     </state>
     <state x="-1766" y="93" width="1687" height="911" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715742923219" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1715740298359">
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1715753596609">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715740298359" />
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715753596609" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -942,10 +891,18 @@
     </state>
     <state x="-1624" y="179" width="1598" height="695" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715742054031" />
     <state x="-1536" y="118" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713511031447" />
-    <state x="-1486" y="0" width="1050" height="1048" key="search.everywhere.popup" timestamp="1715750552061">
+    <state x="-1388" y="239" key="run.anything.popup" timestamp="1715777385198">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1486" y="0" width="1050" height="1048" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715750552061" />
+    <state x="-1388" y="239" key="run.anything.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715777385198" />
+    <state x="-1468" y="101" key="scopes" timestamp="1715777223686">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1468" y="101" key="scopes/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715777223686" />
+    <state x="-1486" y="0" width="1050" height="1048" key="search.everywhere.popup" timestamp="1715781483725">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1486" y="0" width="1050" height="1048" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715781483725" />
     <state x="347" y="0" width="840" height="832" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713520520440" />
   </component>
   <component name="XDebuggerManager">
@@ -960,6 +917,11 @@
           <url>file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/BaseExecutor.java</url>
           <line>304</line>
           <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/java/com/yzm/filereader/FileReaderTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="177" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
