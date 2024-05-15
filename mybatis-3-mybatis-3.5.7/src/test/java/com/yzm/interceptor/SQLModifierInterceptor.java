@@ -47,5 +47,6 @@ public class SQLModifierInterceptor implements Interceptor {
   public void setProperties(Properties properties) {
     // 这里可以处理配置文件中传入的参数
     System.out.println("SQLModifierInterceptor::setProperties execute...");
+    System.out.println(properties.toString());
   }
 }
