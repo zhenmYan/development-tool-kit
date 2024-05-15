@@ -8,7 +8,11 @@
   <plugins>
     <plugin interceptor="com.yzm.interceptor.ExecutionTimeInterceptor">
       <!--这里会将key和value封装到public void setProperties(Properties properties)的Properties中，key为yzm，value为666-->
-      <property name="yzm" value="666"/>
+      <property name="yzm" value="ExecutionTimeInterceptor"/>
+    </plugin>
+    <plugin interceptor="com.yzm.interceptor.SQLModifierInterceptor">
+      <!--这里会将key和value封装到public void setProperties(Properties properties)的Properties中，key为yzm，value为666-->
+      <property name="yzm" value="SQLModifierInterceptor"/>
     </plugin>
   </plugins>
 

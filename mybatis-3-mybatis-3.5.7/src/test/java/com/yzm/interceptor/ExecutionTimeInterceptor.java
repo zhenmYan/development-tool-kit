@@ -51,7 +51,7 @@ public class ExecutionTimeInterceptor implements Interceptor {
 
     // 这里就可以调用Executor的所有方法了，所以看你需要实现什么功能，调用什么方法，这里都能实现
     Executor e = (Executor)invocation.getTarget();
-
+    System.out.println("ExecutionTimeInterceptor::intercept execute...");
     System.out.println("SQL执行时间：" + (end - start) + "毫秒");
     return result;
   }
@@ -66,11 +66,13 @@ public class ExecutionTimeInterceptor implements Interceptor {
    */
   @Override
   public Object plugin(Object target) {
+    // System.out.println("ExecutionTimeInterceptor::plugin execute...");
     return Plugin.wrap(target, this);
   }
 
   @Override
   public void setProperties(Properties properties) {
+    System.out.println("ExecutionTimeInterceptor::setProperties execute...");
     // 这里可以处理插件配置参数
     System.out.println(properties.toString());
   }
