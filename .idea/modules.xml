@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/development-tool-kit.iml" filepath="$PROJECT_DIR$/development-tool-kit.iml" />
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/hand-write-series.iml" filepath="$PROJECT_DIR$/hand-write-series/hand-write-series.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-java-knowledge/high-concurrency/high-concurrency.iml" filepath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/high-concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-java-knowledge/java-io/java-io.iml" filepath="$PROJECT_DIR$/basic-java-knowledge/java-io/java-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-java-knowledge/java-jvm/java-jvm.iml" filepath="$PROJECT_DIR$/basic-java-knowledge/java-jvm/java-jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/mybatis-3-mybatis-3.5.7.iml" filepath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/mybatis-3-mybatis-3.5.7.iml" />
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" filepath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" />

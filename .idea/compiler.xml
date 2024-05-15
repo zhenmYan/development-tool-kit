@@ -33,6 +33,7 @@
         <module name="spring-boot-starter-websocket" />
         <module name="spring-boot-starter-web" />
         <module name="rocketmq-controller" />
+        <module name="java-io" />
         <module name="java-jvm" />
         <module name="rocketmq-yzm" />
         <module name="mybatis-hand-write-service" />
@@ -66,7 +67,6 @@
         <module name="spring-boot" />
         <module name="spring-boot-starter-jetty" />
         <module name="rocketmq-client" />
-        <module name="basic-java-knowledge" />
         <module name="spring-boot-test-autoconfigure" />
         <module name="spring-boot-devtools-tests" />
         <module name="spring-boot-starter-tomcat" />
@@ -124,6 +124,7 @@
       <module name="development-tool-kit" target="8" />
       <module name="hand-write-series" target="8" />
       <module name="high-concurrency" target="8" />
+      <module name="java-io" target="8" />
       <module name="java-jvm" target="8" />
       <module name="mybatis-3-mybatis-3.5.7" target="1.8" />
       <module name="mybatis-hand-write" target="8" />
@@ -256,6 +257,7 @@
       <module name="development-tool-kit" options="-parameters" />
       <module name="hand-write-series" options="-parameters" />
       <module name="high-concurrency" options="-parameters" />
+      <module name="java-io" options="-parameters" />
       <module name="java-jvm" options="-parameters" />
       <module name="mybatis-hand-write" options="-parameters" />
       <module name="mybatis-hand-write-service" options="" />
