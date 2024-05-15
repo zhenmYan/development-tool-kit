@@ -5,6 +5,11 @@
 
 <configuration>
 
+  <!--默认为true-->
+  <settings>
+    <setting name="cacheEnabled" value="true"/>
+  </settings>
+
   <plugins>
     <plugin interceptor="com.yzm.interceptor.ExecutionTimeInterceptor">
       <!--这里会将key和value封装到public void setProperties(Properties properties)的Properties中，key为yzm，value为666-->

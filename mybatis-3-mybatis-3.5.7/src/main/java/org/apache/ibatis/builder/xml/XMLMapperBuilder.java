@@ -133,11 +133,13 @@ public class XMLMapperBuilder extends BaseBuilder {
 
       // 标签解析 ： <cache-ref>、<cache>、<parameterMap>、<resultMap>、<sql>
       cacheRefElement(context.evalNode("cache-ref"));
+      // 缓存，封装一个MapperBuilderAssistant中的Cache对象
       cacheElement(context.evalNode("cache"));
       parameterMapElement(context.evalNodes("/mapper/parameterMap"));
       resultMapElements(context.evalNodes("/mapper/resultMap"));
       sqlElement(context.evalNodes("/mapper/sql"));
       // buildStatementFromContext 方法对增删改查进行解析
+      // 将上面封装的Cache对象封装到MappedStatement中
       buildStatementFromContext(context.evalNodes("select|insert|update|delete"));
     } catch (Exception e) {
       throw new BuilderException("Error parsing Mapper XML. The XML location is '" + resource + "'. Cause: " + e, e);
@@ -223,6 +225,7 @@ public class XMLMapperBuilder extends BaseBuilder {
 
   private void cacheElement(XNode context) {
     if (context != null) {
+      // 解析<cache>的type属性，可以自定义属性，如redisCache，默认是PERPETUAL
       String type = context.getStringAttribute("type", "PERPETUAL");
       Class<? extends Cache> typeClass = typeAliasRegistry.resolveAlias(type);
       String eviction = context.getStringAttribute("eviction", "LRU");

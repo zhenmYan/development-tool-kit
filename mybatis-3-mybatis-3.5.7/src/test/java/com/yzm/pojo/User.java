@@ -1,12 +1,14 @@
 package com.yzm.pojo;
 
+import java.io.Serializable;
+
 /**
  * description:
  *
  * @author yzm
  * @date 2024/5/13
  */
-public class User {
+public class User implements Serializable {
 
   private long id;
   private String username;
