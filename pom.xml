@@ -28,6 +28,8 @@
         <module>basic-java-knowledge</module>
         <module>project-test-client</module>
         <module>hand-write-series</module>
+        <module>netty-analysis</module>
+        <module>netty-analysis/yzm-netty</module>
     </modules>
 
     <dependencies>

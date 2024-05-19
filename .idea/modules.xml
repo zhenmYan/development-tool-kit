@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" filepath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write.iml" />
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" filepath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-service/mybatis-hand-write-service.iml" filepath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-service/mybatis-hand-write-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-analysis/netty-analysis.iml" filepath="$PROJECT_DIR$/netty-analysis/netty-analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/Mybatis-PageHelper-6.1.0/pagehelper.iml" filepath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/Mybatis-PageHelper-6.1.0/pagehelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot.iml" filepath="$PROJECT_DIR$/pagehelper-spring-boot-2.1.0/pagehelper-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/pagehelper-spring-boot-2.1.0-client.iml" filepath="$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/pagehelper-spring-boot-2.1.0-client.iml" />
@@ -131,6 +132,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot-tools/spring-boot-tools.iml" filepath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-project/spring-boot-tools/spring-boot-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-yzm/spring-boot-yzm.iml" filepath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-yzm/spring-boot-yzm.iml" />
       <module fileurl="file://$PROJECT_DIR$/hand-write-series/spring-hand-write/spring-hand-write.iml" filepath="$PROJECT_DIR$/hand-write-series/spring-hand-write/spring-hand-write.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-analysis/yzm-netty/yzm-netty.iml" filepath="$PROJECT_DIR$/netty-analysis/yzm-netty/yzm-netty.iml" />
     </modules>
   </component>
 </project>
