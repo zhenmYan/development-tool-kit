@@ -1,4 +1,4 @@
-package com.yzm.buffer;
+package com.yzm.nio.buffer;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -36,7 +36,7 @@ import java.nio.channels.FileChannel;
 public class ByteBufferTest {
 
     public static void main(String[] args) throws FileNotFoundException {
-        // FileChannel
+        // FileChannelTest
         // 1、输入输出流间接获取
         try(FileChannel channel = new FileInputStream
                 ("netty-analysis/yzm-netty/src/main/resources/com/yzm/bytebuffer")

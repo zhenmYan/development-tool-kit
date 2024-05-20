@@ -2,48 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_39_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/058e35231cf78b14dd0f8ae83b7f30f2fac0d02f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09480e25ebf0164384b644c2c5c75b2ac37c31da" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11005ab7d6653777d82cba8b7b4accdc7fabe932" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2ab6aeb2a51f519499821056def927502e0d5b1e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/345d5d84a5bc16ead8069f48a0ba46c1a85064bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44d34053532ff15bb6f683511f5c55785b3bbc87" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a3bad927f79232638a0cb735532f7436cfb264c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f93c2427437c6fd1d633da24429b076d2ddc5b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/554479c66f780e650f781610a9bbe79012a514ef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/56b8245b25dbcf8a24d5fbb3e2758da15080ed11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6aa47e3fb62d301e0e5694ad30ee312614f115e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c4002126a3548bb34545c1f7fa29adf3b55ba47" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e0a6ba0fa7889b8c00638aae7d91bf471d7d358" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ef677d4e58412a3cf5a4145bead402f2f47ef2d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78044aa5f45b6a3188dad305aca4a3513a3d276d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82941bf033f9483b72efbcd37b946740d5c8af38" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/845b2c89454f31191a795cb2756b44fab5d72513" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bcefda34060a70352ec7a1bf3968bd70b53a93e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a68283596442d30f4adbdfe14e799c5a2f1d5cc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3d4f528481d92281a2e958f786b50b3864df23f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0c552392b4b249d7b586e168a55845a0bce127d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0c84fafe590f615313ea1c8f84d4a01e2e63244" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e89c8d72c4774ff84bdd11fe94500330c8ff7570" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f27a74949aa7b97825d8e724c4fce7a824dd3466" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fda6c0dd58d9d9a1eb7d0b8b5198a7c433dc7dba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-analysis/netty-analysis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-analysis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-analysis/yzm-netty/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-analysis/yzm-netty/src/main/java/com/yzm/buffer/ByteBufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-analysis/yzm-netty/src/main/resources/com/yzm/bytebuffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-analysis/yzm-netty/yzm-netty.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-analysis/yzm-netty/src/main/java/com/yzm/nio/阻塞非阻塞/BlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-analysis/yzm-netty/src/main/java/com/yzm/nio/阻塞非阻塞/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-analysis/yzm-netty/src/main/java/com/yzm/nio/阻塞非阻塞/UnBlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-analysis/yzm-netty/src/main/java/com/yzm/selector/SelectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-analysis/yzm-netty/src/main/java/com/yzm/util/ByteBufferUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-analysis/yzm-netty/src/main/java/com/yzm/buffer/ByteBufferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-analysis/yzm-netty/src/main/java/com/yzm/nio/buffer/ByteBufferTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-analysis/yzm-netty/src/main/java/com/yzm/channel/FileChannel.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,26 +139,13 @@
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\found\factory\abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ByteBufferTest">
-    <configuration name="BufferedInputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzm.inputstream.BufferedInputStreamTest" />
-      <module name="java-io" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="BlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.nio.阻塞非阻塞.BlockTest" />
+      <module name="yzm-netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzm.inputstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BufferedReaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzm.filereader.BufferedReaderTest" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzm.filereader.*" />
+          <option name="PATTERN" value="com.yzm.nio.阻塞非阻塞.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +154,11 @@
       </method>
     </configuration>
     <configuration name="ByteBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzm.buffer.ByteBufferTest" />
+      <option name="MAIN_CLASS_NAME" value="com.yzm.nio.buffer.ByteBufferTest" />
       <module name="yzm-netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzm.buffer.*" />
+          <option name="PATTERN" value="com.yzm.nio.buffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzm.filereader.FileReaderTest" />
-      <module name="java-io" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.nio.阻塞非阻塞.Client" />
+      <module name="yzm-netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzm.filereader.*" />
+          <option name="PATTERN" value="com.yzm.nio.阻塞非阻塞.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,6 +185,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yzm.serializable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.selector.SelectorTest" />
+      <module name="yzm-netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzm.selector.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,22 +227,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileReaderTest" />
-      <item itemvalue="Application.BufferedInputStreamTest" />
-      <item itemvalue="Application.BufferedReaderTest" />
       <item itemvalue="Application.ObjectOutputStreamTest" />
+      <item itemvalue="Application.ByteBufferTest" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
       <item itemvalue="Spring Boot.SampleXmlApplication" />
       <item itemvalue="Spring Boot.SampleMapperApplication" />
-      <item itemvalue="Application.ByteBufferTest" />
+      <item itemvalue="Application.BlockTest" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.SelectorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.SelectorTest" />
+        <item itemvalue="Application.BlockTest" />
         <item itemvalue="Application.ByteBufferTest" />
         <item itemvalue="Application.ObjectOutputStreamTest" />
-        <item itemvalue="Application.BufferedReaderTest" />
-        <item itemvalue="Application.BufferedInputStreamTest" />
-        <item itemvalue="Application.FileReaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -345,14 +311,8 @@
       <workItem from="1715732913596" duration="16512000" />
       <workItem from="1715764001251" duration="11261000" />
       <workItem from="1715821843540" duration="1717000" />
-      <workItem from="1715915270798" duration="14617000" />
-    </task>
-    <task id="LOCAL-00052" summary="feat(设计模式):重新命名包名">
-      <created>1714137788282</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1714137788282</updated>
+      <workItem from="1715915270798" duration="15649000" />
+      <workItem from="1716134556146" duration="11962000" />
     </task>
     <task id="LOCAL-00053" summary="feat(设计模式):工厂方法">
       <created>1714144691727</created>
@@ -690,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715787418784</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="feat(java-io)：粘包半包问题">
+      <created>1716106265716</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1716106265717</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(设计模式)：门面代理" />
     <MESSAGE value="feat(设计模式)：观察者模式" />
     <MESSAGE value="feat(设计模式)：策略模式" />
     <MESSAGE value="feat(设计模式)：责任链模式" />
@@ -723,7 +689,8 @@
     <MESSAGE value="feat(MyBatis)：缓存" />
     <MESSAGE value="feat(java-io)：文件读取" />
     <MESSAGE value="feat(java-io)：解压" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(java-io)：解压" />
+    <MESSAGE value="feat(java-io)：粘包半包问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(java-io)：粘包半包问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -754,10 +721,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1421" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712074111479" />
-    <state x="-1542" y="437" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1714391112342">
+    <state x="-1542" y="437" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1716134934407">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1542" y="437" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1714391112342" />
+    <state x="-1542" y="437" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716134934407" />
     <state x="-1638" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1714391119173">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -780,10 +747,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1715787624988">
+    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1716106263174">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715787624988" />
+    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716106263174" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" key="DiffContextDialog" timestamp="1715787617597">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -806,25 +773,25 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1140" y="393" key="Github.ShareDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712144993548" />
-    <state width="1867" height="269" key="GridCell.Tab.0.bottom" timestamp="1716004783651">
+    <state width="1867" height="269" key="GridCell.Tab.0.bottom" timestamp="1716174668127">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716004783651" />
+    <state width="1867" height="269" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716174668127" />
     <state width="1483" height="148" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351219" />
-    <state width="1867" height="269" key="GridCell.Tab.0.center" timestamp="1716004783651">
+    <state width="1867" height="269" key="GridCell.Tab.0.center" timestamp="1716174668127">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716004783651" />
+    <state width="1867" height="269" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716174668127" />
     <state width="1483" height="148" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351219" />
-    <state width="1867" height="269" key="GridCell.Tab.0.left" timestamp="1716004783650">
+    <state width="1867" height="269" key="GridCell.Tab.0.left" timestamp="1716174668127">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716004783650" />
+    <state width="1867" height="269" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716174668127" />
     <state width="1483" height="148" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351218" />
-    <state width="1867" height="269" key="GridCell.Tab.0.right" timestamp="1716004783651">
+    <state width="1867" height="269" key="GridCell.Tab.0.right" timestamp="1716174668127">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716004783651" />
+    <state width="1867" height="269" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716174668127" />
     <state width="1483" height="148" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1714958351219" />
     <state width="1867" height="348" key="GridCell.Tab.1.bottom" timestamp="1715766872551">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -880,10 +847,10 @@
     </state>
     <state x="-1766" y="93" width="1687" height="911" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716005034519" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1715787422978">
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1716106268709">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1715787422978" />
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716106268709" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />
