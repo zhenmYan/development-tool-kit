@@ -1,4 +1,4 @@
-package com.yzm.aio;
+package com.yzm.nio.aio;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -26,6 +26,15 @@ public class AioTest {
             ByteBuffer buffer = ByteBuffer.allocate(2);
             log.debug("begin...");
             s.read(buffer, 0, null, new CompletionHandler<Integer, ByteBuffer>() {
+                /**
+                 * CompletionHandler 是回调对象，包含两个回调方法
+                 *
+                 *      - completed 调用成功
+                 *      - failed调用失败
+                 *
+                 * @param result
+                 * @param attachment
+                 */
                 @Override
                 public void completed(Integer result, ByteBuffer attachment) {
                     log.debug("read completed...{}", result);

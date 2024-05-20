@@ -1,6 +1,6 @@
 package com.yzm.nio.阻塞非阻塞;
 
-import com.yzm.util.ByteBufferUtil;
+import com.yzm.nio.util.ByteBufferUtil;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
