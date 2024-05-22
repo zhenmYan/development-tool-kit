@@ -1681,8 +1681,6 @@ q
 A.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml,5\f\5fc3c6e531fb30da1164d7224609b6c36e49946b
 z
 Jmybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/plugin/Plugin.java,c\0\c0c84fafe590f615313ea1c8f84d4a01e2e63244
-‚
-Rmybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/session/Configuration.java,e\8\e89c8d72c4774ff84bdd11fe94500330c8ff7570
 O
 mybatis-3-mybatis-3.5.7/pom.xml,6\a\6aa47e3fb62d301e0e5694ad30ee312614f115e7
 ‡
