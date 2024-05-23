@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc101MinDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/util/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc94InorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-client/mybatis-hand-write-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/pagehelper-spring-boot-2.1.0-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/pagehelper-spring-boot-2.1.0-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-yzm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-yzm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-yzm/src/main/java/com/yzm/SpringBootTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-2.0.6.RELEASE/spring-boot-yzm/src/main/java/com/yzm/SpringBootTestApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,14 +310,7 @@
       <workItem from="1715821843540" duration="1717000" />
       <workItem from="1715915270798" duration="15649000" />
       <workItem from="1716134556146" duration="26497000" />
-      <workItem from="1716438159873" duration="5450000" />
-    </task>
-    <task id="LOCAL-00057" summary="feat(设计模式):构建者模式">
-      <created>1714283953337</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1714283953337</updated>
+      <workItem from="1716438159873" duration="6048000" />
     </task>
     <task id="LOCAL-00058" summary="feat(设计模式)：静态代理">
       <created>1714286079955</created>
@@ -695,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716359823366</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="feat(leetcode)：二叉树的最小深度">
+      <created>1716471926602</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1716471926603</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -703,7 +663,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(设计模式)：模板方法模式" />
     <MESSAGE value="feat(spring)：手写spring" />
     <MESSAGE value="feat(并发编程)：创建线程的方式" />
     <MESSAGE value="feat(并发编程)：线程状态" />
@@ -728,7 +687,8 @@
     <MESSAGE value="feat(java-io)：aio" />
     <MESSAGE value="feat(Netty)：aio" />
     <MESSAGE value="feat(Netty)：入门案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Netty)：入门案例" />
+    <MESSAGE value="feat(leetcode)：二叉树的最小深度" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode)：二叉树的最小深度" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -789,10 +749,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1716359820228">
+    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1716471924763">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716359820228" />
+    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716471924763" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" width="1228" height="695" key="DiffContextDialog" timestamp="1716360928730">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -889,10 +849,10 @@
     </state>
     <state x="-1766" y="93" width="1687" height="911" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716469267595" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1716359828750">
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1716471931223">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716359828750" />
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716471931223" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />
