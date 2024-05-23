@@ -30,6 +30,7 @@
         <module>hand-write-series</module>
         <module>netty-analysis</module>
         <module>netty-analysis/yzm-netty</module>
+        <module>algorithm</module>
     </modules>
 
     <dependencies>
