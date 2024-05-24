@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc94InorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc98IsValidBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java/com/yzm/互斥锁/SynchronizedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc101MinDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc101MinDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/high-concurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/high-concurrency.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,14 +313,7 @@
       <workItem from="1715821843540" duration="1717000" />
       <workItem from="1715915270798" duration="15649000" />
       <workItem from="1716134556146" duration="26497000" />
-      <workItem from="1716438159873" duration="6048000" />
-    </task>
-    <task id="LOCAL-00058" summary="feat(设计模式)：静态代理">
-      <created>1714286079955</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1714286079955</updated>
+      <workItem from="1716438159873" duration="10820000" />
     </task>
     <task id="LOCAL-00059" summary="feat(设计模式)：JDK动态代理">
       <created>1714286763303</created>
@@ -655,7 +651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716471926603</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="feat(leetcode)：二叉树的中序遍历">
+      <created>1716472487021</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1716472487021</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +666,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(spring)：手写spring" />
     <MESSAGE value="feat(并发编程)：创建线程的方式" />
     <MESSAGE value="feat(并发编程)：线程状态" />
     <MESSAGE value="feat(并发编程)：守护线程" />
@@ -688,7 +690,8 @@
     <MESSAGE value="feat(Netty)：aio" />
     <MESSAGE value="feat(Netty)：入门案例" />
     <MESSAGE value="feat(leetcode)：二叉树的最小深度" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode)：二叉树的最小深度" />
+    <MESSAGE value="feat(leetcode)：二叉树的中序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode)：二叉树的中序遍历" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -749,10 +752,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1716471924763">
+    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1716472485964">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716471924763" />
+    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716472485964" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" width="1228" height="695" key="DiffContextDialog" timestamp="1716360928730">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -844,15 +847,15 @@
     </state>
     <state x="-1486" y="60" key="NewModule_or_Project.wizard/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1712143073246" />
     <state x="347" y="48" key="NewModule_or_Project.wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712079370475" />
-    <state x="-1766" y="93" width="1687" height="911" key="SettingsEditor" timestamp="1716469267595">
+    <state x="-1766" y="93" width="1687" height="911" key="SettingsEditor" timestamp="1716538514483">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1766" y="93" width="1687" height="911" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716469267595" />
+    <state x="-1766" y="93" width="1687" height="911" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716538514483" />
     <state x="-1471" y="116" width="1408" height="883" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713436814564" />
-    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1716471931223">
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2" timestamp="1716472493481">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716471931223" />
+    <state x="-1526" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716472493481" />
     <state x="261" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713580144242" />
     <state x="-1185" y="290" key="chooseDestDirectoryDialog" timestamp="1714128683530">
       <screen x="-1920" y="0" width="1920" height="1050" />

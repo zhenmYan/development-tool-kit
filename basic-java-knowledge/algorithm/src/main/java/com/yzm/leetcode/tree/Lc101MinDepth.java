@@ -3,11 +3,19 @@ package src.main.java.com.yzm.leetcode.tree;
 import src.main.java.com.yzm.util.TreeNode;
 
 /**
- * ##### 算法 leetcode 101 二叉树的最小深度
+ * ##### 算法 leetcode 111 二叉树的最小深度
  *
  *      描述
  *          给定一个二叉树，找出其最小深度。
  *          最小深度是从根节点到最近叶子节点的最短路径上的节点数量。
+ *
+ *      思路
+ *          - 分类讨论
+ *          - root为空
+ *          - root左右子树为空
+ *          - 左子树为空
+ *          - 右子树为空
+ *          - 都不为空
  *
  * TODO 二刷
  *
