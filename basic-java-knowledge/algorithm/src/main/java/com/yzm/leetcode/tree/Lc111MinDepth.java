@@ -22,7 +22,7 @@ import src.main.java.com.yzm.util.TreeNode;
  * @author yzm
  * @date 2024/5/23
  */
-public class Lc101MinDepth {
+public class Lc111MinDepth {
     public int minDepth(TreeNode root) {
         if (root == null) {
             return 0;

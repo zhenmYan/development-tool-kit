@@ -2,34 +2,57 @@ package src.main.java.com.yzm.leetcode.tree;
 
 import src.main.java.com.yzm.util.TreeNode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * description:
+ * ##### 算法 leetcode 98 验证二叉搜索树
+ *
+ *      思路
+ *          解法1：中序遍历无逆序
+ *          解法2：递归
+ *
  *
  * @author yzm
  * @date 2024/5/23
  */
 public class Lc98IsValidBST {
-    int min = Integer.MAX_VALUE;
-    int max = Integer.MIN_VALUE;
+
+    // 解法1 中序遍历无逆序
+    List<Integer> list = new ArrayList<>();
+    public boolean isValidBST1(TreeNode root) {
+        isValid1(root);
+        for(int i = 0; i < list.size()-1; i++) {
+            if (list.get(i) >= list.get(i+1)){
+                return false;
+            }
+        }
+        return true;
+    }
+    // 中序遍历
+    private void isValid1(TreeNode node){
+        if (node == null) {
+            return;
+        }
+        isValid1(node.left);
+        list.add(node.val);
+        isValid1(node.right);
+    }
+
+
+    // 解法2 递归
     public boolean isValidBST(TreeNode root) {
-        // 当前节点为空 返回true
-        if (root == null) {
+        return isValid2(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+    // 带最大值、最小值的递归
+    private boolean isValid2(TreeNode node, Long min, Long max) {
+        if (node == null) {
             return true;
         }
-        // 左节点不为空，判断大小，记录最小值
-        if (root.left != null) {
-            min = Math.min(root.val, min);
-            if (root.left.val >= root.val || root.left.val >= min) {
-                return false;
-            }
+        if (node.val >= max || node.val <= min) {
+            return false;
         }
-        // 右节点不为空，判断大小，记录最大值
-        if (root.right != null) {
-            max = Math.max(root.val, max);
-            if (root.right.val <= root.val || root.right.val <= max) {
-                return false;
-            }
-        }
-        return isValidBST(root.left) && isValidBST(root.right);
+        return isValid2(node.left, min, (long) node.val)
+                && isValid2(node.right, (long) node.val, max);
     }
 }
