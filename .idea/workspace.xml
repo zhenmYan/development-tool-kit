@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc104MaxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc105BuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc226InvertTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,21 +310,7 @@
       <workItem from="1715821843540" duration="1717000" />
       <workItem from="1715915270798" duration="15649000" />
       <workItem from="1716134556146" duration="26497000" />
-      <workItem from="1716438159873" duration="17712000" />
-    </task>
-    <task id="LOCAL-00063" summary="feat(设计模式)：装饰器代理">
-      <created>1714304173158</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1714304173158</updated>
-    </task>
-    <task id="LOCAL-00064" summary="feat(设计模式)：门面代理">
-      <created>1714358609689</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1714358609689</updated>
+      <workItem from="1716438159873" duration="18200000" />
     </task>
     <task id="LOCAL-00065" summary="feat(设计模式)：观察者模式">
       <created>1714362815551</created>
@@ -656,7 +641,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716568101745</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="feat(leetcode)：从前序与中序遍历序列构造二叉树">
+      <created>1716569709471</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1716569709471</updated>
+    </task>
+    <task id="LOCAL-00113" summary="feat(leetcode)：从前序与中序遍历序列构造二叉树">
+      <created>1716569743922</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1716569743922</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,7 +663,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(并发编程)：中断" />
     <MESSAGE value="feat(并发编程)：顺序打印" />
     <MESSAGE value="feat(Java基础)：函数式编程" />
     <MESSAGE value="feat(并发编程)：自定义锁" />
@@ -689,7 +687,8 @@
     <MESSAGE value="feat(leetcode)：验证二叉搜索树" />
     <MESSAGE value="feat(leetcode)：对称二叉树" />
     <MESSAGE value="feat(leetcode)：二叉树的层序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode)：二叉树的层序遍历" />
+    <MESSAGE value="feat(leetcode)：从前序与中序遍历序列构造二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode)：从前序与中序遍历序列构造二叉树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Plugins" timestamp="1713435972362">
@@ -750,10 +749,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="464" y="217" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1712561061653" />
-    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1716569708308">
+    <state x="-1753" y="39" key="CommitChangelistDialog2" timestamp="1716569742854">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716569708308" />
+    <state x="-1753" y="39" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1716569742854" />
     <state x="11" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1713597364071" />
     <state x="-1843" y="121" width="1228" height="695" key="DiffContextDialog" timestamp="1716360928730">
       <screen x="-1920" y="0" width="1920" height="1050" />
