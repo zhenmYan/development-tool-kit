@@ -31,6 +31,8 @@
         <module>netty-analysis</module>
         <module>netty-analysis/yzm-netty</module>
         <module>algorithm</module>
+        <module>regular-expression</module>
+        <module>redis-kit</module>
     </modules>
 
     <dependencies>

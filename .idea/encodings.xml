@@ -11,7 +11,6 @@
     <file url="file://$PROJECT_DIR$/basic-java-knowledge/java-io/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic-java-knowledge/java-jvm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic-java-knowledge/java-jvm/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/basic-java-knowledge/redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hand-write-series/mybatis-hand-write/mybatis-hand-write-service/src/main/java" charset="UTF-8" />
@@ -34,6 +33,8 @@
     <file url="file://$PROJECT_DIR$/project-test-client/pagehelper-spring-boot-2.1.0-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/project-test-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/project-test-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redis-kit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/regular-expression/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/acl/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/broker/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocketmq-rocketmq-all-5.1.0/broker/src/main/resources" charset="UTF-8" />

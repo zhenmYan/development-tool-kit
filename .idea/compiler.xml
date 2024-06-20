@@ -11,7 +11,6 @@
         <module name="spring-boot-starter-thymeleaf" />
         <module name="spring-boot-starter-data-cassandra" />
         <module name="spring-boot-starter-data-redis" />
-        <module name="rocketmq-common" />
         <module name="spring-boot-starter-data-mongodb-reactive" />
         <module name="rocketmq-openmessaging" />
         <module name="spring-boot-test-support" />
@@ -26,7 +25,7 @@
         <module name="spring-boot-starter-jta-atomikos" />
         <module name="spring-boot-starter-undertow" />
         <module name="spring-boot-starter-batch" />
-        <module name="spring-boot-starter-data-redis-reactive" />
+        <module name="redis-kit" />
         <module name="spring-boot-starter-data-rest" />
         <module name="rocketmq-store" />
         <module name="rocketmq-remoting" />
@@ -37,7 +36,8 @@
         <module name="spring-boot-starter-web" />
         <module name="basic-knowledge" />
         <module name="rocketmq-controller" />
-        <module name="spring-boot-starter-mail" />
+        <module name="spring-boot-starter-data-redis-reactive" />
+        <module name="java-io" />
         <module name="java-jvm" />
         <module name="rocketmq-yzm" />
         <module name="mybatis-hand-write-service" />
@@ -51,26 +51,27 @@
         <module name="pagehelper-spring-boot-sample-annotation" />
         <module name="spring-boot-actuator" />
         <module name="pagehelper-spring-boot-starter" />
+        <module name="spring-boot-starter-data-cassandra-reactive" />
         <module name="demo" />
         <module name="spring-boot-starter-data-couchbase" />
         <module name="rocketmq-tiered-store" />
         <module name="spring-boot-cli" />
-        <module name="redis" />
         <module name="spring-boot-starter-jta-narayana" />
         <module name="high-concurrency" />
-        <module name="spring-boot-starter-data-cassandra-reactive" />
+        <module name="spring-boot" />
         <module name="rocketmq-broker" />
         <module name="spring-boot-starter-cloud-connectors" />
         <module name="spring-boot-launch-script-tests" />
         <module name="spring-boot-starter-web-services" />
         <module name="rocketmq-test" />
         <module name="pagehelper-spring-boot-sample-xml" />
-        <module name="spring-boot" />
+        <module name="spring-boot-starter-quartz" />
         <module name="spring-boot-starter-jetty" />
         <module name="rocketmq-client" />
         <module name="yzm-netty" />
         <module name="spring-boot-devtools-tests" />
         <module name="spring-boot-starter-tomcat" />
+        <module name="regular-expression" />
         <module name="spring-boot-test-autoconfigure" />
         <module name="spring-boot-starter-integration" />
         <module name="spring-boot-starter-jdbc" />
@@ -85,7 +86,7 @@
         <module name="rocketmq" />
         <module name="rocketmq-tools" />
         <module name="spring-boot-starter-security" />
-        <module name="java-io" />
+        <module name="spring-boot-starter-mail" />
         <module name="pagehelper-spring-boot-2.1.0-client" />
         <module name="rocketmq-example" />
         <module name="spring-boot-loader" />
@@ -97,7 +98,7 @@
         <module name="spring-boot-starter-artemis" />
         <module name="spring-hand-write" />
         <module name="spring-boot-starter-hateoas" />
-        <module name="spring-boot-starter-cache" />
+        <module name="rocketmq-common" />
         <module name="spring-boot-configuration-metadata" />
         <module name="rocketmq-namesrv" />
         <module name="spring-boot-starter-test" />
@@ -116,7 +117,7 @@
         <module name="spring-boot-starter-aop" />
         <module name="spring-boot-starter-data-solr" />
         <module name="spring-boot-server-tests" />
-        <module name="spring-boot-starter-quartz" />
+        <module name="spring-boot-starter-cache" />
       </profile>
       <profile name="Annotation profile for development-tool-kit" enabled="true">
         <sourceOutputDir name="../../algorithm/target/generated-sources/annotations" />
@@ -150,6 +151,8 @@
       <module name="pagehelper-spring-boot-starter" target="8" />
       <module name="project-test-client" target="8" />
       <module name="redis" target="8" />
+      <module name="redis-kit" target="8" />
+      <module name="regular-expression" target="8" />
       <module name="rocketmq" target="8" />
       <module name="rocketmq-acl" target="1.8" />
       <module name="rocketmq-broker" target="1.8" />
@@ -276,6 +279,8 @@
       <module name="netty-analysis" options="-parameters" />
       <module name="pagehelper-spring-boot-2.1.0-client" options="-parameters" />
       <module name="redis" options="-parameters" />
+      <module name="redis-kit" options="-parameters" />
+      <module name="regular-expression" options="-parameters" />
       <module name="rocketmq" options="-parameters" />
       <module name="rocketmq-yzm" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
