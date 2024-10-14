@@ -1,4 +1,4 @@
-package java.com.yzm.每日一题;
+package com.yzm.每日一题;
 
 import java.util.HashSet;
 import java.util.List;
