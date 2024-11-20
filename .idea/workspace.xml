@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
+    <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="feat(算法)：数组-1">
+      <change afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc169MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fc3c6e531fb30da1164d7224609b6c36e49946b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc101IsSymmetric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc102LevelOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc104MaxDepth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc105BuildTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc111MinDepth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc226InvertTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc543DiameterOfBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc94InorderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc98IsValidBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/array/Lc121MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc121MaxProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/array/Lc128LongestConsecutive.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc128LongestConsecutive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/array/Lc1TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc1TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/array/Lc31NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc31NextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/array/Lc56Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc56Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc101IsSymmetric.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc101IsSymmetric" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc102LevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc102LevelOrder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc104MaxDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc104MaxDepth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc105BuildTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc105BuildTree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc111MinDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc111MinDepth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc226InvertTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc226InvertTree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc543DiameterOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc543DiameterOfBinaryTree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc94InorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc94InorderTraversal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc98IsValidBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc98IsValidBST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/util/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/test/java/com/yzm/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/test/java/com/yzm/test/MybatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +74,7 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -150,13 +163,13 @@
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\structure\proxy\dynamicproxy\jdkproxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RedisApplication">
-    <configuration name="IpAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzm.ip地址.IpAddress" />
-      <module name="regular-expression" />
+  <component name="RunManager" selected="JUnit.MybatisTest.test">
+    <configuration name="DailySolution3162 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.每日一题.DailySolution3162" />
+      <module name="development-tool-kit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzm.ip地址.*" />
+          <option name="PATTERN" value="com.yzm.每日一题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc543DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.com.yzm.leetcode.tree.Lc543DiameterOfBinaryTree" />
-      <module name="algorithm" />
+    <configuration name="DailySolution3162" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.com.yzm.每日一题.DailySolution3162" />
+      <module name="development-tool-kit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.java.com.yzm.leetcode.tree.*" />
+          <option name="PATTERN" value="java.com.yzm.每日一题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberAndChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzm.数字与字母.NumberAndChar" />
-      <module name="regular-expression" />
+    <configuration name="Lc169MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.leetcode.array.Lc169MajorityElement" />
+      <module name="development-tool-kit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzm.数字与字母.*" />
+          <option name="PATTERN" value="com.yzm.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,15 +203,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.com.yzm.Solution" />
-      <module name="algorithm" />
+    <configuration name="MybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-3-mybatis-3.5.7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.java.com.yzm.*" />
+          <option name="PATTERN" value="com.yzm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yzm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yzm.test.MybatisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,22 +254,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lc543DiameterOfBinaryTree" />
-      <item itemvalue="Application.NumberAndChar" />
-      <item itemvalue="Application.IpAddress" />
-      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.DailySolution3162" />
+      <item itemvalue="Application.DailySolution3162 (1)" />
+      <item itemvalue="Application.Lc169MajorityElement" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
       <item itemvalue="Spring Boot.SampleXmlApplication" />
       <item itemvalue="Spring Boot.SampleMapperApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="JUnit.MybatisTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.test" />
+        <item itemvalue="Application.Lc169MajorityElement" />
+        <item itemvalue="Application.DailySolution3162 (1)" />
+        <item itemvalue="Application.DailySolution3162" />
         <item itemvalue="Spring Boot.RedisApplication" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.IpAddress" />
-        <item itemvalue="Application.NumberAndChar" />
-        <item itemvalue="Application.Lc543DiameterOfBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -332,55 +348,12 @@
       <workItem from="1718595167777" duration="1962000" />
       <workItem from="1718690027635" duration="112000" />
       <workItem from="1718798046940" duration="1508000" />
-    </task>
-    <task id="LOCAL-00067" summary="feat(设计模式)：责任链模式">
-      <created>1714374813924</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1714374813924</updated>
-    </task>
-    <task id="LOCAL-00068" summary="feat(设计模式)：迭代器模式">
-      <created>1714375603181</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1714375603181</updated>
-    </task>
-    <task id="LOCAL-00069" summary="feat(设计模式)：模板方法模式">
-      <created>1714376175759</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1714376175760</updated>
-    </task>
-    <task id="LOCAL-00070" summary="feat(spring)：手写spring">
-      <created>1714398752317</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1714398752317</updated>
-    </task>
-    <task id="LOCAL-00071" summary="feat(并发编程)：创建线程的方式">
-      <created>1714459748296</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1714459748296</updated>
-    </task>
-    <task id="LOCAL-00072" summary="feat(并发编程)：线程状态">
-      <created>1714577405902</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1714577405902</updated>
-    </task>
-    <task id="LOCAL-00073" summary="feat(并发编程)：中断">
-      <created>1714643781908</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1714643781908</updated>
+      <workItem from="1728520366944" duration="5395000" />
+      <workItem from="1728631710417" duration="595000" />
+      <workItem from="1728646603799" duration="3494000" />
+      <workItem from="1729142190329" duration="2319000" />
+      <workItem from="1729755222085" duration="31000" />
+      <workItem from="1731928639396" duration="2268000" />
     </task>
     <task id="LOCAL-00074" summary="feat(并发编程)：守护线程">
       <created>1714644693304</created>
@@ -676,7 +649,56 @@
       <option name="project" value="LOCAL" />
       <updated>1728383340828</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="feat(算法)：数组-31">
+      <created>1728388942975</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1728388942975</updated>
+    </task>
+    <task id="LOCAL-00117" summary="feat(算法)：数组-1">
+      <created>1728389131802</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1728389131802</updated>
+    </task>
+    <task id="LOCAL-00118" summary="feat(算法)：数组-56">
+      <created>1728465691219</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1728465691219</updated>
+    </task>
+    <task id="LOCAL-00119" summary="feat(算法)：数组-121">
+      <created>1728466059768</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1728466059768</updated>
+    </task>
+    <task id="LOCAL-00120" summary="feat(算法)：数组-128">
+      <created>1728470023434</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1728470023434</updated>
+    </task>
+    <task id="LOCAL-00121" summary="feat(每日一题)：3162">
+      <created>1728522402208</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1728522402208</updated>
+    </task>
+    <task id="LOCAL-00122" summary="feat(算法)：每日一题">
+      <created>1728888532487</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1728888532487</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +709,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -695,13 +719,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(整体架构)：调整" />
-    <MESSAGE value="feat(spring)：源码" />
-    <MESSAGE value="feat(MyBatis)：源码" />
-    <MESSAGE value="feat(自定义MyBatis)：完善" />
-    <MESSAGE value="feat(MyBatis)：测试" />
-    <MESSAGE value="feat(MyBatis)：单步调试" />
-    <MESSAGE value="feat(MyBatis)：插件" />
     <MESSAGE value="feat(MyBatis)：拦截器执行顺序" />
     <MESSAGE value="feat(MyBatis)：缓存" />
     <MESSAGE value="feat(java-io)：文件读取" />
@@ -720,33 +737,84 @@
     <MESSAGE value="feat(leetcode)：翻转二叉树" />
     <MESSAGE value="feat(正则表达式)：字符数字" />
     <MESSAGE value="feat(算法)：每日一题-1436" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(算法)：每日一题-1436" />
+    <MESSAGE value="feat(算法)：数组-31" />
+    <MESSAGE value="feat(算法)：数组-1" />
+    <MESSAGE value="feat(算法)：数组-56" />
+    <MESSAGE value="feat(算法)：数组-121" />
+    <MESSAGE value="feat(算法)：数组-128" />
+    <MESSAGE value="feat(每日一题)：3162" />
+    <MESSAGE value="feat(算法)：每日一题" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(算法)：每日一题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1468" y="96" key="#Inspections" timestamp="1728385999089">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1468" y="96" key="#Inspections/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728385999089" />
+    <state x="-1506" y="168" width="1111" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1732083600861">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1506" y="168" width="1111" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1732083600861" />
     <state x="-1300" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1728385960036">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1300" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728385960036" />
-    <state x="-1433" y="15" key="CommitChangelistDialog2" timestamp="1728383339249">
+    <state x="-1262" y="124" key="#xdebugger.evaluate" timestamp="1728521854100">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1433" y="15" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728383339249" />
+    <state x="-1262" y="124" key="#xdebugger.evaluate/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728521854100" />
+    <state x="-1433" y="15" key="CommitChangelistDialog2" timestamp="1728888530845">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1433" y="15" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728888530845" />
+    <state width="1867" height="305" key="GridCell.Tab.0.bottom" timestamp="1732085650590">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="305" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1732085650590" />
+    <state width="1867" height="305" key="GridCell.Tab.0.center" timestamp="1732085650590">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="305" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1732085650590" />
+    <state width="1867" height="305" key="GridCell.Tab.0.left" timestamp="1732085650590">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="305" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1732085650590" />
+    <state width="1867" height="305" key="GridCell.Tab.0.right" timestamp="1732085650590">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="305" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1732085650590" />
+    <state width="1867" height="341" key="GridCell.Tab.1.bottom" timestamp="1728894032386">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="341" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728894032386" />
+    <state width="1867" height="341" key="GridCell.Tab.1.center" timestamp="1728894032386">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="341" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728894032386" />
+    <state width="1867" height="341" key="GridCell.Tab.1.left" timestamp="1728894032386">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="341" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728894032386" />
+    <state width="1867" height="341" key="GridCell.Tab.1.right" timestamp="1728894032386">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="341" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728894032386" />
     <state x="-1256" y="133" key="RollbackChangesDialog" timestamp="1728383230481">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1256" y="133" key="RollbackChangesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728383230481" />
-    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1728383347040">
+    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1728888538950">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728383347040" />
-    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1728383269700">
+    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728888538950" />
+    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1728888484881">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728383269700" />
+    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728888484881" />
+    <state x="-1427" y="151" width="933" height="738" key="find.popup" timestamp="1732082791870">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1427" y="151" width="933" height="738" key="find.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1732082791870" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -770,6 +838,21 @@
           <url>file://$PROJECT_DIR$/regular-expression/src/main/java/com/yzm/数字与字母/NumberAndChar.java</url>
           <line>19</line>
           <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/每日一题/DailySolution3162.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc169MajorityElement.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/test/java/com/yzm/test/MybatisTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

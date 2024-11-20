@@ -121,8 +121,6 @@ l
 <.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml,1\8\18f0eda0db0a483e46aea0432680fc3c9e6b58b9
 ^
 ..idea/markdown-navigator/profiles_settings.xml,c\5\c553a33182a8928cd5760d212e343bd13f573c9b
-q
-A.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml,5\f\5fc3c6e531fb30da1164d7224609b6c36e49946b
 z
 Jmybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/plugin/Plugin.java,c\0\c0c84fafe590f615313ea1c8f84d4a01e2e63244
 O
