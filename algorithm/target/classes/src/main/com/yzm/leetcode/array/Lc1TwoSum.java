@@ -1,4 +1,4 @@
-package com.yzm.leetcode.array;
+package main.com.yzm.leetcode.array;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="feat(算法)：数组-1">
-      <change afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc169MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fc3c6e531fb30da1164d7224609b6c36e49946b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/array/Lc121MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc121MaxProfit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/array/Lc128LongestConsecutive.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc128LongestConsecutive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/array/Lc1TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc1TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/array/Lc31NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc31NextPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/array/Lc56Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc56Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc101IsSymmetric.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc101IsSymmetric" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc102LevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc102LevelOrder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc104MaxDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc104MaxDepth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc105BuildTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc105BuildTree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc111MinDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc111MinDepth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc226InvertTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc226InvertTree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc543DiameterOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc543DiameterOfBinaryTree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc94InorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc94InorderTraversal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/leetcode/tree/Lc98IsValidBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/tree/Lc98IsValidBST" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/java/com/yzm/util/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/test/java/com/yzm/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/test/java/com/yzm/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc1TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc1TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,11 +240,11 @@
       <item itemvalue="Application.DailySolution3162" />
       <item itemvalue="Application.DailySolution3162 (1)" />
       <item itemvalue="Application.Lc169MajorityElement" />
+      <item itemvalue="JUnit.MybatisTest.test" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
       <item itemvalue="Spring Boot.SampleXmlApplication" />
       <item itemvalue="Spring Boot.SampleMapperApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
-      <item itemvalue="JUnit.MybatisTest.test" />
     </list>
     <recent_temporary>
       <list>
@@ -751,6 +734,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1468" y="96" key="#Inspections/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728385999089" />
+    <state x="-1468" y="96" key="#Project_Structure" timestamp="1733394058250">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1468" y="96" key="#Project_Structure/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733394058250" />
     <state x="-1506" y="168" width="1111" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1732083600861">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -803,10 +790,18 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1256" y="133" key="RollbackChangesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728383230481" />
+    <state x="-1608" y="0" key="SettingsEditor" timestamp="1733394353064">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1608" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733394353064" />
     <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1728888538950">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1728888538950" />
+    <state x="-1185" y="285" key="chooseDestDirectoryDialog" timestamp="1733393975365">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1185" y="285" key="chooseDestDirectoryDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733393975365" />
     <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1728888484881">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
