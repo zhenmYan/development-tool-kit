@@ -127,14 +127,6 @@ O
 mybatis-3-mybatis-3.5.7/pom.xml,6\a\6aa47e3fb62d301e0e5694ad30ee312614f115e7
 f
 6mybatis-3-mybatis-3.5.7/src/test/java/log4j.properties,1\1\11005ab7d6653777d82cba8b7b4accdc7fabe932
-…
-Umybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/CachingExecutor.java,4\4\44d34053532ff15bb6f683511f5c55785b3bbc87
-~
-Nmybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/Executor.java,b\3\b3d4f528481d92281a2e958f786b50b3864df23f
-z
-Jmybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/parsing/XNode.java,4\f\4f93c2427437c6fd1d633da24429b076d2ddc5b9
-‚
-Rmybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/executor/BaseExecutor.java,f\d\fda6c0dd58d9d9a1eb7d0b8b5198a7c433dc7dba
 ‹
 [mybatis-3-mybatis-3.5.7/src/main/java/org/apache/ibatis/builder/MapperBuilderAssistant.java,0\9\09480e25ebf0164384b644c2c5c75b2ac37c31da
 †
