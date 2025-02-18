@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44d34053532ff15bb6f683511f5c55785b3bbc87" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f93c2427437c6fd1d633da24429b076d2ddc5b9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3d4f528481d92281a2e958f786b50b3864df23f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fda6c0dd58d9d9a1eb7d0b8b5198a7c433dc7dba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc101IsSymmetric.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc102LevelOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc104MaxDepth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc105BuildTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc111MinDepth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc226InvertTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc543DiameterOfBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc94InorderTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/leetcode/tree/Lc98IsValidBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/algorithm/src/main/java/com/yzm/util/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java/com/yzm/线程创建方式/CreateThreadMethod1.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-java-knowledge/high-concurrency/src/main/java/com/yzm/线程创建方式/CreateThreadMethod1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,20 +120,8 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge" />
-      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\java-io\src\main\resources" />
-      <recent name="W:\idea_project\development-tool-kit\mybatis-3-mybatis-3.5.7\src\test\resources\com\yzm" />
-      <recent name="W:\idea_project\development-tool-kit\hand-write-series\mybatis-hand-write" />
-      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.yzm" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yzm.config" />
-      <recent name="com.yzm.found.factory.factorymethod" />
-      <recent name="com.yzm.dev" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="W:\idea_project\development-tool-kit\netty-analysis\yzm-netty\src\main\java\com\yzm\netty\eventloop" />
@@ -159,6 +129,18 @@
       <recent name="W:\idea_project\development-tool-kit\mybatis-3-mybatis-3.5.7\src\test\resources" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\structure\proxy\dynamicproxy\cglibproxy" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\structure\proxy\dynamicproxy\jdkproxy" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzm.config" />
+      <recent name="com.yzm.found.factory.factorymethod" />
+      <recent name="com.yzm.dev" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge" />
+      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\java-io\src\main\resources" />
+      <recent name="W:\idea_project\development-tool-kit\mybatis-3-mybatis-3.5.7\src\test\resources\com\yzm" />
+      <recent name="W:\idea_project\development-tool-kit\hand-write-series\mybatis-hand-write" />
+      <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CreateThreadMethod1">
@@ -356,14 +338,7 @@
       <workItem from="1734867563652" duration="1537000" />
       <workItem from="1735041408157" duration="598000" />
       <workItem from="1735111508809" duration="643000" />
-      <workItem from="1739873576127" duration="1178000" />
-    </task>
-    <task id="LOCAL-00075" summary="feat(并发编程)：中断">
-      <created>1714966971169</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1714966971169</updated>
+      <workItem from="1739873576127" duration="1522000" />
     </task>
     <task id="LOCAL-00076" summary="feat(并发编程)：顺序打印">
       <created>1714992616644</created>
@@ -701,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733394484433</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="feat(模块变动)：删除算法模块并重建">
+      <created>1739874977360</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1739874977361</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +704,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(MyBatis)：缓存" />
     <MESSAGE value="feat(java-io)：文件读取" />
     <MESSAGE value="feat(java-io)：解压" />
     <MESSAGE value="feat(java-io)：粘包半包问题" />
@@ -747,7 +728,8 @@
     <MESSAGE value="feat(每日一题)：3162" />
     <MESSAGE value="feat(算法)：每日一题" />
     <MESSAGE value="feat(pom文件)：依赖变动" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(pom文件)：依赖变动" />
+    <MESSAGE value="feat(模块变动)：删除算法模块并重建" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(模块变动)：删除算法模块并重建" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1468" y="96" key="#Project_Structure" timestamp="1733394058250">
@@ -758,10 +740,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="168" width="1111" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1734867587448" />
-    <state x="-1433" y="15" key="CommitChangelistDialog2" timestamp="1733394481644">
+    <state x="-1433" y="15" key="CommitChangelistDialog2" timestamp="1739874975088">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1433" y="15" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733394481644" />
+    <state x="-1433" y="15" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739874975088" />
     <state width="1867" height="305" key="GridCell.Tab.0.bottom" timestamp="1739873651284">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -786,18 +768,18 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1608" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733394353064" />
-    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1733394487527">
+    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1739875001386">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733394487527" />
+    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739875001386" />
     <state x="-1185" y="285" key="chooseDestDirectoryDialog" timestamp="1733393975365">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1185" y="285" key="chooseDestDirectoryDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733393975365" />
-    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1739874924613">
+    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1739874992068">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739874924613" />
+    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739874992068" />
     <state x="-1427" y="151" width="933" height="738" key="find.popup" timestamp="1732082791870">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -825,16 +807,6 @@
           <url>file://$PROJECT_DIR$/regular-expression/src/main/java/com/yzm/数字与字母/NumberAndChar.java</url>
           <line>19</line>
           <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/每日一题/DailySolution3162.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="179" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithm/target/classes/src/main/com/yzm/leetcode/array/Lc169MajorityElement.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/test/java/com/yzm/test/MybatisTest.java</url>
