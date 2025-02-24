@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/二分查找/Lc35SearchInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc2080RangeFreqQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +150,7 @@
       <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateThreadMethod1">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="CreateThreadMethod1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzm.线程创建方式.CreateThreadMethod1" />
       <module name="high-concurrency" />
@@ -170,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DailySolution3162" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.com.yzm.每日一题.DailySolution3162" />
+    <configuration name="Lc169MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.leetcode.array.Lc169MajorityElement" />
       <module name="development-tool-kit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.com.yzm.每日一题.*" />
+          <option name="PATTERN" value="com.yzm.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc169MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzm.leetcode.array.Lc169MajorityElement" />
-      <module name="development-tool-kit" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzm.Solution" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzm.leetcode.array.*" />
+          <option name="PATTERN" value="com.yzm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,22 +241,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DailySolution3162" />
       <item itemvalue="Application.DailySolution3162 (1)" />
       <item itemvalue="Application.Lc169MajorityElement" />
+      <item itemvalue="Application.CreateThreadMethod1" />
       <item itemvalue="JUnit.MybatisTest.test" />
       <item itemvalue="Spring Boot.Hibernate52Application" />
       <item itemvalue="Spring Boot.SampleXmlApplication" />
       <item itemvalue="Spring Boot.SampleMapperApplication" />
-      <item itemvalue="Application.CreateThreadMethod1" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.CreateThreadMethod1" />
         <item itemvalue="JUnit.MybatisTest.test" />
         <item itemvalue="Application.Lc169MajorityElement" />
         <item itemvalue="Application.DailySolution3162 (1)" />
-        <item itemvalue="Application.DailySolution3162" />
       </list>
     </recent_temporary>
   </component>
@@ -338,14 +345,8 @@
       <workItem from="1734867563652" duration="1537000" />
       <workItem from="1735041408157" duration="598000" />
       <workItem from="1735111508809" duration="643000" />
-      <workItem from="1739873576127" duration="1522000" />
-    </task>
-    <task id="LOCAL-00076" summary="feat(并发编程)：顺序打印">
-      <created>1714992616644</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1714992616644</updated>
+      <workItem from="1739873576127" duration="7419000" />
+      <workItem from="1740131937943" duration="7170000" />
     </task>
     <task id="LOCAL-00077" summary="feat(并发编程)：顺序打印">
       <created>1714992821691</created>
@@ -683,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739874977361</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="feat(readme)：格式调整">
+      <created>1739875118067</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1739875118067</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,7 +712,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(java-io)：文件读取" />
     <MESSAGE value="feat(java-io)：解压" />
     <MESSAGE value="feat(java-io)：粘包半包问题" />
     <MESSAGE value="feat(java-io)：bio" />
@@ -729,7 +736,8 @@
     <MESSAGE value="feat(算法)：每日一题" />
     <MESSAGE value="feat(pom文件)：依赖变动" />
     <MESSAGE value="feat(模块变动)：删除算法模块并重建" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(模块变动)：删除算法模块并重建" />
+    <MESSAGE value="feat(readme)：格式调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(readme)：格式调整" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1468" y="96" key="#Project_Structure" timestamp="1733394058250">
@@ -740,26 +748,46 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="168" width="1111" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1734867587448" />
-    <state x="-1433" y="15" key="CommitChangelistDialog2" timestamp="1739874975088">
+    <state x="-1384" y="432" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1740369152890">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1433" y="15" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739874975088" />
-    <state width="1867" height="305" key="GridCell.Tab.0.bottom" timestamp="1739873651284">
+    <state x="-1384" y="432" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740369152890" />
+    <state x="-1433" y="15" key="CommitChangelistDialog2" timestamp="1739875117025">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="305" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739873651284" />
-    <state width="1867" height="305" key="GridCell.Tab.0.center" timestamp="1739873651284">
+    <state x="-1433" y="15" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739875117025" />
+    <state width="1867" height="185" key="GridCell.Tab.0.bottom" timestamp="1740392983079">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="305" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739873651284" />
-    <state width="1867" height="305" key="GridCell.Tab.0.left" timestamp="1739873651283">
+    <state width="1867" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740392983079" />
+    <state width="1867" height="185" key="GridCell.Tab.0.center" timestamp="1740392983079">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="305" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739873651283" />
-    <state width="1867" height="305" key="GridCell.Tab.0.right" timestamp="1739873651284">
+    <state width="1867" height="185" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740392983079" />
+    <state width="1867" height="185" key="GridCell.Tab.0.left" timestamp="1740392983079">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="305" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739873651284" />
+    <state width="1867" height="185" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740392983079" />
+    <state width="1867" height="185" key="GridCell.Tab.0.right" timestamp="1740392983079">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="185" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740392983079" />
+    <state width="1867" height="338" key="GridCell.Tab.1.bottom" timestamp="1740133951025">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="338" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740133951025" />
+    <state width="1867" height="338" key="GridCell.Tab.1.center" timestamp="1740133951025">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="338" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740133951025" />
+    <state width="1867" height="338" key="GridCell.Tab.1.left" timestamp="1740133951025">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="338" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740133951025" />
+    <state width="1867" height="338" key="GridCell.Tab.1.right" timestamp="1740133951025">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="338" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740133951025" />
     <state x="-1388" y="130" key="NewModule_or_Project.wizard" timestamp="1734690143619">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -768,22 +796,26 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1608" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733394353064" />
-    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1739875001386">
+    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1739875122211">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739875001386" />
+    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739875122211" />
     <state x="-1185" y="285" key="chooseDestDirectoryDialog" timestamp="1733393975365">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1185" y="285" key="chooseDestDirectoryDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733393975365" />
-    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1739874992068">
+    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1740403765006">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739874992068" />
+    <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740403765006" />
     <state x="-1427" y="151" width="933" height="738" key="find.popup" timestamp="1732082791870">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1427" y="151" width="933" height="738" key="find.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1732082791870" />
+    <state x="-1357" y="117" key="new project wizard" timestamp="1739875422058">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1357" y="117" key="new project wizard/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739875422058" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -812,6 +844,11 @@
           <url>file://$PROJECT_DIR$/mybatis-3-mybatis-3.5.7/src/test/java/com/yzm/test/MybatisTest.java</url>
           <line>25</line>
           <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com.yzm/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="183" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

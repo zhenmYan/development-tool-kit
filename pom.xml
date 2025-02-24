@@ -33,6 +33,7 @@
         <module>algorithm</module>
         <module>regular-expression</module>
         <module>redis-kit</module>
+        <module>algorithm</module>
     </modules>
 
     <dependencies>

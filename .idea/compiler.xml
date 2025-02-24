@@ -33,7 +33,7 @@
         <module name="spring-boot-starter-reactor-netty" />
         <module name="spring-boot-starter-websocket" />
         <module name="spring-boot-starter" />
-        <module name="spring-hand-write" />
+        <module name="mybatis-hand-write" />
         <module name="rocketmq-controller" />
         <module name="java-io" />
         <module name="java-jvm" />
@@ -89,13 +89,14 @@
         <module name="redis-kit" />
         <module name="spring-boot-starter-mail" />
         <module name="spring-boot-starter-cache" />
+        <module name="algorithm" />
         <module name="rocketmq-example" />
         <module name="spring-boot-loader" />
         <module name="spring-boot-starter-json" />
         <module name="spring-boot-starter-logging" />
-        <module name="mybatis-hand-write" />
         <module name="rocketmq-acl" />
         <module name="spring-boot-starter-artemis" />
+        <module name="spring-hand-write" />
         <module name="spring-boot-starter-data-couchbase-reactive" />
         <module name="spring-boot-starter-data-mongodb" />
         <module name="spring-boot-configuration-metadata" />
@@ -259,7 +260,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="algorithm" options="" />
+      <module name="algorithm" options="-parameters" />
       <module name="algorithm (1)" options="-parameters" />
       <module name="basic-java-knowledge" options="-parameters" />
       <module name="basic-knowledge" options="-parameters" />
