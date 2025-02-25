@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/二分查找/Lc35SearchInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc2080RangeFreqQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/数组/Lc1TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/二分查找/Lc35SearchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/二分查找/Lc35SearchInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc2080RangeFreqQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc2080RangeFreqQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc2502Allocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc2502Allocator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +115,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/数组/tree" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31148696" />
@@ -127,27 +123,28 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.yzm" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="W:\idea_project\development-tool-kit\netty-analysis\yzm-netty\src\main\java\com\yzm\netty\eventloop" />
-      <recent name="W:\idea_project\development-tool-kit\mybatis-3-mybatis-3.5.7\src\test\java\ddl" />
-      <recent name="W:\idea_project\development-tool-kit\mybatis-3-mybatis-3.5.7\src\test\resources" />
-      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\structure\proxy\dynamicproxy\cglibproxy" />
-      <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\design-patterns\src\main\java\com\yzm\structure\proxy\dynamicproxy\jdkproxy" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yzm.config" />
-      <recent name="com.yzm.found.factory.factorymethod" />
-      <recent name="com.yzm.dev" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge" />
       <recent name="W:\idea_project\development-tool-kit\basic-java-knowledge\java-io\src\main\resources" />
       <recent name="W:\idea_project\development-tool-kit\mybatis-3-mybatis-3.5.7\src\test\resources\com\yzm" />
       <recent name="W:\idea_project\development-tool-kit\hand-write-series\mybatis-hand-write" />
       <recent name="W:\idea_project\development-tool-kit\project-test-client\mybatis-hand-write-client\src\main\resources\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.yzm" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzm.config" />
+      <recent name="com.yzm.found.factory.factorymethod" />
+      <recent name="com.yzm.dev" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\idea_project\development-tool-kit\algorithm\src\main\java\com.yzm\数组\tree" />
+      <recent name="W:\idea_project\development-tool-kit\algorithm\src\main\java\com.yzm\数组" />
+      <recent name="W:\idea_project\development-tool-kit\algorithm\src\main\java\com.yzm" />
+      <recent name="W:\idea_project\development-tool-kit\netty-analysis\yzm-netty\src\main\java\com\yzm\netty\eventloop" />
+      <recent name="W:\idea_project\development-tool-kit\mybatis-3-mybatis-3.5.7\src\test\java\ddl" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution">
@@ -346,21 +343,7 @@
       <workItem from="1735041408157" duration="598000" />
       <workItem from="1735111508809" duration="643000" />
       <workItem from="1739873576127" duration="7419000" />
-      <workItem from="1740131937943" duration="7170000" />
-    </task>
-    <task id="LOCAL-00077" summary="feat(并发编程)：顺序打印">
-      <created>1714992821691</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1714992821691</updated>
-    </task>
-    <task id="LOCAL-00078" summary="feat(Java基础)：函数式编程">
-      <created>1715090957495</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1715090957496</updated>
+      <workItem from="1740131937943" duration="10277000" />
     </task>
     <task id="LOCAL-00079" summary="feat(并发编程)：自定义锁">
       <created>1715182200110</created>
@@ -691,7 +674,21 @@
       <option name="project" value="LOCAL" />
       <updated>1739875118067</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="feat(算法)：二分">
+      <created>1740403825114</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1740403825114</updated>
+    </task>
+    <task id="LOCAL-00127" summary="feat(算法)：设计内存分配器">
+      <created>1740463238790</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1740463238790</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,8 +709,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(java-io)：解压" />
-    <MESSAGE value="feat(java-io)：粘包半包问题" />
     <MESSAGE value="feat(java-io)：bio" />
     <MESSAGE value="feat(java-io)：aio" />
     <MESSAGE value="feat(Netty)：aio" />
@@ -737,7 +732,9 @@
     <MESSAGE value="feat(pom文件)：依赖变动" />
     <MESSAGE value="feat(模块变动)：删除算法模块并重建" />
     <MESSAGE value="feat(readme)：格式调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(readme)：格式调整" />
+    <MESSAGE value="feat(算法)：二分" />
+    <MESSAGE value="feat(算法)：设计内存分配器" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(算法)：设计内存分配器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1468" y="96" key="#Project_Structure" timestamp="1733394058250">
@@ -748,14 +745,22 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="168" width="1111" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1734867587448" />
-    <state x="-1384" y="432" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1740369152890">
+    <state x="-1259" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1740468835267">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1384" y="432" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740369152890" />
-    <state x="-1433" y="15" key="CommitChangelistDialog2" timestamp="1739875117025">
+    <state x="-1259" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740468835267" />
+    <state x="-1384" y="432" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1740468707031">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1433" y="15" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739875117025" />
+    <state x="-1384" y="432" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740468707031" />
+    <state x="-1638" y="380" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1740468658604">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1638" y="380" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740468658604" />
+    <state x="-1433" y="15" key="CommitChangelistDialog2" timestamp="1740463237773">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1433" y="15" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740463237773" />
     <state width="1867" height="185" key="GridCell.Tab.0.bottom" timestamp="1740392983079">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -796,10 +801,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1608" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733394353064" />
-    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1739875122211">
+    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1740463242311">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1739875122211" />
+    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740463242311" />
     <state x="-1185" y="285" key="chooseDestDirectoryDialog" timestamp="1733393975365">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

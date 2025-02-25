@@ -4,10 +4,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 
 /**
  * description:
+ *
+ * 难度：中等
  *
  *      请你设计一个数据结构，它能求出给定子数组内一个给定值的频率
  *
