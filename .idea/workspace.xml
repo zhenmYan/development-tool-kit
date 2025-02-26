@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fce2f4d-944d-4893-bc57-87c73e675be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/数组/Lc1TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc1472BrowserHistory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/二分查找/Lc35SearchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/二分查找/Lc35SearchInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc2080RangeFreqQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc2080RangeFreqQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc2502Allocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.yzm/结构设计/Lc2502Allocator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +53,9 @@
         <option value="FxmlFile" />
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -343,14 +340,7 @@
       <workItem from="1735041408157" duration="598000" />
       <workItem from="1735111508809" duration="643000" />
       <workItem from="1739873576127" duration="7419000" />
-      <workItem from="1740131937943" duration="10277000" />
-    </task>
-    <task id="LOCAL-00079" summary="feat(并发编程)：自定义锁">
-      <created>1715182200110</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1715182200111</updated>
+      <workItem from="1740131937943" duration="15082000" />
     </task>
     <task id="LOCAL-00080" summary="feat(spring)：源码">
       <created>1715275512595</created>
@@ -688,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740463238790</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="feat(算法)：两数之和">
+      <created>1740469536286</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1740469536286</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -709,7 +706,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat(java-io)：bio" />
     <MESSAGE value="feat(java-io)：aio" />
     <MESSAGE value="feat(Netty)：aio" />
     <MESSAGE value="feat(Netty)：入门案例" />
@@ -734,7 +730,8 @@
     <MESSAGE value="feat(readme)：格式调整" />
     <MESSAGE value="feat(算法)：二分" />
     <MESSAGE value="feat(算法)：设计内存分配器" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(算法)：设计内存分配器" />
+    <MESSAGE value="feat(算法)：两数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(算法)：两数之和" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1468" y="96" key="#Project_Structure" timestamp="1733394058250">
@@ -757,10 +754,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1638" y="380" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740468658604" />
-    <state x="-1433" y="15" key="CommitChangelistDialog2" timestamp="1740463237773">
+    <state x="-1433" y="15" key="CommitChangelistDialog2" timestamp="1740567483367">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1433" y="15" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740463237773" />
+    <state x="-1433" y="15" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740567483367" />
     <state width="1867" height="185" key="GridCell.Tab.0.bottom" timestamp="1740392983079">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -801,10 +798,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1608" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1733394353064" />
-    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1740463242311">
+    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2" timestamp="1740469544075">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740463242311" />
+    <state x="-1468" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740469544075" />
     <state x="-1185" y="285" key="chooseDestDirectoryDialog" timestamp="1733393975365">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -813,10 +810,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1201" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740403765006" />
-    <state x="-1427" y="151" width="933" height="738" key="find.popup" timestamp="1732082791870">
+    <state x="-1427" y="151" width="1078" height="738" key="find.popup" timestamp="1740472756380">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1427" y="151" width="933" height="738" key="find.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1732082791870" />
+    <state x="-1427" y="151" width="1078" height="738" key="find.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1740472756380" />
     <state x="-1357" y="117" key="new project wizard" timestamp="1739875422058">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
