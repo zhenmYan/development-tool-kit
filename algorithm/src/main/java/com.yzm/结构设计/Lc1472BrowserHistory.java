@@ -5,6 +5,8 @@ import java.util.Stack;
 /**
  * description:
  *
+ * 难度：中等
+ *
  * 你有一个只支持单个标签页的 浏览器 ，最开始你浏览的网页是 homepage ，你可以访问其他的网站 url ，也可以在浏览历史中后退 steps 步或前进 steps 步。
  *
  * 请你实现 BrowserHistory 类：
